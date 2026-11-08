@@ -1,0 +1,450 @@
+% ============================================================================
+% Fichier  : partie1/P01_C02_principes.tex
+% Titre    : Les Principes du Traitement
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C02.tex
+% ============================================================================
+% Sources : loi n° 2024/017, art. 5 (consentement), 6 à 18, 21, 36, 50
+% (texte officiel) ; ISO/IEC 29100 (principes, paraphrasés) ; RGPD art. 6
+% (comparaison).
+% Faits nouveaux (bible) : formulaire d'ouverture de compte de 2016 ; comptes
+% clos depuis 2012 ; prospects collectés par les agents ; 14 juillet 2026.
+% ============================================================================
+
+\chapter{Les Principes du Traitement}
+\label{chap:principes}
+\chaptermark{Les principes du traitement}
+
+\epigraph{%
+    « Une case cochée n'est pas un consentement.\\
+    C'est, au mieux, un indice. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Chapitre~\ref{chap:donnees}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Énoncer les principes des articles~6 à~18 de la loi n°~2024/017
+          et les traduire en questions d'audit.
+    \item Apprécier la validité d'un consentement au regard des
+          articles~5 et~9.
+    \item Identifier les trois cas où l'on peut se passer du consentement,
+          et les comparer aux bases légales du droit européen.
+    \item Vérifier la finalité, l'exactitude et la durée de conservation
+          d'un traitement.
+    \item Contrôler l'information fournie aux personnes selon
+          l'article~21.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « ils ont tous signé »}
+% ============================================================================
+
+Bafoussam, mardi 14~juillet~2026. Le directeur commercial de NYANGA CRÉDIT
+pose sur la table de Mme~BELLO une liasse de formulaires d'ouverture de
+compte. « Ils ont tous signé. » Le formulaire, inchangé depuis 2016, tient
+sur une page. En bas, au-dessus de la signature, une case pré-imprimée~:
+« J'accepte les conditions générales de NYANGA CRÉDIT. » Les conditions
+générales, huit pages, ne sont pas remises au client~; elles sont
+« disponibles en agence ».
+
+L'auditrice note trois questions. Les clients ont-ils consenti à quelque
+chose de précis~? Les cautions, qui ne signent pas ce formulaire, ont-elles
+consenti à quoi que ce soit~? Et les prospects, dont les agents notent le
+nom et le téléphone sur un cahier lors des tournées de marché, savent-ils
+seulement qu'ils figurent dans un fichier~?
+
+\begin{boxalert}
+\textbf{Violation typique.} Tenir une signature au bas de conditions
+générales pour un consentement au traitement des données.
+
+\smallskip
+\textbf{Règle~:} le consentement exigé par la loi est préalable, libre,
+éclairé, spécifique et univoque. Il porte sur un traitement identifié, après
+une information claire~; il se prouve, et il peut être retiré.
+\end{boxalert}
+
+% ============================================================================
+\section{Six Principes, Six Questions d'Audit}
+\label{sec:c02-principes}
+% ============================================================================
+
+Le chapitre~I du titre~II de la loi pose les principes du traitement. Chacun
+se traduit en une question fermée que l'auditeur peut coter.
+
+\begin{tableaucours}{L{3.0cm}cL{8.0cm}}{%
+    \tableauHeader{Principe} &
+    \tableauHeader{Article} &
+    \tableauHeader{Question d'audit}
+}
+Respect de la vie privée & 6 & Le traitement porte-t-il atteinte à la vie
+privée au-delà de ce que sa finalité exige~? \\
+Confidentialité & 7, 15 & Les données sont-elles protégées contre la
+divulgation, y compris en transmission~? \\
+Consentement & 9 & Un consentement valable, ou l'une des trois dérogations,
+fonde-t-il le traitement~? \\
+Licéité et loyauté & 10 & Le traitement est-il permis, et les personnes
+ont-elles été traitées loyalement~? \\
+Finalité & 11 & La finalité est-elle déterminée, explicite et légitime, et
+l'usage ultérieur compatible~? \\
+Exactitude & 12 & Les données sont-elles complètes, fiables, tenues à jour,
+et les erreurs corrigées~? \\
+Conservation limitée & 13 & La durée de conservation est-elle fixée et
+respectée~? \\
+Information & 14, 21 & Les personnes reçoivent-elles, à la collecte, les
+informations de l'article~21~? \\
+Non-discrimination & 17 & Le traitement est-il indifférent à la classe
+sociale, à l'origine, aux opinions~? \\
+Mineurs & 18 & Le traitement des données de mineurs est-il adéquat,
+pertinent et limité~? \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~2.1. Les principes de la loi et leurs questions d'audit}\end{center}
+
+\begin{boxinfo}
+\textbf{La minimisation n'est pas un principe général de la loi.} Le mot
+n'apparaît qu'à l'article~36, pour l'interconnexion des fichiers, et l'idée
+de données « adéquates, pertinentes et limitées » n'est formulée qu'à
+l'article~18, pour les mineurs. L'auditeur ne peut donc pas coter un écart à
+un principe général de minimisation au titre de la loi. Il peut en revanche
+s'appuyer sur la finalité (article~11)~: une donnée collectée sans lien avec
+la finalité annoncée n'a pas de fondement. Les normes, elles, posent la
+minimisation comme principe~\cite{iso29100}~; un audit contre l'ISO/IEC~27701
+peut donc la retenir comme critère, à condition de le dire.
+\end{boxinfo}
+
+% ============================================================================
+\section{Le Consentement}
+\label{sec:c02-consentement}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Consentement}~: selon l'article~5, « toute manifestation de volonté
+expresse, non équivoque, non contrainte, libre et éclairée par une
+information claire, précise et complète, par laquelle la personne
+concernée, ou son représentant légal, accepte que ses données à caractère
+personnel fassent l'objet d'un traitement ».
+\end{boxdef}
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~9}~\cite{loi2024017}~:
+\textit{« (1) Le traitement des données à caractère personnel est subordonné
+au consentement préalable, libre, éclairé, spécifique et univoque de la
+personne concernée. (2) Toutefois, il peut être dérogé à cette exigence du
+consentement préalable lorsque le traitement est nécessaire~: au respect
+d'une obligation légale à laquelle le responsable du traitement est soumis~;
+à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de
+l'Autorité de protection des données à caractère personnel, dont est
+investi le responsable du traitement ou le tiers auquel les données sont
+communiquées~; à la préservation de la santé de la personne concernée ou
+d'une autre personne physique. (3) Le consentement d'une personne mineure de
+dix-huit (18) ans n'est valable que s'il est appuyé par celui de ses père
+et mère, ou de son représentant légal. »}
+
+\smallskip
+\textbf{Portée.} Le consentement est la règle~; les dérogations sont trois,
+et elles sont étroites. L'article~50 le confirme de façon négative~:
+« le traitement des données à caractère personnel sans le consentement
+préalable de la personne concernée est interdit ».
+\end{boxjuris}
+
+\subsection{Les cinq qualités d'un consentement}
+
+Pour coter \OUI{} la proposition « le traitement repose sur un consentement
+valable », l'auditeur vérifie cinq qualités, chacune par une pièce.
+
+\begin{enumerate}
+    \item \textbf{Préalable}~: recueilli avant le traitement. Pièce~: la date
+          du recueil, comparée à la date de la première donnée.
+    \item \textbf{Libre}~: sans contrainte. Un consentement exigé comme
+          condition d'un service qui n'en a pas besoin n'est pas libre.
+    \item \textbf{Éclairé}~: après une information claire, précise et
+          complète. Pièce~: le texte remis au moment du recueil.
+    \item \textbf{Spécifique}~: pour une finalité identifiée. Un
+          consentement global à « toutes les opérations » ne l'est pas.
+    \item \textbf{Univoque}~: un acte positif, sans ambiguïté. Une case
+          pré-cochée ou un silence ne le sont pas.
+\end{enumerate}
+
+À ces cinq qualités s'ajoute la \textbf{preuve}~: c'est au responsable de
+montrer qu'il a recueilli le consentement. Un consentement dont on ne
+retrouve pas la trace est, pour l'auditeur, un consentement \NEK{}, et
+souvent un \NON{} si la procédure de recueil n'existait pas.
+
+\subsection{Les trois dérogations, comparées au droit européen}
+
+Le droit européen connaît six bases légales~: le consentement, le contrat,
+l'obligation légale, les intérêts vitaux, la mission d'intérêt public et
+l'intérêt légitime~\cite{ue2016rgpd}. La loi camerounaise n'en retient que
+quatre~: le consentement et trois dérogations. Elle ne connaît ni
+l'\textbf{exécution d'un contrat}, ni l'\textbf{intérêt légitime}.
+
+\begin{tableaucours}{L{4.4cm}L{3.6cm}L{4.0cm}}{%
+    \tableauHeader{Situation à NYANGA} &
+    \tableauHeader{Fondement possible} &
+    \tableauHeader{Commentaire}
+}
+Vérifier l'identité d'un client à l'ouverture & Obligation légale & Si un
+texte de lutte contre le blanchiment l'impose \\
+Tenir le compte et exécuter les opérations & Consentement & Pas de base
+« contrat » dans la loi \\
+Vidéosurveillance des agences & Consentement~? & Pas d'intérêt légitime~:
+fondement fragile \\
+Relancer un débiteur par un prestataire & Consentement & À recueillir
+expressément \\
+Démarcher un prospect au marché & Consentement & Préalable à l'inscription
+au cahier \\
+Transmettre les fichiers à l'expert judiciaire & Obligation légale &
+Réquisition judiciaire \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~2.2. Fondements des traitements de NYANGA CRÉDIT}\end{center}
+
+L'absence de l'intérêt légitime a des conséquences lourdes. La
+vidéosurveillance, la sécurité informatique ou la prévention de la fraude,
+qui reposent en Europe sur l'intérêt légitime, doivent trouver au Cameroun
+un consentement, une obligation légale ou une mission d'intérêt public.
+L'auditeur ne comble pas ce vide en important le droit européen~: il
+signale le traitement dont le fondement est incertain, le cote \NEK{}, et
+recommande d'obtenir l'autorisation de l'Autorité, qui en fixera les
+conditions (article~19).
+
+% ============================================================================
+\section{Finalité, Exactitude, Conservation}
+\label{sec:c02-finalite}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~11}~\cite{loi2024017}~:
+\textit{« Les données à caractère personnel doivent être collectées pour des
+finalités déterminées, explicites et légitimes. Elles ne peuvent pas être
+ultérieurement traitées de manière incompatible avec ces finalités. »}
+\end{boxjuris}
+
+Le détournement de finalité est l'écart le plus fréquent, et l'un des plus
+graves~: l'article~67 en fait un délit. Le fichier des débiteurs, constitué
+pour le recouvrement, devient incompatible s'il sert à démarcher les mêmes
+personnes pour un nouveau crédit~; les images des caméras, prises pour la
+sécurité, le deviennent si elles servent à contrôler les horaires des
+agents.
+
+L'article~12 impose des données « complètes, fiables et tenues à jour » et
+oblige à corriger ou effacer les données inexactes. L'auditeur le teste par
+sondage~: il tire des dossiers au hasard et compare les données aux pièces
+justificatives.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~13}~\cite{loi2024017}~:
+\textit{« (1) Les données à caractère personnel doivent être conservées
+pendant une durée qui n'excède pas la période nécessaire à leur traitement.
+(2) La période de conservation des données à caractère personnel visée à
+l'alinéa 1 ci-dessus est précisée dans l'autorisation de traitement des
+données et suivant les modalités fixées par voie réglementaire. (3) Au-delà
+de la période visée à l'alinéa 1 ci-dessus, les données à caractère
+personnel ne peuvent être conservées qu'en vue de répondre spécifiquement à
+un traitement à des fins historiques, statistiques ou de recherche
+conformément aux dispositions légales en vigueur. »}
+
+\smallskip
+\textbf{Portée.} La durée se fixe dans l'autorisation~; tant que celle-ci
+n'existe pas, l'organisation doit fixer elle-même une durée justifiée, et
+l'auditeur vérifie qu'elle l'applique. L'article~28 renvoie aussi au
+référentiel de l'Autorité.
+\end{boxjuris}
+
+% ============================================================================
+\section{L'Information des Personnes}
+\label{sec:c02-information}
+% ============================================================================
+
+L'article~14 exige une information « claire et transparente », et
+l'article~21 en fixe le contenu~: elle doit être fournie « au plus tard, lors
+de la collecte et quels que soient les moyens employés ».
+
+\begin{tableaucours}{L{6.0cm}L{6.2cm}}{%
+    \tableauHeader{Élément exigé (article~21)} &
+    \tableauHeader{Ce que l'auditeur cherche}
+}
+Identité du responsable & Nom et coordonnées sur le formulaire \\
+Finalités déterminées & Une phrase par finalité, sans formule globale \\
+Catégories de données & La liste des données collectées \\
+Destinataires & Les catégories de destinataires, prestataires compris \\
+Possibilité de refuser de figurer au fichier & Une mention explicite \\
+Droits (accès, rectification, effacement, opposition, limitation,
+portabilité, décision automatisée, directives post-mortem, réclamation) &
+La liste des droits et la manière de les exercer \\
+Durée de conservation & Une durée ou un critère \\
+Transfert éventuel vers un État étranger & La mention du pays ou de la
+région \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~2.3. Le contenu de l'information (article~21)}\end{center}
+
+La liste est longue, et elle se contrôle mécaniquement~: l'auditeur pose le
+formulaire à côté du tableau et coche. L'information peut être donnée en
+deux niveaux, une mention courte sur le formulaire et une notice complète
+remise ou accessible, pourvu que la personne la reçoive vraiment au moment
+de la collecte. « Disponible en agence » ne suffit pas.
+
+% ============================================================================
+\section{Les Principes à NYANGA}
+\label{sec:c02-nyanga}
+% ============================================================================
+
+\begin{boxscenario}{Mission NYANGA. Le formulaire de 2016 et les autres, 14 juillet 2026}
+\textbf{Constatations.}
+\begin{itemize}
+    \item Le formulaire d'ouverture de compte porte une seule case,
+          pré-imprimée, d'acceptation des conditions générales~; aucune
+          finalité n'y figure. Les conditions générales ne sont pas remises.
+    \item Les cautions signent un acte de cautionnement qui ne mentionne
+          pas le traitement de leurs données.
+    \item Les cahiers de prospection de trois agences tirées au hasard
+          contiennent 1\,214 noms et numéros de téléphone, sans aucune
+          mention d'information ni de consentement.
+    \item La base des comptes contient 61\,380 comptes clos, dont 22\,950
+          clos avant 2016, conservés avec toutes leurs données.
+    \item Un sondage de 40 dossiers actifs trouve 9 numéros de téléphone
+          erronés et 6 adresses périmées.
+\end{itemize}
+
+\textbf{Analyse} (confiance élevée). Le consentement des clients n'est ni
+spécifique, ni éclairé~: il ne fonde pas les traitements au sens de
+l'article~9. Une partie des données de compte peut relever d'une obligation
+légale d'identification, à vérifier. Les cautions et les prospects n'ont
+consenti à rien. Les comptes clos depuis dix ans et plus n'ont plus de
+finalité identifiée.
+\end{boxscenario}
+
+\begin{boxlecture}{Les principes à NYANGA CRÉDIT}
+\begin{tableaucours}{L{7.6cm}cL{3.4cm}}{%
+    \tableauHeader{Proposition} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Pièce}
+}
+Les clients ont donné un consentement valable & \NON{} & Formulaire 2016 \\
+Les cautions ont consenti au traitement & \NON{} & Acte de cautionnement \\
+Les prospects ont consenti au traitement & \NON{} & Cahiers de prospection \\
+Une obligation légale fonde l'identification des clients & \NEK{} & Texte à
+identifier \\
+Une durée de conservation est fixée & \NON{} & Aucune règle écrite \\
+Les données des comptes actifs sont exactes & \NON{} & Sondage, 15 erreurs
+sur 40 \\
+L'information de l'article~21 est fournie & \NON{} & Formulaire 2016 \\
+La vidéosurveillance repose sur un fondement valable & \NEK{} & Pas de
+consentement, pas d'autorisation \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Zéro \OUI{}, six \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0}{0{,}25}{0{,}81}
+
+\medskip
+\textbf{Lecture.} Le domaine des principes est clair~: $U$ est faible et
+les écarts sont établis. L'entropie est basse parce que les réponses se
+concentrent sur \NON{}. Une conclusion de non-conformité peut être donnée
+dès maintenant, avec deux points à instruire.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que les Principes demandent à chaque Métier}
+\label{sec:c02-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Pour chaque traitement, demander le fondement, puis la pièce qui le prouve.
+Tester les cinq qualités du consentement une par une, et ne jamais
+importer une base légale européenne que la loi ne connaît pas.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Réécrire les formulaires~: une finalité par phrase, une case non cochée par
+consentement distinct, la notice de l'article~21 remise au moment de la
+collecte. Identifier les textes qui imposent une obligation légale.
+\end{boxmetier}
+
+\begin{boxmetier}{Délégué à la protection des données}
+Tenir, pour chaque traitement fondé sur le consentement, la preuve de son
+recueil et la procédure de retrait.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Les principes des articles~6 à~18 se traduisent chacun en une
+          question d'audit fermée.
+    \item Le consentement est la règle~; il doit être préalable, libre,
+          éclairé, spécifique et univoque, et sa preuve incombe au
+          responsable.
+    \item La loi ne connaît que trois dérogations au consentement~; ni le
+          contrat ni l'intérêt légitime n'en font partie.
+    \item La durée de conservation se fixe dans l'autorisation~; à défaut,
+          l'organisation doit la fixer et l'appliquer.
+    \item À NYANGA CRÉDIT, six écarts sont établis sur huit propositions~:
+          consentements, durée, exactitude, information.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item tester les cinq qualités d'un consentement sur un formulaire~;
+    \item expliquer pourquoi la vidéosurveillance pose un problème de
+          fondement au Cameroun~;
+    \item contrôler une notice d'information contre l'article~21.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.1. Valable ou non \niveaubase}]
+Le consentement est-il valable~? (a) une case pré-cochée « J'accepte de
+recevoir des offres »~; (b) un client qui dicte son accord par téléphone,
+enregistré~; (c) un consentement exigé pour ouvrir un compte d'épargne à
+une utilisation de ses données pour la prospection~; (d) un élève de
+16~ans qui s'inscrit seul à un service de microcrédit scolaire.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.2. Réécrire le formulaire \niveaumoyen}]
+Réécrivez le formulaire d'ouverture de compte de NYANGA CRÉDIT pour qu'il
+respecte les articles~9 et~21. Distinguez ce qui relève d'une obligation
+légale et ce qui exige un consentement.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.3. Les comptes clos \niveaumoyen}]
+\begin{enumerate}[(a)]
+    \item Proposez une règle de conservation pour les comptes clos, en
+          justifiant chaque durée.
+    \item Que faire des 22\,950 comptes clos avant 2016~?
+    \item Que faire des données de M.~TAGNE si son compte était clos~?
+\end{enumerate}
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.4. Sans intérêt légitime \niveauexpert}]
+NOUN PAY veut analyser les transactions de ses clients pour détecter la
+fraude. En Europe, elle invoquerait l'intérêt légitime. Quels fondements
+peut-elle invoquer au Cameroun~? Quelles pièces l'auditeur demandera-t-il,
+et comment cotez-vous la proposition « la détection de fraude repose sur un
+fondement valable » si aucune autorisation n'a été délivrée~?
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO/IEC~29100~\cite{iso29100}, pour les principes de
+          consentement, de limitation de la collecte et de minimisation.
+    \item Le RGPD~\cite{ue2016rgpd}, article~6, pour comparer les bases
+          légales.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les écarts de NYANGA commencent à se dessiner, mais
+une liste de défauts n'est pas un audit. Le Chapitre~\ref{chap:audit}
+présente la démarche qui transforme des constats en une conclusion que l'on peut défendre.
+\end{boxinfo}

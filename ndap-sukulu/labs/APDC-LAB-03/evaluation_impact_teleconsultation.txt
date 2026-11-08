@@ -1,0 +1,29 @@
+CENTRE MÉDICAL MBOLO, Bertoua
+Évaluation d'impact sur la protection des données : téléconsultation de la Kadey
+Version signée le 8 mai 2026 par le Dr Mireille ABENA, directrice
+
+1. Description
+Patients des villages de la Kadey, dont des enfants. Données : identité,
+symptômes, images de l'examen, diagnostic, prescription. Flux : tablette du
+centre de santé, réseau mobile, serveur de MEDISOFT SARL à Douala, poste du
+médecin à Bertoua. Enregistrement des séances envisagé pour la formation.
+
+2. Échelles
+Gravité et vraisemblance cotées de 1 (négligeable) à 4 (maximale).
+Niveau de risque = gravité x vraisemblance. Un niveau inférieur ou égal à 4
+est jugé acceptable. Une vraisemblance non établie est notée NEK.
+
+3. Risques avant mesures
+R1  Un tiers présent dans la salle voit ou entend la consultation   G=3  V=3
+R2  Accès indu aux images stockées chez le prestataire              G=4  V=NEK (prestataire jamais audité)
+R3  Image attribuée au mauvais patient                              G=4  V=2
+
+4. Risques résiduels attendus après mesures
+R1  G=3  V=1
+R2  G=4  V=NEK
+R3  G=4  V=1
+
+5. Décision
+Mise en service sur deux villages, en attendant l'audit de MEDISOFT.
+Abandon de l'enregistrement des séances.
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

@@ -1,0 +1,28 @@
+APDC-LAB-08, violation de données et notification
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  chronologie_pieces.txt              chronologie établie à partir des pièces
+  lettre_OPJ_20250320.txt             demande de l'OPJ de différer l'information
+  inventaire_fichiers_exfiltres.csv   un fichier exfiltré par client, avec les catégories de données
+  MANIFESTE_SHA256.txt                empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Dater la connaissance de la violation et la demande de l'OPJ.
+
+3. Dire à quelle date la raison de différer a cessé, puis compter les jours de silence jusqu'au 31/08/2026.
+
+4. Compter les personnes à informer et celles dont une pièce d'identité a fui.
+
+5. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

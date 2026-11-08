@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C09
+Chapitre 9 : Normes, certification et déontologie
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quelle norme donne le vocabulaire et onze principes de la vie privée ?
+      a) ISO/IEC 27701
+      b) ISO/IEC 29100
+      c) ISO/IEC 27018
+      d) ISO 19011
+
+ 2. Quelle norme porte un système de management de la protection de la vie privée ?
+      a) ISO/IEC 29100
+      b) ISO/IEC 29134
+      c) ISO/IEC 27701
+      d) ISO/IEC 27035
+
+ 3. Quelle norme vise les sous-traitants en nuage public ?
+      a) ISO/IEC 27018
+      b) ISO/IEC 27701
+      c) ISO 31000
+      d) ISO 9001
+
+ 4. Quelle norme guide l'évaluation d'impact ?
+      a) ISO/IEC 27018
+      b) ISO/IEC 27002
+      c) ISO 22301
+      d) ISO/IEC 29134
+
+ 5. Comment le cours utilise-t-il les normes sous licence ?
+      a) Il les reproduit en annexe
+      b) Il les paraphrase sans les reproduire
+      c) Il les publie en ligne
+      d) Il les traduit intégralement
+
+ 6. Combien de principes énonce l'ISO/IEC 29100 ?
+      a) Sept
+      b) Cinq
+      c) Onze
+      d) Trois
+
+ 7. Quel principe de l'ISO/IEC 29100 n'est pas un principe général de la loi ?
+      a) La minimisation des données
+      b) Le consentement
+      c) La sécurité
+      d) L'exactitude
+
+ 8. Quand l'ISO/IEC 27701 a-t-elle d'abord été publiée comme extension de l'ISO/IEC 27001 ?
+      a) En 2005
+      b) En 2013
+      c) En 2024
+      d) En 2019
+
+ 9. Qu'apporte l'ISO/IEC 27701 que la loi ne donne pas ?
+      a) L'autorisation préalable
+      b) Une méthode de management et des mesures détaillées
+      c) Le rapport annuel à l'Autorité
+      d) Les sanctions pénales
+
+10. Quelle obligation camerounaise l'ISO/IEC 27701 n'apporte-t-elle pas ?
+      a) Le registre
+      b) L'évaluation d'impact
+      c) L'autorisation préalable
+      d) La sécurité
+
+11. Que vérifie l'auditeur sur un certificat présenté ?
+      a) L'édition et le périmètre
+      b) Le prix
+      c) La couleur du logo
+      d) Le nombre de pages
+
+12. Quel article prévoit le mécanisme de certification de l'Autorité ?
+      a) L'article 19
+      b) L'article 59
+      c) L'article 29
+      d) L'article 34
+
+13. Quel article punit le responsable qui opère sans la certification prévue ?
+      a) L'article 34
+      b) L'article 59
+      c) L'article 55
+      d) L'article 61
+
+14. Qui délivre la certification ISO/IEC 27701 ?
+      a) L'Autorité de protection
+      b) Le juge
+      c) Un organisme de certification accrédité
+      d) Le client
+
+15. Sur quoi porte un certificat ISO/IEC 27701 ?
+      a) Un système de management sur un périmètre
+      b) Chaque traitement individuellement
+      c) La licéité juridique de tout le SI
+      d) Le casier judiciaire du DG
+
+16. Quelle portée juridique a une certification ISO au regard de la loi ?
+      a) Elle vaut autorisation
+      b) Elle vaut certification de l'article 34
+      c) Elle annule les sanctions
+      d) Aucune
+
+17. Comment cote-t-on la portée de l'article 59 tant que le mécanisme n'existe pas ?
+      a) OUI
+      b) NEK de critère
+      c) NON
+      d) On ne la cote pas
+
+18. Par rapport à quoi la certification de l'article 5 permet-elle de communiquer ?
+      a) Les normes ISO
+      b) Le RGPD
+      c) Les critères d'un référentiel approuvé par l'Autorité
+      d) Le Code pénal
+
+19. À quoi sert une table de correspondance ?
+      a) Éviter de faire deux fois le même travail
+      b) Remplacer l'audit légal
+      c) Obtenir une autorisation
+      d) Supprimer le registre
+
+20. Une correspondance « complète » prouve-t-elle la conformité ?
+      a) Oui
+      b) Oui, si la norme est récente
+      c) Oui, si l'auditeur la signe
+      d) Non, elle dit seulement que le dispositif peut porter l'exigence
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Le cours reproduit des passages des normes ISO.
+      Vrai / Faux
+
+22. L'ISO/IEC 27701 apporte l'autorisation préalable camerounaise.
+      Vrai / Faux
+
+23. Un certificat ISO/IEC 27701 prouve la conformité à la loi.
+      Vrai / Faux
+
+24. La certification de l'article 34 est distincte d'une certification ISO.
+      Vrai / Faux
+
+25. Une correspondance n'est pas une équivalence.
+      Vrai / Faux
+
+26. L'auditeur masque les identités dans ses papiers de travail.
+      Vrai / Faux
+
+27. L'indépendance permet d'auditer son propre travail.
+      Vrai / Faux
+
+28. L'auditeur mène une enquête complète sur tout fait découvert.
+      Vrai / Faux
+
+29. L'article 59 punit le traitement sans certification prévue.
+      Vrai / Faux
+
+30. L'ISO/IEC 29100 énonce onze principes.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La norme de vocabulaire de la vie privée est l'ISO/IEC ______.
+
+32. La norme de système de management de la vie privée est l'ISO/IEC ______.
+
+33. La norme des sous-traitants en nuage est l'ISO/IEC ______.
+
+34. Le mécanisme de certification de l'Autorité est prévu par l'article ______.
+
+35. L'opération sans certification prévue est punie par l'article ______.
+
+36. L'ISO/IEC 29100 énonce ______ principes.
+
+37. L'ISO/IEC 27701 a d'abord été publiée en ______.
+
+38. L'auditeur ne peut pas auditer son propre travail sans menacer son ______.
+
+39. La notation automatique de NOUN PAY s'appelle NOUN ______.
+
+40. Le directeur général de NOUN PAY s'appelle M. ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

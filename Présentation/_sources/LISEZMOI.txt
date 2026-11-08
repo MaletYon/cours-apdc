@@ -1,0 +1,12 @@
+Générateur des diapositives du cours APDC (MSN-2S4-SEC02)
+
+- slides.py  : moteur de mise en page (charte ENSPY / Chaire UNESCO ACCES-TIC, logos du dossier figures\logos du cours)
+- notes.py   : notes du présentateur rédigées pour chaque diapositive (visibles en mode présentation)
+- courses.py : métadonnées du cours et répartition des 15 séances de 2 heures
+- run.py     : construction ; exemples :  python run.py APDC 3   |   python run.py APDC all
+- specs\APDC\J00.py (vision globale), J01.py ... J15.py
+- check.ps1  : contrôle des débordements via PowerPoint
+
+Pied de page : « APDC · MSN-2S4-SEC02 - maletyon@proton.me · jour i/15 · · ·   page i/N ».
+Prérequis : Python 3 avec python-pptx (pip install python-pptx).
+Les fichiers .pptx sont écrits dans le dossier Présentation du cours.

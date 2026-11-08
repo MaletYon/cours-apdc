@@ -1,0 +1,11 @@
+compte;titulaire;fonction;service;statut
+chir.mbarga;Dr MBARGA;chirurgien;Chirurgie;actif
+inf.ngono;Mme NGONO;infirmière;Chirurgie;actif
+sec.maternite;Mme ESSOMBA;secrétaire;Maternité;actif
+fact.ekani;M. EKANI;agent de facturation;Facturation;actif
+nuit_brancard;5 brancardiers de nuit (compte partagé);brancardier;Logistique;actif
+stag.bilong;M. BILONG;stagiaire;Chirurgie;actif (stage terminé le 14/03/2026)
+med.oumarou;Dr OUMAROU;médecin;Médecine;actif
+inf.zra;Mme ZRA;infirmière;Pédiatrie;actif
+lab.nkoulou;M. NKOULOU;technicien;Laboratoire;actif
+pharma.adamou;M. ADAMOU;pharmacien;Pharmacie;actif

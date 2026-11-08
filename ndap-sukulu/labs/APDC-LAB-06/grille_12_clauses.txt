@@ -1,0 +1,16 @@
+Grille des douze clauses d'un contrat de sous-traitance
+
+ 1. Types de données et catégories de personnes (art. 30(3))
+ 2. Obligations et droits des deux parties (art. 30(3))
+ 3. Objet, finalité et durée du traitement (art. 11)
+ 4. Traitement sur instructions documentées seulement (art. 24(2))
+ 5. Confidentialité des personnes autorisées (art. 24 et 25(3))
+ 6. Mesures de sécurité, renvoi à l'article 27 (art. 16, 26, 27)
+ 7. Sous-traitance ultérieure soumise à accord (art. 30(1))
+ 8. Assistance pour les droits des personnes (art. 37 à 47)
+ 9. Information sans délai en cas de violation (art. 22)
+10. Restitution ou destruction en fin de contrat (art. 13)
+11. Droit d'audit du responsable (art. 16(2))
+12. Lieu du traitement, transferts éventuels (art. 32)
+
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

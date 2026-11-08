@@ -1,0 +1,31 @@
+APDC-LAB-02, registre déclaré, fichiers découverts
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  registre_declaratif.csv        registre issu des entretiens avec les huit directions
+  traitements_non_declares.csv   traitements trouvés par l'audit et que personne n'a déclarés
+  echantillon_decouverte.csv     120 fichiers examinés à la main
+  rapport_outil_decouverte.txt   synthèse de l'outil de découverte
+  MANIFESTE_SHA256.txt           empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Compter les traitements du registre déclaratif et ceux qui n'ont pas de propriétaire.
+
+3. Dans l'échantillon, compter les fichiers confirmés et les traitements non déclarés qui y apparaissent.
+
+4. Calculer la couverture du registre déclaratif par rapport au registre complet.
+
+5. Repérer le traitement non déclaré qui contient une donnée sensible.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

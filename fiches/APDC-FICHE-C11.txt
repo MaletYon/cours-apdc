@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C11
+Chapitre 11 : Les transferts internationaux
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Qu'est-ce qu'un transfert international selon l'article 5 ?
+      a) L'envoi d'un courrier postal
+      b) L'acheminement de données au-delà des frontières
+      c) Le changement de serveur dans la même salle
+      d) La copie sur une clé USB au siège
+
+ 2. L'hébergement d'une base chez un prestataire étranger est-il un transfert ?
+      a) Non
+      b) Seulement si les données sont sensibles
+      c) Oui
+      d) Seulement si le contrat le dit
+
+ 3. La consultation à distance depuis l'étranger de données stockées au Cameroun est :
+      a) Un transfert
+      b) Un traitement local
+      c) Une anonymisation
+      d) Une sauvegarde
+
+ 4. L'utilisation d'un formulaire en ligne dont les serveurs sont à l'étranger est :
+      a) Un traitement interne
+      b) Hors du champ de la loi
+      c) Une interconnexion
+      d) Un transfert
+
+ 5. Que fait l'auditeur qui hésite sur la qualification d'un flux ?
+      a) Il l'ignore
+      b) Il le cote comme transfert et le signale
+      c) Il le déclare conforme
+      d) Il le supprime
+
+ 6. Quel article soumet le transfert à une autorisation préalable ?
+      a) L'article 19
+      b) L'article 22
+      c) L'article 32
+      d) L'article 36
+
+ 7. Combien de vérifications l'Autorité doit-elle faire selon l'article 32 ?
+      a) Quatre
+      b) Deux
+      c) Six
+      d) Une
+
+ 8. Laquelle est une vérification de l'article 32 ?
+      a) La rentabilité du transfert
+      b) La langue du pays
+      c) La distance géographique
+      d) Un niveau de protection suffisant du pays de destination
+
+ 9. Quelle autre vérification l'article 32 impose-t-il ?
+      a) L'avis du prestataire
+      b) L'entrée en vigueur d'un instrument juridique signé avec le pays
+      c) Le prix de l'hébergement
+      d) L'accord du DSI
+
+10. Quelle vérification de l'article 32 porte sur des clauses ?
+      a) La signature d'un client
+      b) Un certificat ISO 9001
+      c) La souscription de clauses contractuelles types de l'Autorité
+      d) Un audit financier
+
+11. Comment se lisent les quatre vérifications de l'article 32 ?
+      a) Comme cumulatives, dans une lecture littérale
+      b) Comme alternatives
+      c) Comme facultatives
+      d) Comme réservées aux banques
+
+12. Quelle vérification est la plus exigeante car elle suppose un accord d'État à État ?
+      a) Les clauses types
+      b) Les règles de sécurité de l'importateur
+      c) Le niveau de protection
+      d) L'instrument juridique signé avec le pays
+
+13. Qui établit la liste des pays offrant une protection équivalente ?
+      a) L'ISO
+      b) L'Autorité de protection
+      c) L'Union européenne
+      d) Le prestataire
+
+14. Qui élabore et publie les clauses contractuelles types ?
+      a) Chaque entreprise
+      b) Le juge
+      c) L'Autorité de protection
+      d) L'ANTIC
+
+15. Comment cote-t-on « le pays offre un niveau suffisant » sans liste publiée ?
+      a) NEK de critère
+      b) OUI
+      c) NON
+      d) On ne cote pas
+
+16. Comment cote-t-on « le transfert est autorisé » sans autorisation ?
+      a) OUI
+      b) NEK de preuve
+      c) Sans objet
+      d) NON
+
+17. Quelle vérification peut se coter sur pièces ?
+      a) La liste des pays
+      b) Les règles de sécurité de l'importateur
+      c) Les clauses types
+      d) L'instrument d'État à État
+
+18. Quel instrument européen n'existe pas dans la loi camerounaise pour les transferts ?
+      a) L'autorisation préalable
+      b) Le contrat
+      c) La décision d'adéquation de la Commission
+      d) La sécurité
+
+19. Les outils européens de transfert valent-ils autorisation au Cameroun ?
+      a) Non
+      b) Oui
+      c) Oui pour l'Union
+      d) Oui avec un certificat
+
+20. Combien de sources indépendantes établissent les flux sortants ?
+      a) Une
+      b) Deux
+      c) Cinq
+      d) Trois
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'hébergement chez un prestataire étranger est un transfert.
+      Vrai / Faux
+
+22. La consultation à distance depuis l'étranger n'est pas un transfert.
+      Vrai / Faux
+
+23. Le transfert exige une autorisation préalable de l'Autorité.
+      Vrai / Faux
+
+24. Les vérifications de l'article 32 sont alternatives.
+      Vrai / Faux
+
+25. La localisation d'une adresse IP prouve le lieu de stockage.
+      Vrai / Faux
+
+26. NOUN PAY a obtenu l'autorisation de ses transferts.
+      Vrai / Faux
+
+27. Le pays de traitement des selfies de NOUN PAY est établi.
+      Vrai / Faux
+
+28. Sans liste publiée, le niveau de protection d'un pays est un NEK de critère.
+      Vrai / Faux
+
+29. L'information des personnes doit mentionner les transferts.
+      Vrai / Faux
+
+30. Le Cameroun est Partie à la Convention de Budapest selon les auteurs cités.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'autorisation des transferts est prévue par l'article ______.
+
+32. L'article 32 impose ______ vérifications.
+
+33. Le transfert est défini comme un acheminement au-delà des ______.
+
+34. Le transfert sans autorisation est puni pénalement par l'article ______.
+
+35. Le transfert sans autorisation est sanctionné administrativement par l'article ______.
+
+36. NOUN PAY a ______ transferts sur six flux sortants.
+
+37. Le support de nuit de NOUN PAY est situé au ______.
+
+38. La conservation rapide est prévue par l'article ______ de la Convention de Budapest.
+
+39. Les clauses contractuelles ______ sont publiées par l'Autorité.
+
+40. Le lieu de stockage se prouve par le contrat ou la ______ du prestataire.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

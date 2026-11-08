@@ -1,0 +1,376 @@
+% ============================================================================
+% Fichier  : partie5/P05_C14_profilage_ia.tex
+% Titre    : Profilage, Décisions Automatisées et Intelligence Artificielle
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C14.tex
+% ============================================================================
+% Sources : loi n° 2024/017, art. 5 (profilage), 9(3), 17, 18, 21, 44, 48,
+% 65 (texte officiel) ; ISO/IEC 27701 ; GCI C19 (gouvernance de l'IA).
+% Faits nouveaux (bible) : NOUN SCORE ; refus de crédit de M. ATANGANA du
+% 12/08/2026 ; selfies de vérification d'identité ; pointage biométrique de
+% MBOLO ; audit de NOUN PAY, octobre 2026.
+% ============================================================================
+
+\chapter{Profilage, Décisions Automatisées et Intelligence Artificielle}
+\label{chap:profilage}
+\chaptermark{Profilage et IA}
+
+\epigraph{%
+    « Un modèle qui décide d'un crédit\\
+    doit pouvoir être expliqué à celui qu'il refuse. »%
+}{Principe du cours}
+
+\niveauChapitre{Expert}{%
+    Chapitres~\ref{chap:principes}, \ref{chap:risque}, \ref{chap:droits}
+    et~\ref{chap:transferts}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Reconnaître un profilage et une décision fondée exclusivement sur
+          un traitement automatisé.
+    \item Appliquer l'article~44 et vérifier les garanties dues à la
+          personne~: intervention humaine, point de vue, contestation.
+    \item Lire l'article~65 et dire ce que l'auditeur peut en conclure.
+    \item Auditer un modèle de notation~: données d'entrée, finalité,
+          information, non-discrimination.
+    \item Traiter les données biométriques au regard des articles~5 et~48.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « l'ordinateur a dit non »}
+% ============================================================================
+
+Bafoussam, mercredi 12~août~2026. M.~ATANGANA, couturier, demande à NOUN
+PAY un microcrédit de 150\,000~francs CFA pour acheter une machine. La
+réponse arrive en quatre secondes~: refusé. Il appelle le service client,
+qui lui explique que « l'ordinateur a dit non » et qu'aucun agent ne peut
+revenir sur la décision. Il écrit pour demander pourquoi.
+
+Personne, à NOUN PAY, ne sait le lui dire. Le modèle NOUN SCORE a été
+entraîné en 2025 par un prestataire sur les historiques de 210\,000
+utilisateurs. Il utilise une soixantaine de variables~: régularité des
+recharges de crédit téléphonique, montants reçus, heure habituelle des
+transactions, nombre de contacts dans le répertoire du téléphone, et
+localisation approximative. L'équipe produit connaît les variables~; elle
+ne sait pas lesquelles ont pesé pour M.~ATANGANA.
+
+\begin{boxalert}
+\textbf{Violation typique.} Laisser un modèle décider seul d'une question
+importante pour une personne, sans pouvoir expliquer la décision ni la
+faire réexaminer par un humain.
+
+\smallskip
+\textbf{Règle~:} la personne a le droit de s'opposer à une décision fondée
+exclusivement sur un traitement automatisé, et, en tout cas, d'obtenir une
+intervention humaine, d'exprimer son point de vue et de contester
+(article~44). Elle doit avoir été informée de la logique sous-jacente
+(article~21).
+\end{boxalert}
+
+% ============================================================================
+\section{Profilage et Décision Automatisée}
+\label{sec:c14-definitions}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Profilage}~: selon l'article~5, « traitement automatisé de données
+à caractère personnel consistant à les utiliser pour évaluer certains
+aspects personnels relatifs à une personne physique, notamment sa santé,
+ses préférences, sa localisation et sa situation économique ».
+\end{boxdef}
+
+Le profilage \textit{évalue}~; la décision automatisée \textit{décide}. Un
+score de solvabilité est un profilage~; le refus de crédit prononcé par le
+système sans intervention humaine est une décision automatisée. Les deux se
+recouvrent souvent, mais pas toujours~: un score présenté à un agent qui
+décide réellement est un profilage sans décision automatisée.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~44}~\cite{loi2024017}~:
+\textit{« (1) La personne concernée a le droit de s'opposer à toute décision
+basée exclusivement sur le traitement automatisé de ses données à
+caractère personnel, y compris le profilage. (2) Les dispositions de
+l'alinéa 1 ci-dessus ne s'appliquent pas si~: la personne concernée est
+informée de l'utilisation du système automatisé de prise de décision et a
+donné son consentement préalable, explicite et éclairé~; le traitement est
+autorisé par la loi, sous réserve qu'elle prévoit des mesures appropriées
+pour la sauvegarde des droits et libertés et des intérêts légitimes de la
+personne concernée. (3) La personne concernée a également le droit~:
+d'obtenir une intervention humaine de la part du responsable du
+traitement~; d'exprimer son point de vue~; de contester la décision fondée
+sur le traitement automatisé. »}
+
+\smallskip
+\textbf{Portée.} L'alinéa~3 ne connaît pas d'exception~: même quand la
+personne a consenti, elle conserve le droit à une intervention humaine et
+à la contestation. Un système « non révisable » méconnaît l'article~44.
+\end{boxjuris}
+
+% ============================================================================
+\section{L'Article 65}
+\label{sec:c14-article65}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~65}~\cite{loi2024017}~:
+\textit{« Est puni d'un emprisonnement de trois (03) à dix (10) ans et
+d'une amende de un million (1~000~000) à vingt millions (20~000~000) de
+francs CFA, ou de l'une de ces deux peines seulement, le responsable de
+traitement ou le sous-traitant qui procède ou fait procéder à un
+traitement de données à caractère personnel à des fins de profilage. »}
+\end{boxjuris}
+
+Pris isolément, le texte punit tout profilage. Lu avec l'article~44, qui
+admet les décisions automatisées, y compris le profilage, sous conditions,
+il pourrait viser seulement le profilage réalisé hors de ces conditions.
+Les deux lectures sont défendables~; seul un juge, ou un texte
+d'application, les départagera.
+
+L'auditeur ne tranche pas. Il fait trois choses. Il signale la difficulté
+au commanditaire, en citant les deux articles. Il cote \NEK{} de critère la
+proposition « le profilage pratiqué est licite au regard de l'article~65 ».
+Et il vérifie, sur pièces, toutes les conditions qui rendraient le
+profilage défendable dans la lecture la plus favorable~: autorisation
+demandée, consentement préalable, explicite et éclairé, information sur la
+logique, intervention humaine effective, absence de discrimination. Si l'une
+manque, la recommandation ne dépend plus de la lecture de l'article~65.
+
+% ============================================================================
+\section{Auditer un Modèle de Notation}
+\label{sec:c14-modele}
+% ============================================================================
+
+L'audit d'un modèle ne demande pas d'être statisticien~; il demande de
+poser, sur chaque élément du modèle, les questions de la loi.
+
+\begin{tableaucours}{L{3.2cm}L{4.8cm}L{4.0cm}}{%
+    \tableauHeader{Élément} &
+    \tableauHeader{Question d'audit} &
+    \tableauHeader{Articles}
+}
+Données d'entraînement & Collectées pour cette finalité, ou détournées~?
+Consentement~? & 9, 11, 67 \\
+Variables & Chacune a-t-elle un lien avec la solvabilité~? Une variable
+révèle-t-elle une donnée sensible ou une origine~? & 11, 17, 48 \\
+Décision & Exclusivement automatisée~? Intervention humaine possible et
+effective~? & 44 \\
+Information & La personne est-elle informée de la logique et des
+conséquences~? & 21 \\
+Non-discrimination & Les taux de refus diffèrent-ils selon la région, la
+langue, le sexe~? & 17 \\
+Prestataire & Le modèle est-il hébergé ou réentraîné à l'étranger~? & 30,
+32 \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~14.1. Les questions de la loi sur un modèle de notation}\end{center}
+
+\subsection{Les variables qui révèlent}
+
+Une variable anodine peut révéler une donnée sensible. La localisation
+habituelle peut révéler l'origine régionale ou le lieu de culte~; l'heure
+des transactions, la religion pendant un jeûne~; le répertoire des
+contacts, des données sur des tiers qui n'ont jamais consenti. L'article~17
+impose de traiter les données « sans tenir compte de la classe sociale,
+de l'origine ethnique ou régionale, de l'appartenance syndicale, de
+l'opinion politique ou de la conviction religieuse de la personne
+concernée »~: une variable qui sert
+d'intermédiaire à l'une d'elles fait entrer ce critère dans la décision.
+
+\subsection{Mesurer une discrimination}
+
+L'auditeur compare les taux de refus entre groupes de personnes. Si les
+demandeurs d'une région sont refusés deux fois plus que ceux d'une autre à
+revenus comparables, le modèle traite probablement une origine régionale
+par intermédiaire. Cette comparaison exige de connaître le groupe des
+personnes~; si l'organisation ne le connaît pas, et elle ne doit pas
+collecter une donnée sensible pour le savoir, l'auditeur utilise un
+indicateur indirect déclaré (la région de l'agence d'inscription) et cote
+avec prudence. Le laboratoire APDC-LAB-10 conduit ce calcul.
+
+% ============================================================================
+\section{Les Données Biométriques}
+\label{sec:c14-biometrie}
+% ============================================================================
+
+La biométrie figure dans la liste des données sensibles de l'article~5, et
+l'article~48, alinéa~1, interdit le traitement des données relatives
+« à la génétique et à la biométrie en matière de santé ». Le
+Chapitre~\ref{chap:donnees} a relevé l'ambiguïté de cette fin de phrase.
+Deux usages du cours la mettent à l'épreuve~:
+
+\begin{itemize}
+    \item le \textbf{selfie de vérification d'identité} de NOUN PAY, comparé
+          automatiquement à la photographie de la pièce d'identité~;
+    \item le \textbf{pointage par empreinte digitale} du personnel de MBOLO,
+          en place depuis 2023, qui n'a rien de médical mais se déroule dans
+          un établissement de santé.
+\end{itemize}
+
+Dans les deux cas, l'auditeur établit les faits (quelles données, où elles
+sont stockées, combien de temps, qui y accède), vérifie le consentement
+exprès que l'article~66 exige pour conserver des données sensibles, et cote
+\NEK{} de critère la licéité au regard de l'article~48 tant qu'aucune
+autorisation ni aucun texte ne l'éclaire. Il recommande dans tous les cas
+une solution de rechange non biométrique et le stockage du gabarit sur un
+support détenu par la personne plutôt que dans une base centrale.
+
+% ============================================================================
+\section{L'Audit de NOUN SCORE}
+\label{sec:c14-nounpay}
+% ============================================================================
+
+\begin{boxscenario}{Mission NOUN PAY. La notation automatique, octobre 2026}
+\textbf{Constatations.}
+\begin{itemize}
+    \item 100~\% des demandes de microcrédit sont décidées par NOUN SCORE
+          sans intervention humaine~; aucune procédure de réexamen.
+    \item Les conditions d'utilisation mentionnent « l'utilisation
+          d'algorithmes » sans décrire la logique ni les conséquences~; le
+          consentement est une case unique couvrant tous les services.
+    \item Le modèle utilise le nombre de contacts du répertoire, collecté
+          par l'application sans consentement distinct.
+    \item Sur les 41\,200 demandes de juillet à septembre~2026, le taux de
+          refus est de 38~\% pour les inscrits des agences de l'Ouest et de
+          61~\% pour ceux de l'Extrême-Nord, à tranches de revenus déclarés
+          comparables.
+    \item Aucune demande d'autorisation, aucune évaluation d'impact.
+\end{itemize}
+
+\textbf{Analyse} (confiance moyenne sur la discrimination, élevée sur le
+reste). L'écart de taux de refus, à revenus comparables, suggère que des
+variables de localisation servent d'intermédiaire à une origine
+régionale~; l'indicateur indirect retenu (l'agence d'inscription) ne permet
+pas de l'établir avec certitude. Les autres écarts sont établis.
+\end{boxscenario}
+
+\begin{boxlecture}{NOUN SCORE, octobre 2026}
+\begin{tableaucours}{L{7.8cm}cL{3.2cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Une intervention humaine est possible (art.~44(3)) & \NON{} & Procédure
+absente, refus à M.~ATANGANA \\
+La personne est informée de la logique (art.~21) & \NON{} & Conditions
+d'utilisation \\
+Le consentement à la décision automatisée est explicite (art.~44(2)) &
+\NON{} & Case unique \\
+Les variables sont liées à la finalité (art.~11) & \NON{} & Répertoire des
+contacts \\
+Le modèle ne discrimine pas selon l'origine (art.~17) & \NEK{} & Écart de
+refus, indicateur indirect \\
+Une évaluation d'impact a été conduite (art.~33) & \NON{} & Aucune \\
+Le traitement est autorisé (art.~19) & \NON{} & Aucune autorisation \\
+Le profilage est licite au regard de l'article~65 & \NEK{} & Lecture non
+tranchée \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Zéro \OUI{}, six \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0}{0{,}25}{0{,}81}
+
+\medskip
+\textbf{Lecture.} Aucune exigence n'est satisfaite. Les deux \NEK{} portent
+sur les questions les plus graves, discrimination et délit, mais la
+recommandation n'en dépend pas~: les six \NON{} suffisent à demander la
+suspension des refus automatiques jusqu'à la mise en place d'une
+intervention humaine.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que le Profilage demande à chaque Métier}
+\label{sec:c14-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Responsable de traitement}
+Ne jamais mettre en production un modèle qui décide sans prévoir le
+réexamen humain, l'explication et la contestation. M.~NJOYA a suspendu les
+refus automatiques le 20~octobre~: tout refus est désormais revu par un
+agent.
+\end{boxmetier}
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Poser les questions de la loi variable par variable, mesurer les écarts de
+traitement entre groupes avec un indicateur déclaré, et signaler la
+difficulté de l'article~65 sans la trancher.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Rédiger l'information sur la logique de la décision dans des termes que la
+personne comprend, et prévoir le circuit de contestation.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Le profilage évalue~; la décision automatisée décide~; les deux
+          se recouvrent souvent sans se confondre.
+    \item L'article~44 garantit, même après consentement, l'intervention
+          humaine, l'expression du point de vue et la contestation.
+    \item L'article~65 punit le traitement à des fins de profilage~; sa
+          portée exacte n'est pas tranchée, et l'auditeur le dit.
+    \item Une variable anodine peut servir d'intermédiaire à une donnée
+          sensible~; l'audit compare les taux de décision entre groupes.
+    \item À NOUN PAY, aucune exigence n'est satisfaite~; les refus
+          automatiques ont été suspendus.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item distinguer profilage et décision automatisée~;
+    \item énoncer les droits de l'article~44(3)~;
+    \item repérer une variable qui sert d'intermédiaire à une origine.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.1. Profilage, décision, ni l'un ni l'autre \niveaubase}]
+(a) Un score de solvabilité montré à un conseiller qui décide~; (b) un
+refus de crédit automatique~; (c) une liste de clients triés par ancienneté~;
+(d) une publicité ciblée selon la localisation~; (e) le blocage automatique
+d'une transaction suspecte.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.2. Répondre à M. ATANGANA \niveaumoyen}]
+Rédigez la réponse de NOUN PAY à M.~ATANGANA~: information sur la logique,
+réexamen humain, possibilité de contester. Que lui dites-vous des variables
+utilisées~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.3. Les taux de refus \niveaumoyen}]
+Calculez le rapport des taux de refus entre l'Extrême-Nord et l'Ouest. Que
+faudrait-il connaître de plus pour passer la proposition « le modèle
+discrimine selon l'origine » de \NEK{} à \OUI{} ou à \NON{}~? Quelles
+données ne devez-vous pas collecter pour le savoir~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.4. Le pointage biométrique \niveauexpert}]
+Le Dr~ABENA veut conserver le pointage par empreinte « parce que les
+salariés trichaient avec les badges ». Analysez le traitement au regard des
+articles~5, 9, 48 et~66. Proposez deux solutions, et dites comment vous
+coterez la licéité de chacune.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO/IEC~27701~\cite{iso27701}, pour l'encadrement des
+          décisions automatisées.
+    \item Le cours de gouvernance des SI de l'auteur (UE MSN-2S3-MSI03),
+          chapitre sur la gouvernance des données et de l'IA.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} La santé, la banque, la justice et l'état civil sont
+renvoyés par la loi à des textes particuliers. Comment auditer dans ces
+secteurs, quand le régime général et le régime spécial se rencontrent~?
+C'est l'objet du Chapitre~\ref{chap:secteurs}.
+\end{boxinfo}

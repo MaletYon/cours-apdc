@@ -1,0 +1,7 @@
+Note de méthode de KORO AUDIT, octobre 2026
+NOUN PAY ne connaît pas l'origine de ses clients et ne doit pas la collecter.
+L'indicateur indirect retenu est la région de l'agence d'inscription. Il permet de
+constater un écart, il ne permet pas d'établir une discrimination selon l'origine.
+Les tranches de revenus déclarés sont réparties de la même façon dans chaque région.
+Réclamation de M. ATANGANA contre le refus du 12/08/2026 : réponse automatique, aucun réexamen.
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

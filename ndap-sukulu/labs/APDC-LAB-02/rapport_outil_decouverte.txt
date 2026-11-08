@@ -1,0 +1,6 @@
+Outil de découverte, campagne du 20 au 22 juillet 2026
+Périmètre : partages du siège et des agences de Bafoussam, Dschang et Mbouda
+Fichiers analysés : 61 408
+Fichiers signalés (motif de donnée personnelle) : 1 312
+Échantillon tiré pour examen manuel : 120 (voir echantillon_decouverte.csv)
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

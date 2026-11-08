@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C07
+Chapitre 7 : Auditer la sécurité des données
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quel article donne la liste la plus complète des obligations de sécurité ?
+      a) L'article 22
+      b) L'article 27
+      c) L'article 7
+      d) L'article 15
+
+ 2. Combien d'obligations l'article 27, alinéa 1, énumère-t-il ?
+      a) Trois
+      b) Cinq
+      c) Dix
+      d) Quinze
+
+ 3. Quel article réserve le traitement aux personnes agissant sur instruction du responsable ?
+      a) L'article 24
+      b) L'article 27
+      c) L'article 29
+      d) L'article 31
+
+ 4. Quel article cite le chiffrement comme mesure appropriée ?
+      a) L'article 9
+      b) L'article 13
+      c) L'article 53
+      d) L'article 22, alinéa 2
+
+ 5. Quel article impose d'empêcher que les données soient déformées ou indisponibles ?
+      a) L'article 2
+      b) L'article 25, alinéa 2
+      c) L'article 39
+      d) L'article 73
+
+ 6. Quels articles posent la confidentialité ?
+      a) Les articles 54 et 55
+      b) Les articles 72 et 73
+      c) Les articles 7 et 15
+      d) Les articles 37 et 38
+
+ 7. Que vise la traçabilité de l'article 27 ?
+      a) Les données introduites, modifiées, copiées, effacées ou lues
+      b) Seulement les suppressions
+      c) Seulement les connexions réseau
+      d) Seulement les sauvegardes
+
+ 8. Un système qui ne journalise pas les lectures satisfait-il l'article 27 ?
+      a) Oui
+      b) Oui s'il est chiffré
+      c) Oui s'il est sauvegardé
+      d) Non
+
+ 9. Quel alinéa impose un rapport annuel à l'Autorité ?
+      a) L'article 22, alinéa 1
+      b) L'article 27, alinéa 2
+      c) L'article 29, alinéa 2
+      d) L'article 53, alinéa 2
+
+10. Sur quoi porte le rapport annuel de l'article 27 ?
+      a) Le chiffre d'affaires
+      b) Les plaintes des clients
+      c) L'état de mise en œuvre des mesures de sécurité du référentiel
+      d) Le budget informatique
+
+11. Comment cote-t-on la conformité du contenu du rapport annuel tant que le référentiel n'existe pas ?
+      a) NEK de critère
+      b) OUI
+      c) NON
+      d) On ne la cote pas
+
+12. Quelle mesure de l'ISO/IEC 27002:2022 correspond indicativement à la journalisation ?
+      a) 5.1
+      b) 7.10
+      c) 8.24
+      d) 8.15
+
+13. Quelle mesure correspond indicativement aux sauvegardes ?
+      a) 8.15
+      b) 8.13
+      c) 5.14
+      d) 7.1
+
+14. Quel test vérifie la disponibilité et la résilience ?
+      a) Un questionnaire
+      b) Une signature
+      c) Un plan de reprise exercé et une durée d'indisponibilité mesurée
+      d) Un schéma de réseau
+
+15. Quel test vérifie la limitation des accès ?
+      a) Comparer droits et fonctions sur échantillon
+      b) Lire la politique
+      c) Interroger le DG
+      d) Compter les serveurs
+
+16. La correspondance entre l'article 27 et l'ISO/IEC 27002 est-elle fixée par la loi ?
+      a) Oui
+      b) Oui, par l'Autorité
+      c) Oui, par l'ISO
+      d) Non, elle est indicative
+
+17. Quelle anomalie détruit la traçabilité ?
+      a) Un mot de passe long
+      b) Un compte partagé
+      c) Un journal centralisé
+      d) Une sauvegarde chiffrée
+
+18. Quelle anomalie revient partout dans les audits d'accès ?
+      a) Les comptes trop récents
+      b) Les mots de passe trop longs
+      c) Les comptes de personnes parties
+      d) Les journaux trop complets
+
+19. Que sont les droits accordés « pour dépanner » et jamais retirés ?
+      a) Des droits trop larges
+      b) Des droits nécessaires
+      c) Des droits temporaires conformes
+      d) Des droits anonymes
+
+20. Que fait-on de chaque ligne d'un journal de consultation ?
+      a) On la supprime
+      b) On la publie
+      c) On l'ignore
+      d) On la rapproche d'une pièce justificative
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'article 27 vise aussi les données lues.
+      Vrai / Faux
+
+22. L'article 27 énumère trois obligations.
+      Vrai / Faux
+
+23. Le responsable adresse un rapport annuel à l'Autorité sur les mesures.
+      Vrai / Faux
+
+24. Un compte partagé permet de savoir qui a consulté.
+      Vrai / Faux
+
+25. Une consultation sans pièce est forcément une faute.
+      Vrai / Faux
+
+26. Un journal établit ce qu'un compte a fait.
+      Vrai / Faux
+
+27. Cinq consultations du dossier sont sans lien établi avec la prise en charge.
+      Vrai / Faux
+
+28. Le compte du stagiaire était désactivé en mai.
+      Vrai / Faux
+
+29. Les journaux de MBOLO sont conservés au moins un an.
+      Vrai / Faux
+
+30. La correspondance entre l'article 27 et l'ISO/IEC 27002 est indicative.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La liste la plus complète des obligations de sécurité figure à l'article ______.
+
+32. La loi exige de pouvoir vérifier a ______ qui a accédé aux données.
+
+33. Le rapport sur les mesures de sécurité est ______.
+
+34. Un compte utilisé par plusieurs personnes est un compte ______.
+
+35. Le dossier de la patiente a été consulté ______ fois en 48 heures.
+
+36. ______ consultations sont sans lien établi avec la prise en charge.
+
+37. Les journaux MEDIKA sont conservés ______ jours.
+
+38. La mesure de journalisation de l'ISO/IEC 27002:2022 porte le numéro ______.
+
+39. Le traitement est réservé aux personnes agissant sur ______ du responsable.
+
+40. Le compte d'un ______ parti en mars a consulté le dossier.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

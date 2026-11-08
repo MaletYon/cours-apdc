@@ -1,0 +1,483 @@
+% ============================================================================
+% Fichier  : partie1/P01_C01_donnees_traitements.tex
+% Titre    : Données, Traitements, Acteurs
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C01.tex
+% ============================================================================
+% Sources : loi n° 2024/017, art. 1 à 5, 20, 31, 48, 72 (texte officiel) ;
+% ISO/IEC 29100 (cadre de protection de la vie privée, paraphrasé) ;
+% Solove (2008) ; Nissenbaum (2010).
+% Faits nouveaux (bible) : inventaire des familles de données de NYANGA,
+% 7 juillet 2026.
+% ============================================================================
+
+\chapter{Données, Traitements, Acteurs}
+\label{chap:donnees}
+\chaptermark{Données, traitements, acteurs}
+
+\epigraph{%
+    « On ne protège bien que ce que l'on sait nommer. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Lecture du Chapitre~\ref{chap:prologue}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Reconnaître une donnée à caractère personnel, directe ou
+          indirecte, selon l'article~5 de la loi n°~2024/017.
+    \item Distinguer anonymisation et pseudonymisation, et dire ce que
+          chacune change pour l'application de la loi.
+    \item Identifier les données sensibles, dont la liste camerounaise est
+          plus large que la liste européenne.
+    \item Qualifier les acteurs d'un traitement~: personne concernée,
+          responsable, sous-traitant, responsables conjoints, destinataire.
+    \item Délimiter le champ d'application de la loi et ses exclusions.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « nos données personnelles, ce sont les clients »}
+% ============================================================================
+
+Bafoussam, mardi 7~juillet~2026. Pour sa deuxième journée de terrain,
+Mme~BELLO demande à chaque directeur de NYANGA CRÉDIT de lister les données
+personnelles que traite son service. Le directeur commercial répond
+aussitôt~: « Nos données personnelles, ce sont les clients. » La directrice
+des ressources humaines n'a rien noté~; elle pensait que la question ne la
+concernait pas.
+
+En fin de journée, l'auditrice a recensé onze familles de données, dont
+huit ne figuraient sur aucune liste~: les cautions des emprunteurs, les
+prospects démarchés par les agents, les candidats à l'embauche, les
+salariés, les images des caméras des agences, les enregistrements du
+service client, les journaux de connexion de l'application mobile et les
+listes de débiteurs remises au prestataire de recouvrement.
+
+\begin{boxalert}
+\textbf{Violation typique.} Réduire les données personnelles aux fichiers
+clients, et oublier les salariés, les tiers, les images, les voix et les
+journaux techniques.
+
+\smallskip
+\textbf{Règle~:} une donnée est personnelle dès qu'elle permet d'identifier
+une personne, directement ou indirectement, quel que soit son support et
+quelle que soit la personne. Le recensement part des personnes concernées,
+pas des applications.
+\end{boxalert}
+
+% ============================================================================
+\section{La Donnée à Caractère Personnel}
+\label{sec:c01-donnee}
+% ============================================================================
+
+L'article~5 de la loi définit la donnée à caractère personnel par sa
+relation à une personne identifiable, et non par sa nature.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~5}~\cite{loi2024017}~:
+\textit{« Donnée à caractère personnel~: information se rapportant à une
+personne permettant de l'identifier directement ou indirectement, notamment
+par référence à toute forme d'identifiant ou à un ou plusieurs éléments,
+propres à son identité physique, psychologique, génétique, psychique,
+culturelle, socio-professionnelle ou économique, notamment un nom, une
+photo, une empreinte, une adresse postale, une adresse mail, un numéro de
+téléphone, un numéro de sécurité sociale, un matricule interne, un
+identifiant numérique, une adresse IP, un identifiant de connexion
+informatique, un enregistrement vocal. »}
+
+\smallskip
+\textbf{Portée.} La liste des exemples est longue et précise~: une adresse
+IP, un matricule interne et un enregistrement vocal sont des données
+personnelles par la lettre même de la loi. L'auditeur n'a pas à le
+démontrer.
+\end{boxjuris}
+
+\subsection{Identifier directement ou indirectement}
+
+Une donnée identifie \termecle{directement} quand elle désigne la personne à
+elle seule~: un nom complet, une photographie, une empreinte. Elle identifie
+\termecle{indirectement} quand il faut la rapprocher d'autres informations~:
+un numéro de compte, rapproché du fichier des comptes~; une adresse IP,
+rapprochée du journal de l'opérateur~; la combinaison « femme, 34~ans,
+pharmacienne, quartier Tamdja » dans une petite ville. La question n'est pas
+de savoir si l'organisation fait ce rapprochement, mais s'il est
+raisonnablement possible.
+
+\subsection{Anonymiser n'est pas pseudonymiser}
+
+\begin{boxdef}
+\termecle{Anonymisation}~: selon l'article~5, « processus de modification ou
+de suppression d'informations à caractère personnel identifiables dans un
+ensemble de données, afin de rendre ces données non attribuables à des
+individus spécifiques ».
+
+\smallskip
+\termecle{Pseudonymisation}~: « technique utilisée pour remplacer des
+données d'identification directe par des identifiants artificiels dans le
+but de protéger la vie privée des individus » (article~5).
+\end{boxdef}
+
+La différence est décisive pour l'auditeur. Des données réellement
+anonymisées ne se rapportent plus à une personne identifiable~: elles
+sortent du champ de la loi. Des données pseudonymisées restent
+personnelles, puisque celui qui détient la table de correspondance peut
+rétablir le lien. Un fichier où le nom du client est remplacé par son
+numéro de compte n'est pas anonyme~: il est pseudonymisé, et le
+numéro de compte est lui-même un identifiant.
+
+\begin{boxinfo}
+\textbf{L'anonymisation se prouve.} Une organisation qui déclare « nos
+statistiques sont anonymes » doit montrer qu'aucun rapprochement raisonnable
+ne permet de retrouver une personne. Supprimer les noms ne suffit pas quand
+il reste la date de naissance, le quartier et la profession. Tant que la
+preuve manque, l'auditeur cote la proposition « ces données sont anonymes »
+\NEK{}, et traite les données comme personnelles.
+\end{boxinfo}
+
+% ============================================================================
+\section{Les Données Sensibles}
+\label{sec:c01-sensibles}
+% ============================================================================
+
+Certaines données exposent davantage la personne~: leur divulgation peut
+conduire à une discrimination, une persécution ou une atteinte grave à la
+réputation. La loi les nomme et les encadre plus strictement.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~5}~\cite{loi2024017}~:
+\textit{« Donnée sensible~: information relative notamment aux opinions et
+activités religieuses, philosophiques, politiques, syndicales, aux
+transactions bancaires, à l'origine raciale ou ethnique, linguistique ou
+régionale, à la vie sexuelle, à la génétique, à la biométrie, à la santé,
+aux poursuites judiciaires et aux sanctions pénales. »}
+
+\smallskip
+\textbf{Portée.} Le mot « notamment » rend la liste ouverte. Elle comprend
+trois catégories que le droit européen ne range pas parmi les données
+sensibles~: les transactions bancaires, l'origine linguistique ou régionale,
+et les poursuites judiciaires.
+\end{boxjuris}
+
+La présence des \textbf{transactions bancaires} dans la liste change tout
+pour un établissement financier~: la plupart des données de NYANGA CRÉDIT
+et de NOUN PAY est sensible. L'article~48, alinéa~2, en tire la
+conséquence~: le traitement des données dans le cadre des transactions
+bancaires est interdit « sans autorisation préalable des administrations et
+structures compétentes ». L'origine \textbf{linguistique ou régionale}
+répond à une préoccupation propre au Cameroun~; un formulaire qui demande la
+région d'origine ou la langue maternelle collecte une donnée sensible.
+
+L'article~48, alinéa~1, interdit le traitement des données relatives aux
+opinions, à l'origine, à la vie sexuelle, « à la génétique et à la
+biométrie en matière de santé ». La lecture de cette fin de phrase n'est
+pas tranchée~: la biométrie est-elle interdite seulement en matière de
+santé, ou dans tous les cas~? L'auditeur ne tranche pas à la place du juge~;
+il signale la difficulté et cote \NEK{} la licéité d'un pointage
+biométrique tant qu'aucune autorisation ni aucun texte d'application ne
+l'éclaire (Chapitre~\ref{chap:profilage}).
+
+% ============================================================================
+\section{Le Traitement et le Fichier}
+\label{sec:c01-traitement}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Traitement}~: selon l'article~5, « opération ou ensemble
+d'opérations effectuées ou non à l'aide de procédés entièrement ou
+partiellement automatisés ou non automatisés et appliqués à des données à
+caractère personnel, notamment la collecte, l'enregistrement,
+l'organisation, la conservation, l'adaptation ou la modification,
+l'extraction, la consultation, l'utilisation, la communication par
+transmission, diffusion ou toute autre forme de mise à disposition, le
+rapprochement, ainsi que le verrouillage, l'effacement ou la destruction ».
+
+\smallskip
+\termecle{Fichier}~: « ensemble de données structurées et à caractère
+personnel accessibles selon des critères déterminés, que cet ensemble soit
+centralisé, décentralisé ou réparti de manière fonctionnelle ou
+géographique » (article~5).
+\end{boxdef}
+
+Deux conséquences pratiques en découlent. D'abord, le papier compte~: la
+loi vise aussi les procédés « non automatisés », et les dossiers de crédit
+rangés dans les armoires des agences sont des fichiers. Ensuite, une simple
+consultation est un traitement~: l'agent qui ouvre le dossier d'un client
+sans raison de service traite des données, et c'est précisément ce que le
+CENTRE MÉDICAL MBOLO découvrira dans ses journaux (Chapitre~\ref{chap:securite}).
+
+Un traitement se définit par sa \termecle{finalité}~: l'ensemble des
+opérations faites dans un même but. « Gérer les comptes des clients » est
+un traitement~; « tenir la base de données Oracle » n'en est pas un, c'est
+un moyen technique qui sert plusieurs traitements. Cette distinction
+organise tout le recensement du Chapitre~\ref{chap:cartographie}.
+
+\begin{boxobjet}{Gestion des comptes des clients, NYANGA CRÉDIT}
+\textbf{Finalité~:} ouvrir, tenir et clôturer les comptes d'épargne et de
+crédit. \textbf{Personnes concernées~:} clients, mandataires, cautions.
+\textbf{Données~:} identité, pièce d'identité, adresse, téléphone,
+profession, revenus déclarés, mouvements des comptes (données sensibles,
+article~5). \textbf{Destinataires~:} agences, service crédit, éditeur du
+logiciel bancaire, prestataire de recouvrement pour les impayés.
+\textbf{Ce que l'audit établit au 7~juillet~:} le traitement existe
+(\OUI{})~; son autorisation n'a pas été demandée (\NON{})~; sa durée de
+conservation n'est fixée nulle part (\NON{})~; le fondement du traitement
+des cautions reste à examiner (\NEK{}).
+\end{boxobjet}
+
+% ============================================================================
+\section{Les Acteurs du Traitement}
+\label{sec:c01-acteurs}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Personne concernée}~: « toute personne dont les données à
+caractère personnel font l'objet d'un traitement » (article~5).
+
+\smallskip
+\termecle{Responsable du traitement}~: « personne physique ou morale qui,
+seule ou conjointement, collecte et traite des données à caractère
+personnel et en détermine les moyens et les finalités » (article~5).
+
+\smallskip
+\termecle{Sous-traitant}~: « toute personne physique ou morale qui traite des
+données à caractère personnel pour le compte du responsable du traitement
+et sous ses instructions » (article~5).
+
+\smallskip
+\termecle{Destinataire}~: « toute personne physique ou morale, habilitée à
+recevoir une communication des données à caractère personnel »
+(article~5).
+\end{boxdef}
+
+La qualification se fait \textbf{opération par opération}, pas acteur par
+acteur. L'éditeur du logiciel bancaire de NYANGA CRÉDIT est sous-traitant
+quand il héberge les comptes selon les instructions de l'établissement~; il
+deviendrait responsable s'il utilisait ces données pour améliorer ses
+propres produits sans instruction. Un même acteur peut donc porter deux
+qualités pour deux opérations différentes~; le Chapitre~\ref{chap:recherche}
+montre que cette règle pose des questions difficiles dans la chaîne
+pénale.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~20}~\cite{loi2024017}~:
+\textit{« Le responsable du traitement et le sous-traitant sont assujettis
+aux mêmes obligations au titre de l'activité de traitement des données à
+caractère personnel. »}
+
+\smallskip
+\textbf{Portée.} Le texte camerounais va plus loin que le droit européen,
+qui distingue nettement les obligations des deux acteurs. Pour l'auditeur,
+le prestataire de recouvrement et l'éditeur du logiciel bancaire répondent
+des mêmes obligations que NYANGA CRÉDIT pour les traitements qu'ils
+réalisent.
+\end{boxjuris}
+
+L'article~31 ajoute les \termecle{responsables conjoints}~: lorsque deux
+organisations déterminent ensemble les finalités et les moyens, elles sont
+« solidairement responsables » et doivent fixer leurs obligations dans une
+convention « rendue publique » (Chapitre~\ref{chap:soustraitants}).
+
+\begin{tableaucours}{L{3.6cm}L{4.4cm}L{4.0cm}}{%
+    \tableauHeader{Loi n°~2024/017} &
+    \tableauHeader{ISO/IEC 29100} &
+    \tableauHeader{RGPD (UE)}
+}
+Personne concernée & Personne à qui se rapportent les données (\textit{PII
+principal}) & Personne concernée \\
+Responsable du traitement & \textit{PII controller} & Responsable du
+traitement \\
+Sous-traitant & \textit{PII processor} & Sous-traitant \\
+Destinataire, tiers & Tiers (\textit{third party}) & Destinataire, tiers \\
+Autorité de protection & Autorité de contrôle (hors norme) & Autorité de
+contrôle \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~1.1. Les acteurs dans trois vocabulaires}\end{center}
+
+La norme ISO/IEC~29100~\cite{iso29100} fournit un vocabulaire et des
+principes communs à toutes les normes de la famille, en particulier
+l'ISO/IEC~27701 (Chapitre~\ref{chap:normes}). Le RGPD~\cite{ue2016rgpd}
+sert de point de comparaison~: beaucoup d'organisations camerounaises, comme
+NOUN PAY, y sont exposées parce que leurs prestataires sont européens.
+
+% ============================================================================
+\section{Le Champ d'Application}
+\label{sec:c01-champ}
+% ============================================================================
+
+L'article~2 soumet à la loi tout traitement effectué par l'État, les
+collectivités territoriales décentralisées ou toute personne physique ou
+morale~; tout traitement des données de personnes établies, résidant ou en
+transit au Cameroun~; tout traitement réalisé par un responsable ou un
+sous-traitant établi au Cameroun~; et tout traitement réalisé dans un
+territoire où le droit camerounais s'applique. Le critère des personnes
+« en transit » est large~: un voyageur dont les données sont traitées
+pendant son passage au Cameroun est protégé.
+
+L'article~3 exclut trois catégories~: les traitements d'une personne
+physique pour ses activités exclusivement personnelles ou domestiques, à
+condition que les données ne soient pas destinées à une communication
+systématique, à un tiers ou à la diffusion~; les copies temporaires faites
+pour la transmission sur un réseau~; et les traitements à des fins
+littéraires, artistiques, archivistiques d'intérêt public, de recherche,
+de statistique ou de journalisme, dans le respect des règles
+déontologiques de ces professions.
+
+Deux articles renvoient enfin à des textes particuliers~: l'article~4 pour
+les traitements des autorités de sécurité et de défense, l'article~72 pour
+les traitements relatifs « notamment à la sécurité, à la défense, à la
+santé, à la justice et à l'état civil ». La portée de cette réserve est
+discutée aux Chapitres~\ref{chap:secteurs} et~\ref{chap:recherche}~: tant
+que les textes spécifiques ne sont pas identifiés, l'auditeur applique la
+loi générale et signale la réserve.
+
+% ============================================================================
+\section{L'Inventaire de NYANGA}
+\label{sec:c01-nyanga}
+% ============================================================================
+
+\begin{boxscenario}{Mission NYANGA. Onze familles de données, 7 juillet 2026}
+\begin{tableaucours}{L{3.6cm}L{4.4cm}cc}{%
+    \tableauHeader{Famille} &
+    \tableauHeader{Exemples de données} &
+    \tableauHeader{Sensible} &
+    \tableauHeader{Connue}
+}
+Clients & Identité, revenus, mouvements & Oui & Oui \\
+Cautions & Identité, revenus & Oui & Non \\
+Prospects & Nom, téléphone, quartier & Non & Non \\
+Débiteurs remis au recouvrement & Identité, montant dû & Oui & Non \\
+Salariés & Identité, paie, santé (arrêts) & Oui & Oui \\
+Candidats & CV, région d'origine & Oui & Non \\
+Images des agences & Visages, heures de passage & Non & Non \\
+Appels du service client & Voix, motif d'appel & Non & Non \\
+Journaux de l'application & Adresse IP, identifiant & Non & Non \\
+Utilisateurs du SI & Comptes, journaux d'accès & Non & Non \\
+Fournisseurs (personnes physiques) & Identité, coordonnées bancaires & Oui &
+Oui \\
+\end{tableaucours}
+
+\medskip
+\textbf{Constatations.} Onze familles, dont huit absentes des listes de la
+direction. Sept contiennent des données sensibles au sens de l'article~5,
+dont quatre à cause des transactions bancaires et une à cause de la
+région d'origine demandée aux candidats.
+
+\textbf{Analyse} (confiance élevée). La vision de l'établissement était
+organisée par applications et par clients. Les familles oubliées sont
+celles dont la finalité n'est pas commerciale~: elles n'ont pas de
+« propriétaire » évident dans l'organisation.
+\end{boxscenario}
+
+% ============================================================================
+\section{Ce que la Notion demande à chaque Métier}
+\label{sec:c01-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Recenser à partir des personnes concernées, pas des applications. Pour
+chaque famille, demander qui la collecte, pour quoi faire, et où elle va.
+Ne jamais accepter « anonyme » sans preuve.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Qualifier chaque acteur pour chaque opération, et relire les contrats à la
+lumière de l'article~20~: le prestataire porte les mêmes obligations que
+l'établissement.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Désigner, pour chaque famille de données, un propriétaire dans
+l'organisation. Une famille sans propriétaire est une famille que personne
+ne protège.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Une donnée est personnelle dès qu'elle identifie une personne,
+          directement ou indirectement~; la loi cite l'adresse IP, le
+          matricule interne et la voix.
+    \item Les données pseudonymisées restent personnelles~; seules des
+          données dont l'anonymisation est prouvée sortent du champ de la
+          loi.
+    \item La liste camerounaise des données sensibles inclut les
+          transactions bancaires, l'origine linguistique ou régionale et les
+          poursuites judiciaires.
+    \item Le responsable et le sous-traitant sont assujettis aux mêmes
+          obligations (article~20)~; la qualification se fait opération par
+          opération.
+    \item À NYANGA CRÉDIT, onze familles de données ont été recensées, dont
+          huit inconnues de la direction et sept sensibles.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item dire pourquoi un fichier pseudonymisé reste soumis à la loi~;
+    \item citer trois données sensibles propres à la liste camerounaise~;
+    \item qualifier un prestataire de responsable ou de sous-traitant pour
+          une opération donnée.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~1.1. Personnelle, sensible, ni l'une ni l'autre \niveaubase}]
+Classez~: (a) le relevé de compte d'un client~; (b) la langue maternelle
+d'un candidat~; (c) le chiffre d'affaires global d'une agence~; (d) la
+photographie d'un client sur sa carte d'identité~; (e) l'adresse IP d'un
+utilisateur de l'application~; (f) le casier judiciaire d'un candidat.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~1.2. Anonyme ou pseudonyme \niveaumoyen}]
+Le service marketing transmet à un cabinet d'études un fichier où chaque
+client est désigné par un code, avec son âge, son sexe, son agence, sa
+profession et son encours. Le fichier est-il anonyme~? Que faudrait-il
+faire pour qu'il le soit, et comment le prouver~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~1.3. Qualifier les acteurs \niveaumoyen}]
+Pour chaque opération, dites qui est responsable, qui est sous-traitant~:
+(a) l'éditeur héberge les comptes et applique les sauvegardes demandées~;
+(b) le prestataire de recouvrement appelle les débiteurs selon un script
+fourni par NYANGA~; (c) le même prestataire utilise les numéros pour
+proposer ses propres services~; (d) un opérateur de téléphonie envoie les
+SMS de relance.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~1.4. Le champ de la loi \niveauexpert}]
+\begin{enumerate}[(a)]
+    \item Un agent de NYANGA conserve sur son téléphone personnel les
+          numéros de ses clients pour les relancer. L'exclusion des
+          activités domestiques (article~3) s'applique-t-elle~?
+    \item Un journaliste publie des extraits des fichiers exfiltrés en
+          mars~2025. Quel régime s'applique à son traitement~?
+    \item L'expert judiciaire conserve une copie du dossier \texttt{Clients}
+          pour son rapport. Quels articles faut-il lire, et quelle
+          difficulté signalez-vous~?
+\end{enumerate}
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO/IEC~29100~\cite{iso29100}, pour le vocabulaire et les onze
+          principes de protection de la vie privée.
+    \item H.~Nissenbaum, \textit{Privacy in Context}~\cite{nissenbaum2010},
+          pour l'idée qu'une donnée est protégée par le contexte dans lequel
+          elle circule.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Savoir qu'un traitement existe ne dit pas s'il est
+permis. Le Chapitre~\ref{chap:principes} expose les principes que tout
+traitement doit respecter, et la règle du consentement, plus stricte au
+Cameroun qu'en Europe.
+\end{boxinfo}

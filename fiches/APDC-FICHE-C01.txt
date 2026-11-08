@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C01
+Chapitre 1 : Données, traitements, acteurs
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Selon l'article 5, qu'est-ce qu'une donnée à caractère personnel ?
+      a) Toute information conservée par une entreprise
+      b) Une information qui permet d'identifier une personne directement ou indirectement
+      c) Une information signée par la personne
+      d) Une information publiée sur Internet
+
+ 2. Quel élément la loi cite-t-elle expressément comme donnée personnelle ?
+      a) Le taux de change
+      b) Le chiffre d'affaires
+      c) Un matricule interne
+      d) La météo du jour
+
+ 3. Quel élément identifie directement une personne ?
+      a) Une photographie
+      b) Un numéro de facture
+      c) Un taux d'intérêt
+      d) Une moyenne de salaires
+
+ 4. Quel élément identifie indirectement un client ?
+      a) Le nom de l'agence
+      b) Le logo de la banque
+      c) La date du jour
+      d) Son numéro de compte
+
+ 5. Quand une combinaison d'informations devient-elle personnelle ?
+      a) Jamais sans le nom
+      b) Quand le rapprochement permet raisonnablement de retrouver la personne
+      c) Seulement si elle est publiée
+      d) Seulement si la personne a signé
+
+ 6. Que produit une anonymisation réussie ?
+      a) Des données chiffrées
+      b) Des données pseudonymisées
+      c) Des données non attribuables à des personnes
+      d) Des données sensibles
+
+ 7. Les données pseudonymisées sont-elles soumises à la loi ?
+      a) Oui, elles restent personnelles
+      b) Non, jamais
+      c) Seulement si elles sont sensibles
+      d) Seulement à l'étranger
+
+ 8. Qu'est-ce que la pseudonymisation selon l'article 5 ?
+      a) La suppression de toute donnée
+      b) Le chiffrement du disque
+      c) La destruction des sauvegardes
+      d) Le remplacement des identifiants directs par des identifiants artificiels
+
+ 9. Comment l'auditeur cote-t-il « ces données sont anonymes » sans preuve ?
+      a) OUI
+      b) NEK
+      c) NON
+      d) Il ne cote pas
+
+10. Que faut-il pour prouver une anonymisation ?
+      a) La suppression des noms seulement
+      b) Une déclaration du service
+      c) Un test de ré-identification documenté
+      d) Un mot de passe sur le fichier
+
+11. Quelle catégorie est sensible selon la liste camerounaise et non selon le droit européen ?
+      a) Les transactions bancaires
+      b) La santé
+      c) Les opinions religieuses
+      d) La vie sexuelle
+
+12. Quelle donnée relève de l'origine linguistique ou régionale ?
+      a) Le numéro de téléphone
+      b) L'adresse électronique
+      c) Le solde du compte
+      d) La langue maternelle d'un candidat
+
+13. Que rend ouvert le mot « notamment » dans la définition des données sensibles ?
+      a) Le champ de la loi
+      b) La liste des catégories
+      c) Le délai de l'article 73
+      d) La liste des sanctions
+
+14. Quel article interdit le traitement des données bancaires sans autorisation des structures compétentes ?
+      a) L'article 9
+      b) L'article 22
+      c) L'article 48, alinéa 2
+      d) L'article 73
+
+15. Quelle donnée est sensible au titre des poursuites judiciaires ?
+      a) Le casier judiciaire d'un candidat
+      b) Le CV d'un candidat
+      c) Le salaire d'un agent
+      d) L'adresse d'un fournisseur
+
+16. Comment l'auditeur traite-t-il l'ambiguïté de l'article 48 sur la biométrie ?
+      a) Il tranche lui-même
+      b) Il ignore l'article
+      c) Il cote OUI par défaut
+      d) Il signale la difficulté et cote NEK la licéité
+
+17. Quelle opération est un traitement ?
+      a) L'achat d'un ordinateur
+      b) La consultation d'un dossier
+      c) La location d'un bureau
+      d) Le paiement d'une facture d'électricité
+
+18. La loi vise-t-elle les dossiers papier ?
+      a) Non, seulement l'informatique
+      b) Seulement les archives
+      c) Oui, elle vise aussi les procédés non automatisés
+      d) Seulement les dossiers médicaux
+
+19. Qu'est-ce qu'un fichier selon l'article 5 ?
+      a) Un ensemble structuré de données personnelles accessibles selon des critères
+      b) Un document Word
+      c) Un disque dur
+      d) Un dossier de la messagerie
+
+20. Qu'est-ce qui définit un traitement ?
+      a) Son logiciel
+      b) Son serveur
+      c) Son coût
+      d) Sa finalité
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Une donnée pseudonymisée sort du champ de la loi.
+      Vrai / Faux
+
+22. Un matricule interne est une donnée personnelle selon l'article 5.
+      Vrai / Faux
+
+23. Les transactions bancaires sont des données sensibles au Cameroun.
+      Vrai / Faux
+
+24. La liste des données sensibles est fermée.
+      Vrai / Faux
+
+25. La loi ne s'applique qu'aux traitements informatisés.
+      Vrai / Faux
+
+26. Une consultation de dossier est un traitement.
+      Vrai / Faux
+
+27. Le sous-traitant a les mêmes obligations que le responsable selon l'article 20.
+      Vrai / Faux
+
+28. Un acteur garde la même qualité pour toutes ses opérations.
+      Vrai / Faux
+
+29. La loi protège les personnes en transit au Cameroun.
+      Vrai / Faux
+
+30. L'article 72 exclut la santé du champ de la loi générale.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La définition de la donnée personnelle figure à l'article ______.
+
+32. Remplacer les identifiants directs par des identifiants artificiels s'appelle la ______.
+
+33. Des données rendues non attribuables à des personnes sont dites ______.
+
+34. Les transactions ______ sont des données sensibles au Cameroun.
+
+35. Celui qui traite pour le compte du responsable est le ______.
+
+36. L'article ______ soumet responsable et sous-traitant aux mêmes obligations.
+
+37. Les exclusions du champ de la loi figurent à l'article ______.
+
+38. Le renvoi de la santé et de la justice à des textes spécifiques figure à l'article ______.
+
+39. Un ensemble structuré de données personnelles s'appelle un ______.
+
+40. L'auditrice a recensé ______ familles de données à NYANGA.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

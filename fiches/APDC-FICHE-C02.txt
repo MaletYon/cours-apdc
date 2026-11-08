@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C02
+Chapitre 2 : Les principes du traitement
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quel article pose le respect de la vie privée dans tout traitement ?
+      a) L'article 22
+      b) L'article 6
+      c) L'article 29
+      d) L'article 53
+
+ 2. Quel article exige des finalités déterminées, explicites et légitimes ?
+      a) L'article 13
+      b) L'article 9
+      c) L'article 11
+      d) L'article 17
+
+ 3. Quel article impose des données complètes, fiables et tenues à jour ?
+      a) L'article 12
+      b) L'article 11
+      c) L'article 14
+      d) L'article 18
+
+ 4. Quel article limite la durée de conservation ?
+      a) L'article 10
+      b) L'article 16
+      c) L'article 21
+      d) L'article 13
+
+ 5. Quel article exige un traitement licite, loyal et non frauduleux ?
+      a) L'article 6
+      b) L'article 10
+      c) L'article 15
+      d) L'article 19
+
+ 6. Quel article interdit de tenir compte de la classe sociale ou de l'origine ?
+      a) L'article 9
+      b) L'article 12
+      c) L'article 17
+      d) L'article 20
+
+ 7. Où la loi formule-t-elle l'idée de données adéquates, pertinentes et limitées ?
+      a) À l'article 18, pour les mineurs
+      b) À l'article 6, pour tous
+      c) À l'article 2
+      d) Nulle part
+
+ 8. Où le mot « minimisation » apparaît-il dans la loi ?
+      a) À l'article 9
+      b) À l'article 13
+      c) À l'article 73
+      d) À l'article 36
+
+ 9. Combien de qualités l'article 9 exige-t-il du consentement ?
+      a) Deux
+      b) Cinq
+      c) Trois
+      d) Sept
+
+10. Laquelle est une qualité exigée par l'article 9 ?
+      a) Implicite
+      b) Tacite
+      c) Spécifique
+      d) Global
+
+11. Une case pré-cochée donne-t-elle un consentement valable ?
+      a) Non, il n'est pas univoque
+      b) Oui, si le client signe
+      c) Oui, toujours
+      d) Seulement pour les mineurs
+
+12. À qui incombe la preuve du consentement ?
+      a) À la personne concernée
+      b) À l'Autorité
+      c) À l'auditeur
+      d) Au responsable du traitement
+
+13. Combien de dérogations au consentement l'article 9 prévoit-il ?
+      a) Six
+      b) Trois
+      c) Une
+      d) Aucune
+
+14. Laquelle est une dérogation au consentement selon l'article 9 ?
+      a) L'intérêt légitime
+      b) L'exécution d'un contrat
+      c) Le respect d'une obligation légale
+      d) La prospection commerciale
+
+15. Quelle base légale européenne la loi camerounaise ne connaît-elle pas ?
+      a) L'intérêt légitime
+      b) L'obligation légale
+      c) La mission d'intérêt public
+      d) La sauvegarde de la santé
+
+16. Qui doit appuyer le consentement d'un mineur de dix-huit ans ?
+      a) Son employeur
+      b) Son enseignant
+      c) L'Autorité
+      d) Ses père et mère ou son représentant légal
+
+17. Quel article interdit le traitement sans consentement préalable ?
+      a) L'article 9 seulement
+      b) L'article 50
+      c) L'article 2
+      d) L'article 75
+
+18. Un consentement exigé pour un service qui n'en a pas besoin est :
+      a) Valable
+      b) Spécifique
+      c) Non libre
+      d) Univoque
+
+19. Comment l'auditeur cote-t-il un consentement dont on ne retrouve pas la trace ?
+      a) NEK, souvent NON si la procédure n'existait pas
+      b) OUI
+      c) Il ne le cote pas
+      d) OUI si le client ne s'est pas plaint
+
+20. Quel fondement est fragile pour la vidéosurveillance au Cameroun ?
+      a) L'obligation légale est toujours acquise
+      b) Le contrat suffit
+      c) Aucun fondement n'est nécessaire
+      d) Faute d'intérêt légitime, le fondement est incertain
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Une signature au bas des conditions générales vaut consentement au traitement.
+      Vrai / Faux
+
+22. L'intérêt légitime est un fondement prévu par la loi camerounaise.
+      Vrai / Faux
+
+23. Le consentement d'un mineur exige l'appui de ses parents ou de son représentant.
+      Vrai / Faux
+
+24. La minimisation est un principe général de la loi.
+      Vrai / Faux
+
+25. Le détournement de finalité est un délit selon l'article 67.
+      Vrai / Faux
+
+26. La durée de conservation se précise dans l'autorisation de traitement.
+      Vrai / Faux
+
+27. L'information peut être donnée un an après la collecte.
+      Vrai / Faux
+
+28. L'information doit mentionner l'éventualité d'un transfert à l'étranger.
+      Vrai / Faux
+
+29. Les prospects de NYANGA ont consenti à figurer dans les cahiers.
+      Vrai / Faux
+
+30. NYANGA conserve des comptes clos avant 2016 avec toutes leurs données.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Le consentement doit être préalable, libre, éclairé, spécifique et ______.
+
+32. Le consentement et ses dérogations figurent à l'article ______.
+
+33. La loi prévoit ______ dérogations au consentement.
+
+34. Les finalités doivent être déterminées, explicites et ______.
+
+35. La limitation de la conservation figure à l'article ______.
+
+36. Le contenu de l'information des personnes est fixé par l'article ______.
+
+37. La minimisation n'apparaît dans la loi qu'à l'article ______.
+
+38. La base légale européenne absente de la loi camerounaise est l'intérêt ______.
+
+39. Le formulaire d'ouverture de compte de NYANGA date de ______.
+
+40. L'exactitude des données se teste par ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

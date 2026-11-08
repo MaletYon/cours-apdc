@@ -1,0 +1,374 @@
+% ============================================================================
+% Fichier  : partie4/P04_C12_violations.tex
+% Titre    : Les Violations de Données
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C12.tex
+% ============================================================================
+% Sources : loi n° 2024/017, art. 5 (violation), 22, 63, 73 (texte
+% officiel) ; ISO/IEC 27035 ; NIST SP 800-61 r2 ; Minka Mi Nguidjoï,
+% Massoussi Songo et Bialo (2026, manuscrit) pour la tension T2 et les
+% articles 102 et 154 du Code de procédure pénale cités par eux.
+% Faits nouveaux (bible) : lettre de l'OPJ du 20/03/2025 ; aucune
+% information des clients ; MBOLO, consultations de mai 2026.
+% ============================================================================
+
+\chapter{Les Violations de Données}
+\label{chap:violations}
+\chaptermark{Les violations de données}
+
+\epigraph{%
+    « Une violation tenue secrète protège l'organisation un temps,\\
+    et laisse la personne sans défense. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{%
+    Chapitres~\ref{chap:securite} et~\ref{chap:loi}~; réponse à incident
+    (UE MSN-2S3-SEC07)
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Reconnaître une violation de données au sens de l'article~5,
+          y compris l'accès interne non autorisé.
+    \item Appliquer l'obligation d'information « sans délai » de
+          l'article~22.
+    \item Qualifier une violation du point de vue des personnes.
+    \item Auditer le dispositif de gestion des violations et le registre
+          qui les documente.
+    \item Analyser la rencontre entre l'obligation d'informer et le secret
+          d'une enquête pénale.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : une lettre de l'OPJ}
+% ============================================================================
+
+Bafoussam, vendredi 21~août~2026. Dans le dossier de l'incident de
+mars~2025, Mme~BELLO trouve une lettre de l'adjudant-chef NANA, officier
+de police judiciaire, datée du 20~mars~2025~: « Dans l'intérêt de
+l'enquête, il vous est demandé de ne pas informer vos clients de la
+compromission avant instruction contraire. » Aucune instruction contraire
+n'a été donnée. Le jugement a été rendu en février~2026. Le 21~août, les
+18\,412 personnes dont les dossiers ont été copiés n'ont toujours reçu
+aucune information.
+
+Le directeur général s'en tient à la lettre~: « La police nous a demandé de
+nous taire. » L'auditrice note que la lettre visait l'enquête, que
+l'enquête est close, et que personne n'a vérifié depuis si la demande
+tenait toujours.
+
+\begin{boxalert}
+\textbf{Violation typique.} Traiter une violation comme un problème
+technique à corriger en silence, ou s'abriter indéfiniment derrière une
+demande de discrétion devenue sans objet.
+
+\smallskip
+\textbf{Règle~:} une violation s'informe « sans délai » à l'Autorité et aux
+personnes (article~22). Une raison de différer, si elle existe, se
+documente, se limite dans le temps et se réexamine~; quand elle cesse,
+l'information est due.
+\end{boxalert}
+
+% ============================================================================
+\section{Qu'est-ce qu'une Violation}
+\label{sec:c12-definition}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Violation de données à caractère personnel}~: selon l'article~5,
+« toute atteinte à la sécurité des données à caractère personnel
+entraînant, de manière accidentelle ou illicite, la destruction, la perte,
+l'altération, la divulgation non autorisée desdites données transmises,
+conservées ou traitées d'une autre manière, ou l'accès non autorisé à de
+telles données ».
+\end{boxdef}
+
+La définition est large. Une violation n'est pas forcément une attaque~:
+une erreur d'envoi, un ordinateur portable perdu, une sauvegarde effacée
+par erreur en sont. Elle n'est pas forcément externe~: l'accès non autorisé
+d'un agent à un dossier, comme à MBOLO, en est une. Elle n'est pas
+forcément une fuite~: la destruction ou l'indisponibilité de données
+indispensables en est une aussi.
+
+\begin{tableaucours}{L{3.0cm}L{4.6cm}L{4.4cm}}{%
+    \tableauHeader{Atteinte} &
+    \tableauHeader{Exemple} &
+    \tableauHeader{Risque pour la personne}
+}
+Confidentialité & Fichier clients copié, dossier consulté sans raison,
+courriel au mauvais destinataire & Fraude, chantage, discrimination,
+atteinte à la réputation \\
+Intégrité & Résultat d'analyse attribué au mauvais patient & Soin inadapté,
+décision erronée \\
+Disponibilité & Dossiers chiffrés par un rançongiciel, sauvegardes
+détruites & Soin retardé, droits impossibles à exercer \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~12.1. Les trois atteintes et leurs effets}\end{center}
+
+% ============================================================================
+\section{L'Obligation d'Informer}
+\label{sec:c12-article22}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~22}~\cite{loi2024017}~:
+\textit{« (1) Dès connaissance de toute violation des données à caractère
+personnel, le responsable du traitement ou le sous-traitant est tenu
+d'informer sans délai, l'Autorité de protection des données à caractère
+personnel et la personne concernée. (2) En tout état de cause, et sans
+préjudice des dispositions de l'alinéa 1 ci-dessus, le responsable du
+traitement ou le sous-traitant est tenu de mettre en œuvre les mesures de
+protection techniques et organisationnelles appropriées, telles que le
+chiffrement, l'instauration des autorisations restrictives d'accès aux
+données. »}
+
+\smallskip
+\textbf{Portée.} L'obligation est plus large que dans le droit européen sur
+deux points~: elle vise \textit{toute} violation, sans seuil de risque, et
+elle impose d'informer la personne dans tous les cas. Elle est moins
+précise sur un troisième~: « sans délai » n'est pas chiffré, et le contenu
+de l'information n'est pas fixé.
+\end{boxjuris}
+
+En l'absence de contenu fixé, le cours retient une information minimale,
+déclarée comme critère~: la nature de la violation, les catégories et le
+nombre approximatif de personnes et de données touchées, les conséquences
+probables pour les personnes, les mesures prises et celles que la personne
+peut prendre elle-même (changer un mot de passe, surveiller ses comptes),
+et un contact. Pour « sans délai », l'audit mesure le temps écoulé entre la
+connaissance de la violation et chaque information, et le rapproche des
+raisons documentées d'un éventuel retard.
+
+\begin{boxinfo}
+\textbf{Le sous-traitant aussi.} L'article~22 vise « le responsable du
+traitement ou le sous-traitant ». Le contrat doit organiser qui informe
+qui, et dans quel ordre~: un prestataire qui découvre une violation doit
+au moins prévenir immédiatement son client (clause~9 du
+Chapitre~\ref{chap:soustraitants}).
+\end{boxinfo}
+
+% ============================================================================
+\section{Gérer une Violation}
+\label{sec:c12-gerer}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Auditer le dispositif de gestion des violations.}
+\begin{enumerate}
+    \item Vérifier qu'une procédure écrite existe, connue des équipes et des
+          sous-traitants, avec un point de contact unique.
+    \item Vérifier la détection~: comment l'organisation apprend-elle une
+          violation (alertes, revues de journaux, signalements)~?
+    \item Obtenir le registre des violations~; à défaut, le reconstituer à
+          partir des incidents de sécurité, des plaintes et des sinistres.
+    \item Pour chaque violation, relever les dates de connaissance, de
+          confinement, d'information de l'Autorité et des personnes.
+    \item Vérifier la qualification~: données, personnes, conséquences
+          pour elles.
+    \item Vérifier le contenu des informations envoyées.
+    \item Vérifier les enseignements tirés et les mesures correctives.
+\end{enumerate}
+\end{boxprocedure}
+
+La loi n'impose pas explicitement un registre des violations. Il découle
+cependant de deux obligations~: prouver qu'on a informé « sans délai »
+suppose de dater la connaissance~; et la traçabilité de l'article~27
+suppose de pouvoir reconstituer ce qui s'est passé. Un registre où chaque
+violation, même non notifiée, est décrite avec sa date, sa qualification
+et sa décision, est la seule manière de le démontrer.
+
+% ============================================================================
+\section{Informer pendant une Enquête Pénale}
+\label{sec:c12-penal}
+% ============================================================================
+
+L'affaire de NYANGA pose une question que la loi ne règle pas. L'article~22
+impose d'informer sans délai les personnes~; la procédure pénale protège
+le secret de l'enquête. Dans leur travail en cours, l'auteur de ce cours et
+ses coauteurs relèvent que le Code de procédure pénale impose le secret de
+la procédure durant l'enquête de police judiciaire (article~102) et le
+secret de l'information judiciaire (article~154)~\cite{minka2026chainepenale}.
+Une information des personnes peut révéler l'existence de l'enquête,
+l'identité d'un suspect ou une opération en cours.
+
+Les auteurs qualifient cette rencontre de « tension procédurale », et non
+d'incompatibilité~: les deux obligations peuvent être conciliées si l'on
+organise le moment et les modalités de l'information. Ils proposent qu'un
+mécanisme permette au magistrat compétent d'apprécier ce moment lorsque
+l'information risque de compromettre l'enquête. En attendant un tel
+mécanisme, l'auditeur vérifie quatre choses~:
+
+\begin{enumerate}
+    \item la demande de différer existe par écrit, émane d'une autorité
+          compétente et vise l'enquête~;
+    \item l'Autorité de protection a été informée, ou l'organisation a
+          documenté pourquoi elle ne pouvait pas l'être~;
+    \item l'organisation a réexaminé la demande à intervalles réguliers~;
+    \item l'information a été donnée dès que la raison de différer a cessé.
+\end{enumerate}
+
+S'y ajoute une question de temps, que les mêmes auteurs nomment « tension
+temporelle »~: la violation de NYANGA date du 14~mars~2025, après la
+promulgation de la loi mais pendant le délai de mise en conformité de
+l'article~73. L'obligation d'informer s'appliquait-elle déjà~? L'auditeur
+ne tranche pas cette question de droit~; il constate en revanche qu'au
+24~juin~2026, à l'échéance du délai, la violation n'était pas réparée du
+point de vue des personnes, et qu'aucune raison documentée ne justifiait
+plus le silence. Le Chapitre~\ref{chap:recherche} présente ces deux
+tensions comme des pistes de recherche.
+
+% ============================================================================
+\section{Les Violations de NYANGA et de MBOLO}
+\label{sec:c12-cas}
+% ============================================================================
+
+\begin{boxscenario}{Missions NYANGA et MBOLO. Deux violations, deux traitements}
+\textbf{NYANGA.} Connaissance~: 14~mars~2025, 9~heures. Qualification
+technique faite par l'enquête (3,2~Go, 18\,412 fichiers). Aucune
+qualification du point de vue des personnes. Demande de l'OPJ du
+20~mars~2025, jamais réexaminée. Jugement le 15~février~2026. Au
+31~août~2026, aucune information des personnes ni de l'Autorité~; aucun
+registre des violations.
+
+\textbf{MBOLO.} Connaissance~: 13~mai~2026, par la plainte de la patiente.
+Investigation le jour même (journal des consultations), comptes désactivés,
+procédure disciplinaire. Patiente informée par écrit le 15~mai, avec la
+liste des consultations non justifiées et les mesures prises. L'Autorité
+n'a pas été informée~; la directrice a noté au registre, créé le 14~mai,
+qu'aucun interlocuteur n'était identifié.
+
+\textbf{Analyse} (confiance élevée). MBOLO a traité sa violation comme la
+loi le demande pour ce qui dépendait de lui, et l'a documentée. NYANGA a
+traité la sienne comme un dossier pénal, sans jamais la regarder comme une
+violation de données envers ses clients.
+\end{boxscenario}
+
+\begin{boxlecture}{Le domaine D5, violations, à NYANGA}
+\begin{tableaucours}{L{7.8cm}cL{3.2cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Une procédure de gestion des violations existe & \NON{} & Aucune \\
+Un registre des violations est tenu & \NON{} & Aucun \\
+La violation de 2025 est qualifiée pour les personnes & \NON{} & Rapport
+technique seul \\
+La demande de différer est écrite et motivée & \OUI{} & Lettre du
+20~mars~2025 \\
+La demande a été réexaminée & \NON{} & Aucune démarche \\
+Les personnes ont été informées quand la raison a cessé & \NON{} & Rien au
+31~août~2026 \\
+L'Autorité a été informée & \NEK{} & Autorité non organisée, aucune
+démarche documentée \\
+L'obligation d'informer s'appliquait en mars~2025 & \NEK{} & Question de
+droit non tranchée \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Un \OUI{}, cinq \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}25}{1{,}30}
+
+\medskip
+\textbf{Lecture.} Les deux \NEK{} ne changent pas la recommandation~: quelle
+que soit la réponse à la question de droit, la raison de se taire a cessé
+en février~2026, et l'information des 18\,412 personnes est due. C'est la
+première recommandation du rapport.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que les Violations demandent à chaque Métier}
+\label{sec:c12-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Responsable de traitement}
+Désigner un point de contact pour les violations, décider de l'information
+et la signer. Réexaminer par écrit toute demande de discrétion et lever le
+silence dès qu'elle cesse.
+\end{boxmetier}
+
+\begin{boxmetier}{RSSI}
+Alimenter le registre des violations depuis les incidents de sécurité, avec
+les éléments techniques, et apporter la qualification du point de vue des
+données touchées.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Articuler l'obligation d'informer avec les demandes des autorités
+judiciaires~: obtenir des demandes écrites, limitées dans le temps, et
+documenter chaque décision.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Une violation est toute atteinte à la confidentialité, à
+          l'intégrité ou à la disponibilité de données personnelles,
+          accidentelle ou illicite, interne ou externe.
+    \item L'article~22 impose d'informer sans délai l'Autorité et la
+          personne, pour toute violation.
+    \item Un registre des violations est la seule manière de prouver le
+          respect du « sans délai ».
+    \item L'information peut rencontrer le secret de l'enquête pénale~: une
+          demande de différer se documente, se limite et se réexamine.
+    \item À NYANGA, 18\,412 personnes n'avaient toujours pas été informées
+          en août~2026~; MBOLO a informé sa patiente en deux jours.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item reconnaître une violation interne~;
+    \item rédiger l'information d'une personne après une violation~;
+    \item auditer une demande de différer l'information.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.1. Violation ou non \niveaubase}]
+(a) un relevé de compte envoyé au mauvais client~; (b) une tentative
+d'intrusion bloquée par le pare-feu~; (c) un serveur indisponible deux
+jours, sans perte de données~; (d) un portable chiffré perdu dans un
+taxi~; (e) un portable non chiffré volé.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.2. Informer M. TAGNE \niveaumoyen}]
+Rédigez l'information que NYANGA doit adresser aux 18\,412 personnes,
+selon le contenu minimal du cours. Que dites-vous du retard~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.3. La chronologie \niveaumoyen}]
+À partir des dates de la section~\ref{sec:c12-cas}, calculez pour NYANGA le
+délai entre la connaissance de la violation et le jugement, puis entre le
+jugement et le 31~août~2026. Rédigez la phrase du rapport sur le respect du
+« sans délai ».
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.4. La demande de l'OPJ \niveauexpert}]
+Un OPJ demande aujourd'hui à MBOLO de ne pas informer des patientes dont les
+dossiers ont été consultés par un agent sous enquête. Rédigez la réponse de
+MBOLO à l'OPJ et la note au registre des violations, en organisant la
+conciliation entre l'article~22 et le secret de l'enquête.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO/IEC~27035~\cite{iso27035} et le NIST SP~800-61~\cite{nist80061r2},
+          pour la gestion des incidents.
+    \item Le cours de forensique de l'auteur (UE MSN-2S3-SEC07), pour
+          l'enquête sur l'incident de NYANGA.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les constats s'accumulent~: registre, fondements,
+droits, sécurité, sous-traitants, transferts, violations. Il reste à les
+transformer en rapport et en programme de mise en conformité. C'est
+l'objet du Chapitre~\ref{chap:programme}.
+\end{boxinfo}

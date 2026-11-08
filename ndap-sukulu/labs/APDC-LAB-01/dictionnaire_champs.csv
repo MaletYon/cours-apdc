@@ -1,0 +1,17 @@
+table;champ;description;exemple
+CLIENTS;id_client;Numéro interne du client;CL-0081234
+CLIENTS;nom_prenoms;Nom et prénoms;TAGNE Paul
+CLIENTS;date_naissance;Date de naissance;12/04/1979
+CLIENTS;telephone;Numéro de téléphone mobile;677 41 20 58
+CLIENTS;quartier;Quartier de résidence;Tamdja
+CLIENTS;langue_usuelle;Langue parlée au guichet;ghomala'
+CLIENTS;region_origine;Région d'origine déclarée;Ouest
+CLIENTS;profession;Profession déclarée;commerçant
+CLIENTS;revenu_mensuel;Revenu mensuel déclaré (FCFA);350000
+CLIENTS;historique_transactions;Opérations des douze derniers mois;(table liée)
+CLIENTS;gabarit_empreinte;Gabarit de l'empreinte digitale du retrait;(binaire)
+CLIENTS;consentement_prospection;Accord pour recevoir des offres par SMS;non
+PRODUITS;code_produit;Code du produit;EP-02
+PRODUITS;libelle_produit;Libellé du produit;Épargne Tontine Plus
+PRODUITS;taux_interet;Taux annuel du produit;4,5
+PRODUITS;plafond_produit;Plafond du produit (FCFA);5000000

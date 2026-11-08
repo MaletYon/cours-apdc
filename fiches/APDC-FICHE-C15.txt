@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C15
+Chapitre 15 : Les secteurs sensibles
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quel article renvoie les autorités de sécurité et de défense à des textes particuliers ?
+      a) L'article 72
+      b) L'article 4
+      c) L'article 2
+      d) L'article 48
+
+ 2. Quel article cite la santé, la justice et l'état civil ?
+      a) L'article 4
+      b) L'article 9
+      c) L'article 72
+      d) L'article 22
+
+ 3. Que vise l'article 4 ?
+      a) Des autorités
+      b) Des domaines
+      c) Des pays
+      d) Des normes
+
+ 4. Que vise l'article 72 ?
+      a) Des autorités
+      b) Des personnes
+      c) Des sanctions
+      d) Des domaines
+
+ 5. L'article 72 exclut-il ces domaines de la loi générale ?
+      a) Oui, totalement
+      b) Non, il annonce des textes qui la complèteront
+      c) Oui, sauf pour les banques
+      d) Oui, depuis 2026
+
+ 6. Que fait l'auditeur tant qu'un texte spécifique n'est pas identifié ?
+      a) Il arrête l'audit
+      b) Il applique le RGPD
+      c) Il applique la loi générale et signale la réserve
+      d) Il cote tout NEK
+
+ 7. Quelles exigences cote-t-on NEK de critère dans un secteur visé par l'article 72 ?
+      a) Seulement celles qu'un texte spécifique pourrait modifier
+      b) Toutes
+      c) Aucune
+      d) Celles de la sécurité
+
+ 8. Quelle est la première étape de l'audit d'un secteur de l'article 72 ?
+      a) Sanctionner
+      b) Publier
+      c) Interroger les patients
+      d) Rechercher le texte spécifique et noter le résultat
+
+ 9. Quel fondement couvre le soin ?
+      a) L'intérêt légitime
+      b) La préservation de la santé (article 9)
+      c) Le contrat
+      d) La prospection
+
+10. La préservation de la santé couvre-t-elle la facturation ?
+      a) Oui, toujours
+      b) Oui, pour les mutuelles
+      c) Non, la facturation exige son propre fondement
+      d) Oui, si le patient paie
+
+11. Avec qui le secret médical se partage-t-il ?
+      a) Ceux qui participent à la prise en charge, dans la mesure nécessaire
+      b) Toute l'administration
+      c) Les mutuelles sans limite
+      d) La famille élargie
+
+12. Quel secret s'ajoute à la loi pour les professionnels de santé ?
+      a) Le secret défense
+      b) Le secret bancaire
+      c) Le secret des affaires
+      d) Le secret médical
+
+13. Transmettre un diagnostic à une mutuelle exige :
+      a) Rien
+      b) Un texte ou le consentement du patient
+      c) L'accord du DSI
+      d) L'accord du prestataire
+
+14. Quel alinéa interdit le traitement des données bancaires sans autorisation des structures compétentes ?
+      a) L'article 9, alinéa 3
+      b) L'article 27, alinéa 2
+      c) L'article 48, alinéa 2
+      d) L'article 53, alinéa 2
+
+15. La loi désigne-t-elle les administrations compétentes de l'article 48(2) ?
+      a) Non
+      b) Oui, l'ANTIC
+      c) Oui, l'Autorité
+      d) Oui, le ministère de la Santé
+
+16. Comment cote-t-on l'autorisation de l'article 48(2) faute de désignation claire ?
+      a) OUI
+      b) NON
+      c) Sans objet
+      d) NEK de critère
+
+17. Que doit montrer une microfinance outre la demande à l'Autorité ?
+      a) Son chiffre d'affaires
+      b) Les agréments de son régulateur sectoriel
+      c) Ses brevets
+      d) Sa marque
+
+18. Une « obligation réglementaire » invoquée sans référence reste :
+      a) Une preuve
+      b) Une autorisation
+      c) Une déclaration
+      d) Un délit
+
+19. Combien de protections propres aux mineurs la loi prévoit-elle selon le cours ?
+      a) Quatre
+      b) Une
+      c) Deux
+      d) Huit
+
+20. Quel article exige l'appui des parents pour le consentement d'un mineur ?
+      a) L'article 18
+      b) L'article 40
+      c) L'article 19
+      d) L'article 9, alinéa 3
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'article 72 exclut la santé de la loi générale.
+      Vrai / Faux
+
+22. L'article 4 vise les autorités de sécurité et de défense.
+      Vrai / Faux
+
+23. La préservation de la santé couvre la facturation.
+      Vrai / Faux
+
+24. Le secret médical s'ajoute aux exigences de la loi.
+      Vrai / Faux
+
+25. La loi désigne précisément les administrations compétentes de l'article 48(2).
+      Vrai / Faux
+
+26. Les parents peuvent s'opposer au traitement des données de leur enfant collectées sans leur consentement.
+      Vrai / Faux
+
+27. La vidéosurveillance d'un lieu public est un traitement de données.
+      Vrai / Faux
+
+28. On peut filmer un espace d'allaitement pour la sécurité.
+      Vrai / Faux
+
+29. Le texte spécifique de santé a été trouvé lors de l'audit.
+      Vrai / Faux
+
+30. Les quatre NON de MBOLO ne dépendent d'aucun texte à venir.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Le renvoi de la santé à des textes spécifiques figure à l'article ______.
+
+32. Le renvoi des autorités de sécurité et de défense figure à l'article ______.
+
+33. Le soin repose sur la préservation de la ______.
+
+34. Le secret ______ s'ajoute à la loi pour les soignants.
+
+35. Le traitement des données bancaires sans autorisation est interdit par l'article ______.
+
+36. Les traitements de mineurs doivent être adéquats, pertinents et ______.
+
+37. L'entrée d'une zone filmée se signale par un ______.
+
+38. La transmission de septembre aux mutuelles concernait ______ patients.
+
+39. Les images de pédiatrie étaient enregistrées ______ jours.
+
+40. Les auteurs proposent de qualifier l'expert opération par ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

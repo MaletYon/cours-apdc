@@ -1,0 +1,9 @@
+domaine;flux
+api.eu-west.nuage-hebergeur.example;F1
+db.eu-west.nuage-hebergeur.example;F1
+kyc.verif-identite.example;F2
+collect.audience-mobile.example;F3
+cdn.audience-mobile.example;F3
+mail.messagerie-pro.example;F4
+support.centre-nuit.example;F5
+sms.operateur-cm.example;F6

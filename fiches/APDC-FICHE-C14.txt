@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C14
+Chapitre 14 : Profilage, décisions automatisées et intelligence artificielle
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Qu'est-ce que le profilage selon l'article 5 ?
+      a) Toute décision humaine
+      b) Un traitement automatisé qui évalue des aspects personnels
+      c) Un sondage anonyme
+      d) Une sauvegarde
+
+ 2. Quels aspects le profilage évalue-t-il selon l'article 5 ?
+      a) Couleur des vêtements
+      b) Météo
+      c) Santé, préférences, localisation, situation économique
+      d) Prix des produits
+
+ 3. Quelle est la différence entre profilage et décision automatisée ?
+      a) Le profilage évalue, la décision automatisée décide
+      b) Il n'y en a pas
+      c) Le profilage décide toujours
+      d) La décision est toujours humaine
+
+ 4. Un score montré à un conseiller qui décide réellement est :
+      a) Une décision automatisée
+      b) Ni l'un ni l'autre
+      c) Un transfert
+      d) Un profilage sans décision automatisée
+
+ 5. Quel article organise le droit face aux décisions automatisées ?
+      a) L'article 65
+      b) L'article 44
+      c) L'article 21
+      d) L'article 17
+
+ 6. À quoi la personne peut-elle s'opposer selon l'article 44 ?
+      a) À tout traitement de données
+      b) À toute prospection
+      c) À une décision fondée exclusivement sur un traitement automatisé
+      d) À toute sauvegarde
+
+ 7. Quelle exception l'article 44 prévoit-il ?
+      a) Le consentement préalable, explicite et éclairé
+      b) L'intérêt légitime
+      c) Le contrat
+      d) L'urgence commerciale
+
+ 8. Quel droit l'article 44, alinéa 3, garantit-il ?
+      a) Obtenir un crédit
+      b) Obtenir un remboursement
+      c) Obtenir le code source
+      d) Obtenir une intervention humaine
+
+ 9. Les droits de l'alinéa 3 survivent-ils au consentement ?
+      a) Non
+      b) Oui
+      c) Seulement pour les mineurs
+      d) Seulement à l'étranger
+
+10. Un système « non révisable » respecte-t-il l'article 44 ?
+      a) Oui
+      b) Oui, si le client a consenti
+      c) Non
+      d) Oui, si le score est bon
+
+11. Que punit l'article 65 ?
+      a) Le traitement à des fins de profilage
+      b) Le refus d'accès
+      c) Le transfert illicite
+      d) L'entrave à l'Autorité
+
+12. Quelle est la peine d'emprisonnement de l'article 65 ?
+      a) 6 mois à 2 ans
+      b) 1 à 3 ans
+      c) 2 à 5 ans
+      d) 3 à 10 ans
+
+13. Comment l'auditeur cote-t-il la licéité du profilage au regard de l'article 65 ?
+      a) OUI
+      b) NEK de critère
+      c) NON
+      d) Il ne cote pas
+
+14. Que fait l'auditeur face aux deux lectures de l'article 65 ?
+      a) Il choisit la plus favorable
+      b) Il ignore l'article
+      c) Il signale la difficulté sans la trancher
+      d) Il saisit le juge
+
+15. Avec quel article lit-on l'article 65 pour une lecture restrictive ?
+      a) L'article 44
+      b) L'article 2
+      c) L'article 73
+      d) L'article 53
+
+16. Quelle question d'audit porte sur les données d'entraînement ?
+      a) Combien elles coûtent
+      b) Qui les a stockées
+      c) Quel serveur les héberge
+      d) Collectées pour cette finalité ou détournées
+
+17. Quel article interdit de tenir compte de l'origine régionale ?
+      a) L'article 44
+      b) L'article 17
+      c) L'article 11
+      d) L'article 32
+
+18. Quel article exige l'information sur la logique sous-jacente ?
+      a) L'article 44
+      b) L'article 65
+      c) L'article 21
+      d) L'article 29
+
+19. Quelle variable peut servir d'intermédiaire à l'origine régionale ?
+      a) La localisation habituelle
+      b) Le montant demandé
+      c) La date du jour
+      d) La durée du crédit
+
+20. Quelle variable peut révéler des données sur des tiers non consentants ?
+      a) Le montant du crédit
+      b) L'âge du demandeur
+      c) Le revenu déclaré
+      d) Le répertoire des contacts
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Le profilage évalue, la décision automatisée décide.
+      Vrai / Faux
+
+22. Le consentement supprime le droit à une intervention humaine.
+      Vrai / Faux
+
+23. L'article 65 punit le traitement à des fins de profilage.
+      Vrai / Faux
+
+24. L'auditeur tranche lui-même la portée de l'article 65.
+      Vrai / Faux
+
+25. Une variable anodine peut révéler une donnée sensible.
+      Vrai / Faux
+
+26. Il faut collecter l'origine ethnique pour mesurer une discrimination.
+      Vrai / Faux
+
+27. La biométrie est une donnée sensible.
+      Vrai / Faux
+
+28. NOUN SCORE prévoit un réexamen humain des refus.
+      Vrai / Faux
+
+29. La discrimination de NOUN SCORE est établie avec certitude.
+      Vrai / Faux
+
+30. NOUN PAY a suspendu les refus automatiques en octobre 2026.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Les droits face aux décisions automatisées figurent à l'article ______.
+
+32. Le traitement à des fins de profilage est puni par l'article ______.
+
+33. La personne a droit à une intervention ______.
+
+34. La notation automatique de NOUN PAY s'appelle NOUN ______.
+
+35. Le client refusé s'appelle M. ______.
+
+36. Le taux de refus de l'Extrême-Nord est de ______ %.
+
+37. Le taux de refus de l'Ouest est de ______ %.
+
+38. L'interdiction de tenir compte de l'origine figure à l'article ______.
+
+39. La conservation de données sensibles exige un consentement ______.
+
+40. Le traitement automatisé qui évalue des aspects personnels est le ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

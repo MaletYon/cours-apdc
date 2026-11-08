@@ -1,0 +1,32 @@
+APDC-LAB-05, journaux d'accès au dossier patient
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  journal_medika_11-12mai2026.csv     journal des consultations des 11 et 12 mai 2026
+  annuaire_comptes.csv                titulaires des comptes
+  justificatifs_prise_en_charge.txt   pièces qui rattachent un compte à la prise en charge
+  departs_et_comptes.csv              départs de l'année et état des comptes
+  parametres_journalisation.txt       paramètres de journalisation de MEDIKA
+  MANIFESTE_SHA256.txt                empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Filtrer le journal sur le dossier P-2026-0412 : compter les consultations et les comptes.
+
+3. Rapprocher chaque consultation d'une pièce justificative.
+
+4. Repérer le compte partagé et les comptes de personnes parties.
+
+5. Comparer la durée de conservation des journaux au critère d'un an.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

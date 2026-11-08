@@ -1,0 +1,6 @@
+id;risque;mesure;statut;preuve
+M1;R1;Salle fermée et procédure d'accueil;en place;visite du 7 octobre 2026
+M2;R2;Chiffrement de bout en bout des flux;décidée, non activée;console MEDISOFT, option désactivée
+M3;R2;Avenant au contrat MEDISOFT;en place;avenant du 20 mai 2026
+M4;R3;Double identification du patient;en place;procédure et 30 dossiers vérifiés
+M5;tous;Abandon de l'enregistrement des séances;en place;paramétrage vérifié

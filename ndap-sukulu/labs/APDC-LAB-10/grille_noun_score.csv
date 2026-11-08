@@ -1,0 +1,9 @@
+id;exigence;cote
+E1;Une intervention humaine est possible (art. 44(3));à coter
+E2;La personne est informée de la logique (art. 21);NON
+E3;Le consentement à la décision automatisée est explicite (art. 44(2));NON
+E4;Les variables sont liées à la finalité (art. 11);NON
+E5;Le modèle ne discrimine pas selon l'origine (art. 17);à coter
+E6;Une évaluation d'impact a été conduite (art. 33);NON
+E7;Le traitement est autorisé (art. 19);NON
+E8;Le profilage est licite au regard de l'article 65;NEK

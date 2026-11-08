@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C03
+Chapitre 3 : Conduire un audit de protection des données
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quels sont les critères d'un audit de conformité légale ?
+      a) La seule norme ISO/IEC 27001
+      b) La loi et ses textes d'application
+      c) Les souhaits de la direction
+      d) Le budget informatique
+
+ 2. Quel audit prépare une certification ISO/IEC 27701 ?
+      a) L'audit de préparation légale
+      b) Le contrôle de l'Autorité
+      c) L'audit contre une norme
+      d) L'expertise judiciaire
+
+ 3. Quel audit mesure l'écart avant une échéance ?
+      a) L'audit de préparation
+      b) L'audit de certification
+      c) Le contrôle administratif
+      d) L'audit financier
+
+ 4. Le contrôle de l'Autorité est :
+      a) Un audit interne
+      b) Une certification
+      c) Un audit de préparation
+      d) Un contrôle administratif pouvant mener à des sanctions
+
+ 5. Combien de principes la norme ISO 19011 pose-t-elle pour l'audit ?
+      a) Trois
+      b) Sept
+      c) Cinq
+      d) Onze
+
+ 6. Quel principe impose l'absence de conflit d'intérêts ?
+      a) La confidentialité
+      b) L'intégrité
+      c) L'indépendance
+      d) La présentation impartiale
+
+ 7. Quel principe exige des conclusions vérifiables tirées d'un échantillon défini ?
+      a) L'approche fondée sur la preuve
+      b) L'approche par les risques
+      c) La conscience professionnelle
+      d) La confidentialité
+
+ 8. Quel principe concentre l'effort là où l'écart serait le plus grave ?
+      a) L'intégrité
+      b) L'indépendance
+      c) La présentation impartiale
+      d) L'approche par les risques
+
+ 9. Pourquoi la confidentialité prend-elle un relief particulier dans cet audit ?
+      a) L'audit est secret défense
+      b) L'auditeur manipule lui-même des données personnelles
+      c) Le rapport est public
+      d) Les normes l'interdisent
+
+10. Que doit contenir le mandat ?
+      a) Le salaire de l'auditeur seulement
+      b) La liste des serveurs
+      c) Le commanditaire, l'objectif, les accès et les destinataires du rapport
+      d) Le code source
+
+11. Que fait l'auditeur d'un critère qui renvoie à un texte non publié ?
+      a) Il déclare un critère de substitution ou cote NEK de critère
+      b) Il invente le texte
+      c) Il cote OUI
+      d) Il ignore l'exigence
+
+12. Quand fixe-t-on la règle de décision ?
+      a) Après le rapport
+      b) Pendant le contradictoire
+      c) Jamais
+      d) Avant de coter
+
+13. Que doit-on écrire sur le périmètre ?
+      a) Seulement les sites visités
+      b) Ce qui est inclus et ce qui est exclu, avec la raison
+      c) Seulement les dates
+      d) Rien
+
+14. Comment se lève un NEK de preuve ?
+      a) En attendant un décret
+      b) En changeant de norme
+      c) En cherchant une pièce
+      d) Il ne se lève jamais
+
+15. Comment se lève un NEK de critère ?
+      a) Avec un texte ou une décision
+      b) En cherchant une pièce
+      c) En interrogeant un agent
+      d) En refaisant le test
+
+16. Quelle preuve est la plus forte ?
+      a) La déclaration
+      b) L'observation
+      c) Le document non signé
+      d) La réexécution ou le test
+
+17. Quelle preuve est la plus faible ?
+      a) Le test
+      b) La déclaration
+      c) La trace système
+      d) Le document signé
+
+18. Que prouve un contrat signé ?
+      a) L'exécution des mesures
+      b) L'absence de violation
+      c) L'engagement, pas son exécution
+      d) La conformité totale
+
+19. Une déclaration seule permet-elle de coter OUI ?
+      a) Non
+      b) Oui
+      c) Oui si elle est écrite
+      d) Oui si le directeur la signe
+
+20. Qu'est-ce qu'un papier de travail ?
+      a) Le rapport final
+      b) Le contrat d'audit
+      c) La facture
+      d) Le document qui trace un constat
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'audit de conformité légale a pour critères la loi et ses textes.
+      Vrai / Faux
+
+22. La norme ISO 19011 pose sept principes d'audit.
+      Vrai / Faux
+
+23. Une déclaration seule permet de coter OUI.
+      Vrai / Faux
+
+24. Un contrat signé prouve que le prestataire applique les mesures.
+      Vrai / Faux
+
+25. La règle de décision se fixe après avoir coté.
+      Vrai / Faux
+
+26. Un NEK de critère se lève en cherchant une pièce.
+      Vrai / Faux
+
+27. Une exigence avec « et » doit être scindée.
+      Vrai / Faux
+
+28. Si U est au moins 0,20, aucune conclusion de conformité n'est possible.
+      Vrai / Faux
+
+29. L'audit est lui-même un traitement de données personnelles.
+      Vrai / Faux
+
+30. Une demande test peut être faite au nom d'une personne fictive.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La norme qui pose les principes de l'audit est l'ISO ______.
+
+32. Le document qui trace un constat est le papier de ______.
+
+33. La règle qui interdit « et » et « ou » dans une exigence est la règle d'______.
+
+34. Si U est au moins ______, le domaine est opaque.
+
+35. Un NEK qui attend un texte est un NEK de ______.
+
+36. Un NEK qui attend une pièce est un NEK de ______.
+
+37. La part des réponses OUI se note ______.
+
+38. La preuve la plus forte est la réexécution ou le ______.
+
+39. Le mandat de NYANGA a été donné par le conseil d'______.
+
+40. L'audit du cours compte ______ domaines.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

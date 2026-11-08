@@ -1,0 +1,6 @@
+MEDIKA, paramètres de journalisation (export du 6 octobre 2026)
+journal.consultation      = actif
+journal.modification      = actif
+journal.retention_jours   = 90
+journal.revue_periodique  = non configurée
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

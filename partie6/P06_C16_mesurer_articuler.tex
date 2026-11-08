@@ -1,0 +1,426 @@
+% ============================================================================
+% Fichier  : partie6/P06_C16_mesurer_articuler.tex
+% Titre    : Mesurer la Conformité, Articuler les Normes
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C16.tex
+% ============================================================================
+% Sources : auditologie (hal-05701007, hal-05701270) ; Shannon (1948) ;
+% Minka Mi Nguidjoï, Massoussi Songo et Bialo (2026, manuscrit en
+% préparation, septembre 2026) : champ de la loi (art. 2, 4, 72), tensions
+% T1 à T3, matrice en huit étapes, échelle compatibilité / tension /
+% incompatibilité, grille de qualification des acteurs, quatre propositions.
+% Les éléments du manuscrit sont présentés comme une piste de recherche en
+% cours de l'auteur et de ses coauteurs.
+% ============================================================================
+
+\chapter{Mesurer la Conformité, Articuler les Normes}
+\label{chap:recherche}
+\chaptermark{Mesurer et articuler}
+
+\epigraph{%
+    « Ce que l'on ignore à cause des faits se cherche.\\
+    Ce que l'on ignore à cause des textes se signale. »%
+}{Principe du cours}
+
+\niveauChapitre{Recherche}{%
+    Tout le cours, en particulier les Chapitres~\ref{chap:audit},
+    \ref{chap:loi} et~\ref{chap:programme}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Mesurer l'état de conformité d'une organisation par $\mu$, $U$
+          et $H$, et en suivre l'évolution.
+    \item Distinguer et mesurer séparément l'incertitude de preuve et
+          l'incertitude de critère.
+    \item Présenter les pistes de recherche actuelles de l'auteur et de ses
+          coauteurs sur l'articulation de la loi n°~2024/017 avec la chaîne
+          pénale.
+    \item Appliquer une matrice d'analyse des tensions normatives à un cas.
+    \item Formuler une question de recherche sur la mesure de la
+          conformité ou l'articulation des normes.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « dix inconnus, est-ce notre faute ? »}
+% ============================================================================
+
+Bafoussam, vendredi 25~septembre~2026. Le conseil d'administration de NYANGA
+CRÉDIT a lu la synthèse~: vingt-huit écarts, huit exigences satisfaites,
+dix inconnues. Un administrateur demande~: « Ces dix inconnues, est-ce notre
+faute~? » Mme~BELLO répond que quatre le sont~: des pièces que
+l'établissement n'a pas pu produire. Les six autres ne dépendent de
+personne dans la salle~: elles attendent un décret, une liste de pays, un
+référentiel, ou la décision d'un juge sur le sens d'un article.
+
+La réponse ouvre deux questions de recherche. La première est de mesure~:
+peut-on séparer, dans un rapport, ce que l'organisation ignore de ce que
+le droit lui-même ne dit pas encore~? La seconde est d'articulation~: que
+faire quand deux textes applicables à la même donnée se rencontrent~?
+
+\begin{boxalert}
+\textbf{Violation typique.} Imputer à l'organisation auditée toute
+l'incertitude d'un audit, y compris celle qui vient de textes absents ou
+contradictoires.
+
+\smallskip
+\textbf{Règle~:} l'incertitude se décompose selon sa source. Le rapport
+distingue ce qui manque dans les preuves de ce qui manque dans les
+critères, et il présente les secondes comme une information sur l'état du
+droit, pas comme un défaut de l'organisation.
+\end{boxalert}
+
+% ============================================================================
+\section{Mesurer l'État de Conformité}
+\label{sec:c16-mesurer}
+% ============================================================================
+
+\begin{boxdef}
+Pour un ensemble de $n$ exigences cotées~: $\mu = n_O/n$ (taux de
+conformité), $U = n_K/n$ (taux d'incertitude), $H = -\sum_c p_c \log_2 p_c$
+(entropie de la répartition des cotes, en bits, entre~0 et
+$\log_2 3 \approx 1{,}585$)~\cite{minka2026nek, shannon1948}.
+\end{boxdef}
+
+\begin{boxlecture}{NYANGA CRÉDIT, deux instantanés}
+\begin{tableaucours}{L{3.4cm}cccccc}{%
+    \tableauHeader{Date} &
+    \tableauHeader{$n$} &
+    \tableauHeader{O / N / K} &
+    \tableauHeader{$\mu$} &
+    \tableauHeader{$U$} &
+    \tableauHeader{$H$} &
+    \tableauHeader{}
+}
+6~juillet~2026 & 8 & 2 / 2 / 4 & 0,25 & 0,50 & 1,50 & premier jour \\
+25~septembre~2026 & 46 & 8 / 28 / 10 & 0,17 & 0,22 & 1,35 & rapport \\
+\end{tableaucours}
+
+\medskip
+\textbf{Lecture.} Entre les deux dates, $U$ baisse de 0,50 à 0,22~:
+l'audit a appris. $\mu$ baisse aussi, de 0,25 à 0,17, sans que
+l'établissement ait régressé~: les \NEK{} du premier jour se sont résolus
+surtout en \NON{}. Une baisse de $\mu$ au cours d'un audit est donc souvent
+un signe de connaissance, pas de dégradation. Les deux instantanés ne
+portent pas sur le même ensemble d'exigences~; la comparaison n'est
+rigoureuse que sur les huit exigences communes.
+\end{boxlecture}
+
+La dernière remarque est une première question de recherche~: comment
+comparer deux états de conformité mesurés sur des ensembles d'exigences
+différents, ou découpés différemment~? Les mesures dépendent de la
+granularité~; un domaine découpé en dix exigences pèse plus qu'un domaine
+découpé en quatre.
+
+% ============================================================================
+\section{Deux Sortes d'Incertitude}
+\label{sec:c16-deux-nek}
+% ============================================================================
+
+Le cours a distingué tout au long deux sources de \NEK{}~:
+\begin{itemize}
+    \item le \textbf{\NEK{} de preuve}~: le critère est clair, la pièce
+          manque~; il se lève en cherchant (audit du prestataire, examen des
+          sauvegardes)~;
+    \item le \textbf{\NEK{} de critère}~: la pièce existerait, mais la règle
+          qui permettrait de la juger n'est pas fixée~; il se lève avec un
+          texte (décret, référentiel, liste de pays) ou une décision de
+          justice.
+\end{itemize}
+
+Le cours propose, à titre de piste, de décomposer le taux d'incertitude en
+deux termes~:
+\[
+U = U_p + U_c, \qquad U_p = \frac{n_{K,p}}{n}, \qquad U_c = \frac{n_{K,c}}{n},
+\]
+où $n_{K,p}$ et $n_{K,c}$ comptent les \NEK{} de preuve et de critère. À
+NYANGA, sur 46 exigences, quatre \NEK{} sont de preuve et six de critère~:
+$U_p \approx 0{,}09$ et $U_c \approx 0{,}13$.
+
+$U_p$ mesure ce que l'organisation peut réduire. $U_c$ mesure ce que l'état
+du droit laisse ouvert~; mesuré sur plusieurs organisations et plusieurs
+années, il pourrait servir d'indicateur de la maturité du cadre normatif
+lui-même, et décroître à mesure que les textes d'application paraissent.
+Cette décomposition n'est pas encore validée~: elle suppose une règle sûre
+pour classer chaque \NEK{}, et certains relèvent des deux sources à la
+fois.
+
+% ============================================================================
+\section{Une Piste de Recherche Actuelle : la Loi et la Chaîne Pénale}
+\label{sec:c16-piste}
+% ============================================================================
+
+\begin{boxinfo}
+\textbf{Statut de cette section.} Elle présente un travail en cours de
+l'auteur de ce cours et de ses coauteurs, M.~Robert Thierry MASSOUSSI SONGO
+et M.~Dieudonné BIALO, intitulé « Protection des données personnelles et
+chaîne pénale au Cameroun~: analyse des zones de tension normative autour
+de la Loi n°2024/017 »~\cite{minka2026chainepenale}. Ce manuscrit n'est pas
+encore publié~; ses analyses et ses propositions sont celles des auteurs,
+et elles peuvent évoluer. Les cas qu'il étudie sont construits à des fins
+d'analyse.
+\end{boxinfo}
+
+\subsection{La question}
+
+Les auteurs partent d'un constat~: la loi n°~2024/017 institue un régime
+général, mais ses articles~4 et~72 renvoient la sécurité, la défense et la
+justice à des textes particuliers ou spécifiques. Leur problématique est
+de savoir dans quelle mesure la loi constitue le régime de référence pour
+les traitements de la chaîne pénale (police judiciaire, expertise,
+magistrature), et quelles zones de tension subsistent avec les autres
+instruments applicables~: le Code pénal, le Code de procédure pénale, la
+loi n°~2010/012, la Convention de Budapest à laquelle le Cameroun est
+Partie, et la Convention de Malabo, signée mais non ratifiée.
+
+\subsection{Trois niveaux d'articulation}
+
+Les auteurs distinguent trois situations entre deux normes applicables à
+la même opération~:
+\begin{itemize}
+    \item la \textbf{compatibilité}~: elles s'appliquent simultanément sans
+          difficulté~;
+    \item la \textbf{tension}~: leur application simultanée crée une
+          difficulté qui demande une interprétation ou des garanties~;
+    \item l'\textbf{incompatibilité}~: les deux obligations ne peuvent pas
+          juridiquement être satisfaites ensemble.
+\end{itemize}
+
+Cette distinction, selon eux, évite de transformer toute difficulté
+d'articulation en conflit de normes.
+
+\subsection{La matrice d'analyse}
+
+\begin{tableaucours}{cL{3.2cm}L{8.0cm}}{%
+    \tableauHeader{N°} &
+    \tableauHeader{Étape} &
+    \tableauHeader{Question}
+}
+1 & Applicabilité & Chaque norme est-elle applicable~? \\
+2 & Qualification & Quelle est la qualification juridique de l'opération~? \\
+3 & Concurrence & Les normes portent-elles sur la même opération~? \\
+4 & Conciliabilité & Imposent-elles réellement des obligations
+simultanées~? \\
+5 & Interprétation & Peut-on les concilier par interprétation~? \\
+6 & Qualification de la tension & Compatibilité, tension ou
+incompatibilité~? \\
+7 & Mécanisme & Quel mécanisme de résolution est envisageable~? \\
+8 & Proposition & Quelle solution proposer~? \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~16.1. La matrice des auteurs (d'après~\cite{minka2026chainepenale})}\end{center}
+
+\subsection{Trois zones de tension}
+
+\begin{tableaucours}{cL{3.0cm}L{8.2cm}}{%
+    \tableauHeader{Zone} &
+    \tableauHeader{Nature} &
+    \tableauHeader{Description}
+}
+T1 & Temporelle & Les données collectées avant la loi, puis conservées,
+analysées ou produites en justice après son entrée en vigueur~: quelle loi
+régit chaque opération~? \\
+T2 & Procédurale & L'information « sans délai » de la personne
+(article~22) et le secret de l'enquête et de l'information judiciaire
+(articles~102 et~154 du Code de procédure pénale) \\
+T3 & Transfrontalière & La conservation rapide de la Convention de Budapest
+(article~29) et l'autorisation préalable des articles~19 et~32, sous
+réserve de l'article~72 \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~16.2. Les trois zones de tension (d'après~\cite{minka2026chainepenale})}\end{center}
+
+Pour la zone temporelle, les auteurs privilégient une solution où la
+légalité de la collecte est régie par la loi en vigueur au moment de la
+collecte, en distinguant ensuite conservation et traitement ultérieur.
+Pour la zone transfrontalière, ils recommandent de distinguer
+conservation, préservation, production, transmission et transfert, qui
+peuvent relever de régimes différents. Leur conclusion est que ces zones
+ne constituent pas, à ce stade, des incompatibilités irréductibles~: leur
+résolution appelle, selon les cas, une clarification jurisprudentielle,
+réglementaire ou législative.
+
+\subsection{Qualifier les acteurs opération par opération}
+
+\begin{tableaucours}{L{2.4cm}L{9.8cm}}{%
+    \tableauHeader{Acteur} &
+    \tableauHeader{Qualification possible selon les auteurs}
+}
+Magistrat & Responsable du traitement lorsqu'il détermine les finalités et
+les principaux éléments du traitement, sous réserve des circonstances \\
+OPJ & Responsable du traitement ou autre acteur habilité, selon le cadre
+institutionnel, les finalités et son autonomie de décision \\
+Expert & Sous-traitant possible lorsqu'il traite pour le compte d'un
+responsable sans déterminer lui-même les finalités \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~16.3. La grille fonctionnelle (d'après~\cite{minka2026chainepenale})}\end{center}
+
+\subsection{Quatre propositions}
+
+Les auteurs formulent quatre propositions~: clarifier le champ
+d'application de la loi aux traitements judiciaires~; distinguer les
+opérations dans les échanges transfrontaliers~; prévoir un mécanisme qui
+permette au magistrat compétent d'apprécier le moment et les modalités de
+l'information quand elle risque de compromettre une enquête~; élaborer une
+doctrine sur la temporalité des traitements. Ils annoncent des études
+complémentaires sur l'effet d'une éventuelle ratification de la Convention
+de Malabo, sur la jurisprudence à venir, et sur les textes d'application de
+la loi lorsqu'ils seront publiés.
+
+% ============================================================================
+\section{Deux Échelles à Trois Niveaux}
+\label{sec:c16-echelles}
+% ============================================================================
+
+Le cours rapproche, à titre de question ouverte, deux instruments de
+l'auteur. Les cotes \OUI{}, \NON{}, \NEK{} portent sur des \textit{faits}~:
+une exigence est-elle satisfaite, au vu des preuves~? L'échelle
+compatibilité, tension, incompatibilité porte sur des \textit{normes}~:
+deux textes peuvent-ils être satisfaits ensemble~?
+
+Une hypothèse de recherche se dessine~: une exigence qui relève d'une zone
+de tension non résolue produit, dans un audit, un \NEK{} de critère. La
+compatibilité permettrait de coter normalement~; l'incompatibilité
+obligerait à choisir un texte et à le dire~; la tension laisserait un
+\NEK{} tant qu'aucune interprétation ne s'impose. Si cette hypothèse se
+vérifiait, le taux $U_c$ d'un audit pourrait se rattacher aux zones de
+tension recensées par l'analyse juridique. Rien de cela n'est encore
+établi~; c'est un programme de travail.
+
+% ============================================================================
+\section{Questions Ouvertes}
+\label{sec:c16-questions}
+% ============================================================================
+
+\begin{itemize}
+    \item \textbf{La granularité.} Comment normaliser le découpage des
+          exigences pour comparer des audits entre eux~?
+    \item \textbf{La pondération.} Toutes les exigences ne pèsent pas
+          autant pour les personnes. Faut-il pondérer $\mu$ et $U$ par la
+          gravité, et comment éviter que la pondération ne devienne
+          arbitraire~?
+    \item \textbf{La classification des \NEK{}.} Quelle règle permet de
+          classer sûrement un \NEK{} en preuve ou en critère~?
+    \item \textbf{La maturité normative.} Le taux $U_c$ mesuré sur plusieurs
+          organisations permet-il de suivre la mise en place des textes
+          d'application~?
+    \item \textbf{L'articulation des normes.} La matrice des auteurs
+          peut-elle être outillée pour guider l'auditeur devant une exigence
+          prise entre deux textes~?
+\end{itemize}
+
+\begin{boxinfo}
+\textbf{Construire un sujet de mémoire.}
+\begin{enumerate}
+    \item Choisir un objet~: une organisation, un secteur, un type de
+          traitement, une zone de tension.
+    \item Fixer l'ensemble des exigences et la règle de cotation.
+    \item Recueillir des cas réels anonymisés, avec l'accord des
+          organisations, ou des cas construits et documentés.
+    \item Mesurer $\mu$, $U_p$, $U_c$ et $H$, ou appliquer la matrice des
+          tensions.
+    \item Confronter les résultats à un jugement d'experts.
+    \item Dire les limites~: taille de l'échantillon, subjectivité des
+          cotes, état des textes à la date de l'étude.
+\end{enumerate}
+\end{boxinfo}
+
+% ============================================================================
+\section{Ce que la Mesure demande à chaque Métier}
+\label{sec:c16-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Classer chaque \NEK{} en preuve ou en critère, publier $U_p$ et $U_c$ à
+côté de $\mu$, et dire dans le rapport ce qui ne dépend pas de
+l'organisation.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Tenir la liste des zones de tension qui touchent l'organisation, avec,
+pour chacune, l'interprétation retenue et sa justification, en attendant
+les textes ou la jurisprudence.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Suivre d'un audit à l'autre l'évolution de $U_p$, qui mesure ce que
+l'organisation peut encore apprendre sur elle-même.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item $\mu$, $U$ et $H$ décrivent l'état de conformité~; une baisse de
+          $\mu$ au cours d'un audit traduit souvent une connaissance
+          nouvelle.
+    \item Le cours propose de décomposer $U$ en incertitude de preuve et
+          incertitude de critère~; à NYANGA, $U_p \approx 0{,}09$ et
+          $U_c \approx 0{,}13$.
+    \item L'auteur et ses coauteurs étudient, dans un travail en cours, les
+          tensions temporelle, procédurale et transfrontalière entre la loi
+          et la chaîne pénale, avec une matrice en huit étapes.
+    \item Ils distinguent compatibilité, tension et incompatibilité, et
+          qualifient les acteurs opération par opération.
+    \item Le rapprochement de cette échelle et des cotes \OUI{}, \NON{},
+          \NEK{} est une question de recherche ouverte.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item calculer $U_p$ et $U_c$ pour un ensemble de cotes~;
+    \item appliquer la matrice des tensions à un cas simple~;
+    \item formuler une question de recherche et ses limites.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.1. Calculer \niveaubase}]
+Pour un audit de 20 exigences~: 6 \OUI{}, 9 \NON{}, 3 \NEK{} de preuve et
+2 \NEK{} de critère. Calculez $\mu$, $U$, $U_p$, $U_c$ et $H$.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.2. Classer les NEK \niveaumoyen}]
+Classez en preuve ou en critère les \NEK{} suivants, rencontrés dans le
+cours~: (a) l'exécution des mesures par l'éditeur du logiciel bancaire~;
+(b) le niveau de protection de la Côte d'Ivoire~; (c) la licéité du
+profilage au regard de l'article~65~; (d) le pays de traitement des
+selfies~; (e) l'application de l'article~22 en mars~2025.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.3. La matrice \niveaumoyen}]
+Appliquez les huit étapes de la matrice à la tension T2 dans l'affaire
+NYANGA~: la demande de l'OPJ du 20~mars~2025 et l'article~22. À quelle
+étape la situation change-t-elle en février~2026~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.4. Un sujet de mémoire \niveauexpert}]
+Choisissez l'une des questions ouvertes de la section~\ref{sec:c16-questions}
+et rédigez une proposition de mémoire d'une page~: question, hypothèse,
+données, méthode, critère de validation, limites.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item T.~E.~Minka Mi Nguidjoï, « Vers l'auditologie »~\cite{minka2026auditologie}.
+    \item T.~E.~Minka Mi Nguidjoï, sur l'instrument trichotomique~\cite{minka2026nek}.
+    \item T.~E.~Minka Mi Nguidjoï, R.~T.~Massoussi Songo et D.~Bialo,
+          manuscrit en préparation~\cite{minka2026chainepenale}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Fin du cours.} L'affaire a commencé par une lettre, le lendemain
+d'une échéance~: « Sommes-nous en règle~? » Elle s'achève sur un rapport
+qui répond non sur vingt-huit points, oui sur huit, et qui dit pourquoi il
+ne peut pas répondre sur dix. Entre les deux, l'audit a recensé, apprécié,
+vérifié, coté et recommandé. La conformité n'est pas un état que l'on
+déclare~; c'est une preuve que l'on construit, et dont on dit les limites.
+\end{boxinfo}

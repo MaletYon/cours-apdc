@@ -1,0 +1,121 @@
+id;fichier;motif_detecte;donnee_personnelle_confirmee;traitement_rattache
+E001;\\SRV-FIC01\AG-Bafoussam\liste_001.docx;téléphone;non;
+E002;\\SRV-FIC01\Siege\copie_002.jpg;numéro de CNI;oui;N01
+E003;\\SRV-FIC01\AG-Dschang\export_003.csv;numéro de CNI;non;
+E004;\\SRV-FIC01\AG-Dschang\liste_004.jpg;téléphone;oui;N02
+E005;\\SRV-FIC01\AG-Bafoussam\suivi_005.jpg;numéro de CNI;oui;N03
+E006;\\SRV-FIC01\AG-Dschang\liste_006.jpg;IBAN;oui;N04
+E007;\\SRV-FIC01\AG-Mbouda\suivi_007.docx;IBAN;oui;N05
+E008;\\SRV-FIC01\AG-Bafoussam\export_008.xlsx;nom et prénom;oui;N06
+E009;\\SRV-FIC01\AG-Dschang\export_009.csv;numéro de CNI;oui;N07
+E010;\\SRV-FIC01\AG-Bafoussam\copie_010.csv;nom et prénom;oui;N08
+E011;\\SRV-FIC01\AG-Mbouda\liste_011.xlsx;nom et prénom;oui;N09
+E012;\\SRV-FIC01\Siege\scan_012.pdf;date de naissance;oui;T32
+E013;\\SRV-FIC01\Siege\copie_013.jpg;nom et prénom;oui;T06
+E014;\\SRV-FIC01\AG-Dschang\suivi_014.docx;téléphone;oui;T37
+E015;\\SRV-FIC01\Siege\suivi_015.jpg;nom et prénom;oui;T26
+E016;\\SRV-FIC01\AG-Mbouda\copie_016.xlsx;nom et prénom;non;
+E017;\\SRV-FIC01\AG-Bafoussam\scan_017.pdf;nom et prénom;oui;T08
+E018;\\SRV-FIC01\AG-Mbouda\scan_018.xlsx;date de naissance;oui;T07
+E019;\\SRV-FIC01\Siege\liste_019.pdf;date de naissance;oui;T04
+E020;\\SRV-FIC01\AG-Bafoussam\suivi_020.jpg;date de naissance;oui;T04
+E021;\\SRV-FIC01\AG-Dschang\copie_021.csv;numéro de CNI;oui;T35
+E022;\\SRV-FIC01\AG-Bafoussam\export_022.xlsx;IBAN;oui;T32
+E023;\\SRV-FIC01\AG-Mbouda\suivi_023.xlsx;date de naissance;oui;T06
+E024;\\SRV-FIC01\AG-Bafoussam\suivi_024.pdf;téléphone;non;
+E025;\\SRV-FIC01\AG-Bafoussam\scan_025.pdf;date de naissance;oui;T29
+E026;\\SRV-FIC01\AG-Mbouda\scan_026.docx;numéro de CNI;oui;T11
+E027;\\SRV-FIC01\AG-Bafoussam\liste_027.csv;IBAN;oui;T14
+E028;\\SRV-FIC01\AG-Bafoussam\liste_028.xlsx;nom et prénom;oui;T33
+E029;\\SRV-FIC01\AG-Dschang\scan_029.pdf;date de naissance;oui;T11
+E030;\\SRV-FIC01\AG-Dschang\suivi_030.jpg;numéro de CNI;oui;T17
+E031;\\SRV-FIC01\Siege\copie_031.csv;date de naissance;non;
+E032;\\SRV-FIC01\Siege\copie_032.xlsx;téléphone;oui;T10
+E033;\\SRV-FIC01\Siege\export_033.jpg;IBAN;oui;T19
+E034;\\SRV-FIC01\AG-Bafoussam\copie_034.csv;IBAN;oui;T16
+E035;\\SRV-FIC01\AG-Bafoussam\scan_035.csv;nom et prénom;oui;T29
+E036;\\SRV-FIC01\Siege\scan_036.xlsx;nom et prénom;oui;T09
+E037;\\SRV-FIC01\AG-Bafoussam\suivi_037.docx;numéro de CNI;oui;T15
+E038;\\SRV-FIC01\AG-Bafoussam\copie_038.xlsx;date de naissance;oui;T31
+E039;\\SRV-FIC01\AG-Dschang\scan_039.pdf;date de naissance;oui;T20
+E040;\\SRV-FIC01\AG-Mbouda\liste_040.csv;date de naissance;oui;T07
+E041;\\SRV-FIC01\Siege\liste_041.xlsx;nom et prénom;oui;T12
+E042;\\SRV-FIC01\AG-Dschang\liste_042.pdf;nom et prénom;oui;T24
+E043;\\SRV-FIC01\Siege\scan_043.jpg;date de naissance;oui;T35
+E044;\\SRV-FIC01\AG-Mbouda\copie_044.csv;numéro de CNI;non;
+E045;\\SRV-FIC01\AG-Bafoussam\liste_045.jpg;date de naissance;oui;T21
+E046;\\SRV-FIC01\Siege\liste_046.csv;nom et prénom;oui;T17
+E047;\\SRV-FIC01\AG-Mbouda\liste_047.docx;date de naissance;oui;T29
+E048;\\SRV-FIC01\Siege\export_048.xlsx;IBAN;oui;T10
+E049;\\SRV-FIC01\Siege\copie_049.docx;téléphone;non;
+E050;\\SRV-FIC01\AG-Mbouda\scan_050.xlsx;date de naissance;oui;N01
+E051;\\SRV-FIC01\Siege\scan_051.csv;téléphone;oui;T25
+E052;\\SRV-FIC01\AG-Bafoussam\copie_052.jpg;date de naissance;oui;T17
+E053;\\SRV-FIC01\Siege\liste_053.pdf;IBAN;non;
+E054;\\SRV-FIC01\AG-Dschang\export_054.csv;numéro de CNI;oui;T09
+E055;\\SRV-FIC01\AG-Mbouda\export_055.csv;nom et prénom;oui;T18
+E056;\\SRV-FIC01\Siege\suivi_056.csv;nom et prénom;oui;T24
+E057;\\SRV-FIC01\AG-Bafoussam\liste_057.xlsx;IBAN;non;
+E058;\\SRV-FIC01\AG-Mbouda\scan_058.docx;date de naissance;oui;T18
+E059;\\SRV-FIC01\AG-Dschang\export_059.jpg;IBAN;oui;T30
+E060;\\SRV-FIC01\AG-Dschang\copie_060.csv;téléphone;oui;T05
+E061;\\SRV-FIC01\AG-Mbouda\copie_061.pdf;numéro de CNI;non;
+E062;\\SRV-FIC01\AG-Bafoussam\export_062.docx;numéro de CNI;non;
+E063;\\SRV-FIC01\AG-Bafoussam\suivi_063.pdf;IBAN;non;
+E064;\\SRV-FIC01\AG-Dschang\liste_064.pdf;IBAN;oui;T23
+E065;\\SRV-FIC01\AG-Dschang\scan_065.jpg;téléphone;oui;T36
+E066;\\SRV-FIC01\Siege\liste_066.jpg;nom et prénom;non;
+E067;\\SRV-FIC01\Siege\export_067.pdf;numéro de CNI;oui;T38
+E068;\\SRV-FIC01\AG-Dschang\suivi_068.xlsx;IBAN;oui;T38
+E069;\\SRV-FIC01\AG-Dschang\scan_069.csv;IBAN;non;
+E070;\\SRV-FIC01\AG-Bafoussam\scan_070.docx;date de naissance;oui;T30
+E071;\\SRV-FIC01\AG-Dschang\scan_071.xlsx;numéro de CNI;oui;T22
+E072;\\SRV-FIC01\AG-Dschang\export_072.jpg;date de naissance;oui;T02
+E073;\\SRV-FIC01\Siege\copie_073.xlsx;nom et prénom;oui;T32
+E074;\\SRV-FIC01\Siege\export_074.pdf;date de naissance;non;
+E075;\\SRV-FIC01\Siege\copie_075.docx;IBAN;non;
+E076;\\SRV-FIC01\AG-Dschang\scan_076.xlsx;nom et prénom;oui;T23
+E077;\\SRV-FIC01\Siege\copie_077.jpg;date de naissance;oui;T29
+E078;\\SRV-FIC01\AG-Bafoussam\suivi_078.pdf;numéro de CNI;non;
+E079;\\SRV-FIC01\AG-Bafoussam\export_079.jpg;nom et prénom;oui;T25
+E080;\\SRV-FIC01\AG-Bafoussam\copie_080.jpg;téléphone;non;
+E081;\\SRV-FIC01\Siege\copie_081.jpg;nom et prénom;oui;T15
+E082;\\SRV-FIC01\AG-Bafoussam\suivi_082.pdf;numéro de CNI;non;
+E083;\\SRV-FIC01\Siege\copie_083.csv;numéro de CNI;non;
+E084;\\SRV-FIC01\AG-Mbouda\export_084.jpg;numéro de CNI;oui;T28
+E085;\\SRV-FIC01\AG-Mbouda\export_085.csv;date de naissance;oui;T37
+E086;\\SRV-FIC01\AG-Dschang\scan_086.csv;date de naissance;oui;N03
+E087;\\SRV-FIC01\AG-Dschang\liste_087.jpg;nom et prénom;non;
+E088;\\SRV-FIC01\AG-Bafoussam\copie_088.pdf;IBAN;oui;T30
+E089;\\SRV-FIC01\AG-Mbouda\export_089.jpg;IBAN;oui;T29
+E090;\\SRV-FIC01\AG-Dschang\suivi_090.csv;téléphone;oui;T01
+E091;\\SRV-FIC01\AG-Mbouda\suivi_091.xlsx;téléphone;oui;N01
+E092;\\SRV-FIC01\AG-Mbouda\export_092.xlsx;IBAN;oui;T26
+E093;\\SRV-FIC01\AG-Dschang\copie_093.xlsx;téléphone;oui;T15
+E094;\\SRV-FIC01\AG-Mbouda\suivi_094.pdf;date de naissance;oui;T23
+E095;\\SRV-FIC01\AG-Mbouda\export_095.pdf;date de naissance;oui;T35
+E096;\\SRV-FIC01\Siege\suivi_096.docx;téléphone;oui;T23
+E097;\\SRV-FIC01\AG-Dschang\liste_097.jpg;nom et prénom;non;
+E098;\\SRV-FIC01\AG-Bafoussam\liste_098.pdf;nom et prénom;oui;T04
+E099;\\SRV-FIC01\AG-Mbouda\export_099.jpg;nom et prénom;oui;T32
+E100;\\SRV-FIC01\AG-Mbouda\export_100.xlsx;IBAN;oui;T23
+E101;\\SRV-FIC01\Siege\suivi_101.xlsx;date de naissance;oui;T12
+E102;\\SRV-FIC01\AG-Mbouda\suivi_102.docx;date de naissance;oui;T01
+E103;\\SRV-FIC01\Siege\export_103.jpg;numéro de CNI;oui;T09
+E104;\\SRV-FIC01\AG-Mbouda\scan_104.xlsx;numéro de CNI;oui;T06
+E105;\\SRV-FIC01\AG-Dschang\liste_105.xlsx;téléphone;oui;T12
+E106;\\SRV-FIC01\AG-Dschang\export_106.csv;nom et prénom;oui;T07
+E107;\\SRV-FIC01\AG-Bafoussam\suivi_107.csv;IBAN;oui;T03
+E108;\\SRV-FIC01\AG-Mbouda\scan_108.docx;numéro de CNI;oui;T10
+E109;\\SRV-FIC01\Siege\suivi_109.csv;numéro de CNI;oui;T05
+E110;\\SRV-FIC01\AG-Bafoussam\export_110.jpg;nom et prénom;oui;T23
+E111;\\SRV-FIC01\AG-Mbouda\scan_111.csv;IBAN;oui;T01
+E112;\\SRV-FIC01\Siege\export_112.pdf;nom et prénom;oui;T36
+E113;\\SRV-FIC01\AG-Bafoussam\scan_113.pdf;numéro de CNI;oui;T06
+E114;\\SRV-FIC01\AG-Bafoussam\export_114.csv;téléphone;oui;T08
+E115;\\SRV-FIC01\AG-Mbouda\export_115.docx;IBAN;oui;T33
+E116;\\SRV-FIC01\AG-Mbouda\suivi_116.docx;téléphone;non;
+E117;\\SRV-FIC01\AG-Bafoussam\suivi_117.jpg;date de naissance;oui;T10
+E118;\\SRV-FIC01\Siege\suivi_118.pdf;téléphone;oui;T12
+E119;\\SRV-FIC01\AG-Bafoussam\liste_119.jpg;téléphone;oui;T29
+E120;\\SRV-FIC01\AG-Bafoussam\liste_120.jpg;téléphone;oui;N01

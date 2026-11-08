@@ -1,0 +1,30 @@
+APDC-LAB-01, qualifier les données d'un export
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  dictionnaire_champs.csv         dictionnaire des champs des tables CLIENTS et PRODUITS
+  export_clients_extrait.csv      extrait de l'export des clients d'une agence (240 lignes)
+  formulaire_ouverture_2016.txt   formulaire d'ouverture de compte de 2016
+  MANIFESTE_SHA256.txt            empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Lire le dictionnaire et dire, champ par champ, s'il s'agit d'une donnée à caractère personnel et si elle est sensible au sens de l'article 5.
+
+3. Dans l'export, calculer l'âge de chaque client au 24/06/2026 et compter les mineurs.
+
+4. Compter les clients qui ont reçu le SMS de la campagne de juin sans avoir donné leur accord.
+
+5. Lire le formulaire de 2016 et apprécier le consentement qu'il recueille.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

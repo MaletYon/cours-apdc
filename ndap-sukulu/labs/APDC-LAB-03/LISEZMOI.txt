@@ -1,0 +1,30 @@
+APDC-LAB-03, évaluation d'impact de la téléconsultation
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  evaluation_impact_teleconsultation.txt   évaluation d'impact signée le 8 mai 2026
+  plan_mesures.csv                         mesures décidées et leur état en octobre 2026
+  grille_audit_octobre.csv                 grille de l'audit d'octobre, une cote à établir
+  MANIFESTE_SHA256.txt                     empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Calculer le niveau de chaque risque avant et après mesures.
+
+3. Dire quels risques résiduels sont acceptables et lequel reste inconnu.
+
+4. Comparer le plan de mesures à ce que la visite a vu.
+
+5. Coter l'exigence E5, puis calculer µ, U et H de la grille.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

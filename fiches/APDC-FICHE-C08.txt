@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C08
+Chapitre 8 : La loi n° 2024/017 et le cadre africain
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Combien de titres compte la loi n° 2024/017 ?
+      a) Cinq
+      b) Sept
+      c) Neuf
+      d) Trois
+
+ 2. Combien d'articles compte la loi n° 2024/017 ?
+      a) 53
+      b) 91
+      c) 75
+      d) 120
+
+ 3. Quel titre traite des droits de la personne concernée ?
+      a) Le titre III
+      b) Le titre I
+      c) Le titre V
+      d) Le titre VII
+
+ 4. Quel titre traite des sanctions ?
+      a) Le titre II
+      b) Le titre IV
+      c) Le titre I
+      d) Le titre VI
+
+ 5. Quel titre traite de l'Autorité de protection ?
+      a) Le titre III
+      b) Le titre V
+      c) Le titre VI
+      d) Le titre II
+
+ 6. Quel article abroge les dispositions antérieures contraires ?
+      a) L'article 73
+      b) L'article 1
+      c) L'article 75
+      d) L'article 53
+
+ 7. Quel article soumet tout traitement à autorisation préalable ?
+      a) L'article 19
+      b) L'article 9
+      c) L'article 29
+      d) L'article 22
+
+ 8. Quel article interdit le traitement sans autorisation préalable ?
+      a) L'article 50
+      b) L'article 52
+      c) L'article 48
+      d) L'article 49
+
+ 9. Quelle sanction prévoit l'article 55 ?
+      a) Une amende de 1 à 10 millions
+      b) Une pénalité de 5 à 50 millions de francs CFA
+      c) Un emprisonnement de 3 à 10 ans
+      d) Une astreinte de 100 000 francs par jour
+
+10. La loi prévoit-elle une déclaration simplifiée ?
+      a) Oui, pour les petites entreprises
+      b) Oui, pour les administrations
+      c) Non
+      d) Oui, pour la paie
+
+11. Comment cote-t-on « le traitement est autorisé » si l'Autorité n'est pas organisée ?
+      a) NON, en le présentant avec une seconde cote
+      b) OUI par défaut
+      c) NEK seulement
+      d) On ne le cote pas
+
+12. Quelle seconde cote présente-t-on avec l'absence d'autorisation ?
+      a) L'Autorité est conforme
+      b) Le client a consenti
+      c) Le prestataire est certifié
+      d) L'organisation a fait ce qui dépendait d'elle
+
+13. Comment la loi qualifie-t-elle l'Autorité de protection ?
+      a) Une direction ministérielle
+      b) Un organisme public indépendant
+      c) Une association
+      d) Un cabinet privé
+
+14. Quelle mission l'article 53 confie-t-il à l'Autorité ?
+      a) Recruter les DPO
+      b) Gérer les banques
+      c) Établir la liste des pays offrant une protection équivalente
+      d) Juger les délits
+
+15. Quel instrument de l'Autorité attache des obligations aux autorisations ?
+      a) Les cahiers des charges
+      b) Les contrats de travail
+      c) Les factures
+      d) Les rapports d'audit
+
+16. Quel instrument de l'Autorité porte les mesures techniques et organisationnelles ?
+      a) Le registre
+      b) Le cahier de prospection
+      c) Le plan d'audit
+      d) Le référentiel
+
+17. Quel délai maximal donne la mise en demeure de l'article 54 ?
+      a) Trente jours
+      b) Dix jours
+      c) Dix-huit mois
+      d) Soixante-douze heures
+
+18. Quel est le plafond de l'astreinte de l'article 54 ?
+      a) 1 million par jour
+      b) 10 000 francs par jour
+      c) 100 000 francs CFA par jour
+      d) Aucun plafond
+
+19. Quelle mesure l'Autorité peut-elle prononcer à défaut de mise en conformité ?
+      a) Le retrait de l'autorisation
+      b) L'emprisonnement
+      c) La dissolution de la société
+      d) La confiscation des serveurs
+
+20. Quel article sanctionne le transfert vers un pays tiers sans autorisation, sur le plan administratif ?
+      a) L'article 56
+      b) L'article 58
+      c) L'article 59
+      d) L'article 60
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Tout traitement est soumis à autorisation préalable de l'Autorité.
+      Vrai / Faux
+
+22. La loi prévoit une déclaration simplifiée pour les petites entreprises.
+      Vrai / Faux
+
+23. L'Autorité est un organisme public indépendant.
+      Vrai / Faux
+
+24. La mise en demeure de l'article 54 laisse trente jours.
+      Vrai / Faux
+
+25. Les personnes morales peuvent être condamnées jusqu'à un milliard de francs CFA.
+      Vrai / Faux
+
+26. Le profilage est un délit selon l'article 65.
+      Vrai / Faux
+
+27. La loi n° 2010/012 n'est plus applicable depuis 2024.
+      Vrai / Faux
+
+28. La Convention de Malabo est un critère d'audit au Cameroun.
+      Vrai / Faux
+
+29. Le RGPD s'applique en tant que tel aux traitements de NYANGA.
+      Vrai / Faux
+
+30. La loi impose d'informer de toute violation sans délai.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'autorisation préalable de tout traitement est prévue par l'article ______.
+
+32. L'Autorité de protection est prévue par l'article ______.
+
+33. La mise en demeure de l'article 54 laisse au plus ______ jours.
+
+34. Le traitement sans autorisation est sanctionné par l'article ______.
+
+35. Le profilage est puni par l'article ______.
+
+36. La responsabilité pénale des personnes morales figure à l'article ______.
+
+37. L'accès aux informations d'un équipement terminal exige un consentement selon l'article ______ de la loi n° 2010/012.
+
+38. La convention de l'Union africaine de 2014 est la Convention de ______.
+
+39. La loi compte ______ articles.
+
+40. L'entrave à l'Autorité est punie par l'article ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

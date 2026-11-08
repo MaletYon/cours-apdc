@@ -1,0 +1,39 @@
+id;traitement;direction;proprietaire
+T01;Ouverture de compte;Épargne;M. TALLA
+T02;Octroi de crédit;Recouvrement;M. KAMGA
+T03;Gestion des dépôts;Ressources humaines;Mme ETOUNDI
+T04;Virements;Marketing;
+T05;Relances;Systèmes d'information;M. FOKOU
+T06;Paie;Juridique;Mme ETOUNDI
+T07;Recrutement;Contrôle interne;Mme ETOUNDI
+T08;Formation;Crédit;M. FOKOU
+T09;Campagnes SMS;Épargne;Mme MEKONTCHOU
+T10;Programme de fidélité;Recouvrement;Mme ETOUNDI
+T11;Gestion des accès;Ressources humaines;
+T12;Sauvegardes;Marketing;M. FOKOU
+T13;Contentieux;Systèmes d'information;Mme ETOUNDI
+T14;Déclarations à la COBAC;Juridique;Mme ETOUNDI
+T15;Contrôle des opérations;Contrôle interne;Mme MEKONTCHOU
+T16;Lutte contre le blanchiment;Crédit;Mme MEKONTCHOU
+T17;Réclamations;Épargne;M. KAMGA
+T18;Gestion des chéquiers;Recouvrement;Mme ETOUNDI
+T19;Cartes de retrait;Ressources humaines;
+T20;Tontines;Marketing;Mme NDOUMBE
+T21;Assurance décès emprunteur;Systèmes d'information;M. KAMGA
+T22;Garanties;Juridique;Mme NDOUMBE
+T23;Visites médicales du personnel;Contrôle interne;M. KAMGA
+T24;Congés;Crédit;Mme NDOUMBE
+T25;Évaluations annuelles;Épargne;Mme MEKONTCHOU
+T26;Messagerie interne;Recouvrement;
+T27;Site web;Ressources humaines;M. TALLA
+T28;Application mobile;Marketing;M. FOKOU
+T29;Statistiques de l'activité;Systèmes d'information;M. TALLA
+T30;Archivage papier;Juridique;M. FOKOU
+T31;Audit interne;Contrôle interne;Mme MEKONTCHOU
+T32;Notes de frais;Crédit;M. FOKOU
+T33;Accueil des visiteurs;Épargne;
+T34;Enquêtes de satisfaction internes;Recouvrement;Mme ETOUNDI
+T35;Vidéosurveillance des agences;Ressources humaines;Mme MEKONTCHOU
+T36;Gestion des fournisseurs;Marketing;M. TALLA
+T37;Comptabilité clients;Systèmes d'information;Mme ETOUNDI
+T38;Clôture des comptes;Juridique;M. TALLA

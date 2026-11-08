@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C13
+Chapitre 13 : Programme de conformité et rapport d'audit
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Combien d'éléments compte une observation d'audit dans le cours ?
+      a) Trois
+      b) Sept
+      c) Cinq
+      d) Dix
+
+ 2. Quel est le premier élément d'une observation ?
+      a) La recommandation
+      b) La conclusion
+      c) La norme
+      d) Le contradictoire
+
+ 3. Quel élément contient la réponse de l'audité ?
+      a) Le contradictoire
+      b) La constatation
+      c) La norme
+      d) L'analyse
+
+ 4. Quel élément porte un niveau de confiance ?
+      a) La norme
+      b) La recommandation
+      c) Le contradictoire
+      d) L'analyse
+
+ 5. Que doit traiter la recommandation ?
+      a) Le symptôme seulement
+      b) La cause de l'écart
+      c) Le nom de l'agent fautif
+      d) Le budget de l'auditeur
+
+ 6. Dans l'observation D2-06, combien d'oppositions ont été reçues ?
+      a) Trois
+      b) Trente et une
+      c) Cinq
+      d) Douze
+
+ 7. Quelle est la cause de l'observation D2-06 selon l'analyse ?
+      a) Aucune procédure ne reporte les oppositions dans la base
+      b) La négligence d'un agent
+      c) Une panne du logiciel
+      d) Une erreur de l'Autorité
+
+ 8. Que recommande l'observation D2-06 ?
+      a) Licencier les agents
+      b) Supprimer la prospection pour toujours
+      c) Changer de banque
+      d) Un indicateur d'opposition qui exclut automatiquement le client des extractions
+
+ 9. Quel article fonde le délit relevé dans D2-06 ?
+      a) L'article 56
+      b) L'article 64
+      c) L'article 22
+      d) L'article 29
+
+10. Combien d'exigences cotées compte la synthèse de NYANGA ?
+      a) 31
+      b) 47
+      c) 46
+      d) 8
+
+11. Combien d'écarts sont établis à NYANGA ?
+      a) 28
+      b) 8
+      c) 10
+      d) 46
+
+12. Combien d'exigences sont satisfaites à NYANGA ?
+      a) 28
+      b) 10
+      c) 46
+      d) 8
+
+13. Combien d'exigences restent NEK à NYANGA ?
+      a) 8
+      b) 10
+      c) 28
+      d) 6
+
+14. Quelle est la valeur globale de µ à NYANGA ?
+      a) 0,22
+      b) 0,50
+      c) 0,17
+      d) 1,35
+
+15. Quelle est la valeur globale de U à NYANGA ?
+      a) 0,22
+      b) 0,17
+      c) 0,10
+      d) 0,50
+
+16. Quelle est la valeur globale de H à NYANGA ?
+      a) 0,17
+      b) 0,81
+      c) 1,585
+      d) 1,35
+
+17. Combien de domaines de NYANGA sont opaques ?
+      a) Un
+      b) Cinq
+      c) Six
+      d) Aucun
+
+18. Quel domaine de NYANGA est clair au sens de U ?
+      a) D1, recensement
+      b) D2, droits
+      c) D3, sécurité et confidentialité
+      d) D6, gouvernance
+
+19. Pourquoi D3 n'est-il pas conforme malgré µ = 0,50 ?
+      a) Trois NON portent sur la limitation des accès
+      b) Parce que U est élevé
+      c) Parce que H est nul
+      d) Parce que D3 n'a pas été testé
+
+20. Combien des dix NEK de NYANGA sont de critère ?
+      a) Quatre
+      b) Dix
+      c) Deux
+      d) Six
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'observation d'audit compte sept éléments.
+      Vrai / Faux
+
+22. La recommandation doit traiter le symptôme plutôt que la cause.
+      Vrai / Faux
+
+23. NYANGA compte 28 écarts établis.
+      Vrai / Faux
+
+24. Le domaine D3 de NYANGA est conforme.
+      Vrai / Faux
+
+25. Les NEK de critère ne dépendent pas de l'organisation.
+      Vrai / Faux
+
+26. On classe les recommandations d'abord par effort.
+      Vrai / Faux
+
+27. La désignation d'un délégué a un fondement légal.
+      Vrai / Faux
+
+28. La politique de conservation distingue trois périodes.
+      Vrai / Faux
+
+29. Les comptes clos peuvent être gardés indéfiniment dans la base active.
+      Vrai / Faux
+
+30. Un programme prévoit un audit de suivi.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'observation d'audit compte ______ éléments.
+
+32. La réponse de l'audité constitue le ______.
+
+33. NYANGA compte ______ écarts établis.
+
+34. La valeur globale de µ à NYANGA est ______.
+
+35. Les recommandations se classent d'abord par gravité pour les ______.
+
+36. Le délai maximum de conservation est renvoyé au référentiel par l'article ______.
+
+37. La période du temps de la finalité est la base ______.
+
+38. La dernière période de conservation est la ______.
+
+39. Un programme se termine par un audit de ______.
+
+40. Six des dix NEK de NYANGA sont de ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

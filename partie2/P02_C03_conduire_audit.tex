@@ -1,0 +1,442 @@
+% ============================================================================
+% Fichier  : partie2/P02_C03_conduire_audit.tex
+% Titre    : Conduire un Audit de Protection des Données
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C03.tex
+% ============================================================================
+% Sources : ISO 19011:2018 (principes et cycle, paraphrasés) ; ISO/IEC 27007
+% (paraphrasée) ; auditologie (hal-05701007, hal-05701270) ; loi n° 2024/017,
+% art. 35, 70 ; NRAC C06-C07 (quadrant, règle de décision).
+% Faits nouveaux (bible) : plan d'audit de KORO AUDIT, six domaines,
+% 2 juillet 2026.
+% ============================================================================
+
+\chapter{Conduire un Audit de Protection des Données}
+\label{chap:audit}
+\chaptermark{Conduire un audit}
+
+\epigraph{%
+    « Un audit ne dit pas si l'organisation est bonne.\\
+    Il dit ce qui est établi, et sur quelle preuve. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Chapitres~\ref{chap:donnees} et~\ref{chap:principes}~; méthode générale
+    de l'audit (UE MSN-2S3-SEC08)
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Distinguer audit de conformité légale, audit contre une norme et
+          audit de préparation.
+    \item Rédiger le mandat, les critères et le périmètre d'une mission.
+    \item Choisir des preuves selon leur force et documenter chaque constat
+          dans un papier de travail.
+    \item Décomposer la conformité en domaines et en exigences cotées
+          \OUI{}, \NON{} ou \NEK{}.
+    \item Lire les mesures $\mu$, $U$ et $H$ et appliquer une règle de
+          décision écrite à l'avance.
+    \item Protéger les données personnelles que l'audit lui-même manipule.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « montrez-nous la sécurité »}
+% ============================================================================
+
+Yaoundé, jeudi 2~juillet~2026. Dans les bureaux de KORO AUDIT \&
+CONFORMITÉ, Mme~BELLO prépare la mission de NYANGA CRÉDIT avec son associé
+juriste, M.~NGANDO. Le DSI de l'établissement a envoyé la veille un dossier
+de quarante pages~: schémas du réseau, règles du pare-feu, rapport du test
+d'intrusion de 2025. « Voilà notre conformité », écrit-il.
+
+M.~NGANDO le parcourt et le referme. Le dossier ne dit rien des
+consentements, des durées, des droits des personnes, des contrats des
+prestataires ni des transferts. Il répond à une question que personne n'a
+posée. Mme~BELLO commence par écrire ce que la mission doit établir, avec
+quels critères, sur quel périmètre, et ce qu'elle ne couvrira pas.
+
+\begin{boxalert}
+\textbf{Violation typique.} Confondre l'audit de protection des données avec
+un audit de sécurité informatique, et conclure à la conformité parce que les
+systèmes sont bien protégés.
+
+\smallskip
+\textbf{Règle~:} les critères de l'audit sont les obligations de la loi et,
+le cas échéant, d'une norme désignée. La sécurité n'en est qu'un domaine
+parmi six~; des données bien gardées peuvent avoir été collectées sans
+droit.
+\end{boxalert}
+
+% ============================================================================
+\section{Trois Sortes d'Audit}
+\label{sec:c03-types}
+% ============================================================================
+
+\begin{tableaucours}{L{3.2cm}L{3.8cm}L{5.0cm}}{%
+    \tableauHeader{Audit} &
+    \tableauHeader{Critères} &
+    \tableauHeader{Usage}
+}
+De conformité légale & Loi n°~2024/017, textes d'application, autres lois
+applicables & Dire si l'organisation respecte ses obligations~; préparer un
+contrôle ou un contentieux \\
+Contre une norme & ISO/IEC~27701, ISO/IEC~27001 & Préparer ou maintenir une
+certification (Chapitre~\ref{chap:normes}) \\
+De préparation & Loi et bonnes pratiques & Mesurer l'écart avant une
+échéance~; prioriser les chantiers \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~3.1. Trois audits, trois jeux de critères}\end{center}
+
+Ces audits peuvent être conduits par l'organisation elle-même (audit
+interne), par un cabinet qu'elle mandate (NYANGA, MBOLO), ou par un tiers qui
+certifie. Le contrôle de l'Autorité de protection, prévu par la loi
+(article~53) et dont les modalités relèvent de textes réglementaires
+(article~35), n'est pas un audit au sens de ce chapitre~: c'est un contrôle
+administratif, qui peut conduire à des sanctions (Chapitre~\ref{chap:loi}).
+
+% ============================================================================
+\section{Les Principes de l'Auditeur}
+\label{sec:c03-principes}
+% ============================================================================
+
+La norme ISO~19011~\cite{iso19011_2018} pose sept principes pour tout audit
+de système de management. Ils s'appliquent sans changement à l'audit de
+protection des données~; on les résume ici en paraphrase.
+
+\begin{enumerate}
+    \item \textbf{Intégrité}~: honnêteté, diligence, respect des lois.
+    \item \textbf{Présentation impartiale}~: rendre compte avec exactitude,
+          y compris des difficultés rencontrées.
+    \item \textbf{Conscience professionnelle}~: le soin et le jugement
+          proportionnés à l'importance de la mission.
+    \item \textbf{Confidentialité}~: la protection des informations
+          obtenues, et ici des données personnelles consultées.
+    \item \textbf{Indépendance}~: l'absence de conflit d'intérêts, fondement
+          de l'objectivité des conclusions.
+    \item \textbf{Approche fondée sur la preuve}~: des conclusions
+          vérifiables, tirées d'un échantillon défini.
+    \item \textbf{Approche par les risques}~: concentrer l'effort là où
+          l'écart serait le plus grave pour les personnes.
+\end{enumerate}
+
+Le quatrième principe prend ici un relief particulier. Pour vérifier un
+consentement, l'auditeur ouvre un dossier client~; pour tester les droits,
+il lit des réponses adressées à des personnes~; pour contrôler les
+journaux, il voit qui a consulté quoi. L'audit est lui-même un traitement~:
+il a une finalité (la mission), une durée (celle de la conservation des
+papiers de travail) et des destinataires (le commanditaire). L'auditeur
+consulte sur place, copie le moins possible, masque les identités dans ses
+papiers et détruit les copies à l'échéance prévue au mandat
+(Chapitre~\ref{chap:normes}).
+
+% ============================================================================
+\section{Mandat, Critères, Périmètre}
+\label{sec:c03-mandat}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Préparer une mission d'audit de protection des données.}
+\begin{enumerate}
+    \item Obtenir un mandat écrit~: commanditaire, objectif, accès accordés,
+          destinataires du rapport, date de remise.
+    \item Fixer les critères~: articles de la loi retenus, textes
+          d'application publiés, norme éventuelle, politiques internes.
+    \item Délimiter le périmètre~: entités, sites, traitements, période~;
+          écrire ce qui est exclu, et pourquoi.
+    \item Décomposer en domaines et en exigences, chacune formulée en
+          question fermée.
+    \item Choisir, pour chaque exigence, le test et la preuve attendue.
+    \item Prévoir le traitement des données de l'audit~: consultation sur
+          place, masquage, durée de conservation des papiers.
+    \item Fixer à l'avance la règle de décision qui permettra de conclure à
+          partir des cotes.
+\end{enumerate}
+\end{boxprocedure}
+
+Les critères doivent être \textbf{publiés et applicables}. Un critère qui
+renvoie à un texte réglementaire non publié, comme la durée de conservation
+fixée « suivant les modalités fixées par voie réglementaire »
+(article~13), ne peut pas être appliqué tel quel~: l'auditeur le remplace
+par un critère de substitution déclaré (« une durée fixée, justifiée et
+appliquée par l'organisation »), ou il cote \NEK{} en précisant que
+l'incertitude tient au critère et non à la preuve. Les deux sources
+d'incertitude se distinguent dans le rapport~: un \NEK{} \textit{de
+preuve} se lève en cherchant une pièce, un \NEK{} \textit{de critère} ne se
+lève qu'avec un texte.
+
+% ============================================================================
+\section{Les Preuves et leur Force}
+\label{sec:c03-preuves}
+% ============================================================================
+
+\begin{tableaucours}{cL{3.4cm}L{4.4cm}L{3.4cm}}{%
+    \tableauHeader{Rang} &
+    \tableauHeader{Type de preuve} &
+    \tableauHeader{Exemple} &
+    \tableauHeader{Limite}
+}
+1 & Réexécution, test & Demande d'accès test suivie jusqu'à la réponse &
+Coûteuse, à encadrer \\
+2 & Trace produite par le système & Journal d'accès, horodatage de
+consentement & Dépend de la configuration \\
+3 & Document signé et daté & Contrat de sous-traitance, autorisation &
+Prouve l'engagement, pas son exécution \\
+4 & Observation & Affichage en agence, armoire ouverte & Instantanée \\
+5 & Déclaration & Entretien, questionnaire & À corroborer \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~3.2. Hiérarchie indicative des preuves}\end{center}
+
+Une déclaration seule ne permet jamais de coter \OUI{}~; elle oriente la
+recherche d'une preuve de rang supérieur. Un document de rang~3 établit
+l'existence d'une règle, pas son application~: un contrat qui impose des
+mesures de sécurité au prestataire ne prouve pas que le prestataire les
+applique.
+
+Chaque constat se documente dans un \termecle{papier de travail}~:
+l'exigence, le critère, le test, l'échantillon, la preuve (référence de la
+pièce), la cote, la date, l'auteur et le réviseur. Le papier de travail
+permet à un autre auditeur de refaire le raisonnement, et à l'audité de
+contester un constat précis plutôt qu'une impression.
+
+\begin{boxinfo}
+\textbf{La demande test.} Pour vérifier le traitement des demandes de
+droits, l'auditeur peut adresser, avec l'accord écrit du commanditaire, une
+demande d'accès au nom d'un membre de l'équipe qui est réellement client.
+Une demande au nom d'une personne fictive, ou d'un client à son insu,
+serait une collecte déloyale. Le mandat doit prévoir ce test.
+\end{boxinfo}
+
+% ============================================================================
+\section{Décomposer et Coter}
+\label{sec:c03-decomposer}
+% ============================================================================
+
+La conformité à une loi de soixante-quinze articles ne se cote pas d'un
+bloc. On la décompose en \termecle{domaines}, puis en \termecle{exigences},
+chacune posée comme une question fermée à laquelle une preuve peut répondre
+\OUI{}, \NON{} ou \NEK{}.
+
+\begin{tableaucours}{cL{3.6cm}L{3.4cm}L{4.4cm}}{%
+    \tableauHeader{Code} &
+    \tableauHeader{Domaine} &
+    \tableauHeader{Articles} &
+    \tableauHeader{Exemple d'exigence}
+}
+D1 & Recensement et fondements & 9--14, 19, 29 & Le registre existe-t-il~? \\
+D2 & Droits des personnes & 21, 37--47 & Les demandes reçoivent-elles une
+réponse~? \\
+D3 & Sécurité et confidentialité & 15, 24, 25, 27 & Les accès sont-ils
+tracés~? \\
+D4 & Sous-traitants et transferts & 16, 26, 30--32 & Chaque prestataire
+a-t-il un contrat conforme~? \\
+D5 & Violations & 22 & Les violations sont-elles notifiées~? \\
+D6 & Gouvernance & 27(2), 33, 35 & L'évaluation d'impact est-elle faite
+quand le risque est élevé~? \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~3.3. Les six domaines d'un audit de protection des données}\end{center}
+
+Une exigence formulée avec « et » ou « ou » se scinde~: « le registre existe
+et il est à jour » contient deux questions, qui peuvent recevoir deux cotes
+différentes. La règle d'atomicité évite qu'un \NON{} ne désigne deux défauts
+à la fois.
+
+% ============================================================================
+\section{Lire les Mesures, Conclure}
+\label{sec:c03-conclure}
+% ============================================================================
+
+\begin{boxdef}
+Pour un ensemble de $n$ exigences cotées, avec $n_O$ réponses \OUI{}, $n_N$
+\NON{} et $n_K$ \NEK{}~:
+
+\smallskip
+\termecle{Taux de conformité}~: $\mu = n_O / n$.
+\termecle{Taux d'incertitude}~: $U = n_K / n$.
+\termecle{Entropie}~: $H = -\sum p \log_2 p$, sur les trois cotes, en bits,
+entre~0 et $\log_2 3 \approx 1{,}585$.
+\end{boxdef}
+
+\begin{boxprocedure}
+\textbf{La règle de décision du cours.}
+\begin{enumerate}
+    \item \textbf{$U$ d'abord.} Si $U \geq 0{,}20$, le domaine est opaque~:
+          aucune conclusion de conformité. On recherche les preuves, ou l'on
+          conclut sur l'opacité elle-même.
+    \item \textbf{$\mu$ ensuite.} Si $U < 0{,}20$, le domaine est clair~:
+          conforme si $\mu \geq 0{,}5$ et sans \NON{} sur une exigence
+          pénalement sanctionnée~; non conforme sinon.
+    \item \textbf{$H$ pour contrôler.} Une entropie élevée avec $U$ faible
+          signale un désaccord entre \OUI{} et \NON{}~: on décompose avant
+          de conclure.
+    \item \textbf{Les cotes prévalent.} Un seul \NON{} grave (collecte
+          déloyale, transfert illicite, données sensibles sans
+          consentement) suffit à motiver une recommandation prioritaire,
+          quelles que soient les mesures.
+\end{enumerate}
+\end{boxprocedure}
+
+Les seuils sont ceux du cours~; chaque mission peut en fixer d'autres, à
+condition de les écrire dans le plan d'audit avant de coter. La quatrième
+règle est propre à la protection des données~: la loi sanctionne
+pénalement certains écarts (articles~63 à~71), et un taux de conformité
+élevé ne compense pas une infraction.
+
+% ============================================================================
+\section{Le Plan d'Audit de NYANGA}
+\label{sec:c03-nyanga}
+% ============================================================================
+
+\begin{boxscenario}{Mission NYANGA. Le plan d'audit de KORO AUDIT, 2 juillet 2026}
+\textbf{Mandat.} Conseil d'administration de NYANGA CRÉDIT, 30~juin~2026~:
+« dire si l'établissement respecte la loi n°~2024/017 et recommander les
+mesures nécessaires ». Rapport au conseil le 25~septembre.
+
+\textbf{Critères.} Les articles~2 à~52 de la loi~; les textes d'application
+publiés à la date de la mission (aucun identifié)~; la politique de sécurité
+interne de 2025.
+
+\textbf{Périmètre.} Siège et trois agences tirées au sort (Dschang,
+Mbouda, Foumban)~; les onze familles de données du
+Chapitre~\ref{chap:donnees}~; période du 1\textsuperscript{er}~janvier~2025
+au 31~août~2026. \textbf{Exclusions déclarées~:} l'enquête pénale sur
+l'incident de mars~2025 et le contrôle de l'éditeur du logiciel bancaire
+dans ses propres locaux, à Abidjan.
+
+\textbf{Données de l'audit.} Consultation dans les locaux de NYANGA~;
+papiers de travail avec identités masquées~; conservation trois ans, puis
+destruction attestée.
+
+\textbf{Règle de décision.} Celle du cours, seuils inchangés.
+\end{boxscenario}
+
+\begin{boxlecture}{Le domaine D1 après la première semaine}
+\begin{tableaucours}{L{7.8cm}cL{3.2cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Les familles de données sont recensées & \OUI{} & Inventaire du 7~juillet \\
+Un registre des activités de traitement est tenu & \NON{} & Aucun registre \\
+Chaque traitement a un fondement valable & \NON{} & Formulaires, cahiers \\
+L'autorisation de l'Autorité est demandée & \NON{} & Attestation \\
+Une durée de conservation est fixée & \NON{} & Aucune règle \\
+L'information de l'article~21 est fournie & \NON{} & Formulaire 2016 \\
+L'identification des clients repose sur une obligation légale & \NEK{} &
+Texte à identifier \\
+La vidéosurveillance repose sur un fondement valable & \NEK{} & Fondement
+incertain \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Un \OUI{}, cinq \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}25}{1{,}30}
+
+\medskip
+\textbf{Lecture.} $U = 0{,}25 \geq 0{,}20$~: selon la première règle, le
+domaine est opaque et ne permet aucune conclusion de conformité. Mais la
+quatrième règle s'applique déjà~: cinq écarts sont établis, dont
+l'absence d'autorisation, sanctionnée par l'article~55. La conclusion
+provisoire est une non-conformité établie sur cinq exigences, avec deux
+exigences à instruire.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que la Méthode demande à chaque Métier}
+\label{sec:c03-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Écrire le mandat, les critères, le périmètre et la règle de décision avant
+le premier entretien. Distinguer dans le rapport les \NEK{} de preuve et les
+\NEK{} de critère.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Donner à l'auditeur un accès réel aux pièces, et nommer un interlocuteur
+par domaine. L'entrave à un contrôle de l'Autorité est un délit
+(article~70)~; l'entrave à un audit interne prive surtout l'organisation
+de sa propre information.
+\end{boxmetier}
+
+\begin{boxmetier}{RSSI}
+Préparer les preuves de sécurité sous une forme exploitable~: journaux
+exportés et datés, listes d'accès, rapports de sauvegarde. Un schéma de
+réseau ne prouve aucune mesure de protection des données.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item L'audit de protection des données a pour critères la loi et, le
+          cas échéant, une norme~; la sécurité n'en est qu'un domaine.
+    \item Les sept principes de l'ISO~19011 s'appliquent~; la
+          confidentialité impose de protéger les données que l'audit
+          manipule.
+    \item Un critère renvoyant à un texte non publié produit un \NEK{} de
+          critère, distinct d'un \NEK{} de preuve.
+    \item La conformité se décompose en six domaines et en exigences
+          atomiques cotées \OUI{}, \NON{} ou \NEK{}.
+    \item La règle de décision lit $U$ d'abord, $\mu$ ensuite, et un seul
+          écart grave suffit à motiver une recommandation prioritaire.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item rédiger le mandat et le périmètre d'une mission~;
+    \item classer des preuves selon leur force~;
+    \item appliquer la règle de décision à un domaine coté.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.1. Quelle preuve \niveaubase}]
+Pour chaque exigence, proposez la preuve la plus forte possible~: (a) les
+salariés ont été informés du traitement de leurs données~; (b) le
+prestataire de recouvrement efface les dossiers soldés~; (c) les accès aux
+dossiers clients sont limités aux agents de l'agence~; (d) les demandes
+d'accès reçoivent une réponse.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.2. Rendre atomique \niveaumoyen}]
+Réécrivez en exigences atomiques~: (a) « le registre existe et il est tenu à
+jour par un responsable désigné »~; (b) « les données sont chiffrées ou
+pseudonymisées »~; (c) « les contrats des prestataires prévoient la
+sécurité, la confidentialité et la restitution des données ».
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.3. Conclure sur D2 \niveaumoyen}]
+Le domaine D2 de NYANGA compte dix exigences~: 2~\OUI{}, 5~\NON{}, 3~\NEK{}.
+Calculez $\mu$, $U$ et $H$, appliquez la règle de décision et rédigez la
+phrase de conclusion du domaine.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.4. L'audit comme traitement \niveauexpert}]
+Rédigez la clause du mandat qui encadre les données personnelles consultées
+par l'auditeur~: finalité, accès, copies, masquage, conservation,
+destruction. Dites comment l'auditeur prouvera lui-même qu'il l'a respectée.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO~19011~\cite{iso19011_2018} et l'ISO/IEC~27007~\cite{iso27007},
+          pour la conduite des audits.
+    \item T.~E.~Minka Mi Nguidjoï, « Vers l'auditologie »~\cite{minka2026auditologie},
+          pour la décomposition et les mesures d'incertitude.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} La première exigence de D1 est le registre. Comment
+recenser tous les traitements d'une organisation, y compris ceux que la
+direction ignore~? C'est l'objet du Chapitre~\ref{chap:cartographie}.
+\end{boxinfo}

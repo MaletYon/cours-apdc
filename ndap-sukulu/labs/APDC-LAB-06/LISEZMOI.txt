@@ -1,0 +1,31 @@
+APDC-LAB-06, contrats de sous-traitance
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  grille_12_clauses.txt                   les douze clauses attendues
+  contrat_SOREC_recouvrement.txt          contrat avec le prestataire de recouvrement
+  contrat_editeur_logiciel_bancaire.txt   contrat avec l'éditeur du logiciel bancaire
+  contrat_operateur_SMS.txt               contrat avec l'opérateur de SMS
+  avenant_MEDISOFT_20mai2026.txt          avenant au contrat de MEDISOFT
+  constat_visite_SOREC.txt                constat de la visite chez SOREC
+  MANIFESTE_SHA256.txt                    empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Pour chaque contrat, rapprocher chaque article d'une des douze clauses de la grille.
+
+3. Compter les clauses présentes par contrat et repérer celles qui manquent.
+
+4. Lire le constat de visite et dire qui répond de l'écart.
+
+5. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

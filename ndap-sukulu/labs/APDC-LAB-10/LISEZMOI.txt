@@ -1,0 +1,30 @@
+APDC-LAB-10, audit intégrateur du profilage
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  demandes_credit_echantillon.csv   échantillon au dixième des demandes de microcrédit
+  grille_noun_score.csv             grille d'audit de NOUN SCORE, deux cotes à établir
+  note_methode.txt                  note de méthode et réclamation de M. ATANGANA
+  MANIFESTE_SHA256.txt              empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Calculer le taux de refus par région d'inscription, puis le rapport entre l'Extrême-Nord et l'Ouest.
+
+3. Compter les décisions qui ont fait l'objet d'une intervention humaine.
+
+4. Coter E1 et E5 : la première à partir des données, la seconde à partir de la note de méthode.
+
+5. Calculer µ, U et H de la grille, puis dire si la recommandation dépend des NEK.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

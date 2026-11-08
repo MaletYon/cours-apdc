@@ -1,0 +1,10 @@
+id;traitement;donnees
+N01;Classeur des mauvais payeurs, agences de l'Ouest;identité, téléphone, quartier, montant impayé, remarques dont l'origine régionale
+N02;Groupe de messagerie « Agents Ouest »;photos de pièces d'identité
+N03;Groupe de messagerie « Crédit terrain »;photos de pièces d'identité, adresses
+N04;Questionnaire de satisfaction en ligne;nom, téléphone, avis, hébergé à l'étranger
+N05;Kit de mesure d'audience de l'application;identifiants des téléphones, parcours
+N06;Enregistrement des appels du service client;voix, numéro, contenu des appels
+N07;Fichier des clients « privilégiés »;identité, encours, profession
+N08;Badges d'accès du siège;nom, photo, horaires de passage
+N09;CV reçus par messagerie;identité, parcours, photo, situation familiale

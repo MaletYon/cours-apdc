@@ -1,0 +1,52 @@
+% ============================================================================
+% Fichier  : annexes/Ann_B_outils.tex
+% Version  : 1.0 -- novembre 2026
+% ============================================================================
+
+\chapter{Outils}
+\label{ann:outils}
+
+Les outils servent l'audit~; ils ne le remplacent pas. Chacun produit des
+pièces qu'il faut ensuite qualifier, coter et documenter. Les outils de
+découverte et d'analyse s'utilisent avec l'accord écrit du commanditaire,
+sur les seuls systèmes de l'organisation.
+
+\begin{tableaucours}{L{3.6cm}L{4.4cm}L{4.0cm}}{%
+    \tableauHeader{Besoin} &
+    \tableauHeader{Outil ou méthode} &
+    \tableauHeader{Chapitre}
+}
+Tenir le registre & Tableur structuré selon le Tableau~4.1, ou base
+légère~; un modèle figure à l'annexe~\ref{ann:modeles} &
+\ref{chap:cartographie} \\
+Découvrir les données & Recherche de motifs par expressions régulières
+(\texttt{grep}, \texttt{ripgrep}) sur les partages~; lecture des schémas
+de bases & \ref{chap:cartographie} \\
+Conduire une évaluation d'impact & Logiciel PIA de la CNIL (libre) ou
+modèle tableur & \ref{chap:risque} \\
+Analyser les flux d'une application & Mandataire d'interception sur un
+appareil de test (\texttt{mitmproxy}), journaux DNS, \texttt{Wireshark} &
+\ref{chap:transferts} \\
+Repérer les traqueurs d'une application mobile & Analyse statique
+(\texttt{MobSF}), bases publiques de traqueurs (Exodus Privacy) &
+\ref{chap:cartographie} \\
+Exploiter des journaux d'accès & Tableur, \texttt{Python} et
+\texttt{pandas} pour le rapprochement avec les plannings &
+\ref{chap:securite} \\
+Mesurer $\mu$, $U$, $H$ & Tableur ou script~; formules du
+Chapitre~\ref{chap:audit} & \ref{chap:audit} \\
+Comparer des taux de décision & Tableaux croisés par groupe déclaré &
+\ref{chap:profilage} \\
+Protéger les données de l'audit & Conteneur chiffré, masquage des
+identités dans les papiers & \ref{chap:normes} \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~B.1. Outils de l'audit de protection des données}\end{center}
+
+\begin{boxinfo}
+\textbf{Un outil a ses angles morts.} Une recherche de motifs ne voit pas
+les images scannées~; un mandataire d'interception ne voit pas les flux
+d'un serveur~; une analyse statique ne dit pas ce qu'une bibliothèque
+envoie vraiment. L'auditeur écrit, pour chaque outil, ce qu'il a couvert
+et ce qu'il n'a pas pu couvrir.
+\end{boxinfo}

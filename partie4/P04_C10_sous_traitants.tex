@@ -1,0 +1,379 @@
+% ============================================================================
+% Fichier  : partie4/P04_C10_sous_traitants.tex
+% Titre    : Sous-traitants et Responsables Conjoints
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 1.0 -- novembre 2026
+% Corrigés : corriges/Corr_C10.tex
+% ============================================================================
+% Sources : loi n° 2024/017, art. 5, 16, 20, 23(3), 24, 26, 30, 31 (texte
+% officiel) ; ISO/IEC 27701 et 27018 (paraphrasées).
+% Faits nouveaux (bible) : contrat SOREC (2019), contrat de l'éditeur du
+% logiciel bancaire, avenant MEDISOFT du 20/05/2026, convention avec SAWA
+% ASSURANCES pour l'assurance des emprunteurs ; 17 au 21 août 2026.
+% ============================================================================
+
+\chapter{Sous-traitants et Responsables Conjoints}
+\label{chap:soustraitants}
+\chaptermark{Sous-traitants et responsables conjoints}
+
+\epigraph{%
+    « Confier ses données à un prestataire,\\
+    ce n'est pas lui confier sa responsabilité. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{%
+    Chapitres~\ref{chap:donnees} et~\ref{chap:cartographie}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Appliquer les obligations des articles~16, 26 et~30 à un contrat
+          de sous-traitance.
+    \item Contrôler les clauses d'un contrat contre une liste de vérification
+          déclarée.
+    \item Vérifier que le sous-traitant applique ce que le contrat prévoit.
+    \item Reconnaître une situation de responsables conjoints et vérifier la
+          convention de l'article~31.
+    \item Tirer les conséquences de l'article~20~: mêmes obligations pour le
+          responsable et le sous-traitant.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : un contrat de deux pages}
+% ============================================================================
+
+Douala, lundi 17~août~2026. Mme~BELLO rencontre le gérant de SOREC, le
+prestataire de recouvrement de NYANGA CRÉDIT. Chaque mois, SOREC reçoit par
+messagerie un classeur des débiteurs en retard~: noms, téléphones,
+adresses, employeurs, montants. Ses agents appellent, se déplacent,
+parfois chez l'employeur.
+
+Le contrat, signé en 2019, tient sur deux pages~: objet, rémunération au
+pourcentage des sommes recouvrées, durée. Il ne dit rien des données~:
+ni leur usage, ni leur sécurité, ni leur sort à la fin du dossier. Le gérant
+reconnaît sans difficulté que les classeurs des cinq dernières années sont
+conservés « au cas où », et que ses agents ont accès à tous les dossiers de
+tous les clients de SOREC.
+
+\begin{boxalert}
+\textbf{Violation typique.} Tenir le prestataire pour seul responsable de ce
+qu'il fait des données, ou tenir le contrat pour une preuve que le
+prestataire protège les données.
+
+\smallskip
+\textbf{Règle~:} le responsable « veille au respect » des mesures par son
+sous-traitant (article~16) et doit s'assurer qu'il offre des garanties
+suffisantes (article~30). Le contrat fixe les obligations~; l'audit vérifie
+qu'elles sont tenues.
+\end{boxalert}
+
+% ============================================================================
+\section{Les Obligations de la Loi}
+\label{sec:c10-obligations}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~30}~\cite{loi2024017}~:
+\textit{« (1) Lorsque le responsable du traitement recourt à un
+sous-traitant, il s'assure que celui-ci dispose des garanties suffisantes
+quant à la mise en œuvre des mesures techniques et organisationnelles
+appropriées de manière à ce que le traitement respecte les exigences de la
+présente loi. (2) Le traitement par un sous-traitant est régi par un
+contrat qui lie le sous-traitant au responsable du traitement. (3) Le
+contrat visé à l'alinéa 2 ci-dessus définit, notamment, le type de données
+à caractère personnel et les catégories de personnes concernées, les
+obligations et les droits du responsable du traitement, ainsi que du
+sous-traitant. »}
+
+\smallskip
+\textbf{Portée.} Le contrat est obligatoire~; son contenu minimal est
+court. Le mot « notamment » laisse au responsable le soin de le compléter
+pour satisfaire l'alinéa~1.
+\end{boxjuris}
+
+Trois autres articles complètent le régime. L'article~16 oblige le
+sous-traitant à « apporter des garanties suffisantes au respect des
+mesures de sécurité » et le responsable à veiller à leur application~;
+l'article~26 répète l'obligation de garanties pour la sécurité technique et
+organisationnelle~; l'article~20 assujettit le responsable et le
+sous-traitant « aux mêmes obligations ». L'article~23, alinéa~3, les rend
+enfin « solidairement responsables de toute publication de données à
+caractère personnel effectuée en l'absence du consentement de la personne
+concernée ».
+
+Le sous-traitant doit aussi tenir son propre registre (article~29) et
+informer l'Autorité et les personnes d'une violation (article~22). Un
+prestataire qui ignore ces obligations n'est pas seulement un risque pour
+son client~: il est lui-même en infraction.
+
+% ============================================================================
+\section{Le Contrat de Sous-traitance}
+\label{sec:c10-contrat}
+% ============================================================================
+
+La loi ne fixe que trois éléments du contrat. Pour satisfaire l'obligation
+de garanties suffisantes, le cours retient une liste de vérification de
+douze clauses, déclarée comme critère d'audit et inspirée des normes
+ISO/IEC~27701 et~27018.
+
+\begin{tableaucours}{cL{5.2cm}L{5.8cm}}{%
+    \tableauHeader{N°} &
+    \tableauHeader{Clause} &
+    \tableauHeader{Fondement}
+}
+1 & Types de données et catégories de personnes & Article~30(3) \\
+2 & Obligations et droits des deux parties & Article~30(3) \\
+3 & Objet, finalité et durée du traitement & Article~11 \\
+4 & Traitement sur instructions documentées seulement & Article~24(2) \\
+5 & Confidentialité des personnes autorisées & Articles~24 et~25(3) \\
+6 & Mesures de sécurité, renvoi à l'article~27 & Articles~16, 26, 27 \\
+7 & Sous-traitance ultérieure soumise à accord & Article~30(1) \\
+8 & Assistance pour les droits des personnes & Articles~37 à~47 \\
+9 & Information sans délai en cas de violation & Article~22 \\
+10 & Restitution ou destruction en fin de contrat & Article~13 \\
+11 & Droit d'audit du responsable & Article~16(2) \\
+12 & Lieu du traitement, transferts éventuels & Article~32 \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~10.1. Les douze clauses du cours (critère déclaré)}\end{center}
+
+Les clauses~1 et~2 sont exigées par la lettre de la loi~: leur absence est
+un \NON{} sans discussion. Les dix autres traduisent l'obligation de
+garanties~: leur absence est un \NON{} au regard du critère déclaré, et le
+rapport le précise. Le laboratoire APDC-LAB-06 exerce cette lecture sur
+cinq contrats.
+
+\begin{boxinfo}
+\textbf{Le droit d'audit.} La clause~11 est la condition de toutes les
+autres. Sans droit d'audit, le responsable ne peut pas vérifier les
+garanties qu'il doit s'assurer d'obtenir~; il ne peut que croire le
+prestataire. Un prestataire qui refuse tout audit oblige l'auditeur à
+coter \NEK{} chaque exigence qui dépend de lui, et le responsable à en
+tirer les conséquences.
+\end{boxinfo}
+
+% ============================================================================
+\section{Vérifier l'Exécution}
+\label{sec:c10-execution}
+% ============================================================================
+
+Un contrat parfait ne prouve rien de ce que fait le prestataire. L'audit des
+sous-traitants procède en trois cercles, du moins coûteux au plus probant~:
+
+\begin{enumerate}
+    \item \textbf{Les documents du prestataire}~: registre, politique de
+          sécurité, certificats, rapports d'audit indépendants. Un
+          certificat ISO/IEC~27001 ou 27018 couvre un périmètre~; on vérifie
+          qu'il inclut le service fourni.
+    \item \textbf{Le questionnaire et l'entretien}, recoupés par des pièces~:
+          liste des personnes ayant accès, journal des accès aux données du
+          client, preuve des destructions.
+    \item \textbf{L'audit sur place}, exercé au titre de la clause~11, pour
+          les prestataires qui portent les traitements les plus risqués.
+\end{enumerate}
+
+Le choix du cercle suit le risque. Un fournisseur de papeterie qui ne
+reçoit qu'une adresse de livraison ne justifie qu'un contrôle documentaire~;
+un hébergeur de dossiers médicaux justifie un audit sur place.
+
+% ============================================================================
+\section{Les Responsables Conjoints}
+\label{sec:c10-conjoints}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~31}~\cite{loi2024017}~:
+\textit{« (1) En cas de traitement conjoint, les responsables déterminent
+les finalités, ainsi que les moyens du traitement et en sont solidairement
+responsables. (2) Les responsables conjoints du traitement définissent de
+manière transparente, par une convention rendue publique, leurs
+obligations respectives aux fins d'assurer le respect des exigences de la
+présente loi, notamment en ce qui concerne leurs rôles respectifs, leurs
+relations vis-à-vis de la personne concernée, l'exercice des droits de la
+personne concernée, ainsi que leurs obligations respectives quant à la
+communication des informations visées à l'article 21 ci-dessus.
+(3) Nonobstant les termes de la convention visée à l'alinéa 2 ci-dessus,
+la personne concernée exerce les droits que lui confère la présente loi à
+l'égard des responsables du traitement. »}
+
+\smallskip
+\textbf{Portée.} La convention doit être \textit{rendue publique}~: c'est
+une exigence plus forte que celle du droit européen, qui n'impose que de
+mettre « les grandes lignes » à disposition. La personne peut s'adresser à
+l'un ou l'autre responsable, quelle que soit la répartition convenue.
+\end{boxjuris}
+
+Il y a responsabilité conjointe quand deux organisations décident ensemble
+de la finalité et des moyens, et pas quand l'une exécute les instructions de
+l'autre. NYANGA CRÉDIT et SAWA ASSURANCES\footnote{SAWA ASSURANCES est
+fictive.} proposent ensemble une assurance des emprunteurs~: NYANGA
+collecte le questionnaire de santé à l'agence, SAWA ASSURANCES décide de
+l'acceptation du risque, et les deux ont conçu ensemble le formulaire et
+le circuit. Ce sont des responsables conjoints, et le questionnaire de
+santé est une donnée sensible.
+
+% ============================================================================
+\section{Les Contrats de NYANGA et de MBOLO}
+\label{sec:c10-cas}
+% ============================================================================
+
+\begin{boxscenario}{Missions NYANGA et MBOLO. Cinq contrats, 17 au 21 août 2026}
+\begin{tableaucours}{L{3.4cm}cccL{4.2cm}}{%
+    \tableauHeader{Contrat} &
+    \tableauHeader{Cl. 1--2} &
+    \tableauHeader{Cl. 3--12} &
+    \tableauHeader{Audit} &
+    \tableauHeader{Observation}
+}
+SOREC (recouvrement) & 0/2 & 0/10 & Non & Classeurs de cinq ans
+conservés \\
+Éditeur du logiciel bancaire & 2/2 & 6/10 & Non & Hébergement à Abidjan,
+pas de clause de transfert \\
+Opérateur de SMS & 1/2 & 3/10 & Non & Contrat type de l'opérateur \\
+MEDISOFT (avenant 2026) & 2/2 & 10/10 & Oui & Avenant du 20~mai, audit
+prévu en octobre \\
+SAWA ASSURANCES (conjoint) & sans objet & sans objet & sans objet &
+Convention non rédigée \\
+\end{tableaucours}
+
+\medskip
+\textbf{Constatations.} Sur quatre contrats de sous-traitance, un seul
+contient les douze clauses (MEDISOFT, depuis l'avenant de mai). SOREC
+n'a aucune clause. L'éditeur du logiciel bancaire n'accepte pas d'audit et
+ne mentionne pas le pays d'hébergement. Aucune convention de
+responsabilité conjointe n'existe avec SAWA ASSURANCES.
+
+\textbf{Analyse} (confiance élevée sur les contrats, faible sur
+l'exécution). Les écarts contractuels sont établis. Pour l'exécution, seul
+SOREC a été vu~: la conservation de cinq ans de classeurs est un écart à
+l'article~13, dont NYANGA répond aussi (article~20).
+\end{boxscenario}
+
+\begin{boxlecture}{Le domaine D4, sous-traitants, à NYANGA}
+\begin{tableaucours}{L{7.8cm}cL{3.2cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Chaque sous-traitant est lié par un contrat & \OUI{} & Trois contrats \\
+Les contrats définissent données et personnes (art.~30(3)) & \NON{} &
+SOREC, opérateur \\
+Les contrats contiennent les douze clauses & \NON{} & Un sur trois au
+mieux \\
+Le droit d'audit est prévu & \NON{} & Aucun contrat \\
+SOREC détruit les données des dossiers clos & \NON{} & Classeurs
+conservés \\
+L'éditeur applique les mesures de sécurité convenues & \NEK{} & Pas
+d'audit, pas de rapport \\
+L'opérateur de SMS limite l'usage des numéros & \NEK{} & Aucune pièce \\
+La convention avec SAWA ASSURANCES est publique & \NON{} & Inexistante \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Un \OUI{}, cinq \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}25}{1{,}30}
+
+\medskip
+\textbf{Lecture.} Domaine opaque ($U = 0{,}25$)~: on ne sait pas ce que font
+deux des trois prestataires. Le manque de droit d'audit explique les deux
+\NEK{}~: corriger les contrats est la condition pour lever l'incertitude.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que la Sous-traitance demande à chaque Métier}
+\label{sec:c10-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Juriste conformité}
+Rédiger un avenant type aux douze clauses, le négocier en commençant par les
+prestataires les plus exposés, et tenir à jour la liste des sous-traitants
+avec leur contrat.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Refuser ou quitter un prestataire qui refuse le droit d'audit pour un
+traitement sensible. La responsabilité solidaire et l'article~20 font que
+ses manquements sont aussi les vôtres.
+\end{boxmetier}
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Distinguer dans le rapport les écarts contractuels (établis sur pièces) et
+les écarts d'exécution (établis seulement là où l'on a pu vérifier), et
+coter \NEK{} l'exécution des prestataires non vus.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Tout recours à un sous-traitant exige un contrat qui définit au
+          moins les données, les personnes, les obligations et les droits
+          des parties (article~30).
+    \item Le responsable s'assure des garanties du sous-traitant et veille à
+          leur application (articles~16 et~30)~; les deux ont les mêmes
+          obligations (article~20).
+    \item Le cours déclare un critère de douze clauses, dont le droit
+          d'audit, condition de toutes les autres.
+    \item Les responsables conjoints fixent leurs obligations dans une
+          convention rendue publique (article~31).
+    \item À NYANGA, aucun contrat ne prévoit d'audit, et SOREC conserve cinq
+          ans de données de débiteurs.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item contrôler un contrat contre les douze clauses~;
+    \item distinguer sous-traitant et responsable conjoint~;
+    \item choisir le cercle de vérification adapté au risque d'un
+          prestataire.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.1. Sous-traitant ou conjoint \niveaubase}]
+Qualifiez la relation~: (a) un cabinet comptable qui établit la paie de
+MBOLO~; (b) un laboratoire d'analyses qui reçoit les prélèvements et
+envoie les résultats au médecin~; (c) l'hébergeur de NOUN PAY~; (d) NYANGA
+et SAWA ASSURANCES pour l'assurance des emprunteurs.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.2. Lire un contrat \niveaumoyen}]
+Le contrat de l'opérateur de SMS prévoit que « l'opérateur pourra utiliser
+les données d'acheminement pour améliorer ses services et proposer des
+offres à ses abonnés ». Qualifiez l'opérateur pour cette utilisation, et
+dites quelles clauses vous ajoutez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.3. La convention publique \niveaumoyen}]
+Rédigez les rubriques de la convention entre NYANGA et SAWA ASSURANCES
+exigée par l'article~31. Qui recueille le consentement au questionnaire de
+santé, et sur quel fondement~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.4. Le refus d'audit \niveauexpert}]
+L'éditeur du logiciel bancaire refuse tout audit, invoquant la sécurité de
+ses autres clients. Proposez trois solutions qui permettraient à NYANGA de
+s'assurer des garanties exigées par l'article~30, et dites comment vous
+coterez la proposition « l'éditeur applique les mesures convenues » dans
+chaque cas.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item L'ISO/IEC~27701~\cite{iso27701}, pour les obligations des
+          sous-traitants.
+    \item L'ISO/IEC~27018~\cite{iso27018}, pour l'hébergement en nuage.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} L'éditeur du logiciel bancaire héberge les comptes à
+Abidjan, et l'hébergeur de NOUN PAY en Europe. Les données quittent le
+Cameroun~: c'est un transfert, soumis à autorisation. C'est l'objet du
+Chapitre~\ref{chap:transferts}.
+\end{boxinfo}

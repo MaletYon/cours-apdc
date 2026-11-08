@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C16
+Chapitre 16 : Mesurer la conformité, articuler les normes
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Comment se calcule µ ?
+      a) Le nombre de NEK divisé par le nombre d'exigences
+      b) Le nombre de OUI divisé par le nombre d'exigences
+      c) La somme des cotes
+      d) Le logarithme des NON
+
+ 2. Comment se calcule U ?
+      a) Le nombre de OUI divisé par deux
+      b) La différence entre OUI et NON
+      c) Le nombre de NEK divisé par le nombre d'exigences
+      d) Le produit des cotes
+
+ 3. Que mesure l'entropie H ?
+      a) La dispersion des cotes
+      b) La conformité
+      c) L'incertitude seule
+      d) Le coût de l'audit
+
+ 4. Quelle est la valeur maximale de H avec trois cotes ?
+      a) 1 bit
+      b) 2 bits
+      c) 3 bits
+      d) Environ 1,585 bit
+
+ 5. Le 6 juillet, quelle était la valeur de U à NYANGA ?
+      a) 0,22
+      b) 0,50
+      c) 0,17
+      d) 1
+
+ 6. Le 25 septembre, quelle était la valeur de U à NYANGA ?
+      a) 0,50
+      b) 0,25
+      c) 0,22
+      d) 0,10
+
+ 7. Que traduit souvent une baisse de µ au cours d'un audit ?
+      a) Une connaissance nouvelle
+      b) Une dégradation de l'organisation
+      c) Une erreur de calcul
+      d) Une fraude
+
+ 8. Pourquoi comparer les deux instantanés de NYANGA demande-t-il prudence ?
+      a) Ils sont faux
+      b) Ils sont confidentiels
+      c) Ils sont trop récents
+      d) Ils ne portent pas sur le même ensemble d'exigences
+
+ 9. De quoi dépendent les mesures selon la première question de recherche ?
+      a) De la météo
+      b) De la granularité du découpage
+      c) Du prix de l'audit
+      d) Du nom de l'auditeur
+
+10. Comment se lève un NEK de preuve ?
+      a) Avec un décret
+      b) Avec un jugement
+      c) En cherchant une pièce
+      d) Il ne se lève pas
+
+11. Comment se lève un NEK de critère ?
+      a) Avec un texte ou une décision de justice
+      b) En cherchant une pièce
+      c) En interrogeant un agent
+      d) En refaisant le calcul
+
+12. Comment le cours propose-t-il de décomposer U ?
+      a) U = µ + H
+      b) U = 1 - µ
+      c) U = H / 2
+      d) U = U_p + U_c
+
+13. Combien de NEK de preuve compte NYANGA ?
+      a) Six
+      b) Quatre
+      c) Dix
+      d) Deux
+
+14. Combien de NEK de critère compte NYANGA ?
+      a) Quatre
+      b) Dix
+      c) Six
+      d) Huit
+
+15. Quelle est la valeur approchée de U_c à NYANGA ?
+      a) 0,13
+      b) 0,09
+      c) 0,22
+      d) 0,50
+
+16. Quelle est la valeur approchée de U_p à NYANGA ?
+      a) 0,13
+      b) 0,22
+      c) 0,17
+      d) 0,09
+
+17. Que mesure U_p ?
+      a) L'état du droit
+      b) Ce que l'organisation peut réduire
+      c) La dispersion
+      d) La conformité
+
+18. Que pourrait mesurer U_c sur plusieurs organisations et années ?
+      a) La rentabilité
+      b) La sécurité réseau
+      c) La maturité du cadre normatif
+      d) Le nombre d'agents
+
+19. La décomposition U_p et U_c est-elle validée ?
+      a) Non, c'est une piste
+      b) Oui, par l'ISO
+      c) Oui, par la loi
+      d) Oui, par l'Autorité
+
+20. Qui sont les coauteurs de l'auteur du cours sur la chaîne pénale ?
+      a) Mme BELLO et M. NGANDO
+      b) M. TCHOUA et Me ETOUNDI
+      c) M. NJOYA et Mme KENFACK
+      d) Robert Thierry MASSOUSSI SONGO et Dieudonné BIALO
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. µ est la part des réponses OUI.
+      Vrai / Faux
+
+22. Une baisse de µ pendant un audit traduit toujours une dégradation.
+      Vrai / Faux
+
+23. Un NEK de critère se lève en cherchant une pièce.
+      Vrai / Faux
+
+24. À NYANGA, U_c est supérieur à U_p.
+      Vrai / Faux
+
+25. La décomposition U_p et U_c est une méthode validée et normalisée.
+      Vrai / Faux
+
+26. Le manuscrit sur la chaîne pénale est déjà publié.
+      Vrai / Faux
+
+27. Les auteurs distinguent compatibilité, tension et incompatibilité.
+      Vrai / Faux
+
+28. La matrice des auteurs compte huit étapes.
+      Vrai / Faux
+
+29. Les auteurs concluent à des incompatibilités irréductibles.
+      Vrai / Faux
+
+30. Les auteurs qualifient les acteurs opération par opération.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Le cours décompose U en U_p et U_______.
+
+32. Un NEK qui attend une pièce est un NEK de ______.
+
+33. Un NEK qui attend un texte est un NEK de ______.
+
+34. La part des NEK se note ______.
+
+35. Le premier coauteur cité s'appelle Robert Thierry MASSOUSSI ______.
+
+36. Le second coauteur cité s'appelle Dieudonné ______.
+
+37. Les auteurs distinguent ______ niveaux d'articulation.
+
+38. La matrice des auteurs compte ______ étapes.
+
+39. La tension liée aux données anciennes est dite ______.
+
+40. La tension liée au secret de l'enquête est dite ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

@@ -1,0 +1,27 @@
+APDC-LAB-04, demandes des personnes et délais
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  registre_demandes_reconstitue.csv       31 demandes reçues du 23 juin au 31 août 2026
+  liste_appels_prospection_20260828.csv   liste d'appels de prospection du 28 août
+  MANIFESTE_SHA256.txt                    empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Compter les demandes par issue : réponse complète, réponse d'attente, aucune réponse.
+
+3. Calculer le délai de chaque réponse complète, puis la médiane et le nombre de délais au-delà de 30 jours.
+
+4. Rapprocher les numéros des oppositions de la liste d'appels du 28 août.
+
+5. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

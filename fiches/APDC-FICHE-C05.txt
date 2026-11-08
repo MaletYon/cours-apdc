@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C05
+Chapitre 5 : Évaluer le risque pour les personnes
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quel article impose l'évaluation du risque pour tout traitement ?
+      a) L'article 33
+      b) L'article 25
+      c) L'article 22
+      d) L'article 13
+
+ 2. Quel article impose une évaluation d'impact préalable pour les risques élevés ?
+      a) L'article 25
+      b) L'article 29
+      c) L'article 33
+      d) L'article 53
+
+ 3. Qui fixe les critères et modalités de l'évaluation du risque ?
+      a) La voie réglementaire
+      b) Le DSI
+      c) Le client
+      d) La norme ISO 9001
+
+ 4. Quand l'évaluation d'impact doit-elle être faite ?
+      a) Après un incident
+      b) À la clôture du traitement
+      c) Au rapport annuel
+      d) Avant le traitement
+
+ 5. Que analyse l'évaluation d'impact selon l'article 5 ?
+      a) Le coût du projet
+      b) La probabilité et la gravité des risques pour les droits et libertés
+      c) La rentabilité
+      d) La performance du réseau
+
+ 6. De quel point de vue se fait l'évaluation d'impact ?
+      a) De celui de l'actionnaire
+      b) De celui du fournisseur
+      c) De celui des personnes
+      d) De celui de l'assureur
+
+ 7. Quelle analyse ne suffit pas à satisfaire la loi ?
+      a) Une analyse des pannes et pertes de l'organisation
+      b) Une analyse des risques pour les patients
+      c) Une évaluation d'impact
+      d) Une description des flux
+
+ 8. La loi définit-elle le « risque élevé » ?
+      a) Oui, à l'article 5
+      b) Oui, à l'article 33
+      c) Oui, à l'article 73
+      d) Non
+
+ 9. Combien de critères faut-il réunir pour présumer un risque élevé selon le cours ?
+      a) Un seul
+      b) Au moins deux
+      c) Cinq
+      d) Huit
+
+10. Lequel est un critère de risque élevé du cours ?
+      a) Un fichier de fournisseurs de papeterie
+      b) Un traitement de moins de dix personnes
+      c) Des données sensibles
+      d) Un traitement temporaire de test
+
+11. Quel traitement relève d'un critère de risque élevé du cours ?
+      a) Une surveillance systématique
+      b) Une liste de diffusion interne
+      c) Un annuaire téléphonique
+      d) Un calendrier partagé
+
+12. Quelle situation fait partie des critères de risque élevé du cours ?
+      a) Un traitement sur papier
+      b) Un traitement daté
+      c) Un traitement interne au siège
+      d) Un transfert hors du Cameroun
+
+13. Combien de critères réunit la téléconsultation de MBOLO ?
+      a) Un
+      b) Cinq
+      c) Deux
+      d) Huit
+
+14. Que sont les critères de risque élevé du cours ?
+      a) Une obligation légale
+      b) Une norme ISO
+      c) Une convention déclarée en attendant le texte
+      d) Une décision de l'Autorité
+
+15. Quelle norme décrit le déroulement d'une évaluation d'impact ?
+      a) ISO/IEC 29134
+      b) ISO/IEC 27018
+      c) ISO 19011
+      d) ISO/IEC 27035
+
+16. Combien d'étapes compte l'évaluation d'impact dans le cours ?
+      a) Trois
+      b) Sept
+      c) Dix
+      d) Cinq
+
+17. Quelle est la première étape ?
+      a) Choisir les mesures
+      b) Décrire le traitement
+      c) Décider
+      d) Coter la gravité
+
+18. Quelle étape vérifie fondement et données strictement utiles ?
+      a) La description
+      b) La décision
+      c) La nécessité et la proportionnalité
+      d) Le choix des mesures
+
+19. Quelle étape suit l'appréciation des risques ?
+      a) Le choix des mesures
+      b) La description
+      c) La nécessité
+      d) La publication
+
+20. Qui valide la décision finale ?
+      a) Le prestataire
+      b) Le patient
+      c) L'auditeur
+      d) Le responsable du traitement
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Tout traitement doit faire l'objet d'une évaluation du risque.
+      Vrai / Faux
+
+22. Deux critères réunis suffisent à présumer un risque élevé.
+      Vrai / Faux
+
+23. La loi définit précisément le risque élevé.
+      Vrai / Faux
+
+24. L'évaluation d'impact mesure d'abord le risque financier de l'organisation.
+      Vrai / Faux
+
+25. La norme ISO/IEC 29134 décrit l'évaluation d'impact.
+      Vrai / Faux
+
+26. La disparition des données correspond à la disponibilité.
+      Vrai / Faux
+
+27. Une vraisemblance inconnue se cote limitée par défaut.
+      Vrai / Faux
+
+28. La téléconsultation de MBOLO réunit cinq critères de risque élevé.
+      Vrai / Faux
+
+29. L'enregistrement des séances a été maintenu.
+      Vrai / Faux
+
+30. Les mesures décidées sont toujours en place.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'évaluation d'impact est exigée par l'article ______.
+
+32. L'évaluation du risque pour tout traitement est exigée par l'article ______.
+
+33. La norme sur l'évaluation d'impact est l'ISO/IEC ______.
+
+34. L'accès illégitime touche la ______.
+
+35. L'échelle de gravité compte ______ niveaux.
+
+36. Un traitement qui réunit au moins ______ critères est présumé à risque élevé.
+
+37. Le prestataire du dossier patient de MBOLO s'appelle ______.
+
+38. La téléconsultation vise les villages de la ______.
+
+39. La deuxième étape apprécie la nécessité et la ______.
+
+40. Une vraisemblance inconnue se cote ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

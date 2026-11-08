@@ -1,0 +1,16 @@
+Contrat de prestation entre CENTRE MÉDICAL MBOLO et MEDISOFT SARL (Douala) (extrait des articles)
+
+Article 1. Le prestataire traite l'identité des patients, leurs dossiers médicaux et les images d'examen.
+Article 2. Chaque partie s'engage à respecter les obligations décrites au présent contrat.
+Article 3. Le service a pour objet la tenue des comptes, pour la durée du contrat.
+Article 4. Le prestataire n'agit que sur instruction écrite du client.
+Article 5. Le personnel du prestataire est tenu au secret professionnel.
+Article 6. Le prestataire met en œuvre les mesures de sécurité de l'article 27 de la loi n° 2024/017.
+Article 7. Le prestataire ne fait appel à un autre prestataire qu'avec l'accord écrit du client.
+Article 8. Le prestataire aide le client à répondre aux demandes des personnes concernées.
+Article 9. Le prestataire signale sans délai toute violation de données au client.
+Article 10. À la fin du contrat, le prestataire restitue puis détruit les données.
+Article 11. Le client peut faire auditer le prestataire, sur préavis de quinze jours.
+Article 12. Les données sont hébergées à Douala ; aucun transfert hors du Cameroun sans accord écrit.
+
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

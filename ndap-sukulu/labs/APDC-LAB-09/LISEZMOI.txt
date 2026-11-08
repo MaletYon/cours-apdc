@@ -1,0 +1,28 @@
+APDC-LAB-09, durées de conservation
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  politique_conservation_proposee.txt   politique de conservation proposée
+  extrait_comptes.csv                   extrait de 800 comptes de la base
+  extrait_prospects.csv                 extrait de 400 prospects
+  MANIFESTE_SHA256.txt                  empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Pour les comptes clos, comparer la date de clôture au 31/08/2016 (10 ans avant le contrôle).
+
+3. Pour les prospects, comparer la date du dernier contact au 31/08/2025.
+
+4. Calculer les parts et repérer les données les plus anciennes.
+
+5. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

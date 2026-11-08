@@ -1,0 +1,7 @@
+flux;service;donnees;pays_traitement;preuve
+F1;Hébergement principal;toutes les données;Union européenne;contrat, console
+F2;Vérification d'identité;selfies, pièces d'identité;inconnu;"code de l'application ; contrat muet"
+F3;Mesure d'audience;identifiants, parcours;États-Unis;code, trafic
+F4;Messagerie d'entreprise;échanges avec les clients;États-Unis;facture, documentation
+F5;Support de nuit;consultation des comptes;Maroc;contrat, journaux d'accès
+F6;SMS;numéros, messages;Cameroun;contrat

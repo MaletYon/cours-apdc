@@ -1,0 +1,31 @@
+APDC-LAB-07, flux de données vers l'étranger
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  inventaire_flux.csv                les six flux sortants recensés par l'audit
+  correspondance_domaines.csv        domaine contacté et flux correspondant
+  trafic_sortant_21-25sept2026.csv   trafic sortant capturé du 21 au 25 septembre 2026
+  etat_des_autorisations.txt         état des autorisations
+  MANIFESTE_SHA256.txt               empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Distinguer, parmi les flux sortants, ceux qui sont des transferts au sens de la loi.
+
+3. Rattacher chaque ligne du trafic à un flux, puis sommer les volumes par pays.
+
+4. Repérer le flux dont le pays n'est établi par aucune pièce.
+
+5. Calculer U pour la grille des transferts : deux OUI, trois NON, trois NEK sur huit.
+
+6. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

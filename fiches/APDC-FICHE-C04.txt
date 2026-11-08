@@ -1,0 +1,233 @@
+NDAP SUKULU · APDC · fiche APDC-FICHE-C04
+Chapitre 4 : Cartographier les traitements
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Quel article impose le registre des activités de traitement ?
+      a) L'article 22
+      b) L'article 29
+      c) L'article 13
+      d) L'article 73
+
+ 2. Qui doit tenir un registre selon l'article 29 ?
+      a) Seulement l'Autorité
+      b) Seulement le DSI
+      c) Le responsable et le sous-traitant
+      d) Seulement les banques
+
+ 3. Sous quelle forme le registre peut-il être tenu ?
+      a) Physique ou numérique
+      b) Seulement numérique
+      c) Seulement papier signé
+      d) Seulement en ligne
+
+ 4. Quel champ du registre est exigé par la loi ?
+      a) Le prix du logiciel
+      b) Le nom du serveur
+      c) Le planning des agents
+      d) Les finalités du traitement
+
+ 5. Quel champ relie le registre aux autorisations ?
+      a) La date de création
+      b) Le numéro d'autorisation ou les garanties
+      c) Le nom de l'agence
+      d) Le logo
+
+ 6. Quel champ est recommandé mais non exigé par la loi ?
+      a) Les finalités
+      b) Les destinataires
+      c) La durée de conservation
+      d) Les catégories de personnes
+
+ 7. Quel autre champ est seulement recommandé pour le registre ?
+      a) Le propriétaire et la date de revue
+      b) Les catégories de données
+      c) Le responsable
+      d) Les destinataires
+
+ 8. Par quoi faut-il commencer le recensement ?
+      a) Par l'inventaire des applications
+      b) Par les factures
+      c) Par les serveurs
+      d) Par les processus et les personnes concernées
+
+ 9. Pourquoi l'inventaire des applications ne suffit-il pas ?
+      a) Les applications sont secrètes
+      b) Une application sert plusieurs traitements et certains n'ont pas d'application
+      c) Il est toujours exact
+      d) La loi l'interdit
+
+10. Quel traitement peut ne reposer sur aucune application ?
+      a) La paie
+      b) La tenue des comptes
+      c) Un cahier de prospection
+      d) La messagerie
+
+11. Que fait-on après avoir renseigné les fiches ?
+      a) On les confronte à la découverte et aux flux
+      b) On publie le registre
+      c) On efface les données
+      d) On arrête l'audit
+
+12. Qui valide chaque fiche du registre ?
+      a) L'Autorité
+      b) Le client
+      c) L'auditeur seul
+      d) Son propriétaire
+
+13. Qu'est-ce que la découverte des données ?
+      a) La publication du registre
+      b) La recherche des données personnelles que le registre ignore
+      c) Le chiffrement des disques
+      d) La suppression des doublons
+
+14. Sur quel support recherche-t-on des motifs de numéros de téléphone ?
+      a) Le pare-feu
+      b) Le BIOS
+      c) Les partages de fichiers et les postes
+      d) Le routeur
+
+15. Que cherche-t-on dans les schémas de bases de données ?
+      a) Des colonnes comme nom, tel, cni
+      b) Des virus
+      c) Des certificats
+      d) Des mots de passe administrateur
+
+16. La découverte est-elle un traitement de données personnelles ?
+      a) Non, jamais
+      b) Seulement à l'étranger
+      c) Seulement pour les mineurs
+      d) Oui, elle s'encadre
+
+17. Que relève-t-on en priorité lors de la découverte ?
+      a) Le contenu complet des fichiers
+      b) Des indicateurs, pas le contenu
+      c) Les mots de passe
+      d) Les photos
+
+18. Pourquoi qualifie-t-on chaque fichier signalé ?
+      a) Pour le supprimer
+      b) Pour le publier
+      c) À cause des faux positifs
+      d) Pour le chiffrer
+
+19. Que décrit une cartographie des flux ?
+      a) Le chemin des données entre traitements, systèmes, prestataires et pays
+      b) Le plan des bureaux
+      c) L'organigramme
+      d) Le budget
+
+20. Quelle source révèle souvent un flux non déclaré ?
+      a) Le règlement intérieur
+      b) Le contrat de travail
+      c) La météo
+      d) Une facture de service en ligne
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Le sous-traitant doit aussi tenir un registre.
+      Vrai / Faux
+
+22. Le registre doit obligatoirement être numérique.
+      Vrai / Faux
+
+23. On recense d'abord à partir des applications.
+      Vrai / Faux
+
+24. La découverte des données est elle-même un traitement.
+      Vrai / Faux
+
+25. La découverte relève de préférence le contenu complet des fichiers.
+      Vrai / Faux
+
+26. L'interconnexion n'est licite que si une obligation légale l'impose.
+      Vrai / Faux
+
+27. Le registre déclaratif de NYANGA était complet.
+      Vrai / Faux
+
+28. Le classeur des mauvais payeurs était connu de la direction.
+      Vrai / Faux
+
+29. Une facture peut révéler un flux de données non déclaré.
+      Vrai / Faux
+
+30. Les finalités sont un champ obligatoire du registre.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Le registre des activités de traitement est imposé par l'article ______.
+
+32. L'interconnexion des fichiers est encadrée par l'article ______.
+
+33. Le registre complet de NYANGA compte ______ traitements.
+
+34. Le registre déclaratif de NYANGA compte ______ traitements.
+
+35. La recherche des données que le registre ignore s'appelle la ______ des données.
+
+36. On recense à partir des ______, pas des applications.
+
+37. Le chemin des données se décrit dans une cartographie des ______.
+
+38. Le classeur des mauvais payeurs a été trouvé dans l'agence de ______.
+
+39. Le taux de couverture du registre déclaratif est de ______ %.
+
+40. L'interconnexion n'est licite que pour une obligation ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................
