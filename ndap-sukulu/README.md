@@ -14,10 +14,10 @@ Trois façons, au choix :
 
 | Situation | Que faire |
 |---|---|
-| **En ligne** (le plus simple) | Ouvrez `https://maletyon.github.io/MSN-2S4-SEC02/ndap-sukulu/` dans Edge, Chrome ou Firefox. |
+| **En ligne** (le plus simple) | Ouvrez `https://maletyon.github.io/cours-apdc/ndap-sukulu/` dans Edge, Chrome ou Firefox. |
 | **Sur un ordinateur, sans Internet** | Téléchargez [`NDAP_SUKULU_APDC_ordinateur.zip`](NDAP_SUKULU_APDC_ordinateur.zip), décompressez-le, puis double-cliquez sur `NDAP_SUKULU_APDC.html`. Double-cliquez une fois sur `Creer_raccourci_Bureau.cmd` pour avoir une icône sur le Bureau. |
-| **Sur un téléphone** | Ouvrez `https://maletyon.github.io/MSN-2S4-SEC02/ndap-sukulu/telephone/`, puis, dans le menu du navigateur, « Ajouter à l'écran d'accueil ». Les fiches fonctionnent ensuite sans réseau ; les labs ne sont proposés que sur ordinateur. |
-| **Si l'adresse est bloquée** par le réseau (page « Web Page Blocked », « connexion réinitialisée ») | Certains pare-feu d'école ou d'entreprise bloquent les sites `github.io`. Utilisez l'adresse de secours `https://raw.githack.com/MaletYon/MSN-2S4-SEC02/main/ndap-sukulu/` (téléphone : ajoutez `telephone/` à la fin), ou téléchargez l'archive depuis GitHub : `https://github.com/MaletYon/MSN-2S4-SEC02/raw/main/ndap-sukulu/NDAP_SUKULU_APDC_ordinateur.zip`, puis travaillez hors ligne. |
+| **Sur un téléphone** | Ouvrez `https://maletyon.github.io/cours-apdc/ndap-sukulu/telephone/`, puis, dans le menu du navigateur, « Ajouter à l'écran d'accueil ». Les fiches fonctionnent ensuite sans réseau ; les labs ne sont proposés que sur ordinateur. |
+| **Si l'adresse est bloquée** par le réseau (page « Web Page Blocked », « connexion réinitialisée ») | Certains pare-feu d'école ou d'entreprise bloquent les sites `github.io`. Utilisez l'adresse de secours `https://raw.githack.com/MaletYon/cours-apdc/main/ndap-sukulu/` (téléphone : ajoutez `telephone/` à la fin), ou téléchargez l'archive depuis GitHub : `https://github.com/MaletYon/cours-apdc/raw/main/ndap-sukulu/NDAP_SUKULU_APDC_ordinateur.zip`, puis travaillez hors ligne. |
 
 ### 2. Se connecter
 
@@ -53,10 +53,10 @@ L'enseignant travaille dans l'**espace enseignant**, une application séparée q
 3. **Contenus** (facultatif) : régler durées et tentatives, désactiver une évaluation, ajouter des questions ou des labs, puis « Publier les ajouts » pour obtenir `ajouts.js`.
 4. **Publier** : déposer `identifiants.js` (et `ajouts.js`) dans `Prototypes\Ndap Sukulu\cours\MSN-2S4-SEC02\`, puis lancer :
    ```
-   py outils\construire.py MSN-2S4-SEC02 --publier "<chemin du dépôt MSN-2S4-SEC02>"
+   py outils\construire.py MSN-2S4-SEC02 --publier "<chemin du dépôt cours-apdc>"
    ```
    Le dossier `ndap-sukulu/` du dépôt est régénéré (version ordinateur, version téléphone, archive téléchargeable, ce fichier). La publication **est refusée** si un corrigé ou un fichier de l'espace enseignant s'y trouvait.
-5. **Mettre en ligne** : valider (`git add ndap-sukulu`, `git commit`) et pousser (`git push`). La première fois, activer GitHub Pages sur le dépôt : *Settings*, *Pages*, *Deploy from a branch*, branche `main`, dossier `/ (root)`. L'adresse est `https://maletyon.github.io/MSN-2S4-SEC02/ndap-sukulu/`.
+5. **Mettre en ligne** : valider (`git add ndap-sukulu`, `git commit`) et pousser (`git push`). La première fois, activer GitHub Pages sur le dépôt : *Settings*, *Pages*, *Deploy from a branch*, branche `main`, dossier `/ (root)`. L'adresse est `https://maletyon.github.io/cours-apdc/ndap-sukulu/`.
 
 ### Pendant la période
 
