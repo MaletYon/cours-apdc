@@ -18,7 +18,7 @@ La loi n° 2024/017 du 23 décembre 2024 relative à la protection des données 
 | Les présentations | [`Présentation/`](Présentation/) | 16 présentations PowerPoint : vision d'ensemble et 15 séances de 2 heures, avec notes du présentateur |
 | Les fiches d'exercices | [`fiches/`](fiches/) | 17 fiches de 40 questions au format texte, à distribuer en attendant l'ouverture de NDAP SUKULU |
 | Le livret de correction | [`correction/`](correction/) | Accès réservé : voir la page du dossier |
-| Les sources LaTeX | `front/`, `partie0/` à `partie6/`, `annexes/`, `bibliographie/`, `figures/`, [`Style_APDC.sty`](Style_APDC.sty) | Sources du livre |
+| Les sources LaTeX | `front/`, `partie0/` à `partie7/`, `annexes/`, `bibliographie/`, `figures/`, [`Style_APDC.sty`](Style_APDC.sty) | Sources du livre |
 
 ## Organisation du cours (30 heures, 15 séances de 2 heures)
 
@@ -28,11 +28,12 @@ Les 30 heures sont consacrées au cours magistral. Les travaux dirigés (fiches,
 |---|---|---|
 | **Prologue** | 0. Le 24 juin 2026 | [`partie0/`](partie0/) |
 | **I. Fondements** | 1. Données, traitements, acteurs · 2. Les principes du traitement | [`partie1/`](partie1/) |
-| **II. Méthode** | 3. Conduire un audit de protection des données · 4. Cartographier les traitements · 5. Évaluer le risque pour les personnes · 6. Auditer les droits des personnes · 7. Auditer la sécurité des données | [`partie2/`](partie2/) |
-| **III. Cadre normatif, juridique et déontologique** | 8. La loi n° 2024/017 et le cadre africain · 9. Normes, certification et déontologie | [`partie3/`](partie3/) |
-| **IV. Pratique** | 10. Sous-traitants et responsables conjoints · 11. Les transferts internationaux · 12. Les violations de données · 13. Programme de conformité et rapport d'audit | [`partie4/`](partie4/) |
-| **V. Défis avancés** | 14. Profilage, décisions automatisées et intelligence artificielle · 15. Les secteurs sensibles | [`partie5/`](partie5/) |
-| **VI. Recherche** | 16. Mesurer la conformité, articuler les normes | [`partie6/`](partie6/) |
+| **II. Le contexte international** | 3. Les sources internationales et africaines · 4. Le RGPD et son effet hors d'Europe · 5. Le NIST Privacy Framework et les normes ISO | [`partie2/`](partie2/) |
+| **III. Le contexte national** | 6. La loi n° 2024/017 : autorisation, Autorité, sanctions · 7. La loi n° 2010/012 et les textes connexes | [`partie3/`](partie3/) |
+| **IV. Méthode** | 8. Conduire un audit de protection des données · 9. Cartographier les traitements · 10. Évaluer le risque pour les personnes · 11. Auditer les droits des personnes · 12. Auditer la sécurité des données | [`partie4/`](partie4/) |
+| **V. Pratique** | 13. Sous-traitants et responsables conjoints · 14. Les transferts internationaux · 15. Les violations de données · 16. Programme de conformité et rapport d'audit | [`partie5/`](partie5/) |
+| **VI. Défis avancés** | 17. Profilage, décisions automatisées et intelligence artificielle · 18. Les secteurs sensibles | [`partie6/`](partie6/) |
+| **VII. Recherche** | 19. Mesurer la conformité, articuler les normes | [`partie7/`](partie7/) |
 | **Annexes** | A. Glossaire · B. Outils · C. Modèles de documents · D. Textes et normes · E. Bibliographie commentée · F. Contacts | [`annexes/`](annexes/) |
 
 ## NDAP SUKULU, la salle de classe compagnon
@@ -51,15 +52,15 @@ La connexion se fait avec le matricule et le mot de passe remis par l'enseignant
 | Lab | Sujet | Chapitre |
 |---|---|---|
 | APDC-LAB-01 | Qualifier les données d'un export | 1, 2 |
-| APDC-LAB-02 | Registre déclaré, fichiers découverts | 4 |
-| APDC-LAB-03 | Évaluation d'impact de la téléconsultation | 5 |
-| APDC-LAB-04 | Demandes des personnes et délais | 6 |
-| APDC-LAB-05 | Journaux d'accès au dossier patient | 7 |
-| APDC-LAB-06 | Contrats de sous-traitance | 10 |
-| APDC-LAB-07 | Flux de données vers l'étranger | 11 |
-| APDC-LAB-08 | Violation de données et notification | 12 |
-| APDC-LAB-09 | Durées de conservation | 13 |
-| APDC-LAB-10 | Audit intégrateur du profilage | 14, 16 |
+| APDC-LAB-02 | Registre déclaré, fichiers découverts | 9 |
+| APDC-LAB-03 | Évaluation d'impact de la téléconsultation | 10 |
+| APDC-LAB-04 | Demandes des personnes et délais | 11 |
+| APDC-LAB-05 | Journaux d'accès au dossier patient | 12 |
+| APDC-LAB-06 | Contrats de sous-traitance | 13 |
+| APDC-LAB-07 | Flux de données vers l'étranger | 14 |
+| APDC-LAB-08 | Violation de données et notification | 15 |
+| APDC-LAB-09 | Durées de conservation | 16 |
+| APDC-LAB-10 | Audit intégrateur du profilage | 17, 19 |
 
 ## Sources de recherche
 
