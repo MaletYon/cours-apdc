@@ -1,0 +1,546 @@
+% ============================================================================
+% Fichier  : partie2/P02_C05_nist_iso.tex
+% Titre    : Le NIST Privacy Framework et les Normes ISO
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 3.0 -- novembre 2026
+% Corrigés : corriges/Corr_C05.tex
+% ============================================================================
+% Sources : NIST Privacy Framework 1.0 (16 janvier 2020) et projet public de
+% la version 1.1 (14 avril 2025) ; NISTIR 8062 ; SP 800-53 rév. 5 ;
+% SP 800-122 ; AI RMF 1.0. Normes ISO/IEC 29100, 27701 (éditions 2019 et
+% 2025), 29134, 27018, sous licence, paraphrasées. Les intitulés anglais des
+% fonctions du NIST sont conservés. État de la version 1.1 du cadre du NIST
+% à revérifier à chaque édition du cours. Les sections sur les normes ISO et
+% les deux certifications viennent de l'ancien chapitre 9 (version 1).
+% ============================================================================
+
+\chapter{Le NIST Privacy Framework et les Normes ISO}
+\label{chap:normes}
+\chaptermark{NIST et normes ISO}
+
+\epigraph{%
+    « Un certificat dit qu'un système de management existe.\\
+    Il ne dit pas que chaque traitement est licite. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Chapitres~\ref{chap:international} et~\ref{chap:rgpd}~; ISO/IEC~27001
+    (UE MSN-2S3-SEC08)
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Distinguer trois natures de référentiel~: la loi, la norme
+          certifiable, le cadre volontaire.
+    \item Décrire le \textit{Privacy Framework} du NIST~: noyau, profils,
+          niveaux de mise en œuvre.
+    \item Situer les normes ISO/IEC~29100, 27701, 29134 et 27018 et dire ce
+          que l'édition 2025 de l'ISO/IEC~27701 a changé.
+    \item Distinguer la certification prévue par la loi (article~34) de la
+          certification d'un système de management.
+    \item Établir une correspondance entre la loi, le RGPD, le cadre du NIST
+          et la norme et en dire les limites.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « avec le certificat, nous serons conformes »}
+% ============================================================================
+
+Bafoussam, mardi 1\textsuperscript{er}~septembre~2026. NOUN PAY\footnote{NOUN
+PAY, ses dirigeants et ses clients sont fictifs. L'entreprise figure aussi
+dans le cours de gouvernance des SI de l'auteur.} prépare une levée de fonds.
+Un investisseur américain demande une preuve de conformité en matière de
+données et joint à son questionnaire une grille tirée du \textit{Privacy
+Framework} du NIST. Le directeur général, M.~NJOYA, a trouvé la solution~: « Nous
+allons nous faire certifier ISO/IEC~27701. Avec le certificat, nous serons conformes. »
+
+Mme~BELLO, sollicitée pour un diagnostic, lui pose deux questions. Le
+périmètre du certificat couvrira-t-il la notation automatique des
+crédits, ou seulement l'application de paiement~? Et l'organisme
+certificateur vérifiera-t-il que chaque traitement a reçu l'autorisation de
+l'article~19~? À la seconde, la réponse est non~: un auditeur de
+certification vérifie le système de management contre la norme, il ne
+rend pas un avis juridique. Quant à la grille du NIST, personne à NOUN PAY
+ne sait ce qu'elle mesure.
+
+\begin{boxalert}
+\textbf{Violation typique.} Présenter un certificat de système de
+management comme une preuve de conformité à la loi.
+
+\smallskip
+\textbf{Règle~:} un certificat ISO/IEC~27701 atteste qu'un système de
+management de la protection des données existe et fonctionne sur un
+périmètre donné. La conformité à la loi se démontre par l'audit de
+conformité légale, exigence par exigence. Les deux se complètent~; l'un ne
+remplace pas l'autre.
+\end{boxalert}
+
+% ============================================================================
+\section{Trois Natures de Référentiel}
+\label{sec:c05-natures}
+% ============================================================================
+
+Les textes rencontrés depuis le début de cette partie n'ont pas la même
+nature. L'auditeur les range en trois familles avant de s'en servir.
+
+\begin{tableaucours}{L{2.6cm}L{3.2cm}L{3.0cm}L{3.2cm}}{%
+    \tableauHeader{Nature} &
+    \tableauHeader{Exemples} &
+    \tableauHeader{Qui l'impose} &
+    \tableauHeader{Ce que prouve la conformité}
+}
+Loi & Loi n°~2024/017, loi n°~2010/012, RGPD & L'État, sous peine de
+sanction & Le respect d'obligations \\
+Norme certifiable & ISO/IEC~27701, ISO/IEC~27001 & Un client, un marché,
+l'organisation elle-même & L'existence d'un système de management, attestée
+par un tiers \\
+Cadre volontaire & \textit{Privacy Framework} du NIST & Personne~; un
+partenaire peut le demander & Une maturité déclarée, sans certificat \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.1. Trois natures de référentiel}\end{center}
+
+Un cadre volontaire devient contraignant de la même manière qu'un texte
+étranger~: par contrat. L'investisseur de NOUN PAY peut faire du profil NIST
+une condition de son entrée au capital. Le cadre reste alors contractuel au
+sens du Chapitre~\ref{chap:international}.
+
+% ============================================================================
+\section{Le Privacy Framework du NIST}
+\label{sec:c05-nist}
+% ============================================================================
+
+Le \textit{National Institute of Standards and Technology} est l'institut de
+normalisation du département américain du commerce. Il a publié en
+janvier~2020 la version~1.0 de son \textit{Privacy Framework}~\cite{nist2020pf},
+un outil de gestion du risque d'atteinte à la vie privée. Le cadre est
+volontaire, gratuit et sans certification. Il ne dépend d'aucune loi~: il a
+été conçu dans un pays qui n'a pas de loi générale de protection des données
+(Chapitre~\ref{chap:international}), pour des organisations qui doivent en
+respecter plusieurs à la fois.
+
+Il se compose de trois éléments, repris du cadre de cybersécurité du même
+institut.
+
+\subsection{Le noyau}
+
+Le \termecle{noyau} (\textit{Core}) est un catalogue de résultats attendus,
+rangés en cinq fonctions. Chaque fonction se divise en catégories, puis en
+sous-catégories rédigées comme des résultats et non comme des moyens.
+
+\begin{tableaucours}{L{2.8cm}L{5.0cm}L{4.2cm}}{%
+    \tableauHeader{Fonction} &
+    \tableauHeader{Question posée (paraphrasée)} &
+    \tableauHeader{Écho dans la loi n°~2024/017}
+}
+\textit{Identify-P} & Quelles données traite-t-on, pour qui, avec quel
+risque pour les personnes~? & Registre (art.~29), évaluation du risque
+(art.~25, 33) \\
+\textit{Govern-P} & Qui décide, selon quelles règles et quelles
+obligations~? & Responsabilité des acteurs (art.~20), autorisation
+(art.~19) \\
+\textit{Control-P} & Sait-on gérer les données finement~: accès, correction,
+suppression, conservation~? & Droits (art.~37 à~46), durée (art.~13) \\
+\textit{Communicate-P} & Les personnes comprennent-elles ce que l'on fait de
+leurs données~? & Information (art.~14, 21) \\
+\textit{Protect-P} & Les données sont-elles protégées contre les
+incidents~? & Sécurité (art.~27), violations (art.~22) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.5. Les cinq fonctions du noyau}\end{center}
+
+La fonction \textit{Protect-P} recouvre le cadre de cybersécurité du NIST,
+dont les fonctions de détection, de réponse et de reprise complètent le
+dispositif en cas de violation. Le cadre distingue ainsi deux risques que ce
+cours a séparés dès le Chapitre~\ref{chap:principes}~: celui qui vient d'un
+incident de sécurité et celui qui vient du traitement lui-même, même
+parfaitement sécurisé. Le NIST nomme le second « action problématique sur
+les données ».
+
+\subsection{Les profils}
+
+Un \termecle{profil} est la sélection des résultats du noyau qui comptent
+pour une organisation. On en dresse deux. Le profil actuel décrit ce qui est
+atteint aujourd'hui. Le profil cible décrit ce que l'organisation veut
+atteindre, compte tenu de ses obligations et de ses risques. L'écart entre
+les deux donne le plan d'action.
+
+Le profil actuel se prête à la cotation du cours. Chaque résultat retenu
+devient une proposition fermée~: atteint (\OUI{}), non atteint (\NON{}), ou
+pas assez d'éléments pour le dire (\NEK{}). Un profil que l'organisation
+remplit seule, sans preuve, vaut une déclaration au sens du
+Chapitre~\ref{chap:audit}.
+
+\subsection{Les niveaux de mise en œuvre}
+
+Les \termecle{niveaux} (\textit{Tiers}) décrivent la manière dont
+l'organisation gère le risque, de~1 à~4~: partielle, informée par le risque,
+reproductible, adaptative. Ce ne sont pas des niveaux de maturité à
+atteindre tous. Une petite structure peut viser légitimement le niveau~2.
+
+\begin{boxinfo}
+\textbf{La version 1.1.} Le NIST a publié en avril~2025 le projet d'une
+version~1.1, qui réaligne le cadre sur la version~2.0 de son cadre de
+cybersécurité et ajoute des éléments sur l'intelligence artificielle. À la
+date de ce cours, l'institut annonçait la version finale pour 2026. La
+structure en noyau, profils et niveaux ne change pas. L'auditeur à qui l'on
+présente un profil vérifie la version qu'il utilise.
+\end{boxinfo}
+
+\subsection{Les autres publications utiles}
+
+\begin{tableaucours}{L{3.0cm}L{4.8cm}L{4.2cm}}{%
+    \tableauHeader{Publication} &
+    \tableauHeader{Objet (paraphrasé)} &
+    \tableauHeader{Usage dans ce cours}
+}
+NISTIR 8062 & Ingénierie de la vie privée~: prévisibilité, maîtrise,
+dissociabilité & Évaluer le risque (Chapitre~\ref{chap:risque}) \\
+SP 800-53, révision 5 & Catalogue de mesures de sécurité et de vie privée &
+Détailler une mesure (Chapitre~\ref{chap:securite}) \\
+SP 800-122 & Protection de la confidentialité des données
+d'identification & Classer les données par niveau d'impact \\
+SP 800-61 & Gestion des incidents & Violations
+(Chapitre~\ref{chap:violations}) \\
+AI RMF 1.0 & Gestion des risques de l'intelligence artificielle & Profilage
+(Chapitre~\ref{chap:profilage}) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.6. Cinq publications du NIST pour
+l'auditeur}\end{center}
+
+Les trois objectifs du NISTIR~8062 complètent utilement la triade de la
+sécurité. La \textit{prévisibilité}~: la personne et l'organisation peuvent
+anticiper ce qui sera fait des données. La \textit{maîtrise}~: on peut
+modifier, supprimer ou communiquer une donnée à un niveau fin. La
+\textit{dissociabilité}~: on peut traiter sans rattacher les données à une
+personne quand ce lien n'est pas nécessaire.
+
+\subsection{Ce que le cadre n'apporte pas}
+
+Le cadre du NIST ne dit pas ce qui est permis. Il ne connaît ni
+l'autorisation préalable, ni les trois dérogations au consentement, ni la
+liste camerounaise des données sensibles. Une organisation peut présenter un
+profil cible entièrement atteint et traiter des données sans fondement.
+
+% ============================================================================
+\section{La Famille des Normes}
+\label{sec:c05-famille}
+% ============================================================================
+
+\begin{tableaucours}{L{2.6cm}L{5.0cm}L{4.4cm}}{%
+    \tableauHeader{Norme} &
+    \tableauHeader{Objet (paraphrasé)} &
+    \tableauHeader{Usage dans l'audit}
+}
+ISO/IEC 29100 & Cadre de la protection de la vie privée~: vocabulaire,
+acteurs, onze principes & Référentiel de principes, comparaison avec la
+loi \\
+ISO/IEC 27701 & Système de management de la protection de la vie privée &
+Audit contre une norme, certification \\
+ISO/IEC 29134 & Lignes directrices pour l'évaluation d'impact & Méthode de
+l'évaluation d'impact (Chapitre~\ref{chap:risque}) \\
+ISO/IEC 27018 & Protection des données personnelles dans le nuage public,
+pour les sous-traitants & Évaluer un hébergeur
+(Chapitre~\ref{chap:transferts}) \\
+ISO/IEC 27001 et 27002 & Système de management et mesures de sécurité de
+l'information & Domaine sécurité (Chapitre~\ref{chap:securite}) \\
+ISO 19011, ISO/IEC 27007 & Conduite des audits & Méthode
+(Chapitre~\ref{chap:audit}) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.2. Les normes utiles à l'audit de protection des données}\end{center}
+
+Toutes ces normes sont publiées sous licence~: ce cours les paraphrase et
+n'en reproduit aucun passage. L'auditeur qui fonde un constat sur une
+exigence normative doit disposer de l'édition en vigueur et la citer avec
+son année.
+
+\subsection{Les onze principes de l'ISO/IEC 29100}
+
+L'ISO/IEC~29100~\cite{iso29100} énonce onze principes~: le consentement et le
+choix~; la légitimité et la spécification des finalités~; la limitation de
+la collecte~; la minimisation des données~; la limitation de l'utilisation,
+de la conservation et de la divulgation~; l'exactitude et la qualité~;
+l'ouverture, la transparence et l'information~; la participation et l'accès
+des personnes~; la responsabilité~; la sécurité~; et le respect des
+obligations de protection de la vie privée. La comparaison avec la loi
+camerounaise fait apparaître la minimisation, absente comme principe
+général de la loi (Chapitre~\ref{chap:principes}).
+
+\subsection{L'ISO/IEC 27701}
+
+L'ISO/IEC~27701~\cite{iso27701} étend la logique de l'ISO/IEC~27001 aux
+données personnelles~: contexte, leadership, planification, support,
+fonctionnement, évaluation et amélioration, plus des mesures propres aux
+responsables de traitement et aux sous-traitants. Publiée en 2019 comme
+extension de l'ISO/IEC~27001, elle a été révisée en octobre~2025 pour
+devenir une norme de système de management autonome~: la certification
+ISO/IEC~27001 n'est plus un préalable. Les deux éditions coexistent pendant
+la période de transition~; l'auditeur vérifie l'édition sur laquelle porte
+le certificat qu'on lui présente.
+
+Elle apporte à l'audit trois choses que la loi ne donne pas~: une méthode
+de management (un cycle d'amélioration, des revues de direction, des
+audits internes), des mesures détaillées propres aux données personnelles
+et un vocabulaire partagé avec les partenaires étrangers. Elle n'apporte
+pas les obligations propres au Cameroun~: l'autorisation préalable, les
+trois dérogations au consentement, le rapport annuel de l'article~27, la
+liste camerounaise des données sensibles.
+
+% ============================================================================
+\section{Deux Certifications}
+\label{sec:c05-certification}
+% ============================================================================
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2024/017}, article~34}~\cite{loi2024017}~:
+\textit{« L'Autorité de protection des données à caractère personnel met en
+place un mécanisme de certification du traitement des données à caractère
+personnel conforme aux principes et exigences énoncés par la présente
+loi. »}
+
+\smallskip
+\textbf{Portée.} L'article~5 définit la certification comme un outil
+permettant de communiquer sur le niveau de protection « au regard des
+critères d'un référentiel approuvé au préalable par l'Autorité ». Il s'agit
+d'une certification de conformité à la loi, distincte des certifications
+ISO. L'article~59 punit le responsable qui « opère sans certification
+prévue dans la présente loi »~: tant que le mécanisme n'existe pas, la
+portée de cette sanction est un \NEK{} de critère.
+\end{boxjuris}
+
+\begin{tableaucours}{L{3.2cm}L{4.4cm}L{4.4cm}}{%
+    \tableauHeader{} &
+    \tableauHeader{Certification de l'article~34} &
+    \tableauHeader{Certification ISO/IEC 27701}
+}
+Délivrée par & L'Autorité, ou selon son mécanisme & Un organisme de
+certification accrédité \\
+Référentiel & Approuvé par l'Autorité & Norme internationale \\
+Objet & Traitement, processus, produit & Système de management sur un
+périmètre \\
+Portée juridique & Prévue par la loi (articles~34, 59) & Aucune au regard de
+la loi \\
+État en novembre~2026 & Mécanisme non publié & Disponible \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.3. Deux certifications à ne pas confondre}\end{center}
+
+% ============================================================================
+\section{Correspondances entre les Référentiels}
+\label{sec:c05-correspondances}
+% ============================================================================
+
+Une organisation exposée à plusieurs référentiels établit une table de
+correspondance. Elle évite de faire plusieurs fois le même travail~: le
+registre de l'article~29 sert aussi le RGPD, le cadre du NIST et la norme.
+
+\begin{tableaucours}{L{2.6cm}L{2.2cm}L{2.2cm}L{2.4cm}L{2.6cm}}{%
+    \tableauHeader{Thème} &
+    \tableauHeader{Loi n°~2024/017} &
+    \tableauHeader{RGPD} &
+    \tableauHeader{NIST} &
+    \tableauHeader{ISO/IEC 27701}
+}
+Recensement & Art.~29 & Art.~30 & \textit{Identify-P} & Registre des
+traitements \\
+Fondement & Art.~9 & Art.~6 & \textit{Govern-P} & Base légale identifiée \\
+Autorisation & Art.~19 & Aucun & Aucun & Aucun \\
+Information & Art.~21 & Art.~13, 14 & \textit{Communicate-P} & Information
+des personnes \\
+Droits & Art.~37 à~47 & Art.~15 à~22 & \textit{Control-P} & Obligations
+envers les personnes \\
+Risque et impact & Art.~25, 33 & Art.~35 & \textit{Identify-P} & Évaluation
+d'impact \\
+Sécurité & Art.~27 & Art.~32 & \textit{Protect-P} & Mesures de sécurité \\
+Sous-traitants & Art.~30 & Art.~28 & \textit{Govern-P} & Mesures pour les
+sous-traitants \\
+Transferts & Art.~32 & Art.~44 à~49 & \textit{Govern-P} & Transferts,
+pays \\
+Violations & Art.~22 & Art.~33, 34 & \textit{Protect-P} et cadre de
+cybersécurité & Gestion des incidents \\
+Rapport annuel & Art.~27(2) & Aucun & Aucun & Aucun \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.4. Correspondances indicatives entre
+quatre référentiels (thèmes paraphrasés)}\end{center}
+
+Deux lignes n'ont de contenu que dans la première colonne~: l'autorisation
+préalable et le rapport annuel. Aucun référentiel étranger ne les porte. Une
+organisation qui bâtit sa conformité sur le RGPD, le NIST ou l'ISO seuls les
+oubliera.
+
+Une correspondance n'est jamais une équivalence. Une ligne dit que le
+dispositif exigé par un référentiel peut porter l'exigence légale~; elle ne
+dit pas qu'il le fait. L'audit de conformité vérifie toujours l'exigence
+légale elle-même. Le Chapitre~\ref{chap:loi2010} le complétera par les
+règles propres à la loi n°~2010/012 et donnera la règle pour choisir ses
+critères.
+
+% ============================================================================
+\section{Le Diagnostic de NOUN PAY}
+\label{sec:c05-cas}
+% ============================================================================
+
+\begin{boxscenario}{Mission NOUN PAY. Le diagnostic du 8 septembre 2026}
+\textbf{Constatations.} Le périmètre envisagé pour la certification couvre
+l'application de paiement et exclut la notation automatique « NOUN SCORE »,
+« en cours de refonte ». Aucune demande d'autorisation n'a été préparée.
+L'hébergeur, établi dans l'Union européenne, présente un certificat
+ISO/IEC~27018.
+
+\textbf{Analyse} (confiance élevée). Le certificat visé laisserait hors
+périmètre le traitement le plus risqué de l'entreprise, celui qui
+décide des crédits. Il serait exact et trompeur s'il était présenté comme
+une preuve de conformité. Le certificat de l'hébergeur porte sur
+l'hébergeur~: il ne dit rien des traitements de NOUN PAY ni du transfert
+lui-même (Chapitre~\ref{chap:transferts}).
+\end{boxscenario}
+
+Pour répondre à l'investisseur, Mme~BELLO dresse avec l'équipe un profil
+actuel de huit résultats, deux au moins par fonction qu'elle a pu examiner.
+
+\begin{boxlecture}{NOUN PAY, profil actuel coté, 8 septembre 2026}
+\begin{tableaucours}{L{2.4cm}L{5.4cm}cL{2.8cm}}{%
+    \tableauHeader{Fonction} &
+    \tableauHeader{Résultat attendu (paraphrasé)} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+\textit{Identify-P} & Les traitements et les flux sont inventoriés & \NON{} &
+Aucun registre \\
+\textit{Identify-P} & Le risque pour les personnes est évalué & \NON{} &
+Aucune évaluation \\
+\textit{Govern-P} & Les obligations légales sont recensées & \NON{} & Aucune
+liste \\
+\textit{Govern-P} & Les rôles sont attribués & \NON{} & Aucune
+désignation \\
+\textit{Control-P} & Les données sont supprimées à l'échéance & \NEK{} & Non
+examiné \\
+\textit{Communicate-P} & Les personnes sont informées des traitements &
+\NON{} & Notice de l'application \\
+\textit{Protect-P} & Les données sont chiffrées au repos et en transit &
+\OUI{} & Configuration de l'hébergeur \\
+\textit{Protect-P} & Les accès sont nominatifs et tracés & \OUI{} & Journaux
+de la console \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Deux \OUI{}, cinq \NON{}, un \NEK{} sur huit.
+\hfill\lecture{0{,}25}{0{,}125}{1{,}30}
+
+\medskip
+\textbf{Lecture.} Les deux résultats atteints sont dans la seule fonction de
+protection. NOUN PAY a traité la vie privée comme un problème de sécurité.
+Le profil montre à l'investisseur ce qu'un certificat de sécurité n'aurait
+pas montré.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que les Référentiels demandent à chaque Métier}
+\label{sec:c05-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Délégué à la protection des données}
+Bâtir le système de management sur les obligations de la loi, puis le
+rapprocher des référentiels demandés par les partenaires. Tenir la table de
+correspondance et signaler les exigences camerounaises qu'aucun référentiel
+étranger ne porte.
+\end{boxmetier}
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Lire le périmètre et l'édition de tout certificat, la version de tout
+profil. Ne jamais coter \OUI{} une exigence légale sur la seule foi d'un
+certificat ou d'un profil déclaré.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Choisir le périmètre d'une certification en fonction des risques, pas de la
+facilité. Un certificat qui exclut le traitement le plus risqué expose à un
+reproche de présentation trompeuse.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Une loi oblige, une norme se certifie, un cadre volontaire se
+          déclare. Les deux derniers ne deviennent contraignants que par
+          contrat.
+    \item Le \textit{Privacy Framework} du NIST comprend un noyau de cinq
+          fonctions, des profils actuel et cible et quatre niveaux de mise
+          en œuvre. Il ne dit pas ce qui est permis.
+    \item L'ISO/IEC~27701 est depuis 2025 une norme autonome~; l'auditeur
+          vérifie l'édition du certificat.
+    \item La certification de l'article~34 est une certification de
+          conformité à la loi, distincte d'une certification ISO.
+    \item L'autorisation préalable et le rapport annuel n'ont d'équivalent
+          dans aucun référentiel étranger.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item nommer les cinq fonctions du noyau du NIST et la question que pose
+          chacune~;
+    \item dire ce qu'un certificat ISO/IEC~27701 prouve et ce qu'il ne
+          prouve pas~;
+    \item citer deux obligations camerounaises absentes des référentiels
+          étrangers.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.1. Quelle norme \niveaubase}]
+Quelle norme consultez-vous pour~: (a) conduire une évaluation d'impact~;
+(b) évaluer un hébergeur en nuage~; (c) mettre en place un système de
+management de la protection des données~; (d) définir le vocabulaire d'un
+contrat~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.2. Le périmètre de NOUN PAY \niveaumoyen}]
+Rédigez l'avis de Mme~BELLO à M.~NJOYA sur le périmètre de la
+certification, en séparant constatations et analyse. Proposez un périmètre
+et un calendrier qui tiennent compte de la notation automatique.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.3. Compléter la correspondance \niveaumoyen}]
+Ajoutez au Tableau~5.4 les lignes correspondant aux articles~22
+(violations), 30 (sous-traitance) et 32 (transferts), avec le thème de la
+norme et la couverture.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.4. Le profil cible \niveauexpert}]
+L'investisseur demande à NOUN PAY un profil cible à douze mois.
+\begin{enumerate}[(a)]
+    \item Pour chacun des huit résultats du profil actuel, proposez la cible
+          et la preuve qui permettra de la coter \OUI{}.
+    \item Ajoutez deux résultats que la loi n°~2024/017 impose et que le
+          noyau du NIST ne contient pas. Comment les présentez-vous à un
+          investisseur qui ne connaît que le cadre du NIST~?
+    \item Quel niveau de mise en œuvre NOUN PAY peut-elle viser
+          raisonnablement~? Justifiez.
+\end{enumerate}
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item Le \textit{Privacy Framework} du NIST~\cite{nist2020pf}, librement
+          accessible et le NISTIR~8062~\cite{nistir8062}.
+    \item L'ISO/IEC~27701~\cite{iso27701} et l'ISO/IEC~29100~\cite{iso29100}.
+    \item L'ISO/IEC~27018~\cite{iso27018}, pour les sous-traitants en nuage.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les sources internationales, le règlement européen et
+les référentiels volontaires forment le paysage. Il reste à lire de près le
+texte qui oblige toute organisation camerounaise et qui a internalisé une
+grande partie de ce paysage~: la loi n°~2024/017, avec son Autorité et ses
+sanctions. C'est l'objet du Chapitre~\ref{chap:loi}.
+\end{boxinfo}

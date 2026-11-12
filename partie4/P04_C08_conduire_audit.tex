@@ -1,9 +1,9 @@
 % ============================================================================
-% Fichier  : partie2/P02_C03_conduire_audit.tex
+% Fichier  : partie4/P04_C08_conduire_audit.tex
 % Titre    : Conduire un Audit de Protection des Données
 % Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
-% Version  : 1.0 -- novembre 2026
-% Corrigés : corriges/Corr_C03.tex
+% Version  : 3.0 -- novembre 2026
+% Corrigés : corriges/Corr_C08.tex
 % ============================================================================
 % Sources : ISO 19011:2018 (principes et cycle, paraphrasés) ; ISO/IEC 27007
 % (paraphrasée) ; auditologie (hal-05701007, hal-05701270) ; loi n° 2024/017,
@@ -90,7 +90,7 @@ De préparation & Loi et bonnes pratiques & Mesurer l'écart avant une
 échéance~; prioriser les chantiers \\
 \end{tableaucours}
 \vspace{-0.8em}
-\begin{center}{\small\itshape Tableau~3.1. Trois audits, trois jeux de critères}\end{center}
+\begin{center}{\small\itshape Tableau~8.1. Trois audits, trois jeux de critères}\end{center}
 
 Ces audits peuvent être conduits par l'organisation elle-même (audit
 interne), par un cabinet qu'elle mandate (NYANGA, MBOLO), ou par un tiers qui
@@ -132,7 +132,44 @@ il a une finalité (la mission), une durée (celle de la conservation des
 papiers de travail) et des destinataires (le commanditaire). L'auditeur
 consulte sur place, copie le moins possible, masque les identités dans ses
 papiers et détruit les copies à l'échéance prévue au mandat
-(Chapitre~\ref{chap:normes}).
+(section~\ref{sec:c08-deontologie}).
+
+% ============================================================================
+\section{La Déontologie de l'Auditeur}
+\label{sec:c08-deontologie}
+% ============================================================================
+
+L'auditeur de la protection des données est soumis aux principes communs de
+l'audit de la section précédente. Son objet ajoute trois exigences.
+
+\subsection{Minimiser les données de l'audit}
+
+L'auditeur ne collecte que les données nécessaires à la preuve. Il consulte
+sur place plutôt que de copier, relève des indicateurs plutôt que des
+contenus, masque les identités dans ses papiers de travail (« client~A,
+dossier 2018-0412 »), conserve les copies indispensables dans un espace
+chiffré et les détruit à la date prévue au mandat. Un auditeur qui
+emporterait un extrait du fichier clients sur une clé non chiffrée
+commettrait l'écart même qu'il est chargé de relever.
+
+\subsection{L'indépendance}
+
+L'indépendance interdit d'auditer son propre travail. KORO AUDIT a proposé
+au CENTRE MÉDICAL MBOLO, en juin, de rédiger ses procédures de protection
+des données~; s'il accepte, il ne pourra pas, en octobre, auditer ces
+mêmes procédures sans menacer son objectivité. Mme~BELLO a refusé la
+mission de rédaction et conservé la mission d'audit.
+
+\subsection{Ce que l'auditeur découvre}
+
+L'auditeur peut découvrir des faits graves~: un agent qui vend des fichiers,
+un traitement manifestement délictueux. Il en rend compte au commanditaire,
+par écrit et sans délai, comme son mandat doit le prévoir. Il ne mène pas
+d'enquête qui excéderait sa mission, et il ne saisit pas lui-même la
+justice, sauf obligation légale qui lui serait propre. Le
+Chapitre~\ref{chap:violations} montre comment un tel fait devient une
+violation à traiter, et le cours de forensique comment il devient une
+enquête.
 
 % ============================================================================
 \section{Mandat, Critères, Périmètre}
@@ -190,7 +227,7 @@ Prouve l'engagement, pas son exécution \\
 5 & Déclaration & Entretien, questionnaire & À corroborer \\
 \end{tableaucours}
 \vspace{-0.8em}
-\begin{center}{\small\itshape Tableau~3.2. Hiérarchie indicative des preuves}\end{center}
+\begin{center}{\small\itshape Tableau~8.2. Hiérarchie indicative des preuves}\end{center}
 
 Une déclaration seule ne permet jamais de coter \OUI{}~; elle oriente la
 recherche d'une preuve de rang supérieur. Un document de rang~3 établit
@@ -240,7 +277,7 @@ D6 & Gouvernance & 27(2), 33, 35 & L'évaluation d'impact est-elle faite
 quand le risque est élevé~? \\
 \end{tableaucours}
 \vspace{-0.8em}
-\begin{center}{\small\itshape Tableau~3.3. Les six domaines d'un audit de protection des données}\end{center}
+\begin{center}{\small\itshape Tableau~8.3. Les six domaines d'un audit de protection des données}\end{center}
 
 Une exigence formulée avec « et » ou « ou » se scinde~: « le registre existe
 et il est à jour » contient deux questions, qui peuvent recevoir deux cotes
@@ -298,9 +335,11 @@ pénalement certains écarts (articles~63 à~71), et un taux de conformité
 « dire si l'établissement respecte la loi n°~2024/017 et recommander les
 mesures nécessaires ». Rapport au conseil le 25~septembre.
 
-\textbf{Critères.} Les articles~2 à~52 de la loi~; les textes d'application
+\textbf{Critères.} Les articles~2 à~52 de la loi n°~2024/017~; les
+articles~26, 41 à~48 et~74 de la loi n°~2010/012~; les textes d'application
 publiés à la date de la mission (aucun identifié)~; la politique de sécurité
-interne de 2025.
+interne de 2025. La carte d'applicabilité du Chapitre~\ref{chap:loi2010} est
+jointe au plan.
 
 \textbf{Périmètre.} Siège et trois agences tirées au sort (Dschang,
 Mbouda, Foumban)~; les onze familles de données du
@@ -396,7 +435,7 @@ réseau ne prouve aucune mesure de protection des données.
 \end{itemize}
 \end{boxinfo}
 
-\begin{boxexo}[title={\ding{45}\quad Exercice~3.1. Quelle preuve \niveaubase}]
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.1. Quelle preuve \niveaubase}]
 Pour chaque exigence, proposez la preuve la plus forte possible~: (a) les
 salariés ont été informés du traitement de leurs données~; (b) le
 prestataire de recouvrement efface les dossiers soldés~; (c) les accès aux
@@ -404,23 +443,30 @@ dossiers clients sont limités aux agents de l'agence~; (d) les demandes
 d'accès reçoivent une réponse.
 \end{boxexo}
 
-\begin{boxexo}[title={\ding{45}\quad Exercice~3.2. Rendre atomique \niveaumoyen}]
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.2. Rendre atomique \niveaumoyen}]
 Réécrivez en exigences atomiques~: (a) « le registre existe et il est tenu à
 jour par un responsable désigné »~; (b) « les données sont chiffrées ou
 pseudonymisées »~; (c) « les contrats des prestataires prévoient la
 sécurité, la confidentialité et la restitution des données ».
 \end{boxexo}
 
-\begin{boxexo}[title={\ding{45}\quad Exercice~3.3. Conclure sur D2 \niveaumoyen}]
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.3. Conclure sur D2 \niveaumoyen}]
 Le domaine D2 de NYANGA compte dix exigences~: 2~\OUI{}, 5~\NON{}, 3~\NEK{}.
 Calculez $\mu$, $U$ et $H$, appliquez la règle de décision et rédigez la
 phrase de conclusion du domaine.
 \end{boxexo}
 
-\begin{boxexo}[title={\ding{45}\quad Exercice~3.4. L'audit comme traitement \niveauexpert}]
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.4. L'audit comme traitement \niveauexpert}]
 Rédigez la clause du mandat qui encadre les données personnelles consultées
 par l'auditeur~: finalité, accès, copies, masquage, conservation,
 destruction. Dites comment l'auditeur prouvera lui-même qu'il l'a respectée.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.5. Une découverte \niveauexpert}]
+Pendant l'audit de MBOLO, un auditeur junior découvre qu'un agent exporte
+chaque semaine la liste des patientes de la maternité vers une adresse de
+messagerie personnelle. Rédigez la note au commanditaire, et dites ce que
+l'auditeur doit faire et ne pas faire.
 \end{boxexo}
 
 \bigskip

@@ -1,0 +1,517 @@
+% ============================================================================
+% Fichier  : partie2/P02_C04_rgpd.tex
+% Titre    : Le RGPD et son Effet hors d'Europe
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 3.0 -- novembre 2026
+% Corrigés : corriges/Corr_C04.tex
+% ============================================================================
+% Sources : règlement (UE) 2016/679 (Journal officiel de l'UE), paraphrasé ;
+% lignes directrices 3/2018 du Comité européen de la protection des données
+% sur le champ territorial ; décision d'exécution (UE) 2021/914 (clauses
+% contractuelles types). Loi n° 2024/017, texte officiel. Le service NOUN
+% DIASPORA et le contrat bruxellois de MEDISOFT sont des ajouts fictifs de
+% la version 3.
+% ============================================================================
+
+\chapter{Le RGPD et son Effet hors d'Europe}
+\label{chap:rgpd}
+\chaptermark{Le RGPD hors d'Europe}
+
+\epigraph{%
+    « Le règlement européen ne s'arrête pas aux frontières de l'Europe.\\
+    Il ne remplace pas pour autant la loi du pays où l'on est. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Chapitres~\ref{chap:principes} et~\ref{chap:international}
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Présenter l'économie du RGPD en une quinzaine d'articles utiles à
+          l'auditeur.
+    \item Dire quand le RGPD oblige une organisation établie au Cameroun, en
+          appliquant son article~3.
+    \item Distinguer les trois voies d'exposition~: directe, contractuelle,
+          en cascade.
+    \item Comparer la loi n°~2024/017 et le RGPD point par point, sans
+          prêter à l'une le contenu de l'autre.
+    \item Coter une même exigence contre les deux textes quand les deux
+          s'appliquent.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « c'est le RGPD camerounais »}
+% ============================================================================
+
+Bafoussam, lundi 3~août~2026. Le directeur général de NYANGA CRÉDIT a reçu
+d'un cabinet de conseil une offre de « mise en conformité RGPD camerounais »
+en douze semaines. Le document promet la désignation d'un délégué à la
+protection des données « obligatoire », une procédure de notification des
+violations « sous 72~heures » et la constitution d'un dossier d'« intérêt
+légitime » pour la vidéosurveillance.
+
+M.~NGANDO pose la proposition à côté du texte de la loi. Aucune de ces trois
+affirmations ne s'y trouve. La loi ne connaît pas de délégué obligatoire,
+elle dit « sans délai » et non 72~heures et elle ignore l'intérêt légitime.
+L'offre ne dit pas un mot, en revanche, de l'autorisation préalable de
+l'article~19.
+
+Le même jour, à quelques rues de là, M.~NJOYA pose à Mme~BELLO la question
+inverse. NOUN PAY\footnote{NOUN PAY, son service NOUN DIASPORA, MEDISOFT
+SARL et la clinique bruxelloise citée plus bas sont fictifs.} a ouvert en
+mars un service de transfert d'argent pour les Camerounais de France et de
+Belgique. « Eux sont en Europe. Est-ce que leur règlement nous concerne~? »
+La réponse est oui.
+
+\begin{boxalert}
+\textbf{Violation typique.} Deux erreurs symétriques. Lire la loi
+camerounaise à travers le RGPD et lui attribuer des obligations européennes
+qu'elle ne contient pas. Ou croire qu'une entreprise camerounaise échappe au
+RGPD parce qu'elle n'a aucun bureau en Europe.
+
+\textbf{Règle~:} l'auditeur détermine d'abord, traitement par traitement,
+quel texte s'applique. La loi n°~2024/017 s'applique à tout traitement visé
+par son article~2. Le RGPD s'y ajoute quand son article~3 est rempli ou
+qu'un contrat l'impose. Aucun des deux ne dispense de l'autre.
+\end{boxalert}
+
+% ============================================================================
+\section{Le RGPD en Quinze Articles}
+\label{sec:c04-economie}
+% ============================================================================
+
+Le règlement (UE) 2016/679~\cite{ue2016rgpd} est applicable depuis le
+25~mai~2018 dans tous les États de l'Union européenne. Il compte
+quatre-vingt-dix-neuf articles. L'auditeur en retient une quinzaine.
+
+\begin{tableaucours}{cL{4.0cm}L{6.6cm}}{%
+    \tableauHeader{Art.} &
+    \tableauHeader{Objet} &
+    \tableauHeader{Ce qu'il faut en retenir (paraphrasé)}
+}
+3 & Champ territorial & Établissement dans l'Union, ou ciblage de personnes
+qui s'y trouvent \\
+5 & Principes & Sept principes, dont la minimisation et la responsabilité \\
+6 & Bases légales & Six bases, dont le contrat et l'intérêt légitime \\
+9 & Catégories particulières & Liste fermée de données sensibles \\
+12 à 22 & Droits & Information, accès, rectification, effacement,
+limitation, portabilité, opposition~; réponse en un mois \\
+24, 25 & Responsabilité & Démontrer la conformité~; protection dès la
+conception \\
+27 & Représentant & Obligatoire pour l'acteur hors Union visé par
+l'article~3 \\
+28 & Sous-traitant & Contrat écrit au contenu imposé \\
+30 & Registre & Tenu par le responsable et par le sous-traitant \\
+32 & Sécurité & Mesures adaptées au risque \\
+33, 34 & Violations & Autorité en 72~heures~; personnes si le risque est
+élevé \\
+35, 36 & Analyse d'impact & Obligatoire si le risque est élevé~;
+consultation de l'autorité \\
+37 à 39 & Délégué & Obligatoire dans trois cas \\
+44 à 49 & Transferts & Adéquation, garanties appropriées, dérogations \\
+83 & Amendes & Jusqu'à 20~millions d'euros ou 4~\% du chiffre d'affaires
+mondial \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.1. Quinze articles du RGPD pour
+l'auditeur}\end{center}
+
+Le règlement repose sur une idée que la loi camerounaise n'a pas retenue~:
+la \termecle{responsabilité}. Il a supprimé les formalités préalables auprès
+de l'autorité. En échange, le responsable doit pouvoir démontrer à tout
+moment qu'il respecte le texte. La loi n°~2024/017 fait le choix opposé,
+celui du contrôle préalable par l'autorisation (Chapitre~\ref{chap:loi}).
+
+% ============================================================================
+\section{Quand le RGPD Oblige une Organisation Camerounaise}
+\label{sec:c04-article3}
+% ============================================================================
+
+L'article~3 du règlement fixe son champ territorial. Il retient deux
+critères, dont le second vise précisément les acteurs établis hors de
+l'Union.
+
+\begin{enumerate}
+    \item \textbf{L'établissement.} Le règlement s'applique aux traitements
+          faits dans le cadre des activités d'un établissement situé dans
+          l'Union, que le traitement ait lieu ou non dans l'Union. Une
+          filiale, une succursale ou un simple bureau stable suffisent.
+    \item \textbf{Le ciblage.} Il s'applique aussi à un responsable ou à un
+          sous-traitant non établi dans l'Union, lorsque le traitement est
+          lié à l'offre de biens ou de services à des personnes qui se
+          trouvent dans l'Union, ou au suivi de leur comportement dans
+          l'Union.
+\end{enumerate}
+
+Le critère du ciblage tient à la localisation de la personne au moment du
+traitement, pas à sa nationalité. Un Camerounais qui vit à Lyon est protégé
+par le RGPD. Un Français en visite à Kribi ne l'est pas pour les traitements
+d'une entreprise camerounaise qui ne vise pas l'Europe~; il l'est en
+revanche par la loi camerounaise, dont l'article~2 protège les personnes
+« en transit ».
+
+Le Comité européen de la protection des données a précisé ce qu'est une
+offre~\cite{edpb2018territorial}. Un site simplement accessible depuis
+l'Europe ne suffit pas. Il faut des indices d'une intention de s'adresser à
+des personnes dans l'Union.
+
+\begin{tableaucours}{L{6.0cm}L{6.0cm}}{%
+    \tableauHeader{Indice de ciblage} &
+    \tableauHeader{À NOUN DIASPORA}
+}
+Prix affichés dans une monnaie de l'Union & Frais affichés en euros \\
+Langue ou pays cités dans l'offre & « Envoyez depuis la France et la
+Belgique » \\
+Publicité achetée pour un public de l'Union & Campagnes sur les réseaux
+sociaux, zone France et Belgique \\
+Moyens de paiement de l'Union acceptés & Cartes bancaires européennes \\
+Mention de clients de l'Union & Témoignages de clients de Lyon et de Liège \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.2. Les indices de ciblage, appliqués
+au service de NOUN PAY}\end{center}
+
+Les cinq indices sont réunis. NOUN PAY est un responsable de traitement non
+établi dans l'Union qui offre un service à des personnes qui s'y trouvent.
+Le règlement s'applique aux traitements de NOUN DIASPORA et à eux seuls~:
+le microcrédit proposé aux clients de Bafoussam n'en relève pas.
+
+L'article~27 en tire une première conséquence. L'acteur ainsi visé désigne
+par écrit un représentant établi dans l'un des États où se trouvent les
+personnes. Le représentant reçoit les demandes des personnes et de
+l'autorité.
+
+% ============================================================================
+\section{Trois Voies d'Exposition}
+\label{sec:c04-voies}
+% ============================================================================
+
+\begin{tableaucours}{L{2.4cm}L{4.6cm}L{5.0cm}}{%
+    \tableauHeader{Voie} &
+    \tableauHeader{Situation} &
+    \tableauHeader{Conséquence}
+}
+Directe & L'organisation camerounaise cible des personnes dans l'Union
+(NOUN DIASPORA) & Le RGPD lui est opposable pour ces traitements~;
+représentant à désigner \\
+Contractuelle & Elle est sous-traitante d'un responsable européen & Contrat
+de l'article~28 et clauses contractuelles types pour le transfert vers le
+Cameroun \\
+En cascade & Elle confie ses données à un prestataire établi dans l'Union &
+Le prestataire applique ses obligations de sous-traitant et les répercute
+dans son contrat \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.3. Trois manières de rencontrer le
+RGPD depuis le Cameroun}\end{center}
+
+\subsection{La voie contractuelle}
+
+MEDISOFT SARL, l'éditeur de Douala qui héberge le dossier patient de MBOLO,
+a signé en 2026 un contrat de télémaintenance avec une clinique de
+Bruxelles. Ses techniciens consultent depuis Douala des données de patients
+belges. La clinique est responsable de traitement, MEDISOFT sous-traitant.
+
+La clinique ne peut pas transférer ces données au Cameroun sans garantie~:
+aucune décision d'adéquation ne couvre le pays
+(Chapitre~\ref{chap:international}). Elle recourt donc aux clauses
+contractuelles types adoptées par la Commission européenne en
+2021~\cite{ue2021clauses}. MEDISOFT les signe telles quelles, car elles ne
+se négocient pas. Elles lui imposent de n'agir que sur instruction,
+d'assurer la sécurité, de signaler toute violation, d'accepter des audits et
+de dire si le droit camerounais permet à une autorité d'accéder aux données.
+
+Le RGPD est ici \textbf{contractuel} au sens du
+Chapitre~\ref{chap:international}. L'auditeur de MEDISOFT cote ces
+engagements si le contrat figure dans ses critères.
+
+\subsection{La voie en cascade}
+
+L'hébergeur de NOUN PAY est établi dans l'Union. Il est soumis au RGPD pour
+ses propres obligations de sous-traitant, quel que soit le pays de son
+client. Son contrat type reprend donc les clauses de l'article~28 et NOUN
+PAY les a acceptées en ouvrant son compte. L'effet est favorable~: NOUN PAY
+dispose d'un droit d'audit, d'un engagement de notification et d'une liste
+des sous-traitants ultérieurs qu'elle n'aurait peut-être pas obtenus seule.
+
+Un point reste à surveiller. Quand l'hébergeur renvoie les données vers le
+Cameroun, par exemple pour qu'un agent de Bafoussam les consulte, il fait
+lui-même un transfert hors de l'Union. Il peut exiger pour cela des
+garanties de son client.
+
+% ============================================================================
+\section{La Loi et le RGPD, Point par Point}
+\label{sec:c04-comparaison}
+% ============================================================================
+
+\begin{tableaucours}{L{2.8cm}L{4.6cm}L{4.6cm}}{%
+    \tableauHeader{Point} &
+    \tableauHeader{Loi n°~2024/017} &
+    \tableauHeader{RGPD}
+}
+Champ & Personnes établies, résidant ou en transit au Cameroun~; acteurs
+établis au Cameroun (art.~2) & Établissement dans l'Union~; ciblage de
+personnes dans l'Union (art.~3) \\
+Formalité préalable & Autorisation pour tout traitement (art.~19) & Aucune,
+sauf consultation préalable (art.~36) \\
+Bases du traitement & Consentement et trois dérogations (art.~9) & Six
+bases, dont contrat et intérêt légitime (art.~6) \\
+Minimisation & Pas de principe général & Principe (art.~5) \\
+Délégué & Non prévu & Obligatoire dans trois cas (art.~37) \\
+Registre & Responsable et sous-traitant (art.~29) & Les deux, avec une
+exemption limitée pour les petites structures (art.~30) \\
+Évaluation d'impact & Si risque élevé~; modalités réglementaires (art.~33) &
+Si risque élevé~; critères publiés (art.~35) \\
+Violation & « Sans délai », à l'Autorité et à la personne, pour toute
+violation (art.~22) & 72~heures à l'autorité~; personnes si risque élevé
+(art.~33, 34) \\
+Sous-traitant & Mêmes obligations que le responsable (art.~20) & Obligations
+propres, plus limitées (art.~28) \\
+Responsables conjoints & Convention rendue publique (art.~31) & Grandes
+lignes mises à disposition (art.~26) \\
+Transferts & Autorisation, quatre vérifications (art.~32) & Adéquation,
+garanties, dérogations (art.~44 à~49) \\
+Décision automatisée & Droit d'opposition~; profilage puni (art.~44, 65) &
+Encadrée, non interdite (art.~22) \\
+Données sensibles & Liste ouverte, dont transactions bancaires et origine
+régionale (art.~5) & Liste fermée (art.~9) \\
+Délai de réponse aux demandes & Renvoyé à un texte réglementaire (art.~47) &
+Un mois, prolongeable (art.~12) \\
+Sanction maximale & Un milliard de francs CFA, personne morale (art.~71) &
+4~\% du chiffre d'affaires mondial (art.~83) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.4. Quinze points de comparaison}\end{center}
+
+Trois lectures de ce tableau sont utiles.
+
+La loi camerounaise est \textbf{plus stricte} sur six points~: l'autorisation
+préalable, le petit nombre de fondements, la notification de toute
+violation, les obligations du sous-traitant, la publicité de la convention
+entre responsables conjoints et la liste des données sensibles. Une
+organisation conforme au RGPD n'est donc pas conforme à la loi.
+
+Elle est \textbf{moins précise} sur quatre~: la minimisation, les délais,
+les critères du risque élevé et le contenu de la notification. Là, le RGPD
+fournit des repères que l'auditeur peut emprunter.
+
+Elle est \textbf{simplement différente} sur le reste. Le délégué n'existe
+pas dans la loi et sa désignation ne peut être qu'une bonne pratique.
+
+% ============================================================================
+\section{Emprunter sans Confondre}
+\label{sec:c04-emprunter}
+% ============================================================================
+
+Le Chapitre~\ref{chap:audit} montrera qu'un critère renvoyant à un texte non
+publié se remplace par un \termecle{critère de substitution} déclaré. Le
+droit européen est la première source de ces critères, parce qu'il est
+précis, publié et commenté. Trois emprunts reviennent dans ce cours.
+
+\begin{tableaucours}{L{3.6cm}L{4.2cm}L{4.2cm}}{%
+    \tableauHeader{Silence de la loi} &
+    \tableauHeader{Repère européen} &
+    \tableauHeader{Formulation dans le rapport}
+}
+Délai de réponse aux demandes (art.~47) & Un mois (RGPD, art.~12) & « 30
+jours (critère de l'audit) » \\
+Critères du risque élevé (art.~33) & Liste du Comité européen, méthode de la
+CNIL~\cite{cnil2018pia} & « Critères déclarés au plan d'audit » \\
+Contenu de la notification (art.~22) & Rubriques des articles~33 et~34 &
+« Contenu minimal retenu par l'audit » \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.5. Trois emprunts et leur
+formulation}\end{center}
+
+La règle tient en une phrase. Un emprunt se déclare dans le plan d'audit, se
+nomme dans le rapport et ne se présente jamais comme une obligation légale
+camerounaise. L'emprunt ne joue que dans un sens~: il précise un silence, il
+n'allège jamais une exigence de la loi. On n'importe pas l'intérêt légitime.
+
+% ============================================================================
+\section{La Double Conformité}
+\label{sec:c04-double}
+% ============================================================================
+
+Pour NOUN DIASPORA, les deux textes s'appliquent au même traitement. Le
+client est à Lyon, donc protégé par le RGPD. NOUN PAY est établie au
+Cameroun, donc soumise à la loi par son article~2. L'auditeur cote chaque
+exigence deux fois.
+
+\begin{tableaucours}{L{3.4cm}L{3.4cm}L{3.4cm}L{1.6cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Critère camerounais} &
+    \tableauHeader{Critère européen} &
+    \tableauHeader{Règle}
+}
+Fondement du traitement & Consentement ou dérogation (art.~9) & L'une des
+six bases (art.~6) & Le plus strict \\
+Notification d'une violation & Sans délai, Autorité et personne (art.~22) &
+72~heures, autorité~; personne si risque élevé & Les deux \\
+Formalité préalable & Autorisation (art.~19) & Aucune & Camerounais \\
+Représentant & Aucun & Désignation écrite (art.~27) & Européen \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.6. Une exigence, deux critères}\end{center}
+
+Quand les deux textes demandent la même chose à des degrés différents,
+l'organisation satisfait le plus strict et satisfait ainsi les deux. Quand
+ils demandent des choses différentes, elle fait les deux. Les deux textes ne
+se contredisent sur aucun de ces points~: aucun n'interdit ce que l'autre
+impose.
+
+\begin{boxscenario}{Mission NOUN PAY. NOUN DIASPORA face au RGPD, septembre 2026}
+\textbf{Constatations.}
+\begin{itemize}
+    \item 6\,840 clients inscrits depuis la France et la Belgique entre mars
+          et août~2026~; frais en euros, publicité ciblée sur ces deux pays.
+    \item Aucun représentant désigné dans l'Union. Aucune mention du RGPD
+          dans la notice de l'application.
+    \item La vérification d'identité de ces clients passe par le même
+          prestataire de selfies, dont le pays reste inconnu.
+    \item Le contrat de l'hébergeur contient les clauses de l'article~28.
+    \item Aucune analyse d'impact~; aucune procédure de notification.
+\end{itemize}
+
+\textbf{Analyse} (confiance élevée). Le service remplit le critère du
+ciblage. NOUN PAY l'a lancé sans se demander quel droit protégeait ses
+clients. Le seul point conforme lui vient de son hébergeur.
+\end{boxscenario}
+
+\begin{boxlecture}{NOUN DIASPORA, exigences du RGPD}
+\begin{tableaucours}{L{7.6cm}cL{3.4cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Un représentant est désigné dans l'Union (art.~27) & \NON{} & Aucune
+désignation \\
+Chaque traitement a une base légale identifiée (art.~6) & \NON{} & Case
+unique \\
+L'information de l'article~13 est fournie & \NON{} & Notice de
+l'application \\
+Un registre est tenu (art.~30) & \NON{} & Aucun registre \\
+Une analyse d'impact a été conduite (art.~35) & \NON{} & Aucune \\
+Une procédure permet de notifier en 72~heures (art.~33) & \NON{} & Aucune \\
+Le contrat de l'hébergeur contient les clauses de l'article~28 & \OUI{} &
+Contrat, annexe données \\
+Un délégué doit être désigné (art.~37) & \NEK{} & Suivi « à grande échelle »
+à apprécier \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Un \OUI{}, six \NON{}, un \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}125}{1{,}06}
+
+\medskip
+\textbf{Lecture.} Le domaine est clair et non conforme. Ces huit cotes
+s'ajoutent à celles de la loi camerounaise, elles ne les remplacent pas~: le
+même service reçoit par ailleurs un \NON{} au titre de l'article~19.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que le RGPD demande à chaque Métier}
+\label{sec:c04-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Poser la question de l'article~3 pour chaque traitement et consigner la
+réponse au plan d'audit. Tenir deux colonnes de cotes quand les deux textes
+s'appliquent.
+\end{boxmetier}
+
+\begin{boxmetier}{Juriste conformité}
+Lire avant signature les clauses qu'un client ou un prestataire européen
+impose. Elles créent des obligations d'audit, de notification et de
+coopération que l'organisation devra tenir.
+\end{boxmetier}
+
+\begin{boxmetier}{Responsable de traitement}
+Décider en connaissance de cause d'ouvrir un service à des personnes en
+Europe. Le marché de la diaspora emporte le RGPD avec lui.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item Le RGPD repose sur la responsabilité du responsable, la loi
+          n°~2024/017 sur l'autorisation préalable.
+    \item Son article~3 l'applique à une organisation camerounaise qui cible
+          des personnes se trouvant dans l'Union~; l'article~27 lui impose
+          alors un représentant.
+    \item Trois voies d'exposition~: directe, contractuelle, en cascade.
+    \item La loi camerounaise est plus stricte que le RGPD sur six points et
+          moins précise sur quatre~; être conforme à l'un ne dit rien de
+          l'autre.
+    \item Un repère européen s'emprunte comme critère de substitution
+          déclaré, pour préciser un silence, jamais pour alléger la loi.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item appliquer les indices de ciblage à un service en ligne~;
+    \item citer trois points où la loi camerounaise est plus stricte que le
+          RGPD~;
+    \item formuler dans un rapport un critère emprunté au droit européen.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.1. Le RGPD s'applique-t-il \niveaubase}]
+Dites si le RGPD s'applique et par quelle voie~: (a) NYANGA CRÉDIT gère les
+comptes de ses clients de l'Ouest~; (b) NOUN PAY propose NOUN DIASPORA~;
+(c) MEDISOFT assure la télémaintenance d'une clinique de Bruxelles~;
+(d) un touriste allemand est soigné à MBOLO~; (e) NOUN PAY héberge ses
+données à Francfort.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.2. L'offre du cabinet \niveaumoyen}]
+Reprenez l'offre de « mise en conformité RGPD camerounais » reçue par
+NYANGA. Corrigez ses trois affirmations et ajoutez les trois obligations
+camerounaises qu'elle omet, articles à l'appui.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.3. Deux colonnes \niveaumoyen}]
+NOUN PAY découvre le 2~octobre qu'un fichier de 1\,200 clients de NOUN
+DIASPORA a été envoyé par erreur à un partenaire. Dressez le tableau des
+obligations de notification au titre de l'article~22 de la loi et des
+articles~33 et~34 du RGPD~: destinataires, délais, contenu. Que fait NOUN
+PAY pour satisfaire les deux textes~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.4. Les clauses de MEDISOFT \niveauexpert}]
+Les clauses signées par MEDISOFT l'obligent à dire si le droit camerounais
+permet à une autorité publique d'accéder aux données des patients belges.
+\begin{enumerate}[(a)]
+    \item Quels textes camerounais MEDISOFT doit-il examiner pour répondre~?
+          Appuyez-vous sur le Chapitre~\ref{chap:loi2010}.
+    \item Le transfert de la Belgique vers le Cameroun est-il aussi un
+          traitement soumis à l'article~19 de la loi n°~2024/017~?
+    \item Comment l'auditeur de MEDISOFT cote-t-il la proposition « MEDISOFT
+          respecte ses engagements envers la clinique »~?
+\end{enumerate}
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item Le RGPD~\cite{ue2016rgpd}, articles~3, 27, 28 et~44 à~49.
+    \item Les lignes directrices 3/2018 du Comité européen sur le champ
+          territorial~\cite{edpb2018territorial}.
+    \item Les recommandations 01/2020 sur les transferts~\cite{edpb2020transferts}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le RGPD est une loi. D'autres référentiels n'obligent
+personne et organisent pourtant le travail de milliers d'entreprises~: le
+cadre du NIST et les normes ISO. C'est l'objet du
+Chapitre~\ref{chap:normes}.
+\end{boxinfo}

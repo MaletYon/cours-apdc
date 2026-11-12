@@ -1,0 +1,638 @@
+% ============================================================================
+% Fichier  : partie3/P03_C07_loi_2010.tex
+% Titre    : La Loi n° 2010/012 et les Textes Connexes
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Version  : 3.0 -- novembre 2026
+% Corrigés : corriges/Corr_C07.tex
+% ============================================================================
+% Sources : loi n° 2010/012 du 21 décembre 2010 (texte de la bibliothèque du
+% cours), articles 13, 14, 24 à 32, 35, 41 à 51, 74, 91 : cités mot pour mot
+% quand ils sont entre guillemets. Loi n° 2024/017, texte officiel. Les
+% textes connexes du Tableau 7.4 portent chacun leur degré de vérification ;
+% ceux qui sont marqués « à vérifier » sont cités de mémoire et ne doivent
+% pas servir de critère d'audit avant lecture du texte.
+% ============================================================================
+
+\chapter{La Loi n° 2010/012 et les Textes Connexes}
+\label{chap:loi2010}
+\chaptermark{La loi n° 2010/012}
+
+\epigraph{%
+    « Une loi nouvelle n'efface pas les anciennes.\\
+    Elle oblige à les relire. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{%
+    Chapitre~\ref{chap:loi}~; droit du numérique (UE MSN-2S3-JUR01)
+}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Présenter ce que la loi n°~2010/012 impose en matière de sécurité,
+          de conservation et de vie privée.
+    \item Confronter la conservation décennale de la loi de 2010 à la durée
+          limitée de la loi de 2024.
+    \item Rapprocher les délits de l'article~74 de ceux de la loi de 2024.
+    \item Recenser les textes connexes applicables à une organisation, avec
+          leur degré de vérification.
+    \item Choisir les critères d'un audit et dresser la carte
+          d'applicabilité d'une organisation.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Avant de commencer : « dix ans, c'est la loi »}
+% ============================================================================
+
+Bafoussam, mercredi 5~août~2026. Mme~BELLO demande à M.~KAMGA combien de
+temps NYANGA CRÉDIT garde les journaux de connexion de son application
+mobile. « Dix ans. C'est la loi de 2010. » Il sort le texte et montre
+l'article~29.
+
+Me~ETOUNDI, qui assiste à l'entretien, ouvre l'autre loi. L'article~13 de la
+loi de 2024 limite la conservation à « la période nécessaire » au
+traitement. Les journaux contiennent l'adresse IP et l'identifiant de chaque
+client à chaque connexion. Dix ans de ces données sont-ils nécessaires~?
+
+Les deux ont un texte en main. L'auditrice note que la question n'est pas de
+savoir qui a raison, mais de savoir si l'article~29 vise bien un
+établissement de microfinance et ce que l'établissement a écrit pour
+justifier son choix. Il n'a rien écrit.
+
+\begin{boxalert}
+\textbf{Violation typique.} Auditer la protection des données contre la
+seule loi n°~2024/017, comme si elle avait remplacé tout ce qui la
+précédait.
+
+\smallskip
+\textbf{Règle~:} l'article~75 de la loi de 2024 n'abroge que les dispositions
+contraires. L'auditeur recense les textes antérieurs encore applicables, les
+inscrit parmi ses critères et signale les points où deux textes se
+rencontrent sans qu'une règle dise lequel l'emporte.
+\end{boxalert}
+
+% ============================================================================
+\section{Une Loi de Sécurité qui Parle de Données}
+\label{sec:c07-architecture}
+% ============================================================================
+
+La loi n°~2010/012 du 21~décembre~2010~\cite{loi2010012} régit la sécurité des
+réseaux de communications électroniques et des systèmes d'information, et
+réprime la cybercriminalité. Elle n'est pas une loi de protection des
+données. Elle en a pourtant tenu lieu pendant quatorze ans, par quelques
+articles dispersés.
+
+\begin{tableaucours}{cL{5.4cm}cL{4.0cm}}{%
+    \tableauHeader{Titre} &
+    \tableauHeader{Objet} &
+    \tableauHeader{Art.} &
+    \tableauHeader{Intérêt pour ce cours}
+}
+I & Dispositions générales, définitions & 1--5 & Vocabulaire~: données de
+connexion, données de trafic \\
+II & Cybersécurité~: régulation, audit, certification électronique,
+protection des réseaux, des systèmes et de la vie privée & 6--51 & Sécurité
+obligatoire, conservation, vie privée, interception \\
+III & Cybercriminalité~: procédure, infractions & 52--89 & Enquête, délits
+sur les données (art.~74) \\
+IV & Coopération et entraide judiciaire internationales & 90--94 & Demandes
+venues de l'étranger \\
+V & Dispositions transitoires et finales & 95 et s. & Textes
+d'application \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.1. La loi n°~2010/012 en cinq
+titres}\end{center}
+
+La loi confie la régulation de la sécurité électronique à l'Agence nationale
+des technologies de l'information et de la communication (article~7). Tant
+que l'Autorité de protection des données n'est pas organisée, l'Agence est
+le seul régulateur en place dont les compétences touchent aux données
+personnelles, par le biais de la sécurité.
+
+% ============================================================================
+\section{La Sécurité Obligatoire}
+\label{sec:c07-securite}
+% ============================================================================
+
+Trois obligations de la loi de 2010 s'ajoutent à l'article~27 de la loi de
+2024.
+
+L'article~26 demande aux exploitants des systèmes d'information de se doter
+« de systèmes normalisés leur permettant d'identifier, d'évaluer, de traiter
+et de gérer continûment les risques liés à la sécurité ». C'est une
+obligation de gestion des risques, que l'ISO/IEC~27001 permet de satisfaire.
+
+L'article~30 leur demande d'évaluer et de réviser leurs mesures « en fonction
+de l'évolution des technologies ».
+
+Les articles~13 et~32 instituent un audit de sécurité obligatoire. Il vise
+les réseaux et les systèmes d'information des opérateurs, des autorités de
+certification et des fournisseurs de services de communications
+électroniques. Il est périodique, conduit par l'Agence ou sous son contrôle
+et ses rapports sont confidentiels (article~32).
+
+\begin{boxinfo}
+\textbf{Ce que l'auditeur de protection des données en fait.} Il ne refait
+pas l'audit de sécurité. Il demande si l'organisation y est assujettie, la
+date du dernier audit et la suite donnée à ses recommandations. Le rapport
+est confidentiel~: l'auditeur peut ne recevoir qu'une attestation. Il cote
+alors l'existence de l'audit, pas son contenu. Le cours d'audit de
+cybersécurité (UE MSN-2S3-SEC08) traite l'audit lui-même.
+\end{boxinfo}
+
+% ============================================================================
+\section{La Conservation Décennale}
+\label{sec:c07-conservation}
+% ============================================================================
+
+Quatre articles de la loi de 2010 imposent de conserver des données pendant
+dix ans.
+
+\begin{tableaucours}{cL{4.2cm}L{6.0cm}}{%
+    \tableauHeader{Art.} &
+    \tableauHeader{Qui} &
+    \tableauHeader{Quoi}
+}
+25 & Opérateurs de réseaux, fournisseurs de services de communications
+électroniques & Données de connexion et de trafic \\
+29 & Exploitants des systèmes d'information & Données de connexion et de
+trafic de leurs systèmes \\
+35 & Fournisseurs d'accès et hébergeurs & Données d'identification des
+auteurs de contenus \\
+46 & Fournisseurs de contenus & Contenus et données stockées \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.2. Les quatre obligations de
+conservation pendant dix ans}\end{center}
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2010/012}, article~29, alinéa~1}~\cite{loi2010012}~:
+\textit{« Les exploitants des systèmes d'information ont l'obligation de
+conserver les données de connexion et de trafic de leurs systèmes
+d'information pendant une période de dix (10) ans. »}
+
+\smallskip
+\textbf{Portée.} L'alinéa~2 ajoute que ces données « peuvent être
+accessibles lors des investigations judiciaires ». La finalité est donc la
+preuve pénale. La loi ne définit pas l'exploitant de système d'information~;
+on ne sait pas avec certitude si une microfinance ou une clinique en est un
+au sens de ce texte.
+\end{boxjuris}
+
+Une adresse IP et un identifiant de connexion sont des données personnelles
+par la lettre de l'article~5 de la loi de 2024 (Chapitre~\ref{chap:donnees}).
+Les journaux visés par l'article~29 sont donc des données personnelles, que
+l'article~13 de la loi de 2024 demande de ne pas garder au-delà du
+nécessaire.
+
+Les deux textes ne sont pas incompatibles. L'article~9 de la loi de 2024
+admet le traitement « nécessaire au respect d'une obligation légale », et
+l'article~38 réserve « les exigences de conservation » prévues par d'autres
+textes. Une obligation de conserver dix ans, si elle s'applique, fonde la
+conservation. La difficulté est en amont~: savoir à qui elle s'applique.
+
+L'auditeur procède en trois temps.
+
+\begin{enumerate}
+    \item Il demande à l'organisation si elle se considère comme opérateur,
+          fournisseur, hébergeur ou exploitant au sens de la loi de 2010
+          et sur quel fondement.
+    \item Si elle répond oui, il vérifie que seules les données visées
+          (connexion et trafic) sont gardées dix ans, que leur accès est
+          restreint et que leur finalité reste la preuve.
+    \item Si elle répond non ou ne sait pas, il cote \NEK{} de critère
+          l'application de l'article~29 et vérifie que la durée retenue est
+          écrite et justifiée au regard de l'article~13.
+\end{enumerate}
+
+Dans les trois cas, des journaux gardés dix ans et consultés pour surveiller
+les clients ou le personnel sont détournés de leur finalité. Cet écart-là ne
+dépend d'aucune interprétation.
+
+% ============================================================================
+\section{La Vie Privée dans les Communications}
+\label{sec:c07-vieprivee}
+% ============================================================================
+
+La section~IV du chapitre~IX (articles~41 à~48) protège la vie privée. Elle
+reste applicable en ce qu'elle n'est pas contraire à la loi de 2024 et elle
+contient des règles que celle-ci n'a pas reprises.
+
+\begin{tableaucours}{cL{5.6cm}L{4.8cm}}{%
+    \tableauHeader{Art.} &
+    \tableauHeader{Règle (paraphrasée)} &
+    \tableauHeader{Traitement concerné}
+}
+41 & Droit au respect de la vie privée~; mesures conservatoires du juge &
+Tous \\
+42 & Confidentialité des communications et des données de trafic &
+Messagerie, application, téléphonie \\
+44 & Interdiction d'écouter, d'intercepter ou de stocker les communications
+sans consentement, sauf autorisation légale & Enregistrement des appels,
+supervision de la messagerie \\
+45 & Enregistrement autorisé dans le cadre professionnel pour fournir la
+preuve d'une communication & Service client, ordres par téléphone \\
+46 (2) & Filtres contre les atteintes aux données personnelles & Sites et
+applications ouverts au public \\
+47 & Consentement préalable pour lire ou écrire dans l'équipement terminal &
+Traceurs, kits de mesure d'audience \\
+48 & Prospection électronique~: émetteur identifié, adresse valide pour
+demander l'arrêt & SMS et courriels commerciaux \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.3. La vie privée dans la loi
+n°~2010/012}\end{center}
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2010/012}, article~47}~\cite{loi2010012}~:
+\textit{« L'utilisation des réseaux de communications électroniques et des
+systèmes d'information aux fins de stocker les informations ou d'accéder à
+des informations stockées dans un équipement terminal d'une personne
+physique ou morale, ne peut se faire qu'avec son consentement préalable. »}
+
+\smallskip
+\textbf{Portée.} Un kit de mesure d'audience intégré à une application
+mobile, qui lit l'identifiant du téléphone, accède à des informations
+stockées dans l'équipement terminal. Il exige un consentement préalable,
+distinct de celui que la loi de 2024 demande pour le traitement lui-même.
+C'est le cas du traitement que l'audit découvrira dans l'application de
+NYANGA (Chapitre~\ref{chap:cartographie}).
+\end{boxjuris}
+
+L'article~45 autorise l'enregistrement des communications « effectué dans le
+cadre professionnel en vue de fournir la preuve numérique d'une
+communication électronique ». L'enregistrement des appels du service client
+de NYANGA peut s'appuyer sur ce texte s'il sert à prouver les opérations
+convenues par téléphone. Il ne le peut pas s'il sert à évaluer les agents ou
+à entraîner un logiciel. La finalité décide, comme à l'article~11 de la loi
+de 2024.
+
+% ============================================================================
+\section{Interception, Réquisitions et Entraide}
+\label{sec:c07-enquete}
+% ============================================================================
+
+L'organisation auditée détient des données que les enquêteurs peuvent
+demander. La loi de 2010 fixe le cadre de ces demandes. Les officiers de
+police judiciaire et les agents assermentés de l'Agence conduisent les
+enquêtes selon le Code de procédure pénale (article~52). En cas de crime ou
+de délit prévu par la loi, l'officier de police judiciaire peut intercepter
+et enregistrer des communications (article~49) et les personnels des
+opérateurs sont tenus au secret sur les réquisitions reçues (article~51).
+Les demandes venues de l'étranger passent par le ministère chargé des
+relations extérieures, sauf convention contraire (article~91)~; la
+Convention de Budapest en est une (Chapitre~\ref{chap:international}).
+
+L'auditeur ne juge pas la régularité d'une enquête. Il vérifie que
+l'organisation sait recevoir une demande~: qui la reçoit, comment son auteur
+et son fondement sont vérifiés, quelles données sont remises, quelle trace
+en est gardée. Une remise de données sur simple appel téléphonique d'un
+prétendu enquêteur est une violation de données
+(Chapitre~\ref{chap:violations}).
+
+% ============================================================================
+\section{Deux Lois, des Délits Voisins}
+\label{sec:c07-delits}
+% ============================================================================
+
+L'article~74 de la loi de 2010 punit plusieurs atteintes aux données
+personnelles. Il a été écrit à une époque où aucune formalité préalable
+n'existait encore au Cameroun et il en parle pourtant.
+
+\begin{boxjuris}
+\textbf{\loicam{n°~2010/012}, article~74, alinéas~3 et~7}~\cite{loi2010012}~:
+\textit{« (3) Est puni d'un emprisonnement d'un (01) à trois (03) ans et
+d'une amende de 1.000.000 (un million) à 5.000.000 (cinq millions) F CFA ou
+de l'une de ces deux peines seulement, quiconque procède ou fait procéder,
+même par négligence au traitement des données à caractère personnel en
+violation des formalités préalables à leur mise en œuvre. [\ldots]
+(7) Est puni d'un emprisonnement de six (06) mois à deux (02) ans et d'une
+amende de 5.000.000 (cinq millions) à 50.000.000 (cinquante millions) F
+CFA, ou de l'une de ces deux peines seulement, celui qui conserve des
+informations sous une forme nominative ou chiffrée au-delà de la durée
+légale indiquée dans la demande d'avis ou la déclaration préalable à la mise
+en œuvre du traitement automatisé. »}
+
+\smallskip
+\textbf{Portée.} L'alinéa~3 punit le traitement fait sans formalité
+préalable, « même par négligence ». Depuis 2024, cette formalité existe~:
+c'est l'autorisation de l'article~19. L'alinéa~7 punit la conservation
+au-delà de la durée déclarée, délit que la loi de 2024 ne reprend pas en ces
+termes.
+\end{boxjuris}
+
+\begin{tableaucours}{L{4.6cm}cL{4.8cm}c}{%
+    \tableauHeader{Comportement} &
+    \tableauHeader{2010} &
+    \tableauHeader{Loi n°~2024/017} &
+    \tableauHeader{2024}
+}
+Traitement sans formalité préalable & 74 (3) & Traitement sans autorisation
+(pénalité administrative) & 55 \\
+Collecte par des moyens illicites & 74 (4) & Collecte frauduleuse, déloyale
+ou illicite & 63 \\
+Données révélant l'origine tribale, les opinions, les mœurs, sans accord
+exprès & 74 (5) & Données sensibles sans consentement exprès & 66 \\
+Détournement des informations & 74 (6) & Détournement de finalité & 67 \\
+Conservation au-delà de la durée déclarée & 74 (7) & Pas de délit
+identique~; durée limitée & 13 \\
+Divulgation portant atteinte à la considération & 74 (8) & Divulgation
+portant atteinte à la dignité ou à la vie privée & 68 \\
+Interception de données personnelles en transmission & 74 (2) & Accès
+frauduleux & 63 \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.4. Concordance indicative des délits
+des deux lois}\end{center}
+
+Les peines diffèrent d'une colonne à l'autre. Quand deux textes punissent le
+même fait de peines différentes, lequel s'applique~? L'article~75 de la loi
+de 2024 abroge les dispositions « contraires », sans dire si une peine
+différente pour le même fait est une contrariété. La réponse appartient au
+juge pénal.
+
+L'auditeur n'a pas à la donner. Il rattache l'écart aux deux articles,
+signale la concurrence et classe l'incertitude sur la peine parmi les
+\NEK{} de critère. L'écart lui-même reste un \NON{}~: les deux lois le
+réprouvent.
+
+% ============================================================================
+\section{Les Textes Connexes}
+\label{sec:c07-connexes}
+% ============================================================================
+
+D'autres textes touchent aux données personnelles d'une organisation
+camerounaise. Le tableau en donne la liste de travail du cours, avec pour
+chacun ce que l'auteur a pu vérifier.
+
+\begin{tableaucours}{L{4.6cm}L{4.4cm}L{3.0cm}}{%
+    \tableauHeader{Texte} &
+    \tableauHeader{Ce qu'il apporte} &
+    \tableauHeader{Vérification}
+}
+Loi n°~2010/013 sur les communications électroniques, modifiée en 2015 &
+Secret des correspondances, obligations des opérateurs envers les abonnés &
+Texte en bibliothèque, à lire \\
+Décret n°~2015/3759 sur l'identification des abonnés & Collecte de
+l'identité de tout abonné & Texte en bibliothèque, à lire \\
+Loi-cadre n°~2011/012 sur la protection du consommateur & Information et
+loyauté envers le consommateur & Texte en bibliothèque, à lire \\
+Code de procédure pénale, articles~102 et~154 & Secret de l'enquête et de
+l'information judiciaire & D'après~\cite{minka2026chainepenale} \\
+Code pénal & Secret professionnel, violation de correspondance & À
+vérifier \\
+Loi sur le secret bancaire & Confidentialité des informations des clients &
+À vérifier \\
+Règlements de la CEMAC et de la COBAC & Conservation et communication des
+données des clients, lutte contre le blanchiment, services de paiement & À
+identifier \\
+Texte sur la protection des enfants en ligne & Obligations envers les
+mineurs & À vérifier \\
+Code de déontologie médicale & Secret médical & À vérifier \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.5. Les textes connexes et leur degré
+de vérification (novembre~2026)}\end{center}
+
+La dernière colonne n'est pas une précaution de style. Un texte « à
+vérifier » ne peut pas figurer parmi les critères d'un audit~: l'auditeur le
+lit d'abord dans sa version officielle. S'il ne le trouve pas, il l'écrit et
+cote \NEK{} de critère les exigences qui en dépendraient. Le
+Chapitre~\ref{chap:secteurs} reprend ces textes secteur par secteur.
+
+% ============================================================================
+\section{Choisir ses Critères}
+\label{sec:c07-criteres}
+% ============================================================================
+
+Cinq chapitres ont présenté des textes de nature et de portée différentes.
+Avant d'ouvrir une mission, l'auditeur décide lesquels serviront de
+critères. La règle tient en quatre lignes.
+
+\begin{boxprocedure}
+\textbf{Choisir les critères d'un audit de protection des données.}
+\begin{enumerate}
+    \item \textbf{L'obligatoire d'abord.} La loi n°~2024/017, la loi
+          n°~2010/012 pour ce qui subsiste, les textes sectoriels et
+          communautaires applicables à l'organisation. Ils entrent toujours
+          dans les critères.
+    \item \textbf{L'étranger opposable ensuite.} Le RGPD pour les seuls
+          traitements qui remplissent son article~3.
+    \item \textbf{Le contractuel.} Les clauses imposées par un client, un
+          prestataire ou un investisseur, si le commanditaire veut qu'elles
+          soient auditées.
+    \item \textbf{Le volontaire déclaré.} Une norme, un cadre ou un repère
+          étranger, retenu comme référentiel ou comme critère de
+          substitution et nommé comme tel.
+\end{enumerate}
+\end{boxprocedure}
+
+Le résultat se présente dans une \termecle{carte d'applicabilité}~: un
+tableau qui dit, pour chaque texte, son statut à l'égard de l'organisation.
+
+\begin{tableaucours}{L{4.0cm}L{2.6cm}L{2.6cm}L{2.8cm}}{%
+    \tableauHeader{Texte} &
+    \tableauHeader{NYANGA} &
+    \tableauHeader{MBOLO} &
+    \tableauHeader{NOUN PAY}
+}
+Loi n°~2024/017 & Obligatoire & Obligatoire & Obligatoire \\
+Loi n°~2010/012, art.~41 à~48 et~74 & Obligatoire & Obligatoire &
+Obligatoire \\
+Loi n°~2010/012, art.~29 & À qualifier & À qualifier & À qualifier \\
+Textes CEMAC et COBAC & Obligatoires & Sans objet & Obligatoires \\
+Secret médical & Sans objet & Obligatoire & Sans objet \\
+RGPD & Sans objet & Sans objet & Obligatoire pour NOUN DIASPORA~;
+contractuel avec l'hébergeur \\
+Cadre du NIST & Sans objet & Sans objet & Contractuel (investisseur) \\
+ISO/IEC~27701 & Sans objet & Sans objet & Volontaire (projet de
+certification) \\
+Convention de Malabo & Comparatif & Comparatif & Comparatif \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.6. La carte d'applicabilité des
+trois missions}\end{center}
+
+La carte se joint au plan d'audit (Chapitre~\ref{chap:audit}). Elle protège
+l'auditeur contre deux reproches~: avoir oublié un texte applicable, ou
+avoir reproché à l'organisation de ne pas respecter un texte qui ne la lie
+pas.
+
+% ============================================================================
+\section{La Loi de 2010 à NYANGA}
+\label{sec:c07-cas}
+% ============================================================================
+
+\begin{boxscenario}{Mission NYANGA. Les exigences de la loi n° 2010/012, août 2026}
+\textbf{Constatations.}
+\begin{itemize}
+    \item L'application mobile intègre un kit de mesure d'audience qui lit
+          l'identifiant du téléphone dès le premier lancement, avant tout
+          écran d'information.
+    \item Tous les appels au service client sont enregistrés et gardés deux
+          ans. Le chef du service en écoute un échantillon chaque mois pour
+          noter les agents.
+    \item Les SMS de prospection n'indiquent aucun moyen de demander leur
+          arrêt.
+    \item Des relevés de compte sont envoyés aux clients depuis la
+          messagerie personnelle des agents.
+    \item Une analyse des risques de sécurité a été refaite après l'incident
+          de 2025 et mise à jour en mars~2026.
+    \item Les journaux de connexion de l'application sont gardés dix ans.
+          Aucune note ne dit pourquoi. L'établissement n'a jamais fait
+          l'objet d'un audit de l'Agence et ne sait pas s'il y est
+          assujetti.
+\end{itemize}
+
+\textbf{Analyse} (confiance élevée sur les faits, moyenne sur
+l'assujettissement). Quatre écarts ne dépendent d'aucune interprétation. Les
+trois points incertains tiennent tous à la même question~: NYANGA CRÉDIT
+est-elle un exploitant de système d'information au sens de la loi de 2010~?
+\end{boxscenario}
+
+\begin{boxlecture}{NYANGA CRÉDIT, exigences de la loi n° 2010/012}
+\begin{tableaucours}{L{7.6cm}cL{3.4cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+Le kit de mesure d'audience recueille un consentement préalable (art.~47) &
+\NON{} & Analyse de l'application \\
+L'enregistrement des appels sert la seule preuve (art.~45) & \NON{} &
+Entretien, grille de notation \\
+Les messages de prospection permettent de demander l'arrêt (art.~48) &
+\NON{} & Échantillon de 20~SMS \\
+Les communications avec les clients sont confidentielles (art.~42) & \NON{} &
+Messageries personnelles \\
+Les risques de sécurité sont gérés de façon continue (art.~26) & \OUI{} &
+Analyse de mars~2026 \\
+L'audit de sécurité obligatoire a été réalisé (art.~32) & \NEK{} &
+Assujettissement non établi \\
+L'obligation de conserver dix ans s'applique (art.~29) & \NEK{} & Qualité
+d'exploitant non établie \\
+La durée de dix ans est justifiée au regard de l'article~13 de la loi de
+2024 & \NEK{} & Dépend de la ligne précédente \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Un \OUI{}, quatre \NON{}, trois \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}375}{1{,}41}
+
+\medskip
+\textbf{Lecture.} Domaine opaque. Les trois \NEK{} sont de critère et se
+lèveraient ensemble si la notion d'exploitant était précisée. Les quatre
+\NON{} appellent des mesures immédiates, dont le retrait du kit de mesure
+d'audience.
+\end{boxlecture}
+
+% ============================================================================
+\section{Ce que les Textes demandent à chaque Métier}
+\label{sec:c07-metiers}
+% ============================================================================
+
+\begin{boxmetier}{Juriste conformité}
+Tenir la liste des textes applicables avec leur degré de vérification.
+Écrire, pour chaque point où deux textes se rencontrent, la lecture retenue
+par l'organisation et sa justification.
+\end{boxmetier}
+
+\begin{boxmetier}{RSSI}
+Séparer les journaux gardés pour la preuve de ceux qui servent
+l'exploitation. Restreindre l'accès aux premiers et documenter leur durée.
+\end{boxmetier}
+
+\begin{boxmetier}{Auditeur de la protection des données}
+Joindre la carte d'applicabilité au plan d'audit. Rattacher chaque écart à
+tous les articles qui le visent, dans les deux lois.
+\end{boxmetier}
+
+\begin{boxresume}
+\begin{itemize}
+    \item La loi n°~2010/012 reste applicable pour tout ce qui n'est pas
+          contraire à la loi de 2024~: sécurité, conservation, vie privée
+          dans les communications, délits.
+    \item Elle impose une gestion continue des risques de sécurité
+          (article~26) et un audit de sécurité obligatoire pour certains
+          acteurs (articles~13 et~32).
+    \item Quatre articles imposent de conserver des données dix ans. Ils
+          fondent la conservation s'ils s'appliquent~; il faut d'abord
+          établir à qui.
+    \item L'article~47 exige un consentement préalable pour tout accès à
+          l'équipement terminal~; l'article~45 limite l'enregistrement des
+          communications à la preuve.
+    \item L'auditeur choisit ses critères dans l'ordre~: obligatoire,
+          étranger opposable, contractuel, volontaire déclaré. Il les
+          présente dans une carte d'applicabilité.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle.} Vous avez compris ce chapitre si vous savez~:
+\begin{itemize}
+    \item citer trois règles de la loi de 2010 absentes de la loi de 2024~;
+    \item expliquer comment coter la conservation de journaux pendant dix
+          ans~;
+    \item dresser la carte d'applicabilité d'une organisation.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.1. Quel article \niveaubase}]
+Indiquez l'article de la loi n°~2010/012 qui s'applique~: (a) une
+application installe un traceur sans rien demander~; (b) un établissement
+envoie des SMS publicitaires sans numéro pour se désinscrire~; (c) un
+responsable écoute les appels de ses agents à leur insu~; (d) une entreprise
+garde les enregistrements d'appels comme preuve des ordres reçus.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.2. Les appels enregistrés \niveaumoyen}]
+Le service client de NYANGA enregistre tous les appels, les conserve deux
+ans et les écoute pour évaluer les agents. Analysez ce traitement au regard
+des articles~44 et~45 de la loi n°~2010/012 et des articles~9 et~11 de la
+loi n°~2024/017. Proposez une règle conforme.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.3. La carte de MBOLO \niveaumoyen}]
+Le CENTRE MÉDICAL MBOLO envisage d'accueillir des patients envoyés par une
+organisation humanitaire établie à Genève, qui lui impose par contrat ses
+propres règles de protection des données. Refaites la colonne MBOLO du
+Tableau~7.6. Quels textes changent de statut et lesquels restent à
+vérifier avant d'entrer dans les critères~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.4. Dix ans ou le nécessaire \niveauexpert}]
+M.~KAMGA vous demande une réponse écrite~: NYANGA doit-elle garder ses
+journaux de connexion dix ans~?
+\begin{enumerate}[(a)]
+    \item Rédigez la note, en séparant ce qui est établi par les textes de
+          ce qui relève d'une interprétation.
+    \item Proposez une politique de conservation des journaux qui soit
+          défendable dans les deux lectures de l'article~29.
+    \item Dites quelles cotes de l'encadré de lecture changeraient si
+          l'Agence confirmait par écrit que l'établissement est un
+          exploitant au sens de la loi.
+\end{enumerate}
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item La loi n°~2010/012~\cite{loi2010012}, articles~24 à~51 et~74, dans
+          son texte officiel.
+    \item T.~E.~Minka Mi Nguidjoï, R.~T.~Massoussi Songo et
+          D.~Bialo~\cite{minka2026chainepenale}, pour l'articulation des
+          deux lois dans la chaîne pénale.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le contexte est posé~: ses sources, le règlement
+européen, les référentiels volontaires, les deux lois camerounaises et la
+manière de choisir entre eux. Il reste à s'en servir. La Partie~IV ouvre la
+mission et commence par la manière de conduire un audit. C'est l'objet du
+Chapitre~\ref{chap:audit}.
+\end{boxinfo}
