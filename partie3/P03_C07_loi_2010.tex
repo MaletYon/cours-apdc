@@ -10,7 +10,10 @@
 % quand ils sont entre guillemets. Loi n° 2024/017, texte officiel. Les
 % textes connexes du Tableau 7.4 portent chacun leur degré de vérification ;
 % ceux qui sont marqués « à vérifier » sont cités de mémoire et ne doivent
-% pas servir de critère d'audit avant lecture du texte.
+% pas servir de critère d'audit avant lecture du texte. Références
+% confirmées en ligne le 12/11/2026 : loi n° 2022/006 (secret bancaire),
+% décret n° 2012/1643/PM, directive CEMAC n° 07/08-UEAC-133-CM-18, loi
+% n° 2023/009.
 % ============================================================================
 
 \chapter{La Loi n° 2010/012 et les Textes Connexes}
@@ -132,7 +135,14 @@ Les articles~13 et~32 instituent un audit de sécurité obligatoire. Il vise
 les réseaux et les systèmes d'information des opérateurs, des autorités de
 certification et des fournisseurs de services de communications
 électroniques. Il est périodique, conduit par l'Agence ou sous son contrôle
-et ses rapports sont confidentiels (article~32).
+et ses rapports sont confidentiels (article~32). Le décret n°~2012/1643/PM
+du 14~juin~2012 en fixe les conditions et les modalités~\cite{decret20121643}.
+L'Agence s'en est servie pour auditer les systèmes d'information
+d'établissements de microfinance, aux frais de ceux-ci. Elle indique aussi
+que ce décret oblige tout organisme, public ou privé, à lui notifier les
+incidents de sécurité qui touchent son réseau. Cette notification s'ajoute
+à l'information que l'article~22 de la loi de 2024 réserve à l'Autorité de
+protection et aux personnes.
 
 \begin{boxinfo}
 \textbf{Ce que l'auditeur de protection des données en fait.} Il ne refait
@@ -384,13 +394,23 @@ Code de procédure pénale, articles~102 et~154 & Secret de l'enquête et de
 l'information judiciaire & D'après~\cite{minka2026chainepenale} \\
 Code pénal & Secret professionnel, violation de correspondance & À
 vérifier \\
-Loi sur le secret bancaire & Confidentialité des informations des clients &
-À vérifier \\
-Règlements de la CEMAC et de la COBAC & Conservation et communication des
-données des clients, lutte contre le blanchiment, services de paiement & À
-identifier \\
-Texte sur la protection des enfants en ligne & Obligations envers les
-mineurs & À vérifier \\
+Loi n°~2022/006 du 27~avril~2022 sur le secret bancaire, qui remplace la
+loi n°~2003/004 & Confidentialité des informations des clients, étendue aux
+microfinances et aux opérateurs de monnaie électronique & Référence
+confirmée en ligne, texte à lire \\
+Décret n°~2012/1643/PM du 14~juin~2012 & Audit de sécurité obligatoire,
+notification des incidents à l'Agence & Référence confirmée en ligne, texte
+à lire \\
+Directive CEMAC n°~07/08-UEAC-133-CM-18 du 19~décembre~2008 & Confidentialité
+des communications et des données de trafic, transposée par la loi
+n°~2010/013 & Texte consulté sur le site de l'ART \\
+Règlement CEMAC de 2016 sur les systèmes, moyens et incidents de paiement &
+Données des opérations de paiement & Référence à confirmer \\
+Règlement CEMAC sur le blanchiment des capitaux & Identification et
+conservation des données des clients & À identifier \\
+Loi n°~2023/009 du 25~juillet~2023, charte de protection des enfants en
+ligne & Obligations envers les moins de dix-huit ans & Référence confirmée
+en ligne, texte à lire \\
 Code de déontologie médicale & Secret médical & À vérifier \\
 \end{tableaucours}
 \vspace{-0.8em}
@@ -482,15 +502,16 @@ pas.
     \item Une analyse des risques de sécurité a été refaite après l'incident
           de 2025 et mise à jour en mars~2026.
     \item Les journaux de connexion de l'application sont gardés dix ans.
-          Aucune note ne dit pourquoi. L'établissement n'a jamais fait
-          l'objet d'un audit de l'Agence et ne sait pas s'il y est
-          assujetti.
+          Aucune note ne dit pourquoi.
+    \item L'établissement n'a jamais fait l'objet d'un audit de sécurité de
+          l'Agence, qui audite pourtant des établissements de microfinance.
+          L'incident de mars~2025 ne lui a pas été notifié.
 \end{itemize}
 
 \textbf{Analyse} (confiance élevée sur les faits, moyenne sur
-l'assujettissement). Quatre écarts ne dépendent d'aucune interprétation. Les
-trois points incertains tiennent tous à la même question~: NYANGA CRÉDIT
-est-elle un exploitant de système d'information au sens de la loi de 2010~?
+la conservation). Cinq écarts ne dépendent d'aucune interprétation. Les
+deux points incertains tiennent à la même question~: NYANGA CRÉDIT est-elle
+un exploitant de système d'information au sens de l'article~29~?
 \end{boxscenario}
 
 \begin{boxlecture}{NYANGA CRÉDIT, exigences de la loi n° 2010/012}
@@ -509,8 +530,8 @@ Les communications avec les clients sont confidentielles (art.~42) & \NON{} &
 Messageries personnelles \\
 Les risques de sécurité sont gérés de façon continue (art.~26) & \OUI{} &
 Analyse de mars~2026 \\
-L'audit de sécurité obligatoire a été réalisé (art.~32) & \NEK{} &
-Assujettissement non établi \\
+L'audit de sécurité obligatoire a été réalisé (art.~32) & \NON{} & Aucun
+audit, aucune démarche \\
 L'obligation de conserver dix ans s'applique (art.~29) & \NEK{} & Qualité
 d'exploitant non établie \\
 La durée de dix ans est justifiée au regard de l'article~13 de la loi de
@@ -518,14 +539,14 @@ La durée de dix ans est justifiée au regard de l'article~13 de la loi de
 \end{tableaucours}
 
 \medskip
-\textbf{Décompte.} Un \OUI{}, quatre \NON{}, trois \NEK{} sur huit.
-\hfill\lecture{0{,}125}{0{,}375}{1{,}41}
+\textbf{Décompte.} Un \OUI{}, cinq \NON{}, deux \NEK{} sur huit.
+\hfill\lecture{0{,}125}{0{,}25}{1{,}30}
 
 \medskip
-\textbf{Lecture.} Domaine opaque. Les trois \NEK{} sont de critère et se
-lèveraient ensemble si la notion d'exploitant était précisée. Les quatre
+\textbf{Lecture.} Domaine opaque. Les deux \NEK{} sont de critère et se
+lèveraient ensemble si la notion d'exploitant était précisée. Les cinq
 \NON{} appellent des mesures immédiates, dont le retrait du kit de mesure
-d'audience.
+d'audience et une prise de contact avec l'Agence.
 \end{boxlecture}
 
 % ============================================================================
