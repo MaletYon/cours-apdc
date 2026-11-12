@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C16
-Chapitre 16 : Mesurer la conformité, articuler les normes
+Chapitre 16 : Programme de conformité et rapport d'audit
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Comment se calcule µ ?
-      a) Le nombre de NEK divisé par le nombre d'exigences
-      b) Le nombre de OUI divisé par le nombre d'exigences
-      c) La somme des cotes
-      d) Le logarithme des NON
+ 1. Combien d'éléments compte une observation d'audit dans le cours ?
+      a) Trois
+      b) Sept
+      c) Cinq
+      d) Dix
 
- 2. Comment se calcule U ?
-      a) Le nombre de OUI divisé par deux
-      b) La différence entre OUI et NON
-      c) Le nombre de NEK divisé par le nombre d'exigences
-      d) Le produit des cotes
+ 2. Quel est le premier élément d'une observation ?
+      a) La recommandation
+      b) La conclusion
+      c) La norme
+      d) Le contradictoire
 
- 3. Que mesure l'entropie H ?
-      a) La dispersion des cotes
-      b) La conformité
-      c) L'incertitude seule
-      d) Le coût de l'audit
+ 3. Quel élément contient la réponse de l'audité ?
+      a) Le contradictoire
+      b) La constatation
+      c) La norme
+      d) L'analyse
 
- 4. Quelle est la valeur maximale de H avec trois cotes ?
-      a) 1 bit
-      b) 2 bits
-      c) 3 bits
-      d) Environ 1,585 bit
+ 4. Quel élément porte un niveau de confiance ?
+      a) La norme
+      b) La recommandation
+      c) Le contradictoire
+      d) L'analyse
 
- 5. Le 6 juillet, quelle était la valeur de U à NYANGA ?
+ 5. Que doit traiter la recommandation ?
+      a) Le symptôme seulement
+      b) La cause de l'écart
+      c) Le nom de l'agent fautif
+      d) Le budget de l'auditeur
+
+ 6. Dans l'observation D2-06, combien d'oppositions ont été reçues ?
+      a) Trois
+      b) Trente et une
+      c) Cinq
+      d) Douze
+
+ 7. Quelle est la cause de l'observation D2-06 selon l'analyse ?
+      a) Aucune procédure ne reporte les oppositions dans la base
+      b) La négligence d'un agent
+      c) Une panne du logiciel
+      d) Une erreur de l'Autorité
+
+ 8. Que recommande l'observation D2-06 ?
+      a) Licencier les agents
+      b) Supprimer la prospection pour toujours
+      c) Changer de banque
+      d) Un indicateur d'opposition qui exclut automatiquement le client des extractions
+
+ 9. Quel article fonde le délit relevé dans D2-06 ?
+      a) L'article 56
+      b) L'article 64
+      c) L'article 22
+      d) L'article 29
+
+10. Combien d'exigences cotées compte la synthèse de NYANGA ?
+      a) 31
+      b) 47
+      c) 46
+      d) 8
+
+11. Combien d'écarts sont établis à NYANGA ?
+      a) 28
+      b) 8
+      c) 10
+      d) 46
+
+12. Combien d'exigences sont satisfaites à NYANGA ?
+      a) 28
+      b) 10
+      c) 46
+      d) 8
+
+13. Combien d'exigences restent NEK à NYANGA ?
+      a) 8
+      b) 10
+      c) 28
+      d) 6
+
+14. Quelle est la valeur globale de µ à NYANGA ?
       a) 0,22
       b) 0,50
       c) 0,17
-      d) 1
+      d) 1,35
 
- 6. Le 25 septembre, quelle était la valeur de U à NYANGA ?
-      a) 0,50
-      b) 0,25
-      c) 0,22
-      d) 0,10
-
- 7. Que traduit souvent une baisse de µ au cours d'un audit ?
-      a) Une connaissance nouvelle
-      b) Une dégradation de l'organisation
-      c) Une erreur de calcul
-      d) Une fraude
-
- 8. Pourquoi comparer les deux instantanés de NYANGA demande-t-il prudence ?
-      a) Ils sont faux
-      b) Ils sont confidentiels
-      c) Ils sont trop récents
-      d) Ils ne portent pas sur le même ensemble d'exigences
-
- 9. De quoi dépendent les mesures selon la première question de recherche ?
-      a) De la météo
-      b) De la granularité du découpage
-      c) Du prix de l'audit
-      d) Du nom de l'auditeur
-
-10. Comment se lève un NEK de preuve ?
-      a) Avec un décret
-      b) Avec un jugement
-      c) En cherchant une pièce
-      d) Il ne se lève pas
-
-11. Comment se lève un NEK de critère ?
-      a) Avec un texte ou une décision de justice
-      b) En cherchant une pièce
-      c) En interrogeant un agent
-      d) En refaisant le calcul
-
-12. Comment le cours propose-t-il de décomposer U ?
-      a) U = µ + H
-      b) U = 1 - µ
-      c) U = H / 2
-      d) U = U_p + U_c
-
-13. Combien de NEK de preuve compte NYANGA ?
-      a) Six
-      b) Quatre
-      c) Dix
-      d) Deux
-
-14. Combien de NEK de critère compte NYANGA ?
-      a) Quatre
-      b) Dix
-      c) Six
-      d) Huit
-
-15. Quelle est la valeur approchée de U_c à NYANGA ?
-      a) 0,13
-      b) 0,09
-      c) 0,22
+15. Quelle est la valeur globale de U à NYANGA ?
+      a) 0,22
+      b) 0,17
+      c) 0,10
       d) 0,50
 
-16. Quelle est la valeur approchée de U_p à NYANGA ?
-      a) 0,13
-      b) 0,22
-      c) 0,17
-      d) 0,09
+16. Quelle est la valeur globale de H à NYANGA ?
+      a) 0,17
+      b) 0,81
+      c) 1,585
+      d) 1,35
 
-17. Que mesure U_p ?
-      a) L'état du droit
-      b) Ce que l'organisation peut réduire
-      c) La dispersion
-      d) La conformité
+17. Combien de domaines de NYANGA sont opaques ?
+      a) Un
+      b) Cinq
+      c) Six
+      d) Aucun
 
-18. Que pourrait mesurer U_c sur plusieurs organisations et années ?
-      a) La rentabilité
-      b) La sécurité réseau
-      c) La maturité du cadre normatif
-      d) Le nombre d'agents
+18. Quel domaine de NYANGA est clair au sens de U ?
+      a) D1, recensement
+      b) D2, droits
+      c) D3, sécurité et confidentialité
+      d) D6, gouvernance
 
-19. La décomposition U_p et U_c est-elle validée ?
-      a) Non, c'est une piste
-      b) Oui, par l'ISO
-      c) Oui, par la loi
-      d) Oui, par l'Autorité
+19. Pourquoi D3 n'est-il pas conforme malgré µ = 0,50 ?
+      a) Trois NON portent sur la limitation des accès
+      b) Parce que U est élevé
+      c) Parce que H est nul
+      d) Parce que D3 n'a pas été testé
 
-20. Qui sont les coauteurs de l'auteur du cours sur la chaîne pénale ?
-      a) Mme BELLO et M. NGANDO
-      b) M. TCHOUA et Me ETOUNDI
-      c) M. NJOYA et Mme KENFACK
-      d) Robert Thierry MASSOUSSI SONGO et Dieudonné BIALO
+20. Combien des dix NEK de NYANGA sont de critère ?
+      a) Quatre
+      b) Dix
+      c) Deux
+      d) Six
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. µ est la part des réponses OUI.
+21. L'observation d'audit compte sept éléments.
       Vrai / Faux
 
-22. Une baisse de µ pendant un audit traduit toujours une dégradation.
+22. La recommandation doit traiter le symptôme plutôt que la cause.
       Vrai / Faux
 
-23. Un NEK de critère se lève en cherchant une pièce.
+23. NYANGA compte 28 écarts établis.
       Vrai / Faux
 
-24. À NYANGA, U_c est supérieur à U_p.
+24. Le domaine D3 de NYANGA est conforme.
       Vrai / Faux
 
-25. La décomposition U_p et U_c est une méthode validée et normalisée.
+25. Les NEK de critère ne dépendent pas de l'organisation.
       Vrai / Faux
 
-26. Le manuscrit sur la chaîne pénale est déjà publié.
+26. On classe les recommandations d'abord par effort.
       Vrai / Faux
 
-27. Les auteurs distinguent compatibilité, tension et incompatibilité.
+27. La désignation d'un délégué a un fondement légal.
       Vrai / Faux
 
-28. La matrice des auteurs compte huit étapes.
+28. La politique de conservation distingue trois périodes.
       Vrai / Faux
 
-29. Les auteurs concluent à des incompatibilités irréductibles.
+29. Les comptes clos peuvent être gardés indéfiniment dans la base active.
       Vrai / Faux
 
-30. Les auteurs qualifient les acteurs opération par opération.
+30. Un programme prévoit un audit de suivi.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Le cours décompose U en U_p et U_______.
+31. L'observation d'audit compte ______ éléments.
 
-32. Un NEK qui attend une pièce est un NEK de ______.
+32. La réponse de l'audité constitue le ______.
 
-33. Un NEK qui attend un texte est un NEK de ______.
+33. NYANGA compte ______ écarts établis.
 
-34. La part des NEK se note ______.
+34. La valeur globale de µ à NYANGA est ______.
 
-35. Le premier coauteur cité s'appelle Robert Thierry MASSOUSSI ______.
+35. Les recommandations se classent d'abord par gravité pour les ______.
 
-36. Le second coauteur cité s'appelle Dieudonné ______.
+36. Le délai maximum de conservation est renvoyé au référentiel par l'article ______.
 
-37. Les auteurs distinguent ______ niveaux d'articulation.
+37. La période du temps de la finalité est la base ______.
 
-38. La matrice des auteurs compte ______ étapes.
+38. La dernière période de conservation est la ______.
 
-39. La tension liée aux données anciennes est dite ______.
+39. Un programme se termine par un audit de ______.
 
-40. La tension liée au secret de l'enquête est dite ______.
+40. Six des dix NEK de NYANGA sont de ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

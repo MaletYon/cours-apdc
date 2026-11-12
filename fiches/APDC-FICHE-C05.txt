@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C05
-Chapitre 5 : Évaluer le risque pour les personnes
+Chapitre 5 : Le NIST Privacy Framework et les normes ISO
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quel article impose l'évaluation du risque pour tout traitement ?
-      a) L'article 33
-      b) L'article 25
-      c) L'article 22
-      d) L'article 13
-
- 2. Quel article impose une évaluation d'impact préalable pour les risques élevés ?
-      a) L'article 25
-      b) L'article 29
-      c) L'article 33
-      d) L'article 53
-
- 3. Qui fixe les critères et modalités de l'évaluation du risque ?
-      a) La voie réglementaire
-      b) Le DSI
-      c) Le client
-      d) La norme ISO 9001
-
- 4. Quand l'évaluation d'impact doit-elle être faite ?
-      a) Après un incident
-      b) À la clôture du traitement
-      c) Au rapport annuel
-      d) Avant le traitement
-
- 5. Que analyse l'évaluation d'impact selon l'article 5 ?
-      a) Le coût du projet
-      b) La probabilité et la gravité des risques pour les droits et libertés
-      c) La rentabilité
-      d) La performance du réseau
-
- 6. De quel point de vue se fait l'évaluation d'impact ?
-      a) De celui de l'actionnaire
-      b) De celui du fournisseur
-      c) De celui des personnes
-      d) De celui de l'assureur
-
- 7. Quelle analyse ne suffit pas à satisfaire la loi ?
-      a) Une analyse des pannes et pertes de l'organisation
-      b) Une analyse des risques pour les patients
-      c) Une évaluation d'impact
-      d) Une description des flux
-
- 8. La loi définit-elle le « risque élevé » ?
-      a) Oui, à l'article 5
-      b) Oui, à l'article 33
-      c) Oui, à l'article 73
-      d) Non
-
- 9. Combien de critères faut-il réunir pour présumer un risque élevé selon le cours ?
-      a) Un seul
-      b) Au moins deux
-      c) Cinq
-      d) Huit
-
-10. Lequel est un critère de risque élevé du cours ?
-      a) Un fichier de fournisseurs de papeterie
-      b) Un traitement de moins de dix personnes
-      c) Des données sensibles
-      d) Un traitement temporaire de test
-
-11. Quel traitement relève d'un critère de risque élevé du cours ?
-      a) Une surveillance systématique
-      b) Une liste de diffusion interne
-      c) Un annuaire téléphonique
-      d) Un calendrier partagé
-
-12. Quelle situation fait partie des critères de risque élevé du cours ?
-      a) Un traitement sur papier
-      b) Un traitement daté
-      c) Un traitement interne au siège
-      d) Un transfert hors du Cameroun
-
-13. Combien de critères réunit la téléconsultation de MBOLO ?
-      a) Un
-      b) Cinq
-      c) Deux
-      d) Huit
-
-14. Que sont les critères de risque élevé du cours ?
-      a) Une obligation légale
-      b) Une norme ISO
-      c) Une convention déclarée en attendant le texte
-      d) Une décision de l'Autorité
-
-15. Quelle norme décrit le déroulement d'une évaluation d'impact ?
-      a) ISO/IEC 29134
-      b) ISO/IEC 27018
-      c) ISO 19011
-      d) ISO/IEC 27035
-
-16. Combien d'étapes compte l'évaluation d'impact dans le cours ?
-      a) Trois
-      b) Sept
-      c) Dix
+ 1. Combien de natures de référentiel le cours distingue-t-il ?
+      a) Deux
+      b) Trois
+      c) Quatre
       d) Cinq
 
-17. Quelle est la première étape ?
-      a) Choisir les mesures
-      b) Décrire le traitement
-      c) Décider
-      d) Coter la gravité
+ 2. Que prouve la conformité à une norme certifiable ?
+      a) Le respect de la loi
+      b) La licéité de chaque traitement
+      c) L'existence d'un système de management, attestée par un tiers
+      d) L'absence de violation
 
-18. Quelle étape vérifie fondement et données strictement utiles ?
-      a) La description
-      b) La décision
-      c) La nécessité et la proportionnalité
-      d) Le choix des mesures
+ 3. Comment un cadre volontaire devient-il contraignant pour une organisation ?
+      a) Par contrat
+      b) Par décret
+      c) Par l'usage
+      d) Par décision de l'Autorité
 
-19. Quelle étape suit l'appréciation des risques ?
-      a) Le choix des mesures
-      b) La description
-      c) La nécessité
-      d) La publication
+ 4. Qu'est-ce que le NIST ?
+      a) Une autorité européenne de protection des données
+      b) Un organisme de certification privé
+      c) Une agence de l'Union africaine
+      d) L'institut de normalisation du département américain du commerce
 
-20. Qui valide la décision finale ?
-      a) Le prestataire
-      b) Le patient
-      c) L'auditeur
-      d) Le responsable du traitement
+ 5. En quelle année la version 1.0 du Privacy Framework a-t-elle été publiée ?
+      a) 2013
+      b) 2020
+      c) 2018
+      d) 2025
+
+ 6. Quelle est la nature du Privacy Framework du NIST ?
+      a) Une loi fédérale
+      b) Une norme ISO
+      c) Un cadre volontaire, gratuit et sans certification
+      d) Un règlement européen
+
+ 7. Quels sont les trois éléments du Privacy Framework ?
+      a) Noyau, profils, niveaux de mise en œuvre
+      b) Politique, procédure, preuve
+      c) Loi, norme, contrat
+      d) Registre, analyse, rapport
+
+ 8. Combien de fonctions le noyau du Privacy Framework compte-t-il ?
+      a) Trois
+      b) Quatre
+      c) Onze
+      d) Cinq
+
+ 9. Quelle fonction demande quelles données on traite, pour qui et avec quel risque ?
+      a) Govern-P
+      b) Identify-P
+      c) Control-P
+      d) Protect-P
+
+10. Quelle fonction porte sur la compréhension des traitements par les personnes ?
+      a) Govern-P
+      b) Protect-P
+      c) Communicate-P
+      d) Identify-P
+
+11. Quelle norme donne le vocabulaire et onze principes de la vie privée ?
+      a) ISO/IEC 29100
+      b) ISO/IEC 27701
+      c) ISO/IEC 27018
+      d) ISO 19011
+
+12. Quelle norme porte un système de management de la protection de la vie privée ?
+      a) ISO/IEC 29100
+      b) ISO/IEC 29134
+      c) ISO/IEC 27035
+      d) ISO/IEC 27701
+
+13. Quelle norme vise les sous-traitants en nuage public ?
+      a) ISO/IEC 27701
+      b) ISO/IEC 27018
+      c) ISO 31000
+      d) ISO 9001
+
+14. Quelle norme guide l'évaluation d'impact ?
+      a) ISO/IEC 27018
+      b) ISO/IEC 27002
+      c) ISO/IEC 29134
+      d) ISO 22301
+
+15. Comment le cours utilise-t-il les normes sous licence ?
+      a) Il les paraphrase sans les reproduire
+      b) Il les reproduit en annexe
+      c) Il les publie en ligne
+      d) Il les traduit intégralement
+
+16. Combien de principes énonce l'ISO/IEC 29100 ?
+      a) Sept
+      b) Cinq
+      c) Trois
+      d) Onze
+
+17. Quel principe de l'ISO/IEC 29100 n'est pas un principe général de la loi ?
+      a) Le consentement
+      b) La minimisation des données
+      c) La sécurité
+      d) L'exactitude
+
+18. Quand l'ISO/IEC 27701 a-t-elle d'abord été publiée comme extension de l'ISO/IEC 27001 ?
+      a) En 2005
+      b) En 2013
+      c) En 2019
+      d) En 2024
+
+19. Qu'apporte l'ISO/IEC 27701 que la loi ne donne pas ?
+      a) Une méthode de management et des mesures détaillées
+      b) L'autorisation préalable
+      c) Le rapport annuel à l'Autorité
+      d) Les sanctions pénales
+
+20. Quelle obligation camerounaise l'ISO/IEC 27701 n'apporte-t-elle pas ?
+      a) Le registre
+      b) L'évaluation d'impact
+      c) La sécurité
+      d) L'autorisation préalable
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Tout traitement doit faire l'objet d'une évaluation du risque.
+21. Un cadre volontaire donne lieu à un certificat délivré par un tiers.
       Vrai / Faux
 
-22. Deux critères réunis suffisent à présumer un risque élevé.
+22. Le Privacy Framework du NIST dépend d'une loi américaine de protection des données.
       Vrai / Faux
 
-23. La loi définit précisément le risque élevé.
+23. Le profil actuel se prête à une cotation OUI, NON, NEK.
       Vrai / Faux
 
-24. L'évaluation d'impact mesure d'abord le risque financier de l'organisation.
+24. Les quatre niveaux de mise en œuvre doivent tous être atteints par toute organisation.
       Vrai / Faux
 
-25. La norme ISO/IEC 29134 décrit l'évaluation d'impact.
+25. Le projet de version 1.1 du cadre date d'avril 2025.
       Vrai / Faux
 
-26. La disparition des données correspond à la disponibilité.
+26. Le cours reproduit des passages des normes ISO.
       Vrai / Faux
 
-27. Une vraisemblance inconnue se cote limitée par défaut.
+27. L'ISO/IEC 27701 apporte l'autorisation préalable camerounaise.
       Vrai / Faux
 
-28. La téléconsultation de MBOLO réunit cinq critères de risque élevé.
+28. Un certificat ISO/IEC 27701 prouve la conformité à la loi.
       Vrai / Faux
 
-29. L'enregistrement des séances a été maintenu.
+29. La certification de l'article 34 est distincte d'une certification ISO.
       Vrai / Faux
 
-30. Les mesures décidées sont toujours en place.
+30. Une correspondance n'est pas une équivalence.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. L'évaluation d'impact est exigée par l'article ______.
+31. Une loi oblige, une norme se certifie, un cadre volontaire se ______.
 
-32. L'évaluation du risque pour tout traitement est exigée par l'article ______.
+32. Le Privacy Framework du NIST se compose d'un noyau, de profils et de ______ de mise en œuvre.
 
-33. La norme sur l'évaluation d'impact est l'ISO/IEC ______.
+33. Le noyau du Privacy Framework compte ______ fonctions.
 
-34. L'accès illégitime touche la ______.
+34. La fonction ______-P porte sur la protection contre les incidents.
 
-35. L'échelle de gravité compte ______ niveaux.
+35. On dresse deux profils, le profil actuel et le profil ______.
 
-36. Un traitement qui réunit au moins ______ critères est présumé à risque élevé.
+36. La norme de vocabulaire de la vie privée est l'ISO/IEC ______.
 
-37. Le prestataire du dossier patient de MBOLO s'appelle ______.
+37. La norme de système de management de la vie privée est l'ISO/IEC ______.
 
-38. La téléconsultation vise les villages de la ______.
+38. La norme des sous-traitants en nuage est l'ISO/IEC ______.
 
-39. La deuxième étape apprécie la nécessité et la ______.
+39. Le mécanisme de certification de l'Autorité est prévu par l'article ______.
 
-40. Une vraisemblance inconnue se cote ______.
+40. L'opération sans certification prévue est punie par l'article ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

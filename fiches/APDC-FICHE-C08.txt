@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C08
-Chapitre 8 : La loi n° 2024/017 et le cadre africain
+Chapitre 8 : Conduire un audit de protection des données
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Combien de titres compte la loi n° 2024/017 ?
-      a) Cinq
+ 1. Quels sont les critères d'un audit de conformité légale ?
+      a) La seule norme ISO/IEC 27001
+      b) La loi et ses textes d'application
+      c) Les souhaits de la direction
+      d) Le budget informatique
+
+ 2. Quel audit prépare une certification ISO/IEC 27701 ?
+      a) L'audit de préparation légale
+      b) Le contrôle de l'Autorité
+      c) L'audit contre une norme
+      d) L'expertise judiciaire
+
+ 3. Quel audit mesure l'écart avant une échéance ?
+      a) L'audit de préparation
+      b) L'audit de certification
+      c) Le contrôle administratif
+      d) L'audit financier
+
+ 4. Le contrôle de l'Autorité est :
+      a) Un audit interne
+      b) Une certification
+      c) Un audit de préparation
+      d) Un contrôle administratif pouvant mener à des sanctions
+
+ 5. Combien de principes la norme ISO 19011 pose-t-elle pour l'audit ?
+      a) Trois
       b) Sept
-      c) Neuf
-      d) Trois
+      c) Cinq
+      d) Onze
 
- 2. Combien d'articles compte la loi n° 2024/017 ?
-      a) 53
-      b) 91
-      c) 75
-      d) 120
+ 6. Quel principe impose l'absence de conflit d'intérêts ?
+      a) La confidentialité
+      b) L'intégrité
+      c) L'indépendance
+      d) La présentation impartiale
 
- 3. Quel titre traite des droits de la personne concernée ?
-      a) Le titre III
-      b) Le titre I
-      c) Le titre V
-      d) Le titre VII
+ 7. Quel principe exige des conclusions vérifiables tirées d'un échantillon défini ?
+      a) L'approche fondée sur la preuve
+      b) L'approche par les risques
+      c) La conscience professionnelle
+      d) La confidentialité
 
- 4. Quel titre traite des sanctions ?
-      a) Le titre II
-      b) Le titre IV
-      c) Le titre I
-      d) Le titre VI
+ 8. Quel principe concentre l'effort là où l'écart serait le plus grave ?
+      a) L'intégrité
+      b) L'indépendance
+      c) La présentation impartiale
+      d) L'approche par les risques
 
- 5. Quel titre traite de l'Autorité de protection ?
-      a) Le titre III
-      b) Le titre V
-      c) Le titre VI
-      d) Le titre II
+ 9. Pourquoi la confidentialité prend-elle un relief particulier dans cet audit ?
+      a) L'audit est secret défense
+      b) L'auditeur manipule lui-même des données personnelles
+      c) Le rapport est public
+      d) Les normes l'interdisent
 
- 6. Quel article abroge les dispositions antérieures contraires ?
-      a) L'article 73
-      b) L'article 1
-      c) L'article 75
-      d) L'article 53
+10. Que doit contenir le mandat ?
+      a) Le salaire de l'auditeur seulement
+      b) La liste des serveurs
+      c) Le commanditaire, l'objectif, les accès et les destinataires du rapport
+      d) Le code source
 
- 7. Quel article soumet tout traitement à autorisation préalable ?
-      a) L'article 19
-      b) L'article 9
-      c) L'article 29
-      d) L'article 22
+11. Que fait l'auditeur d'un critère qui renvoie à un texte non publié ?
+      a) Il déclare un critère de substitution ou cote NEK de critère
+      b) Il invente le texte
+      c) Il cote OUI
+      d) Il ignore l'exigence
 
- 8. Quel article interdit le traitement sans autorisation préalable ?
-      a) L'article 50
-      b) L'article 52
-      c) L'article 48
-      d) L'article 49
+12. Quand fixe-t-on la règle de décision ?
+      a) Après le rapport
+      b) Pendant le contradictoire
+      c) Jamais
+      d) Avant de coter
 
- 9. Quelle sanction prévoit l'article 55 ?
-      a) Une amende de 1 à 10 millions
-      b) Une pénalité de 5 à 50 millions de francs CFA
-      c) Un emprisonnement de 3 à 10 ans
-      d) Une astreinte de 100 000 francs par jour
+13. Que doit-on écrire sur le périmètre ?
+      a) Seulement les sites visités
+      b) Ce qui est inclus et ce qui est exclu, avec la raison
+      c) Seulement les dates
+      d) Rien
 
-10. La loi prévoit-elle une déclaration simplifiée ?
-      a) Oui, pour les petites entreprises
-      b) Oui, pour les administrations
-      c) Non
-      d) Oui, pour la paie
+14. Comment se lève un NEK de preuve ?
+      a) En attendant un décret
+      b) En changeant de norme
+      c) En cherchant une pièce
+      d) Il ne se lève jamais
 
-11. Comment cote-t-on « le traitement est autorisé » si l'Autorité n'est pas organisée ?
-      a) NON, en le présentant avec une seconde cote
-      b) OUI par défaut
-      c) NEK seulement
-      d) On ne le cote pas
+15. Comment se lève un NEK de critère ?
+      a) Avec un texte ou une décision
+      b) En cherchant une pièce
+      c) En interrogeant un agent
+      d) En refaisant le test
 
-12. Quelle seconde cote présente-t-on avec l'absence d'autorisation ?
-      a) L'Autorité est conforme
-      b) Le client a consenti
-      c) Le prestataire est certifié
-      d) L'organisation a fait ce qui dépendait d'elle
+16. Quelle preuve est la plus forte ?
+      a) La déclaration
+      b) L'observation
+      c) Le document non signé
+      d) La réexécution ou le test
 
-13. Comment la loi qualifie-t-elle l'Autorité de protection ?
-      a) Une direction ministérielle
-      b) Un organisme public indépendant
-      c) Une association
-      d) Un cabinet privé
+17. Quelle preuve est la plus faible ?
+      a) Le test
+      b) La déclaration
+      c) La trace système
+      d) Le document signé
 
-14. Quelle mission l'article 53 confie-t-il à l'Autorité ?
-      a) Recruter les DPO
-      b) Gérer les banques
-      c) Établir la liste des pays offrant une protection équivalente
-      d) Juger les délits
+18. Que prouve un contrat signé ?
+      a) L'exécution des mesures
+      b) L'absence de violation
+      c) L'engagement, pas son exécution
+      d) La conformité totale
 
-15. Quel instrument de l'Autorité attache des obligations aux autorisations ?
-      a) Les cahiers des charges
-      b) Les contrats de travail
-      c) Les factures
-      d) Les rapports d'audit
+19. Une déclaration seule permet-elle de coter OUI ?
+      a) Non
+      b) Oui
+      c) Oui si elle est écrite
+      d) Oui si le directeur la signe
 
-16. Quel instrument de l'Autorité porte les mesures techniques et organisationnelles ?
-      a) Le registre
-      b) Le cahier de prospection
-      c) Le plan d'audit
-      d) Le référentiel
-
-17. Quel délai maximal donne la mise en demeure de l'article 54 ?
-      a) Trente jours
-      b) Dix jours
-      c) Dix-huit mois
-      d) Soixante-douze heures
-
-18. Quel est le plafond de l'astreinte de l'article 54 ?
-      a) 1 million par jour
-      b) 10 000 francs par jour
-      c) 100 000 francs CFA par jour
-      d) Aucun plafond
-
-19. Quelle mesure l'Autorité peut-elle prononcer à défaut de mise en conformité ?
-      a) Le retrait de l'autorisation
-      b) L'emprisonnement
-      c) La dissolution de la société
-      d) La confiscation des serveurs
-
-20. Quel article sanctionne le transfert vers un pays tiers sans autorisation, sur le plan administratif ?
-      a) L'article 56
-      b) L'article 58
-      c) L'article 59
-      d) L'article 60
+20. Qu'est-ce qu'un papier de travail ?
+      a) Le rapport final
+      b) Le contrat d'audit
+      c) La facture
+      d) Le document qui trace un constat
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Tout traitement est soumis à autorisation préalable de l'Autorité.
+21. L'audit de conformité légale a pour critères la loi et ses textes.
       Vrai / Faux
 
-22. La loi prévoit une déclaration simplifiée pour les petites entreprises.
+22. La norme ISO 19011 pose sept principes d'audit.
       Vrai / Faux
 
-23. L'Autorité est un organisme public indépendant.
+23. Une déclaration seule permet de coter OUI.
       Vrai / Faux
 
-24. La mise en demeure de l'article 54 laisse trente jours.
+24. Un contrat signé prouve que le prestataire applique les mesures.
       Vrai / Faux
 
-25. Les personnes morales peuvent être condamnées jusqu'à un milliard de francs CFA.
+25. La règle de décision se fixe après avoir coté.
       Vrai / Faux
 
-26. Le profilage est un délit selon l'article 65.
+26. Un NEK de critère se lève en cherchant une pièce.
       Vrai / Faux
 
-27. La loi n° 2010/012 n'est plus applicable depuis 2024.
+27. Une exigence avec « et » doit être scindée.
       Vrai / Faux
 
-28. La Convention de Malabo est un critère d'audit au Cameroun.
+28. Si U est au moins 0,20, aucune conclusion de conformité n'est possible.
       Vrai / Faux
 
-29. Le RGPD s'applique en tant que tel aux traitements de NYANGA.
+29. L'audit est lui-même un traitement de données personnelles.
       Vrai / Faux
 
-30. La loi impose d'informer de toute violation sans délai.
+30. Une demande test peut être faite au nom d'une personne fictive.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. L'autorisation préalable de tout traitement est prévue par l'article ______.
+31. La norme qui pose les principes de l'audit est l'ISO ______.
 
-32. L'Autorité de protection est prévue par l'article ______.
+32. Le document qui trace un constat est le papier de ______.
 
-33. La mise en demeure de l'article 54 laisse au plus ______ jours.
+33. La règle qui interdit « et » et « ou » dans une exigence est la règle d'______.
 
-34. Le traitement sans autorisation est sanctionné par l'article ______.
+34. Si U est au moins ______, le domaine est opaque.
 
-35. Le profilage est puni par l'article ______.
+35. Un NEK qui attend un texte est un NEK de ______.
 
-36. La responsabilité pénale des personnes morales figure à l'article ______.
+36. Un NEK qui attend une pièce est un NEK de ______.
 
-37. L'accès aux informations d'un équipement terminal exige un consentement selon l'article ______ de la loi n° 2010/012.
+37. La part des réponses OUI se note ______.
 
-38. La convention de l'Union africaine de 2014 est la Convention de ______.
+38. La preuve la plus forte est la réexécution ou le ______.
 
-39. La loi compte ______ articles.
+39. Le mandat de NYANGA a été donné par le conseil d'______.
 
-40. L'entrave à l'Autorité est punie par l'article ______.
+40. L'audit du cours compte ______ domaines.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

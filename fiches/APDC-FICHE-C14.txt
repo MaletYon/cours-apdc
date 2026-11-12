@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C14
-Chapitre 14 : Profilage, décisions automatisées et intelligence artificielle
+Chapitre 14 : Les transferts internationaux
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Qu'est-ce que le profilage selon l'article 5 ?
-      a) Toute décision humaine
-      b) Un traitement automatisé qui évalue des aspects personnels
-      c) Un sondage anonyme
+ 1. Qu'est-ce qu'un transfert international selon l'article 5 ?
+      a) L'envoi d'un courrier postal
+      b) L'acheminement de données au-delà des frontières
+      c) Le changement de serveur dans la même salle
+      d) La copie sur une clé USB au siège
+
+ 2. L'hébergement d'une base chez un prestataire étranger est-il un transfert ?
+      a) Non
+      b) Seulement si les données sont sensibles
+      c) Oui
+      d) Seulement si le contrat le dit
+
+ 3. La consultation à distance depuis l'étranger de données stockées au Cameroun est :
+      a) Un transfert
+      b) Un traitement local
+      c) Une anonymisation
       d) Une sauvegarde
 
- 2. Quels aspects le profilage évalue-t-il selon l'article 5 ?
-      a) Couleur des vêtements
-      b) Météo
-      c) Santé, préférences, localisation, situation économique
-      d) Prix des produits
+ 4. L'utilisation d'un formulaire en ligne dont les serveurs sont à l'étranger est :
+      a) Un traitement interne
+      b) Hors du champ de la loi
+      c) Une interconnexion
+      d) Un transfert
 
- 3. Quelle est la différence entre profilage et décision automatisée ?
-      a) Le profilage évalue, la décision automatisée décide
-      b) Il n'y en a pas
-      c) Le profilage décide toujours
-      d) La décision est toujours humaine
+ 5. Que fait l'auditeur qui hésite sur la qualification d'un flux ?
+      a) Il l'ignore
+      b) Il le cote comme transfert et le signale
+      c) Il le déclare conforme
+      d) Il le supprime
 
- 4. Un score montré à un conseiller qui décide réellement est :
-      a) Une décision automatisée
-      b) Ni l'un ni l'autre
-      c) Un transfert
-      d) Un profilage sans décision automatisée
+ 6. Quel article soumet le transfert à une autorisation préalable ?
+      a) L'article 19
+      b) L'article 22
+      c) L'article 32
+      d) L'article 36
 
- 5. Quel article organise le droit face aux décisions automatisées ?
-      a) L'article 65
-      b) L'article 44
-      c) L'article 21
-      d) L'article 17
+ 7. Combien de vérifications l'Autorité doit-elle faire selon l'article 32 ?
+      a) Quatre
+      b) Deux
+      c) Six
+      d) Une
 
- 6. À quoi la personne peut-elle s'opposer selon l'article 44 ?
-      a) À tout traitement de données
-      b) À toute prospection
-      c) À une décision fondée exclusivement sur un traitement automatisé
-      d) À toute sauvegarde
+ 8. Laquelle est une vérification de l'article 32 ?
+      a) La rentabilité du transfert
+      b) La langue du pays
+      c) La distance géographique
+      d) Un niveau de protection suffisant du pays de destination
 
- 7. Quelle exception l'article 44 prévoit-il ?
-      a) Le consentement préalable, explicite et éclairé
-      b) L'intérêt légitime
-      c) Le contrat
-      d) L'urgence commerciale
+ 9. Quelle autre vérification l'article 32 impose-t-il ?
+      a) L'avis du prestataire
+      b) L'entrée en vigueur d'un instrument juridique signé avec le pays
+      c) Le prix de l'hébergement
+      d) L'accord du DSI
 
- 8. Quel droit l'article 44, alinéa 3, garantit-il ?
-      a) Obtenir un crédit
-      b) Obtenir un remboursement
-      c) Obtenir le code source
-      d) Obtenir une intervention humaine
+10. Quelle vérification de l'article 32 porte sur des clauses ?
+      a) La signature d'un client
+      b) Un certificat ISO 9001
+      c) La souscription de clauses contractuelles types de l'Autorité
+      d) Un audit financier
 
- 9. Les droits de l'alinéa 3 survivent-ils au consentement ?
+11. Comment se lisent les quatre vérifications de l'article 32 ?
+      a) Comme cumulatives, dans une lecture littérale
+      b) Comme alternatives
+      c) Comme facultatives
+      d) Comme réservées aux banques
+
+12. Quelle vérification est la plus exigeante car elle suppose un accord d'État à État ?
+      a) Les clauses types
+      b) Les règles de sécurité de l'importateur
+      c) Le niveau de protection
+      d) L'instrument juridique signé avec le pays
+
+13. Qui établit la liste des pays offrant une protection équivalente ?
+      a) L'ISO
+      b) L'Autorité de protection
+      c) L'Union européenne
+      d) Le prestataire
+
+14. Qui élabore et publie les clauses contractuelles types ?
+      a) Chaque entreprise
+      b) Le juge
+      c) L'Autorité de protection
+      d) L'ANTIC
+
+15. Comment cote-t-on « le pays offre un niveau suffisant » sans liste publiée ?
+      a) NEK de critère
+      b) OUI
+      c) NON
+      d) On ne cote pas
+
+16. Comment cote-t-on « le transfert est autorisé » sans autorisation ?
+      a) OUI
+      b) NEK de preuve
+      c) Sans objet
+      d) NON
+
+17. Quelle vérification peut se coter sur pièces ?
+      a) La liste des pays
+      b) Les règles de sécurité de l'importateur
+      c) Les clauses types
+      d) L'instrument d'État à État
+
+18. Quel instrument européen n'existe pas dans la loi camerounaise pour les transferts ?
+      a) L'autorisation préalable
+      b) Le contrat
+      c) La décision d'adéquation de la Commission
+      d) La sécurité
+
+19. Les outils européens de transfert valent-ils autorisation au Cameroun ?
       a) Non
       b) Oui
-      c) Seulement pour les mineurs
-      d) Seulement à l'étranger
+      c) Oui pour l'Union
+      d) Oui avec un certificat
 
-10. Un système « non révisable » respecte-t-il l'article 44 ?
-      a) Oui
-      b) Oui, si le client a consenti
-      c) Non
-      d) Oui, si le score est bon
-
-11. Que punit l'article 65 ?
-      a) Le traitement à des fins de profilage
-      b) Le refus d'accès
-      c) Le transfert illicite
-      d) L'entrave à l'Autorité
-
-12. Quelle est la peine d'emprisonnement de l'article 65 ?
-      a) 6 mois à 2 ans
-      b) 1 à 3 ans
-      c) 2 à 5 ans
-      d) 3 à 10 ans
-
-13. Comment l'auditeur cote-t-il la licéité du profilage au regard de l'article 65 ?
-      a) OUI
-      b) NEK de critère
-      c) NON
-      d) Il ne cote pas
-
-14. Que fait l'auditeur face aux deux lectures de l'article 65 ?
-      a) Il choisit la plus favorable
-      b) Il ignore l'article
-      c) Il signale la difficulté sans la trancher
-      d) Il saisit le juge
-
-15. Avec quel article lit-on l'article 65 pour une lecture restrictive ?
-      a) L'article 44
-      b) L'article 2
-      c) L'article 73
-      d) L'article 53
-
-16. Quelle question d'audit porte sur les données d'entraînement ?
-      a) Combien elles coûtent
-      b) Qui les a stockées
-      c) Quel serveur les héberge
-      d) Collectées pour cette finalité ou détournées
-
-17. Quel article interdit de tenir compte de l'origine régionale ?
-      a) L'article 44
-      b) L'article 17
-      c) L'article 11
-      d) L'article 32
-
-18. Quel article exige l'information sur la logique sous-jacente ?
-      a) L'article 44
-      b) L'article 65
-      c) L'article 21
-      d) L'article 29
-
-19. Quelle variable peut servir d'intermédiaire à l'origine régionale ?
-      a) La localisation habituelle
-      b) Le montant demandé
-      c) La date du jour
-      d) La durée du crédit
-
-20. Quelle variable peut révéler des données sur des tiers non consentants ?
-      a) Le montant du crédit
-      b) L'âge du demandeur
-      c) Le revenu déclaré
-      d) Le répertoire des contacts
+20. Combien de sources indépendantes établissent les flux sortants ?
+      a) Une
+      b) Deux
+      c) Cinq
+      d) Trois
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Le profilage évalue, la décision automatisée décide.
+21. L'hébergement chez un prestataire étranger est un transfert.
       Vrai / Faux
 
-22. Le consentement supprime le droit à une intervention humaine.
+22. La consultation à distance depuis l'étranger n'est pas un transfert.
       Vrai / Faux
 
-23. L'article 65 punit le traitement à des fins de profilage.
+23. Le transfert exige une autorisation préalable de l'Autorité.
       Vrai / Faux
 
-24. L'auditeur tranche lui-même la portée de l'article 65.
+24. Les vérifications de l'article 32 sont alternatives.
       Vrai / Faux
 
-25. Une variable anodine peut révéler une donnée sensible.
+25. La localisation d'une adresse IP prouve le lieu de stockage.
       Vrai / Faux
 
-26. Il faut collecter l'origine ethnique pour mesurer une discrimination.
+26. NOUN PAY a obtenu l'autorisation de ses transferts.
       Vrai / Faux
 
-27. La biométrie est une donnée sensible.
+27. Le pays de traitement des selfies de NOUN PAY est établi.
       Vrai / Faux
 
-28. NOUN SCORE prévoit un réexamen humain des refus.
+28. Sans liste publiée, le niveau de protection d'un pays est un NEK de critère.
       Vrai / Faux
 
-29. La discrimination de NOUN SCORE est établie avec certitude.
+29. L'information des personnes doit mentionner les transferts.
       Vrai / Faux
 
-30. NOUN PAY a suspendu les refus automatiques en octobre 2026.
+30. Le Cameroun est Partie à la Convention de Budapest selon les auteurs cités.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Les droits face aux décisions automatisées figurent à l'article ______.
+31. L'autorisation des transferts est prévue par l'article ______.
 
-32. Le traitement à des fins de profilage est puni par l'article ______.
+32. L'article 32 impose ______ vérifications.
 
-33. La personne a droit à une intervention ______.
+33. Le transfert est défini comme un acheminement au-delà des ______.
 
-34. La notation automatique de NOUN PAY s'appelle NOUN ______.
+34. Le transfert sans autorisation est puni pénalement par l'article ______.
 
-35. Le client refusé s'appelle M. ______.
+35. Le transfert sans autorisation est sanctionné administrativement par l'article ______.
 
-36. Le taux de refus de l'Extrême-Nord est de ______ %.
+36. NOUN PAY a ______ transferts sur six flux sortants.
 
-37. Le taux de refus de l'Ouest est de ______ %.
+37. Le support de nuit de NOUN PAY est situé au ______.
 
-38. L'interdiction de tenir compte de l'origine figure à l'article ______.
+38. La conservation rapide est prévue par l'article ______ de la Convention de Budapest.
 
-39. La conservation de données sensibles exige un consentement ______.
+39. Les clauses contractuelles ______ sont publiées par l'Autorité.
 
-40. Le traitement automatisé qui évalue des aspects personnels est le ______.
+40. Le lieu de stockage se prouve par le contrat ou la ______ du prestataire.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

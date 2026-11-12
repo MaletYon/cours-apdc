@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C13
-Chapitre 13 : Programme de conformité et rapport d'audit
+Chapitre 13 : Sous-traitants et responsables conjoints
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Combien d'éléments compte une observation d'audit dans le cours ?
+ 1. Quel article impose un contrat entre le responsable et le sous-traitant ?
+      a) L'article 31
+      b) L'article 30
+      c) L'article 20
+      d) L'article 26
+
+ 2. Que doit au minimum définir le contrat selon l'article 30 ?
+      a) Le prix seulement
+      b) Le lieu du siège
+      c) Le type de données, les catégories de personnes et les obligations des parties
+      d) Le nom des agents
+
+ 3. De quoi le responsable doit-il s'assurer selon l'article 30 ?
+      a) Des garanties suffisantes du sous-traitant
+      b) Du chiffre d'affaires du sous-traitant
+      c) De l'âge du gérant
+      d) De la nationalité des agents
+
+ 4. Quel article oblige le responsable à veiller au respect des mesures par le sous-traitant ?
+      a) L'article 2
+      b) L'article 22
+      c) L'article 53
+      d) L'article 16
+
+ 5. Quel article rend responsable et sous-traitant solidaires d'une publication sans consentement ?
+      a) L'article 30
+      b) L'article 23, alinéa 3
+      c) L'article 13
+      d) L'article 72
+
+ 6. Quel article répète l'obligation de garanties pour la sécurité ?
+      a) L'article 21
+      b) L'article 36
+      c) L'article 26
+      d) L'article 47
+
+ 7. Le sous-traitant doit-il tenir son propre registre ?
+      a) Oui, selon l'article 29
+      b) Non, jamais
+      c) Seulement à l'étranger
+      d) Seulement s'il est certifié
+
+ 8. Combien de clauses compte la liste de vérification du cours ?
       a) Trois
-      b) Sept
-      c) Cinq
-      d) Dix
-
- 2. Quel est le premier élément d'une observation ?
-      a) La recommandation
-      b) La conclusion
-      c) La norme
-      d) Le contradictoire
-
- 3. Quel élément contient la réponse de l'audité ?
-      a) Le contradictoire
-      b) La constatation
-      c) La norme
-      d) L'analyse
-
- 4. Quel élément porte un niveau de confiance ?
-      a) La norme
-      b) La recommandation
-      c) Le contradictoire
-      d) L'analyse
-
- 5. Que doit traiter la recommandation ?
-      a) Le symptôme seulement
-      b) La cause de l'écart
-      c) Le nom de l'agent fautif
-      d) Le budget de l'auditeur
-
- 6. Dans l'observation D2-06, combien d'oppositions ont été reçues ?
-      a) Trois
-      b) Trente et une
-      c) Cinq
+      b) Cinq
+      c) Vingt
       d) Douze
 
- 7. Quelle est la cause de l'observation D2-06 selon l'analyse ?
-      a) Aucune procédure ne reporte les oppositions dans la base
-      b) La négligence d'un agent
-      c) Une panne du logiciel
-      d) Une erreur de l'Autorité
+ 9. Quelles clauses sont exigées par la lettre de la loi ?
+      a) Les clauses 11 et 12
+      b) Les clauses 1 et 2
+      c) Toutes les douze
+      d) Aucune
 
- 8. Que recommande l'observation D2-06 ?
-      a) Licencier les agents
-      b) Supprimer la prospection pour toujours
-      c) Changer de banque
-      d) Un indicateur d'opposition qui exclut automatiquement le client des extractions
+10. Quelle clause est la condition de toutes les autres ?
+      a) La rémunération
+      b) La durée
+      c) Le droit d'audit
+      d) Le lieu de signature
 
- 9. Quel article fonde le délit relevé dans D2-06 ?
-      a) L'article 56
-      b) L'article 64
-      c) L'article 22
-      d) L'article 29
+11. Quelle clause organise la fin du contrat ?
+      a) La restitution ou la destruction des données
+      b) Le droit d'audit
+      c) La confidentialité
+      d) La sous-traitance ultérieure
 
-10. Combien d'exigences cotées compte la synthèse de NYANGA ?
-      a) 31
-      b) 47
-      c) 46
-      d) 8
+12. Quelle clause encadre le recours à un autre prestataire par le sous-traitant ?
+      a) Le droit d'audit
+      b) La finalité
+      c) La confidentialité
+      d) La sous-traitance ultérieure soumise à accord
 
-11. Combien d'écarts sont établis à NYANGA ?
-      a) 28
-      b) 8
-      c) 10
-      d) 46
+13. Quelle clause renvoie à l'article 22 ?
+      a) La durée du traitement
+      b) L'information sans délai en cas de violation
+      c) Le lieu du traitement
+      d) L'assistance pour les droits
 
-12. Combien d'exigences sont satisfaites à NYANGA ?
-      a) 28
-      b) 10
-      c) 46
-      d) 8
+14. Quelle clause renvoie à l'article 32 ?
+      a) La confidentialité
+      b) La restitution
+      c) Le lieu du traitement et les transferts
+      d) Le droit d'audit
 
-13. Combien d'exigences restent NEK à NYANGA ?
-      a) 8
-      b) 10
-      c) 28
-      d) 6
+15. Comment cote-t-on les exigences dépendant d'un prestataire qui refuse tout audit ?
+      a) NEK
+      b) OUI
+      c) NON
+      d) On ne les cote pas
 
-14. Quelle est la valeur globale de µ à NYANGA ?
-      a) 0,22
-      b) 0,50
-      c) 0,17
-      d) 1,35
-
-15. Quelle est la valeur globale de U à NYANGA ?
-      a) 0,22
-      b) 0,17
-      c) 0,10
-      d) 0,50
-
-16. Quelle est la valeur globale de H à NYANGA ?
-      a) 0,17
-      b) 0,81
-      c) 1,585
-      d) 1,35
-
-17. Combien de domaines de NYANGA sont opaques ?
-      a) Un
+16. Combien de cercles de vérification le cours propose-t-il ?
+      a) Deux
       b) Cinq
-      c) Six
-      d) Aucun
+      c) Un
+      d) Trois
 
-18. Quel domaine de NYANGA est clair au sens de U ?
-      a) D1, recensement
-      b) D2, droits
-      c) D3, sécurité et confidentialité
-      d) D6, gouvernance
+17. Quel est le premier cercle, le moins coûteux ?
+      a) L'audit sur place
+      b) Les documents du prestataire
+      c) Le questionnaire
+      d) L'enquête de police
 
-19. Pourquoi D3 n'est-il pas conforme malgré µ = 0,50 ?
-      a) Trois NON portent sur la limitation des accès
-      b) Parce que U est élevé
-      c) Parce que H est nul
-      d) Parce que D3 n'a pas été testé
+18. Quel est le cercle le plus probant ?
+      a) Le questionnaire
+      b) Les documents
+      c) L'audit sur place
+      d) L'entretien téléphonique
 
-20. Combien des dix NEK de NYANGA sont de critère ?
-      a) Quatre
-      b) Dix
-      c) Deux
-      d) Six
+19. Que vérifie-t-on sur un certificat ISO/IEC 27001 du prestataire ?
+      a) Qu'il inclut le service fourni
+      b) Sa couleur
+      c) Son prix
+      d) Sa langue
+
+20. Qu'est-ce qui guide le choix du cercle de vérification ?
+      a) Le prix du contrat
+      b) La distance
+      c) La taille du prestataire
+      d) Le risque
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. L'observation d'audit compte sept éléments.
+21. Le contrat de sous-traitance est obligatoire.
       Vrai / Faux
 
-22. La recommandation doit traiter le symptôme plutôt que la cause.
+22. Un contrat signé prouve que le prestataire applique les mesures.
       Vrai / Faux
 
-23. NYANGA compte 28 écarts établis.
+23. Le sous-traitant doit tenir son propre registre.
       Vrai / Faux
 
-24. Le domaine D3 de NYANGA est conforme.
+24. Les douze clauses du cours sont toutes exigées par la lettre de la loi.
       Vrai / Faux
 
-25. Les NEK de critère ne dépendent pas de l'organisation.
+25. Le droit d'audit conditionne la vérification des autres clauses.
       Vrai / Faux
 
-26. On classe les recommandations d'abord par effort.
+26. La convention des responsables conjoints peut rester secrète.
       Vrai / Faux
 
-27. La désignation d'un délégué a un fondement légal.
+27. La personne peut exercer ses droits auprès de l'un ou l'autre responsable conjoint.
       Vrai / Faux
 
-28. La politique de conservation distingue trois périodes.
+28. Le contrat de SOREC contient les douze clauses.
       Vrai / Faux
 
-29. Les comptes clos peuvent être gardés indéfiniment dans la base active.
+29. L'avenant de MEDISOFT prévoit un droit d'audit.
       Vrai / Faux
 
-30. Un programme prévoit un audit de suivi.
+30. L'audit sur place est le cercle le moins coûteux.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. L'observation d'audit compte ______ éléments.
+31. Le contrat de sous-traitance est imposé par l'article ______.
 
-32. La réponse de l'audité constitue le ______.
+32. Les responsables conjoints sont régis par l'article ______.
 
-33. NYANGA compte ______ écarts établis.
+33. La liste de vérification du cours compte ______ clauses.
 
-34. La valeur globale de µ à NYANGA est ______.
+34. La clause condition de toutes les autres est le droit d'______.
 
-35. Les recommandations se classent d'abord par gravité pour les ______.
+35. La convention des responsables conjoints doit être rendue ______.
 
-36. Le délai maximum de conservation est renvoyé au référentiel par l'article ______.
+36. Le prestataire de recouvrement de NYANGA s'appelle ______.
 
-37. La période du temps de la finalité est la base ______.
+37. L'assureur conjoint de NYANGA s'appelle SAWA ______.
 
-38. La dernière période de conservation est la ______.
+38. L'article ______ oblige le responsable à veiller au respect des mesures par le sous-traitant.
 
-39. Un programme se termine par un audit de ______.
+39. Le cours propose ______ cercles de vérification.
 
-40. Six des dix NEK de NYANGA sont de ______.
+40. SOREC conserve ______ ans de classeurs.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

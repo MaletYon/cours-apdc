@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C11
-Chapitre 11 : Les transferts internationaux
+Chapitre 11 : Auditer les droits des personnes
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Qu'est-ce qu'un transfert international selon l'article 5 ?
-      a) L'envoi d'un courrier postal
-      b) L'acheminement de données au-delà des frontières
-      c) Le changement de serveur dans la même salle
-      d) La copie sur une clé USB au siège
+ 1. Quels articles organisent les droits de la personne concernée ?
+      a) Les articles 1 à 5
+      b) Les articles 37 à 47
+      c) Les articles 54 à 61
+      d) Les articles 72 à 75
 
- 2. L'hébergement d'une base chez un prestataire étranger est-il un transfert ?
-      a) Non
-      b) Seulement si les données sont sensibles
-      c) Oui
-      d) Seulement si le contrat le dit
+ 2. Quel article organise le droit d'accès ?
+      a) L'article 42
+      b) L'article 43
+      c) L'article 39
+      d) L'article 45
 
- 3. La consultation à distance depuis l'étranger de données stockées au Cameroun est :
-      a) Un transfert
-      b) Un traitement local
-      c) Une anonymisation
-      d) Une sauvegarde
+ 3. Quel article organise le droit de rectification ?
+      a) L'article 42
+      b) L'article 39
+      c) L'article 40
+      d) L'article 46
 
- 4. L'utilisation d'un formulaire en ligne dont les serveurs sont à l'étranger est :
-      a) Un traitement interne
-      b) Hors du champ de la loi
-      c) Une interconnexion
-      d) Un transfert
+ 4. Quel article organise la portabilité ?
+      a) L'article 44
+      b) L'article 41
+      c) L'article 38
+      d) L'article 43
 
- 5. Que fait l'auditeur qui hésite sur la qualification d'un flux ?
-      a) Il l'ignore
-      b) Il le cote comme transfert et le signale
-      c) Il le déclare conforme
-      d) Il le supprime
+ 5. Quel article organise le droit d'opposition ?
+      a) L'article 43
+      b) L'article 40
+      c) L'article 46
+      d) L'article 39
 
- 6. Quel article soumet le transfert à une autorisation préalable ?
-      a) L'article 19
-      b) L'article 22
-      c) L'article 32
-      d) L'article 36
+ 6. Quel article organise la limitation du traitement ?
+      a) L'article 45
+      b) L'article 47
+      c) L'article 46
+      d) L'article 37
 
- 7. Combien de vérifications l'Autorité doit-elle faire selon l'article 32 ?
-      a) Quatre
-      b) Deux
-      c) Six
-      d) Une
+ 7. Quel article traite du décès de la personne ?
+      a) L'article 45
+      b) L'article 44
+      c) L'article 42
+      d) L'article 40
 
- 8. Laquelle est une vérification de l'article 32 ?
-      a) La rentabilité du transfert
-      b) La langue du pays
-      c) La distance géographique
-      d) Un niveau de protection suffisant du pays de destination
+ 8. Quels articles traitent de l'effacement ?
+      a) Les articles 13 et 28
+      b) Les articles 55 et 56
+      c) Les articles 22 et 23
+      d) Les articles 37 et 38
 
- 9. Quelle autre vérification l'article 32 impose-t-il ?
-      a) L'avis du prestataire
-      b) L'entrée en vigueur d'un instrument juridique signé avec le pays
-      c) Le prix de l'hébergement
-      d) L'accord du DSI
+ 9. Quel article encadre la communication à des tiers pour la prospection ?
+      a) L'article 39
+      b) L'article 41
+      c) L'article 21
+      d) L'article 65
 
-10. Quelle vérification de l'article 32 porte sur des clauses ?
-      a) La signature d'un client
-      b) Un certificat ISO 9001
-      c) La souscription de clauses contractuelles types de l'Autorité
-      d) Un audit financier
+10. Que peut coûter une copie au titre du droit d'accès ?
+      a) Un forfait libre
+      b) Rien de plus que la portabilité
+      c) Au plus le coût de la reproduction
+      d) Un pourcentage de l'encours
 
-11. Comment se lisent les quatre vérifications de l'article 32 ?
-      a) Comme cumulatives, dans une lecture littérale
-      b) Comme alternatives
-      c) Comme facultatives
-      d) Comme réservées aux banques
+11. La portabilité est-elle payante ?
+      a) Non, elle est gratuite
+      b) Oui, au coût de reproduction
+      c) Oui, au forfait
+      d) Oui, si le format est ouvert
 
-12. Quelle vérification est la plus exigeante car elle suppose un accord d'État à État ?
-      a) Les clauses types
-      b) Les règles de sécurité de l'importateur
-      c) Le niveau de protection
-      d) L'instrument juridique signé avec le pays
+12. Dans quel format reçoit-on ses données au titre de la portabilité ?
+      a) Papier uniquement
+      b) Image scannée
+      c) Format propriétaire
+      d) Structuré, couramment utilisé et lisible par machine
 
-13. Qui établit la liste des pays offrant une protection équivalente ?
-      a) L'ISO
-      b) L'Autorité de protection
-      c) L'Union européenne
-      d) Le prestataire
+13. Quand la portabilité ne s'applique-t-elle pas ?
+      a) Pour une microfinance
+      b) Pour une mission d'intérêt public ou d'autorité publique
+      c) Pour un compte d'épargne
+      d) Jamais
 
-14. Qui élabore et publie les clauses contractuelles types ?
-      a) Chaque entreprise
-      b) Le juge
-      c) L'Autorité de protection
-      d) L'ANTIC
+14. Quand l'effacement est-il dû selon l'article 38 ?
+      a) Toujours sur demande
+      b) Jamais pour une banque
+      c) Si les données ne sont plus nécessaires, si le consentement est vicié ou retiré, ou sans base légale
+      d) Seulement après le décès
 
-15. Comment cote-t-on « le pays offre un niveau suffisant » sans liste publiée ?
-      a) NEK de critère
-      b) OUI
-      c) NON
-      d) On ne cote pas
+15. Sous quelle réserve se fait l'effacement ?
+      a) Des exigences de conservation prévues par d'autres textes
+      b) De l'accord du DSI
+      c) Du paiement d'un forfait
+      d) De l'avis du prestataire
 
-16. Comment cote-t-on « le transfert est autorisé » sans autorisation ?
-      a) OUI
-      b) NEK de preuve
-      c) Sans objet
-      d) NON
+16. Qui peut s'opposer au traitement des données d'un mineur collectées sans consentement ?
+      a) L'enseignant
+      b) L'employeur
+      c) Le voisin
+      d) Le parent ou le représentant légal
 
-17. Quelle vérification peut se coter sur pièces ?
-      a) La liste des pays
-      b) Les règles de sécurité de l'importateur
-      c) Les clauses types
-      d) L'instrument d'État à État
+17. Que devient le traitement au décès selon l'article 45 ?
+      a) Il continue sans limite
+      b) Il cesse, sauf exceptions
+      c) Il est transféré à l'Autorité
+      d) Il est publié
 
-18. Quel instrument européen n'existe pas dans la loi camerounaise pour les transferts ?
-      a) L'autorisation préalable
-      b) Le contrat
-      c) La décision d'adéquation de la Commission
-      d) La sécurité
+18. Qui peut demander la mise à jour des informations d'une personne décédée ?
+      a) Le prestataire
+      b) L'auditeur
+      c) Les ayants droit
+      d) Le voisin
 
-19. Les outils européens de transfert valent-ils autorisation au Cameroun ?
-      a) Non
-      b) Oui
-      c) Oui pour l'Union
-      d) Oui avec un certificat
+19. Quel article renvoie les délais d'examen à la voie réglementaire ?
+      a) L'article 47
+      b) L'article 39
+      c) L'article 22
+      d) L'article 73
 
-20. Combien de sources indépendantes établissent les flux sortants ?
-      a) Une
-      b) Deux
-      c) Cinq
-      d) Trois
+20. Que fait l'auditeur faute de délai réglementaire ?
+      a) Il invente un délai légal
+      b) Il ne mesure rien
+      c) Il applique 72 heures
+      d) Il déclare un critère de substitution ou cote NEK de critère
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. L'hébergement chez un prestataire étranger est un transfert.
+21. La portabilité est gratuite.
       Vrai / Faux
 
-22. La consultation à distance depuis l'étranger n'est pas un transfert.
+22. Une copie au titre de l'accès peut être facturée au-delà du coût de reproduction.
       Vrai / Faux
 
-23. Le transfert exige une autorisation préalable de l'Autorité.
+23. La loi fixe un délai de 30 jours pour répondre.
       Vrai / Faux
 
-24. Les vérifications de l'article 32 sont alternatives.
+24. L'effacement se fait sous réserve des obligations de conservation.
       Vrai / Faux
 
-25. La localisation d'une adresse IP prouve le lieu de stockage.
+25. Accepter une opposition par lettre prouve son exécution.
       Vrai / Faux
 
-26. NOUN PAY a obtenu l'autorisation de ses transferts.
+26. Un registre des demandes inexistant se reconstitue à partir des canaux.
       Vrai / Faux
 
-27. Le pays de traitement des selfies de NOUN PAY est établi.
+27. Toutes les demandes reçues par NYANGA ont été traitées.
       Vrai / Faux
 
-28. Sans liste publiée, le niveau de protection d'un pays est un NEK de critère.
+28. La demande test de KORO AUDIT a reçu une réponse complète.
       Vrai / Faux
 
-29. L'information des personnes doit mentionner les transferts.
+29. L'article 64 punit le traitement maintenu malgré l'opposition à la prospection.
       Vrai / Faux
 
-30. Le Cameroun est Partie à la Convention de Budapest selon les auteurs cités.
+30. Les ayants droit peuvent demander la mise à jour des informations du défunt.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. L'autorisation des transferts est prévue par l'article ______.
+31. Le droit d'accès est prévu par l'article ______.
 
-32. L'article 32 impose ______ vérifications.
+32. La portabilité est prévue par l'article ______.
 
-33. Le transfert est défini comme un acheminement au-delà des ______.
+33. Les délais d'examen des demandes sont renvoyés à la voie réglementaire par l'article ______.
 
-34. Le transfert sans autorisation est puni pénalement par l'article ______.
+34. Le critère de substitution de KORO AUDIT est de ______ jours.
 
-35. Le transfert sans autorisation est sanctionné administrativement par l'article ______.
+35. NYANGA a reçu ______ demandes entre le 23 juin et le 31 août.
 
-36. NOUN PAY a ______ transferts sur six flux sortants.
+36. Le délai médian des réponses complètes est de ______ jours.
 
-37. Le support de nuit de NOUN PAY est situé au ______.
+37. Le refus de communiquer les informations est puni par l'article ______.
 
-38. La conservation rapide est prévue par l'article ______ de la Convention de Budapest.
+38. Le droit d'opposition est prévu par l'article ______.
 
-39. Les clauses contractuelles ______ sont publiées par l'Autorité.
+39. Les règles applicables au décès figurent à l'article ______.
 
-40. Le lieu de stockage se prouve par le contrat ou la ______ du prestataire.
+40. Après acceptation, l'auditeur vérifie l'______ dans les systèmes.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

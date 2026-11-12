@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C04
-Chapitre 4 : Cartographier les traitements
+Chapitre 4 : Le RGPD et son effet hors d'Europe
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quel article impose le registre des activités de traitement ?
-      a) L'article 22
-      b) L'article 29
-      c) L'article 13
-      d) L'article 73
+ 1. Depuis quelle date le RGPD est-il applicable dans l'Union européenne ?
+      a) Le 28 janvier 1981
+      b) Le 25 mai 2018
+      c) Le 8 juin 2023
+      d) Le 23 juin 2026
 
- 2. Qui doit tenir un registre selon l'article 29 ?
-      a) Seulement l'Autorité
-      b) Seulement le DSI
-      c) Le responsable et le sous-traitant
-      d) Seulement les banques
+ 2. Combien d'articles le RGPD compte-t-il ?
+      a) Soixante-quinze
+      b) Cinquante-trois
+      c) Quatre-vingt-dix-neuf
+      d) Cent vingt
 
- 3. Sous quelle forme le registre peut-il être tenu ?
-      a) Physique ou numérique
-      b) Seulement numérique
-      c) Seulement papier signé
-      d) Seulement en ligne
+ 3. Quel article du RGPD fixe son champ territorial ?
+      a) L'article 3
+      b) L'article 6
+      c) L'article 27
+      d) L'article 44
 
- 4. Quel champ du registre est exigé par la loi ?
-      a) Le prix du logiciel
-      b) Le nom du serveur
-      c) Le planning des agents
-      d) Les finalités du traitement
+ 4. Combien de bases légales l'article 6 du RGPD prévoit-il ?
+      a) Trois
+      b) Quatre
+      c) Huit
+      d) Six
 
- 5. Quel champ relie le registre aux autorisations ?
-      a) La date de création
-      b) Le numéro d'autorisation ou les garanties
-      c) Le nom de l'agence
-      d) Le logo
+ 5. Quel article du RGPD impose le contenu du contrat de sous-traitance ?
+      a) L'article 30
+      b) L'article 28
+      c) L'article 35
+      d) L'article 83
 
- 6. Quel champ est recommandé mais non exigé par la loi ?
-      a) Les finalités
-      b) Les destinataires
-      c) La durée de conservation
-      d) Les catégories de personnes
+ 6. Dans quel délai le RGPD demande-t-il de notifier une violation à l'autorité ?
+      a) Sans délai
+      b) 10 jours
+      c) 72 heures
+      d) Un mois
 
- 7. Quel autre champ est seulement recommandé pour le registre ?
-      a) Le propriétaire et la date de revue
-      b) Les catégories de données
-      c) Le responsable
-      d) Les destinataires
+ 7. Quelle idée fonde le RGPD et n'a pas été retenue par la loi camerounaise ?
+      a) La responsabilité du responsable qui doit démontrer sa conformité
+      b) Le secret professionnel
+      c) Le consentement
+      d) L'autorisation préalable
 
- 8. Par quoi faut-il commencer le recensement ?
-      a) Par l'inventaire des applications
-      b) Par les factures
-      c) Par les serveurs
-      d) Par les processus et les personnes concernées
+ 8. Qu'a supprimé le RGPD en échange de l'obligation de démontrer la conformité ?
+      a) Les droits des personnes
+      b) Les amendes
+      c) Le registre
+      d) Les formalités préalables auprès de l'autorité
 
- 9. Pourquoi l'inventaire des applications ne suffit-il pas ?
-      a) Les applications sont secrètes
-      b) Une application sert plusieurs traitements et certains n'ont pas d'application
-      c) Il est toujours exact
-      d) La loi l'interdit
+ 9. Quel est le plafond des amendes de l'article 83 du RGPD ?
+      a) Un milliard de francs CFA
+      b) 20 millions d'euros ou 4 % du chiffre d'affaires mondial
+      c) 100 000 euros
+      d) 10 % du bénéfice
 
-10. Quel traitement peut ne reposer sur aucune application ?
-      a) La paie
-      b) La tenue des comptes
-      c) Un cahier de prospection
-      d) La messagerie
+10. Combien de critères l'article 3 du RGPD retient-il ?
+      a) Un
+      b) Trois
+      c) Deux
+      d) Cinq
 
-11. Que fait-on après avoir renseigné les fiches ?
-      a) On les confronte à la découverte et aux flux
-      b) On publie le registre
-      c) On efface les données
-      d) On arrête l'audit
+11. Quel critère vise les acteurs établis hors de l'Union ?
+      a) Le ciblage
+      b) La nationalité
+      c) L'établissement
+      d) Le siège social
 
-12. Qui valide chaque fiche du registre ?
-      a) L'Autorité
-      b) Le client
-      c) L'auditeur seul
-      d) Son propriétaire
+12. À quoi tient le critère du ciblage ?
+      a) À la nationalité de la personne
+      b) Au lieu du serveur
+      c) À la langue du contrat
+      d) À la localisation de la personne au moment du traitement
 
-13. Qu'est-ce que la découverte des données ?
-      a) La publication du registre
-      b) La recherche des données personnelles que le registre ignore
-      c) Le chiffrement des disques
-      d) La suppression des doublons
+13. Un Camerounais qui vit à Lyon est-il protégé par le RGPD ?
+      a) Non, à cause de sa nationalité
+      b) Oui, parce qu'il se trouve dans l'Union
+      c) Seulement s'il est aussi français
+      d) Seulement pour ses données de santé
 
-14. Sur quel support recherche-t-on des motifs de numéros de téléphone ?
-      a) Le pare-feu
-      b) Le BIOS
-      c) Les partages de fichiers et les postes
-      d) Le routeur
+14. Un site simplement accessible depuis l'Europe suffit-il à caractériser une offre ?
+      a) Oui, toujours
+      b) Oui, s'il est en français
+      c) Non, il faut des indices d'une intention de viser l'Union
+      d) Non, il faut une filiale
 
-15. Que cherche-t-on dans les schémas de bases de données ?
-      a) Des colonnes comme nom, tel, cni
-      b) Des virus
-      c) Des certificats
-      d) Des mots de passe administrateur
+15. Lequel de ces éléments est un indice de ciblage ?
+      a) Des prix affichés en euros
+      b) Un serveur situé au Cameroun
+      c) Un nom de domaine en .cm
+      d) Un numéro de téléphone camerounais
 
-16. La découverte est-elle un traitement de données personnelles ?
-      a) Non, jamais
-      b) Seulement à l'étranger
-      c) Seulement pour les mineurs
-      d) Oui, elle s'encadre
+16. Combien d'indices de ciblage le service NOUN DIASPORA réunit-il ?
+      a) Aucun
+      b) Deux
+      c) Un
+      d) Cinq
 
-17. Que relève-t-on en priorité lors de la découverte ?
-      a) Le contenu complet des fichiers
-      b) Des indicateurs, pas le contenu
-      c) Les mots de passe
-      d) Les photos
+17. À quels traitements de NOUN PAY le RGPD s'applique-t-il ?
+      a) À tous ses traitements
+      b) À ceux de NOUN DIASPORA seulement
+      c) À aucun
+      d) Au microcrédit de Bafoussam seulement
 
-18. Pourquoi qualifie-t-on chaque fichier signalé ?
-      a) Pour le supprimer
-      b) Pour le publier
-      c) À cause des faux positifs
-      d) Pour le chiffrer
+18. Que doit désigner l'acteur hors Union visé par l'article 3 ?
+      a) Un commissaire aux comptes
+      b) Un hébergeur européen
+      c) Un représentant dans l'Union
+      d) Un avocat camerounais
 
-19. Que décrit une cartographie des flux ?
-      a) Le chemin des données entre traitements, systèmes, prestataires et pays
-      b) Le plan des bureaux
-      c) L'organigramme
-      d) Le budget
+19. Quel article du RGPD impose ce représentant ?
+      a) L'article 27
+      b) L'article 37
+      c) L'article 3
+      d) L'article 30
 
-20. Quelle source révèle souvent un flux non déclaré ?
-      a) Le règlement intérieur
-      b) Le contrat de travail
-      c) La météo
-      d) Une facture de service en ligne
+20. Par quel texte un touriste français en visite à Kribi est-il protégé face à une entreprise camerounaise qui ne vise pas l'Europe ?
+      a) Le RGPD
+      b) La Convention 108
+      c) Aucun texte
+      d) La loi n° 2024/017, qui protège les personnes en transit
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Le sous-traitant doit aussi tenir un registre.
+21. Le RGPD impose une autorisation préalable pour tout traitement.
       Vrai / Faux
 
-22. Le registre doit obligatoirement être numérique.
+22. Le RGPD pose la minimisation comme principe.
       Vrai / Faux
 
-23. On recense d'abord à partir des applications.
+23. Le RGPD exige du responsable qu'il puisse démontrer sa conformité.
       Vrai / Faux
 
-24. La découverte des données est elle-même un traitement.
+24. Une entreprise sans bureau en Europe échappe toujours au RGPD.
       Vrai / Faux
 
-25. La découverte relève de préférence le contenu complet des fichiers.
+25. Le critère du ciblage dépend de la nationalité de la personne.
       Vrai / Faux
 
-26. L'interconnexion n'est licite que si une obligation légale l'impose.
+26. Des frais affichés en euros sont un indice de ciblage.
       Vrai / Faux
 
-27. Le registre déclaratif de NYANGA était complet.
+27. Le microcrédit proposé aux clients de Bafoussam relève du RGPD.
       Vrai / Faux
 
-28. Le classeur des mauvais payeurs était connu de la direction.
+28. L'article 27 du RGPD impose un représentant à l'acteur hors Union qui cible l'Union.
       Vrai / Faux
 
-29. Une facture peut révéler un flux de données non déclaré.
+29. Un hébergeur établi dans l'Union est soumis au RGPD quel que soit le pays de son client.
       Vrai / Faux
 
-30. Les finalités sont un champ obligatoire du registre.
+30. Les clauses contractuelles types créent pour MEDISOFT des obligations d'audit et de notification.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Le registre des activités de traitement est imposé par l'article ______.
+31. Le RGPD est le règlement (UE) 2016/______.
 
-32. L'interconnexion des fichiers est encadrée par l'article ______.
+32. Le RGPD est applicable depuis le 25 mai ______.
 
-33. Le registre complet de NYANGA compte ______ traitements.
+33. L'article 6 du RGPD prévoit ______ bases légales.
 
-34. Le registre déclaratif de NYANGA compte ______ traitements.
+34. Le RGPD demande de notifier une violation à l'autorité en ______ heures.
 
-35. La recherche des données que le registre ignore s'appelle la ______ des données.
+35. Le champ territorial du RGPD est fixé par son article ______.
 
-36. On recense à partir des ______, pas des applications.
+36. Les deux critères de l'article 3 sont l'établissement et le ______.
 
-37. Le chemin des données se décrit dans une cartographie des ______.
+37. Le critère du ciblage tient à la ______ de la personne au moment du traitement.
 
-38. Le classeur des mauvais payeurs a été trouvé dans l'agence de ______.
+38. L'acteur hors Union visé par l'article 3 désigne un ______ dans l'Union.
 
-39. Le taux de couverture du registre déclaratif est de ______ %.
+39. Le service de NOUN PAY pour la diaspora s'appelle NOUN ______.
 
-40. L'interconnexion n'est licite que pour une obligation ______.
+40. Les trois voies d'exposition sont directe, contractuelle et en ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

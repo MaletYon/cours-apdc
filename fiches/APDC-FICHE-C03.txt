@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C03
-Chapitre 3 : Conduire un audit de protection des données
+Chapitre 3 : Les sources internationales et africaines
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quels sont les critères d'un audit de conformité légale ?
-      a) La seule norme ISO/IEC 27001
-      b) La loi et ses textes d'application
-      c) Les souhaits de la direction
-      d) Le budget informatique
+ 1. En quelle année l'OCDE a-t-elle adopté ses lignes directrices sur la vie privée ?
+      a) 1970
+      b) 1980
+      c) 1995
+      d) 2013
 
- 2. Quel audit prépare une certification ISO/IEC 27701 ?
-      a) L'audit de préparation légale
-      b) Le contrôle de l'Autorité
-      c) L'audit contre une norme
-      d) L'expertise judiciaire
+ 2. Combien de principes les lignes directrices de l'OCDE énoncent-elles ?
+      a) Six
+      b) Onze
+      c) Huit
+      d) Quatre
 
- 3. Quel audit mesure l'écart avant une échéance ?
-      a) L'audit de préparation
-      b) L'audit de certification
-      c) Le contrôle administratif
-      d) L'audit financier
+ 3. Quelle est la nature juridique des lignes directrices de l'OCDE ?
+      a) Des recommandations
+      b) Un traité contraignant
+      c) Un règlement
+      d) Une loi type
 
- 4. Le contrôle de l'Autorité est :
-      a) Un audit interne
-      b) Une certification
-      c) Un audit de préparation
-      d) Un contrôle administratif pouvant mener à des sanctions
+ 4. Quel principe de l'OCDE trouve son écho dans l'article 12 de la loi n° 2024/017 ?
+      a) La transparence
+      b) La responsabilité
+      c) La sécurité
+      d) La qualité des données
 
- 5. Combien de principes la norme ISO 19011 pose-t-elle pour l'audit ?
-      a) Trois
-      b) Sept
-      c) Cinq
-      d) Onze
+ 5. Quel principe de l'OCDE correspond aux droits des articles 37 à 46 ?
+      a) La limitation de la collecte
+      b) La participation individuelle
+      c) La spécification des finalités
+      d) La transparence
 
- 6. Quel principe impose l'absence de conflit d'intérêts ?
-      a) La confidentialité
-      b) L'intégrité
-      c) L'indépendance
-      d) La présentation impartiale
+ 6. Quelle résolution de l'ONU porte les principes directeurs sur les fichiers informatisés ?
+      a) La résolution 217 A
+      b) La résolution 68/167
+      c) La résolution 45/95
+      d) La résolution 2200 A
 
- 7. Quel principe exige des conclusions vérifiables tirées d'un échantillon défini ?
-      a) L'approche fondée sur la preuve
-      b) L'approche par les risques
-      c) La conscience professionnelle
-      d) La confidentialité
+ 7. Quelle idée les principes directeurs de l'ONU ajoutent-ils, reprise à l'article 53 de la loi ?
+      a) Une autorité de contrôle indépendante
+      b) Le délégué à la protection des données
+      c) L'intérêt légitime
+      d) L'autorisation préalable
 
- 8. Quel principe concentre l'effort là où l'écart serait le plus grave ?
-      a) L'intégrité
-      b) L'indépendance
-      c) La présentation impartiale
-      d) L'approche par les risques
+ 8. Quelle est la date de la Convention 108 du Conseil de l'Europe ?
+      a) Le 27 juin 2014
+      b) Le 25 mai 2018
+      c) Le 23 novembre 2001
+      d) Le 28 janvier 1981
 
- 9. Pourquoi la confidentialité prend-elle un relief particulier dans cet audit ?
-      a) L'audit est secret défense
-      b) L'auditeur manipule lui-même des données personnelles
-      c) Le rapport est public
-      d) Les normes l'interdisent
+ 9. Quelle particularité permet à des États africains d'adhérer à la Convention 108 ?
+      a) Elle a été adoptée par l'ONU
+      b) Elle est ouverte aux États non membres du Conseil de l'Europe
+      c) Elle fait partie du RGPD
+      d) Elle est annexée à la Convention de Malabo
 
-10. Que doit contenir le mandat ?
-      a) Le salaire de l'auditeur seulement
-      b) La liste des serveurs
-      c) Le commanditaire, l'objectif, les accès et les destinataires du rapport
-      d) Le code source
+10. Combien de ratifications faut-il pour que la Convention 108+ entre en vigueur ?
+      a) Quinze
+      b) Vingt-sept
+      c) Trente-huit
+      d) Cinquante-cinq
 
-11. Que fait l'auditeur d'un critère qui renvoie à un texte non publié ?
-      a) Il déclare un critère de substitution ou cote NEK de critère
-      b) Il invente le texte
-      c) Il cote OUI
-      d) Il ignore l'exigence
+11. Quel article de la Déclaration universelle des droits de l'homme protège la vie privée ?
+      a) L'article 12
+      b) L'article 17
+      c) L'article 8
+      d) L'article 10
 
-12. Quand fixe-t-on la règle de décision ?
-      a) Après le rapport
-      b) Pendant le contradictoire
-      c) Jamais
-      d) Avant de coter
+12. Quel article du Pacte de 1966 protège la vie privée ?
+      a) L'article 12
+      b) L'article 19
+      c) L'article 2
+      d) L'article 17
 
-13. Que doit-on écrire sur le périmètre ?
-      a) Seulement les sites visités
-      b) Ce qui est inclus et ce qui est exclu, avec la raison
-      c) Seulement les dates
-      d) Rien
+13. Que garantit le préambule de la Constitution en matière de correspondance ?
+      a) La gratuité du courrier
+      b) Le secret de toute correspondance
+      c) L'archivage des correspondances
+      d) La censure préalable
 
-14. Comment se lève un NEK de preuve ?
-      a) En attendant un décret
-      b) En changeant de norme
-      c) En cherchant une pièce
-      d) Il ne se lève jamais
+14. Que contient la Charte africaine des droits de l'homme et des peuples de 1981 sur la vie privée ?
+      a) Un chapitre entier
+      b) Une liste de données sensibles
+      c) Aucun article consacré à la vie privée
+      d) Une autorité de contrôle
 
-15. Comment se lève un NEK de critère ?
-      a) Avec un texte ou une décision
-      b) En cherchant une pièce
-      c) En interrogeant un agent
-      d) En refaisant le test
+15. Quel texte africain protège expressément la vie privée de l'enfant ?
+      a) La Charte africaine des droits et du bien-être de l'enfant
+      b) L'acte additionnel de la CEDEAO
+      c) La Convention de Budapest
+      d) Le cadre stratégique de 2022
 
-16. Quelle preuve est la plus forte ?
-      a) La déclaration
-      b) L'observation
-      c) Le document non signé
-      d) La réexécution ou le test
+16. Où et quand la Convention de l'Union africaine sur la cybersécurité a-t-elle été adoptée ?
+      a) À Addis-Abeba en 2010
+      b) À Abuja en 2010
+      c) À Kigali en 2022
+      d) À Malabo en 2014
 
-17. Quelle preuve est la plus faible ?
-      a) Le test
-      b) La déclaration
-      c) La trace système
-      d) Le document signé
+17. À quelle date la Convention de Malabo est-elle entrée en vigueur ?
+      a) Le 27 juin 2014
+      b) Le 8 juin 2023
+      c) Le 23 décembre 2024
+      d) Le 1er avril 2024
 
-18. Que prouve un contrat signé ?
-      a) L'exécution des mesures
-      b) L'absence de violation
-      c) L'engagement, pas son exécution
-      d) La conformité totale
+18. Quelle est la situation du Cameroun à l'égard de la Convention de Malabo à la date du cours ?
+      a) Il l'a ratifiée
+      b) Il l'a dénoncée
+      c) Il l'a signée sans la ratifier
+      d) Il ne l'a jamais signée
 
-19. Une déclaration seule permet-elle de coter OUI ?
-      a) Non
-      b) Oui
-      c) Oui si elle est écrite
-      d) Oui si le directeur la signe
+19. Quel chapitre de la Convention de Malabo traite de la protection des données ?
+      a) Le chapitre II
+      b) Le chapitre I
+      c) Le chapitre III
+      d) Le chapitre IV
 
-20. Qu'est-ce qu'un papier de travail ?
-      a) Le rapport final
-      b) Le contrat d'audit
-      c) La facture
-      d) Le document qui trace un constat
+20. Quel régime de la loi n° 2024/017 prolonge les formalités préalables de la Convention de Malabo ?
+      a) La portabilité
+      b) Les directives après le décès
+      c) Le rapport annuel de sécurité
+      d) L'autorisation préalable de l'article 19
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. L'audit de conformité légale a pour critères la loi et ses textes.
+21. Les lignes directrices de l'OCDE sont un traité que le Cameroun a ratifié.
       Vrai / Faux
 
-22. La norme ISO 19011 pose sept principes d'audit.
+22. Les principes de la loi n° 2024/017 descendent des principes formulés par l'OCDE en 1980.
       Vrai / Faux
 
-23. Une déclaration seule permet de coter OUI.
+23. Le Cameroun est Partie à la Convention 108.
       Vrai / Faux
 
-24. Un contrat signé prouve que le prestataire applique les mesures.
+24. La Convention 108+ n'était pas en vigueur à la date du cours.
       Vrai / Faux
 
-25. La règle de décision se fixe après avoir coté.
+25. La Charte africaine des droits de l'homme et des peuples contient un article sur la vie privée.
       Vrai / Faux
 
-26. Un NEK de critère se lève en cherchant une pièce.
+26. Les textes de droits fondamentaux fournissent des critères d'audit directement cotables.
       Vrai / Faux
 
-27. Une exigence avec « et » doit être scindée.
+27. La Convention de Malabo est entrée en vigueur en 2023.
       Vrai / Faux
 
-28. Si U est au moins 0,20, aucune conclusion de conformité n'est possible.
+28. La Convention de Malabo oblige le Cameroun depuis sa signature.
       Vrai / Faux
 
-29. L'audit est lui-même un traitement de données personnelles.
+29. La loi n° 2024/017 a repris des choix d'un texte que le Cameroun n'avait pas ratifié.
       Vrai / Faux
 
-30. Une demande test peut être faite au nom d'une personne fictive.
+30. Le Cameroun est membre de la CEDEAO.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. La norme qui pose les principes de l'audit est l'ISO ______.
+31. Les lignes directrices de l'OCDE datent de ______ et ont été révisées en 2013.
 
-32. Le document qui trace un constat est le papier de ______.
+32. Les lignes directrices de l'OCDE énoncent ______ principes.
 
-33. La règle qui interdit « et » et « ou » dans une exigence est la règle d'______.
+33. La Convention du Conseil de l'Europe de 1981 est dite Convention ______.
 
-34. Si U est au moins ______, le domaine est opaque.
+34. La Convention 108+ entrera en vigueur à la ______ ratification.
 
-35. Un NEK qui attend un texte est un NEK de ______.
+35. L'article ______ du Pacte de 1966 protège contre les immixtions dans la vie privée.
 
-36. Un NEK qui attend une pièce est un NEK de ______.
+36. Le préambule de la Constitution garantit le secret de toute ______.
 
-37. La part des réponses OUI se note ______.
+37. La Convention de l'Union africaine sur la cybersécurité a été adoptée à ______ en 2014.
 
-38. La preuve la plus forte est la réexécution ou le ______.
+38. La Convention de Malabo est entrée en vigueur le 8 juin ______.
 
-39. Le mandat de NYANGA a été donné par le conseil d'______.
+39. Le Cameroun a ______ la Convention de Malabo sans la ratifier.
 
-40. L'audit du cours compte ______ domaines.
+40. L'acte additionnel de la ______ date du 16 février 2010.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

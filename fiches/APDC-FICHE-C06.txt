@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C06
-Chapitre 6 : Auditer les droits des personnes
+Chapitre 6 : La loi n° 2024/017 : autorisation, Autorité, sanctions
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quels articles organisent les droits de la personne concernée ?
-      a) Les articles 1 à 5
-      b) Les articles 37 à 47
-      c) Les articles 54 à 61
-      d) Les articles 72 à 75
+ 1. Combien de titres compte la loi n° 2024/017 ?
+      a) Cinq
+      b) Sept
+      c) Neuf
+      d) Trois
 
- 2. Quel article organise le droit d'accès ?
-      a) L'article 42
-      b) L'article 43
-      c) L'article 39
-      d) L'article 45
+ 2. Combien d'articles compte la loi n° 2024/017 ?
+      a) 53
+      b) 91
+      c) 75
+      d) 120
 
- 3. Quel article organise le droit de rectification ?
-      a) L'article 42
+ 3. Quel titre traite des droits de la personne concernée ?
+      a) Le titre III
+      b) Le titre I
+      c) Le titre V
+      d) Le titre VII
+
+ 4. Quel titre traite des sanctions ?
+      a) Le titre II
+      b) Le titre IV
+      c) Le titre I
+      d) Le titre VI
+
+ 5. Quel titre traite de l'Autorité de protection ?
+      a) Le titre III
+      b) Le titre V
+      c) Le titre VI
+      d) Le titre II
+
+ 6. Quel article abroge les dispositions antérieures contraires ?
+      a) L'article 73
+      b) L'article 1
+      c) L'article 75
+      d) L'article 53
+
+ 7. Quel article soumet tout traitement à autorisation préalable ?
+      a) L'article 19
+      b) L'article 9
+      c) L'article 29
+      d) L'article 22
+
+ 8. Quel article interdit le traitement sans autorisation préalable ?
+      a) L'article 50
+      b) L'article 52
+      c) L'article 48
+      d) L'article 49
+
+ 9. Quelle sanction prévoit l'article 55 ?
+      a) Une amende de 1 à 10 millions
+      b) Une pénalité de 5 à 50 millions de francs CFA
+      c) Un emprisonnement de 3 à 10 ans
+      d) Une astreinte de 100 000 francs par jour
+
+10. La loi prévoit-elle une déclaration simplifiée ?
+      a) Oui, pour les petites entreprises
+      b) Oui, pour les administrations
+      c) Non
+      d) Oui, pour la paie
+
+11. Quelle source la loi reprend-elle pour ses principes des articles 6 à 18 ?
+      a) Les huit principes de l'OCDE
+      b) Le cadre du NIST
+      c) La Convention de Budapest
+      d) L'ISO/IEC 27001
+
+12. Qu'ajoute la loi au vocabulaire commun des définitions ?
+      a) Le délégué à la protection des données
+      b) L'intérêt légitime
+      c) Le représentant dans l'Union
+      d) La protection des personnes en transit
+
+13. Quel régime la loi retient-elle à la place d'un régime de déclaration ?
+      a) La responsabilité du responsable
+      b) L'autorisation pour tout traitement
+      c) L'autorégulation
+      d) La certification obligatoire
+
+14. Quel droit la loi ajoute-t-elle à ceux qu'elle reprend du RGPD ?
+      a) La portabilité
+      b) L'accès
+      c) Les directives après le décès
+      d) L'opposition
+
+15. Quelle colonne du Tableau 6.1 l'auditeur doit-il connaître par cœur ?
+      a) Celle de ce que la loi ajoute ou change
+      b) Celle de ce qu'elle reprend
+      c) Celle des titres
+      d) Aucune
+
+16. Que produit, dans un audit, une disposition suspendue à un texte non publié ?
+      a) Un NON
+      b) Un OUI
+      c) Un NEK de preuve
+      d) Un NEK de critère
+
+17. Quels articles renvoient les durées de conservation à un texte ou à un référentiel ?
+      a) Les articles 19 et 32
+      b) Les articles 13 et 28
+      c) Les articles 53 et 54
+      d) Les articles 34 et 59
+
+18. Quel article renvoie les délais d'examen des demandes à la voie réglementaire ?
+      a) L'article 22
       b) L'article 39
-      c) L'article 40
-      d) L'article 46
-
- 4. Quel article organise la portabilité ?
-      a) L'article 44
-      b) L'article 41
-      c) L'article 38
-      d) L'article 43
-
- 5. Quel article organise le droit d'opposition ?
-      a) L'article 43
-      b) L'article 40
-      c) L'article 46
-      d) L'article 39
-
- 6. Quel article organise la limitation du traitement ?
-      a) L'article 45
-      b) L'article 47
-      c) L'article 46
-      d) L'article 37
-
- 7. Quel article traite du décès de la personne ?
-      a) L'article 45
-      b) L'article 44
-      c) L'article 42
-      d) L'article 40
-
- 8. Quels articles traitent de l'effacement ?
-      a) Les articles 13 et 28
-      b) Les articles 55 et 56
-      c) Les articles 22 et 23
-      d) Les articles 37 et 38
-
- 9. Quel article encadre la communication à des tiers pour la prospection ?
-      a) L'article 39
-      b) L'article 41
-      c) L'article 21
-      d) L'article 65
-
-10. Que peut coûter une copie au titre du droit d'accès ?
-      a) Un forfait libre
-      b) Rien de plus que la portabilité
-      c) Au plus le coût de la reproduction
-      d) Un pourcentage de l'encours
-
-11. La portabilité est-elle payante ?
-      a) Non, elle est gratuite
-      b) Oui, au coût de reproduction
-      c) Oui, au forfait
-      d) Oui, si le format est ouvert
-
-12. Dans quel format reçoit-on ses données au titre de la portabilité ?
-      a) Papier uniquement
-      b) Image scannée
-      c) Format propriétaire
-      d) Structuré, couramment utilisé et lisible par machine
-
-13. Quand la portabilité ne s'applique-t-elle pas ?
-      a) Pour une microfinance
-      b) Pour une mission d'intérêt public ou d'autorité publique
-      c) Pour un compte d'épargne
-      d) Jamais
-
-14. Quand l'effacement est-il dû selon l'article 38 ?
-      a) Toujours sur demande
-      b) Jamais pour une banque
-      c) Si les données ne sont plus nécessaires, si le consentement est vicié ou retiré, ou sans base légale
-      d) Seulement après le décès
-
-15. Sous quelle réserve se fait l'effacement ?
-      a) Des exigences de conservation prévues par d'autres textes
-      b) De l'accord du DSI
-      c) Du paiement d'un forfait
-      d) De l'avis du prestataire
-
-16. Qui peut s'opposer au traitement des données d'un mineur collectées sans consentement ?
-      a) L'enseignant
-      b) L'employeur
-      c) Le voisin
-      d) Le parent ou le représentant légal
-
-17. Que devient le traitement au décès selon l'article 45 ?
-      a) Il continue sans limite
-      b) Il cesse, sauf exceptions
-      c) Il est transféré à l'Autorité
-      d) Il est publié
-
-18. Qui peut demander la mise à jour des informations d'une personne décédée ?
-      a) Le prestataire
-      b) L'auditeur
-      c) Les ayants droit
-      d) Le voisin
-
-19. Quel article renvoie les délais d'examen à la voie réglementaire ?
-      a) L'article 47
-      b) L'article 39
-      c) L'article 22
+      c) L'article 47
       d) L'article 73
 
-20. Que fait l'auditeur faute de délai réglementaire ?
-      a) Il invente un délai légal
-      b) Il ne mesure rien
-      c) Il applique 72 heures
-      d) Il déclare un critère de substitution ou cote NEK de critère
+19. Que fait l'auditeur du tableau des textes attendus au début de chaque mission ?
+      a) Il le refait
+      b) Il le reprend tel quel
+      c) Il le remet à l'audité
+      d) Il l'ignore
+
+20. Qu'arrive-t-il à un NEK de critère quand le texte attendu est publié ?
+      a) Il devient un OUI
+      b) Il devient un NON
+      c) Il disparaît du rapport
+      d) Il devient une exigence cotable
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. La portabilité est gratuite.
+21. Tout traitement est soumis à autorisation préalable de l'Autorité.
       Vrai / Faux
 
-22. Une copie au titre de l'accès peut être facturée au-delà du coût de reproduction.
+22. La loi prévoit une déclaration simplifiée pour les petites entreprises.
       Vrai / Faux
 
-23. La loi fixe un délai de 30 jours pour répondre.
+23. L'Autorité est un organisme public indépendant.
       Vrai / Faux
 
-24. L'effacement se fait sous réserve des obligations de conservation.
+24. La mise en demeure de l'article 54 laisse trente jours.
       Vrai / Faux
 
-25. Accepter une opposition par lettre prouve son exécution.
+25. Les personnes morales peuvent être condamnées jusqu'à un milliard de francs CFA.
       Vrai / Faux
 
-26. Un registre des demandes inexistant se reconstitue à partir des canaux.
+26. La loi n° 2024/017 est une copie du RGPD.
       Vrai / Faux
 
-27. Toutes les demandes reçues par NYANGA ont été traitées.
+27. La loi reprend les formalités préalables de la Convention de Malabo en les durcissant.
       Vrai / Faux
 
-28. La demande test de KORO AUDIT a reçu une réponse complète.
+28. La loi pose un principe général de minimisation.
       Vrai / Faux
 
-29. L'article 64 punit le traitement maintenu malgré l'opposition à la prospection.
+29. La loi rend les personnes morales pénalement responsables.
       Vrai / Faux
 
-30. Les ayants droit peuvent demander la mise à jour des informations du défunt.
+30. La loi ne s'applique pas tant que l'Autorité n'est pas organisée.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Le droit d'accès est prévu par l'article ______.
+31. L'autorisation préalable de tout traitement est prévue par l'article ______.
 
-32. La portabilité est prévue par l'article ______.
+32. L'Autorité de protection est prévue par l'article ______.
 
-33. Les délais d'examen des demandes sont renvoyés à la voie réglementaire par l'article ______.
+33. La mise en demeure de l'article 54 laisse au plus ______ jours.
 
-34. Le critère de substitution de KORO AUDIT est de ______ jours.
+34. Le traitement sans autorisation est sanctionné par l'article ______.
 
-35. NYANGA a reçu ______ demandes entre le 23 juin et le 31 août.
+35. Le profilage est puni par l'article ______.
 
-36. Le délai médian des réponses complètes est de ______ jours.
+36. La loi reprend les ______ principes de l'OCDE.
 
-37. Le refus de communiquer les informations est puni par l'article ______.
+37. La loi protège les personnes établies, résidant ou en ______ au Cameroun.
 
-38. Le droit d'opposition est prévu par l'article ______.
+38. Une disposition suspendue à un texte non publié produit un NEK de ______.
 
-39. Les règles applicables au décès figurent à l'article ______.
+39. Les délais d'examen des demandes sont renvoyés au règlement par l'article ______.
 
-40. Après acceptation, l'auditeur vérifie l'______ dans les systèmes.
+40. Le contrôle des traitements par l'Autorité est prévu à l'article ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

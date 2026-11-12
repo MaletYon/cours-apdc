@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C12
-Chapitre 12 : Les violations de données
+Chapitre 12 : Auditer la sécurité des données
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Qu'est-ce qu'une violation de données selon l'article 5 ?
-      a) Toute panne d'électricité
-      b) Une atteinte à la sécurité entraînant destruction, perte, altération, divulgation ou accès non autorisé
-      c) Toute plainte d'un client
-      d) Toute erreur de facture
-
- 2. Une violation doit-elle être une attaque ?
-      a) Oui, toujours
-      b) Oui, si elle vient de l'étranger
-      c) Non, elle peut être accidentelle
-      d) Seulement si elle est chiffrée
-
- 3. L'accès non autorisé d'un agent à un dossier est-il une violation ?
-      a) Oui
-      b) Non, il est interne
-      c) Seulement s'il copie
-      d) Seulement s'il est licencié
-
- 4. Un courriel envoyé au mauvais destinataire est :
-      a) Un incident sans conséquence
-      b) Un transfert
-      c) Une anonymisation
-      d) Une violation de confidentialité
-
- 5. Un résultat d'analyse attribué au mauvais patient touche :
-      a) La confidentialité
-      b) L'intégrité
-      c) La disponibilité
-      d) La portabilité
-
- 6. Des dossiers chiffrés par un rançongiciel touchent :
-      a) L'exactitude
-      b) La finalité
-      c) La disponibilité
-      d) La portabilité
-
- 7. Quel article impose d'informer d'une violation ?
+ 1. Quel article donne la liste la plus complète des obligations de sécurité ?
       a) L'article 22
       b) L'article 27
+      c) L'article 7
+      d) L'article 15
+
+ 2. Combien d'obligations l'article 27, alinéa 1, énumère-t-il ?
+      a) Trois
+      b) Cinq
+      c) Dix
+      d) Quinze
+
+ 3. Quel article réserve le traitement aux personnes agissant sur instruction du responsable ?
+      a) L'article 24
+      b) L'article 27
       c) L'article 29
-      d) L'article 33
+      d) L'article 31
 
- 8. Qui doit être informé selon l'article 22 ?
-      a) Seulement l'Autorité
-      b) Seulement la police
-      c) Seulement l'assureur
-      d) L'Autorité et la personne concernée
+ 4. Quel article cite le chiffrement comme mesure appropriée ?
+      a) L'article 9
+      b) L'article 13
+      c) L'article 53
+      d) L'article 22, alinéa 2
 
- 9. Dans quel délai faut-il informer selon l'article 22 ?
-      a) 72 heures
-      b) Sans délai
-      c) Un mois
-      d) Avant la fin de l'année
+ 5. Quel article impose d'empêcher que les données soient déformées ou indisponibles ?
+      a) L'article 2
+      b) L'article 25, alinéa 2
+      c) L'article 39
+      d) L'article 73
 
-10. L'article 22 prévoit-il un seuil de risque pour informer ?
-      a) Oui, risque élevé seulement
-      b) Oui, plus de cent personnes
-      c) Non, il vise toute violation
-      d) Oui, données sensibles seulement
+ 6. Quels articles posent la confidentialité ?
+      a) Les articles 54 et 55
+      b) Les articles 72 et 73
+      c) Les articles 7 et 15
+      d) Les articles 37 et 38
 
-11. Qui est tenu d'informer selon l'article 22 ?
-      a) Le responsable du traitement ou le sous-traitant
-      b) Seulement le client
-      c) Seulement l'Autorité
-      d) Seulement l'auditeur
+ 7. Que vise la traçabilité de l'article 27 ?
+      a) Les données introduites, modifiées, copiées, effacées ou lues
+      b) Seulement les suppressions
+      c) Seulement les connexions réseau
+      d) Seulement les sauvegardes
 
-12. Quelle mesure l'article 22, alinéa 2, cite-t-il ?
-      a) La publicité
-      b) La destruction des journaux
-      c) La vidéosurveillance
-      d) Le chiffrement
+ 8. Un système qui ne journalise pas les lectures satisfait-il l'article 27 ?
+      a) Oui
+      b) Oui s'il est chiffré
+      c) Oui s'il est sauvegardé
+      d) Non
 
-13. Que doit contenir l'information selon le critère du cours ?
-      a) Seulement des excuses
-      b) Nature, données, conséquences, mesures, conseils et contact
-      c) Le nom du coupable
-      d) Le montant de l'amende
+ 9. Quel alinéa impose un rapport annuel à l'Autorité ?
+      a) L'article 22, alinéa 1
+      b) L'article 27, alinéa 2
+      c) L'article 29, alinéa 2
+      d) L'article 53, alinéa 2
 
-14. La loi fixe-t-elle le contenu de l'information ?
-      a) Oui, en dix points
-      b) Oui, par renvoi au RGPD
-      c) Non
-      d) Oui, à l'article 53
+10. Sur quoi porte le rapport annuel de l'article 27 ?
+      a) Le chiffre d'affaires
+      b) Les plaintes des clients
+      c) L'état de mise en œuvre des mesures de sécurité du référentiel
+      d) Le budget informatique
 
-15. Quelle est la première étape de l'audit du dispositif de violations ?
-      a) Vérifier qu'une procédure écrite existe
-      b) Publier le rapport
-      c) Sanctionner les agents
-      d) Changer de serveur
+11. Comment cote-t-on la conformité du contenu du rapport annuel tant que le référentiel n'existe pas ?
+      a) NEK de critère
+      b) OUI
+      c) NON
+      d) On ne la cote pas
 
-16. Que relève-t-on pour chaque violation ?
-      a) Le nom du DSI seulement
-      b) Le prix des réparations
-      c) Les opinions des agents
-      d) Dates de connaissance, de confinement et d'information
+12. Quelle mesure de l'ISO/IEC 27002:2022 correspond indicativement à la journalisation ?
+      a) 5.1
+      b) 7.10
+      c) 8.24
+      d) 8.15
 
-17. Pourquoi un registre des violations est-il nécessaire ?
-      a) La loi le nomme expressément
-      b) C'est la seule manière de prouver le « sans délai »
-      c) Pour la publicité
-      d) Pour la paie
+13. Quelle mesure correspond indicativement aux sauvegardes ?
+      a) 8.15
+      b) 8.13
+      c) 5.14
+      d) 7.1
 
-18. Le registre des violations contient-il les violations non notifiées ?
-      a) Non
-      b) Seulement les graves
-      c) Oui, toutes y figurent
-      d) Seulement les externes
+14. Quel test vérifie la disponibilité et la résilience ?
+      a) Un questionnaire
+      b) Une signature
+      c) Un plan de reprise exercé et une durée d'indisponibilité mesurée
+      d) Un schéma de réseau
 
-19. Quels articles du Code de procédure pénale les auteurs cités mentionnent-ils pour le secret ?
-      a) Les articles 102 et 154
-      b) Les articles 22 et 27
-      c) Les articles 63 et 71
-      d) Les articles 1 et 2
+15. Quel test vérifie la limitation des accès ?
+      a) Comparer droits et fonctions sur échantillon
+      b) Lire la politique
+      c) Interroger le DG
+      d) Compter les serveurs
 
-20. Comment les auteurs cités qualifient-ils la rencontre entre information et secret de l'enquête ?
-      a) Une incompatibilité
-      b) Une identité
-      c) Un vide total
-      d) Une tension procédurale
+16. La correspondance entre l'article 27 et l'ISO/IEC 27002 est-elle fixée par la loi ?
+      a) Oui
+      b) Oui, par l'Autorité
+      c) Oui, par l'ISO
+      d) Non, elle est indicative
+
+17. Quelle anomalie détruit la traçabilité ?
+      a) Un mot de passe long
+      b) Un compte partagé
+      c) Un journal centralisé
+      d) Une sauvegarde chiffrée
+
+18. Quelle anomalie revient partout dans les audits d'accès ?
+      a) Les comptes trop récents
+      b) Les mots de passe trop longs
+      c) Les comptes de personnes parties
+      d) Les journaux trop complets
+
+19. Que sont les droits accordés « pour dépanner » et jamais retirés ?
+      a) Des droits trop larges
+      b) Des droits nécessaires
+      c) Des droits temporaires conformes
+      d) Des droits anonymes
+
+20. Que fait-on de chaque ligne d'un journal de consultation ?
+      a) On la supprime
+      b) On la publie
+      c) On l'ignore
+      d) On la rapproche d'une pièce justificative
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Une violation peut être accidentelle.
+21. L'article 27 vise aussi les données lues.
       Vrai / Faux
 
-22. Un accès interne non autorisé n'est jamais une violation.
+22. L'article 27 énumère trois obligations.
       Vrai / Faux
 
-23. L'article 22 impose d'informer l'Autorité et la personne.
+23. Le responsable adresse un rapport annuel à l'Autorité sur les mesures.
       Vrai / Faux
 
-24. L'article 22 fixe un délai de 72 heures.
+24. Un compte partagé permet de savoir qui a consulté.
       Vrai / Faux
 
-25. L'article 22 vise seulement les violations à risque élevé.
+25. Une consultation sans pièce est forcément une faute.
       Vrai / Faux
 
-26. Un registre des violations permet de prouver le « sans délai ».
+26. Un journal établit ce qu'un compte a fait.
       Vrai / Faux
 
-27. Une demande de différer l'information doit être réexaminée.
+27. Cinq consultations du dossier sont sans lien établi avec la prise en charge.
       Vrai / Faux
 
-28. Les clients de NYANGA ont été informés après le jugement.
+28. Le compte du stagiaire était désactivé en mai.
       Vrai / Faux
 
-29. MBOLO a informé sa patiente deux jours après la plainte.
+29. Les journaux de MBOLO sont conservés au moins un an.
       Vrai / Faux
 
-30. NYANGA tenait un registre des violations.
+30. La correspondance entre l'article 27 et l'ISO/IEC 27002 est indicative.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. L'obligation d'informer d'une violation figure à l'article ______.
+31. La liste la plus complète des obligations de sécurité figure à l'article ______.
 
-32. L'information d'une violation se fait sans ______.
+32. La loi exige de pouvoir vérifier a ______ qui a accédé aux données.
 
-33. Un rançongiciel qui chiffre les dossiers touche la ______.
+33. Le rapport sur les mesures de sécurité est ______.
 
-34. La violation de NYANGA a été connue le 14 mars ______.
+34. Un compte utilisé par plusieurs personnes est un compte ______.
 
-35. Le jugement de l'affaire NYANGA date du 15 février ______.
+35. Le dossier de la patiente a été consulté ______ fois en 48 heures.
 
-36. L'OPJ a écrit le 20 ______ 2025.
+36. ______ consultations sont sans lien établi avec la prise en charge.
 
-37. MBOLO a informé la patiente le 15 ______ 2026.
+37. Les journaux MEDIKA sont conservés ______ jours.
 
-38. Les auteurs cités parlent d'une tension ______ entre information et secret.
+38. La mesure de journalisation de l'ISO/IEC 27002:2022 porte le numéro ______.
 
-39. Le secret de l'information judiciaire relève de l'article ______ du Code de procédure pénale, selon les auteurs cités.
+39. Le traitement est réservé aux personnes agissant sur ______ du responsable.
 
-40. La date de connaissance d'une violation se consigne dans le ______ des violations.
+40. Le compte d'un ______ parti en mars a consulté le dossier.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

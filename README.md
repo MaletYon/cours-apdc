@@ -14,7 +14,7 @@ La loi n° 2024/017 du 23 décembre 2024 relative à la protection des données 
 
 | Élément | Où | Description |
 |---|---|---|
-| Le livre du cours | [`APDC_main.pdf`](APDC_main.pdf) | Traité complet (prologue, 16 chapitres, annexes), compilé depuis [`APDC_main.tex`](APDC_main.tex) |
+| Le livre du cours | [`APDC_main.pdf`](APDC_main.pdf) | Traité complet (prologue, 19 chapitres, annexes), compilé depuis [`APDC_main.tex`](APDC_main.tex) |
 | Les présentations | [`Présentation/`](Présentation/) | 16 présentations PowerPoint : vision d'ensemble et 15 séances de 2 heures, avec notes du présentateur |
 | Les fiches d'exercices | [`fiches/`](fiches/) | 17 fiches de 40 questions au format texte, à distribuer en attendant l'ouverture de NDAP SUKULU |
 | Le livret de correction | [`correction/`](correction/) | Accès réservé : voir la page du dossier |

@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C15
-Chapitre 15 : Les secteurs sensibles
+Chapitre 15 : Les violations de données
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quel article renvoie les autorités de sécurité et de défense à des textes particuliers ?
-      a) L'article 72
-      b) L'article 4
-      c) L'article 2
-      d) L'article 48
+ 1. Qu'est-ce qu'une violation de données selon l'article 5 ?
+      a) Toute panne d'électricité
+      b) Une atteinte à la sécurité entraînant destruction, perte, altération, divulgation ou accès non autorisé
+      c) Toute plainte d'un client
+      d) Toute erreur de facture
 
- 2. Quel article cite la santé, la justice et l'état civil ?
-      a) L'article 4
-      b) L'article 9
-      c) L'article 72
-      d) L'article 22
-
- 3. Que vise l'article 4 ?
-      a) Des autorités
-      b) Des domaines
-      c) Des pays
-      d) Des normes
-
- 4. Que vise l'article 72 ?
-      a) Des autorités
-      b) Des personnes
-      c) Des sanctions
-      d) Des domaines
-
- 5. L'article 72 exclut-il ces domaines de la loi générale ?
-      a) Oui, totalement
-      b) Non, il annonce des textes qui la complèteront
-      c) Oui, sauf pour les banques
-      d) Oui, depuis 2026
-
- 6. Que fait l'auditeur tant qu'un texte spécifique n'est pas identifié ?
-      a) Il arrête l'audit
-      b) Il applique le RGPD
-      c) Il applique la loi générale et signale la réserve
-      d) Il cote tout NEK
-
- 7. Quelles exigences cote-t-on NEK de critère dans un secteur visé par l'article 72 ?
-      a) Seulement celles qu'un texte spécifique pourrait modifier
-      b) Toutes
-      c) Aucune
-      d) Celles de la sécurité
-
- 8. Quelle est la première étape de l'audit d'un secteur de l'article 72 ?
-      a) Sanctionner
-      b) Publier
-      c) Interroger les patients
-      d) Rechercher le texte spécifique et noter le résultat
-
- 9. Quel fondement couvre le soin ?
-      a) L'intérêt légitime
-      b) La préservation de la santé (article 9)
-      c) Le contrat
-      d) La prospection
-
-10. La préservation de la santé couvre-t-elle la facturation ?
+ 2. Une violation doit-elle être une attaque ?
       a) Oui, toujours
-      b) Oui, pour les mutuelles
-      c) Non, la facturation exige son propre fondement
-      d) Oui, si le patient paie
+      b) Oui, si elle vient de l'étranger
+      c) Non, elle peut être accidentelle
+      d) Seulement si elle est chiffrée
 
-11. Avec qui le secret médical se partage-t-il ?
-      a) Ceux qui participent à la prise en charge, dans la mesure nécessaire
-      b) Toute l'administration
-      c) Les mutuelles sans limite
-      d) La famille élargie
+ 3. L'accès non autorisé d'un agent à un dossier est-il une violation ?
+      a) Oui
+      b) Non, il est interne
+      c) Seulement s'il copie
+      d) Seulement s'il est licencié
 
-12. Quel secret s'ajoute à la loi pour les professionnels de santé ?
-      a) Le secret défense
-      b) Le secret bancaire
-      c) Le secret des affaires
-      d) Le secret médical
+ 4. Un courriel envoyé au mauvais destinataire est :
+      a) Un incident sans conséquence
+      b) Un transfert
+      c) Une anonymisation
+      d) Une violation de confidentialité
 
-13. Transmettre un diagnostic à une mutuelle exige :
-      a) Rien
-      b) Un texte ou le consentement du patient
-      c) L'accord du DSI
-      d) L'accord du prestataire
+ 5. Un résultat d'analyse attribué au mauvais patient touche :
+      a) La confidentialité
+      b) L'intégrité
+      c) La disponibilité
+      d) La portabilité
 
-14. Quel alinéa interdit le traitement des données bancaires sans autorisation des structures compétentes ?
-      a) L'article 9, alinéa 3
-      b) L'article 27, alinéa 2
-      c) L'article 48, alinéa 2
-      d) L'article 53, alinéa 2
+ 6. Des dossiers chiffrés par un rançongiciel touchent :
+      a) L'exactitude
+      b) La finalité
+      c) La disponibilité
+      d) La portabilité
 
-15. La loi désigne-t-elle les administrations compétentes de l'article 48(2) ?
+ 7. Quel article impose d'informer d'une violation ?
+      a) L'article 22
+      b) L'article 27
+      c) L'article 29
+      d) L'article 33
+
+ 8. Qui doit être informé selon l'article 22 ?
+      a) Seulement l'Autorité
+      b) Seulement la police
+      c) Seulement l'assureur
+      d) L'Autorité et la personne concernée
+
+ 9. Dans quel délai faut-il informer selon l'article 22 ?
+      a) 72 heures
+      b) Sans délai
+      c) Un mois
+      d) Avant la fin de l'année
+
+10. L'article 22 prévoit-il un seuil de risque pour informer ?
+      a) Oui, risque élevé seulement
+      b) Oui, plus de cent personnes
+      c) Non, il vise toute violation
+      d) Oui, données sensibles seulement
+
+11. Qui est tenu d'informer selon l'article 22 ?
+      a) Le responsable du traitement ou le sous-traitant
+      b) Seulement le client
+      c) Seulement l'Autorité
+      d) Seulement l'auditeur
+
+12. Quelle mesure l'article 22, alinéa 2, cite-t-il ?
+      a) La publicité
+      b) La destruction des journaux
+      c) La vidéosurveillance
+      d) Le chiffrement
+
+13. Que doit contenir l'information selon le critère du cours ?
+      a) Seulement des excuses
+      b) Nature, données, conséquences, mesures, conseils et contact
+      c) Le nom du coupable
+      d) Le montant de l'amende
+
+14. La loi fixe-t-elle le contenu de l'information ?
+      a) Oui, en dix points
+      b) Oui, par renvoi au RGPD
+      c) Non
+      d) Oui, à l'article 53
+
+15. Quelle est la première étape de l'audit du dispositif de violations ?
+      a) Vérifier qu'une procédure écrite existe
+      b) Publier le rapport
+      c) Sanctionner les agents
+      d) Changer de serveur
+
+16. Que relève-t-on pour chaque violation ?
+      a) Le nom du DSI seulement
+      b) Le prix des réparations
+      c) Les opinions des agents
+      d) Dates de connaissance, de confinement et d'information
+
+17. Pourquoi un registre des violations est-il nécessaire ?
+      a) La loi le nomme expressément
+      b) C'est la seule manière de prouver le « sans délai »
+      c) Pour la publicité
+      d) Pour la paie
+
+18. Le registre des violations contient-il les violations non notifiées ?
       a) Non
-      b) Oui, l'ANTIC
-      c) Oui, l'Autorité
-      d) Oui, le ministère de la Santé
+      b) Seulement les graves
+      c) Oui, toutes y figurent
+      d) Seulement les externes
 
-16. Comment cote-t-on l'autorisation de l'article 48(2) faute de désignation claire ?
-      a) OUI
-      b) NON
-      c) Sans objet
-      d) NEK de critère
+19. Quels articles du Code de procédure pénale les auteurs cités mentionnent-ils pour le secret ?
+      a) Les articles 102 et 154
+      b) Les articles 22 et 27
+      c) Les articles 63 et 71
+      d) Les articles 1 et 2
 
-17. Que doit montrer une microfinance outre la demande à l'Autorité ?
-      a) Son chiffre d'affaires
-      b) Les agréments de son régulateur sectoriel
-      c) Ses brevets
-      d) Sa marque
-
-18. Une « obligation réglementaire » invoquée sans référence reste :
-      a) Une preuve
-      b) Une autorisation
-      c) Une déclaration
-      d) Un délit
-
-19. Combien de protections propres aux mineurs la loi prévoit-elle selon le cours ?
-      a) Quatre
-      b) Une
-      c) Deux
-      d) Huit
-
-20. Quel article exige l'appui des parents pour le consentement d'un mineur ?
-      a) L'article 18
-      b) L'article 40
-      c) L'article 19
-      d) L'article 9, alinéa 3
+20. Comment les auteurs cités qualifient-ils la rencontre entre information et secret de l'enquête ?
+      a) Une incompatibilité
+      b) Une identité
+      c) Un vide total
+      d) Une tension procédurale
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. L'article 72 exclut la santé de la loi générale.
+21. Une violation peut être accidentelle.
       Vrai / Faux
 
-22. L'article 4 vise les autorités de sécurité et de défense.
+22. Un accès interne non autorisé n'est jamais une violation.
       Vrai / Faux
 
-23. La préservation de la santé couvre la facturation.
+23. L'article 22 impose d'informer l'Autorité et la personne.
       Vrai / Faux
 
-24. Le secret médical s'ajoute aux exigences de la loi.
+24. L'article 22 fixe un délai de 72 heures.
       Vrai / Faux
 
-25. La loi désigne précisément les administrations compétentes de l'article 48(2).
+25. L'article 22 vise seulement les violations à risque élevé.
       Vrai / Faux
 
-26. Les parents peuvent s'opposer au traitement des données de leur enfant collectées sans leur consentement.
+26. Un registre des violations permet de prouver le « sans délai ».
       Vrai / Faux
 
-27. La vidéosurveillance d'un lieu public est un traitement de données.
+27. Une demande de différer l'information doit être réexaminée.
       Vrai / Faux
 
-28. On peut filmer un espace d'allaitement pour la sécurité.
+28. Les clients de NYANGA ont été informés après le jugement.
       Vrai / Faux
 
-29. Le texte spécifique de santé a été trouvé lors de l'audit.
+29. MBOLO a informé sa patiente deux jours après la plainte.
       Vrai / Faux
 
-30. Les quatre NON de MBOLO ne dépendent d'aucun texte à venir.
+30. NYANGA tenait un registre des violations.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Le renvoi de la santé à des textes spécifiques figure à l'article ______.
+31. L'obligation d'informer d'une violation figure à l'article ______.
 
-32. Le renvoi des autorités de sécurité et de défense figure à l'article ______.
+32. L'information d'une violation se fait sans ______.
 
-33. Le soin repose sur la préservation de la ______.
+33. Un rançongiciel qui chiffre les dossiers touche la ______.
 
-34. Le secret ______ s'ajoute à la loi pour les soignants.
+34. La violation de NYANGA a été connue le 14 mars ______.
 
-35. Le traitement des données bancaires sans autorisation est interdit par l'article ______.
+35. Le jugement de l'affaire NYANGA date du 15 février ______.
 
-36. Les traitements de mineurs doivent être adéquats, pertinents et ______.
+36. L'OPJ a écrit le 20 ______ 2025.
 
-37. L'entrée d'une zone filmée se signale par un ______.
+37. MBOLO a informé la patiente le 15 ______ 2026.
 
-38. La transmission de septembre aux mutuelles concernait ______ patients.
+38. Les auteurs cités parlent d'une tension ______ entre information et secret.
 
-39. Les images de pédiatrie étaient enregistrées ______ jours.
+39. Le secret de l'information judiciaire relève de l'article ______ du Code de procédure pénale, selon les auteurs cités.
 
-40. Les auteurs proposent de qualifier l'expert opération par ______.
+40. La date de connaissance d'une violation se consigne dans le ______ des violations.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

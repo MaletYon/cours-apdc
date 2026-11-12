@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C09
-Chapitre 9 : Normes, certification et déontologie
+Chapitre 9 : Cartographier les traitements
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quelle norme donne le vocabulaire et onze principes de la vie privée ?
-      a) ISO/IEC 27701
-      b) ISO/IEC 29100
-      c) ISO/IEC 27018
-      d) ISO 19011
+ 1. Quel article impose le registre des activités de traitement ?
+      a) L'article 22
+      b) L'article 29
+      c) L'article 13
+      d) L'article 73
 
- 2. Quelle norme porte un système de management de la protection de la vie privée ?
-      a) ISO/IEC 29100
-      b) ISO/IEC 29134
-      c) ISO/IEC 27701
-      d) ISO/IEC 27035
+ 2. Qui doit tenir un registre selon l'article 29 ?
+      a) Seulement l'Autorité
+      b) Seulement le DSI
+      c) Le responsable et le sous-traitant
+      d) Seulement les banques
 
- 3. Quelle norme vise les sous-traitants en nuage public ?
-      a) ISO/IEC 27018
-      b) ISO/IEC 27701
-      c) ISO 31000
-      d) ISO 9001
+ 3. Sous quelle forme le registre peut-il être tenu ?
+      a) Physique ou numérique
+      b) Seulement numérique
+      c) Seulement papier signé
+      d) Seulement en ligne
 
- 4. Quelle norme guide l'évaluation d'impact ?
-      a) ISO/IEC 27018
-      b) ISO/IEC 27002
-      c) ISO 22301
-      d) ISO/IEC 29134
+ 4. Quel champ du registre est exigé par la loi ?
+      a) Le prix du logiciel
+      b) Le nom du serveur
+      c) Le planning des agents
+      d) Les finalités du traitement
 
- 5. Comment le cours utilise-t-il les normes sous licence ?
-      a) Il les reproduit en annexe
-      b) Il les paraphrase sans les reproduire
-      c) Il les publie en ligne
-      d) Il les traduit intégralement
+ 5. Quel champ relie le registre aux autorisations ?
+      a) La date de création
+      b) Le numéro d'autorisation ou les garanties
+      c) Le nom de l'agence
+      d) Le logo
 
- 6. Combien de principes énonce l'ISO/IEC 29100 ?
-      a) Sept
-      b) Cinq
-      c) Onze
-      d) Trois
+ 6. Quel champ est recommandé mais non exigé par la loi ?
+      a) Les finalités
+      b) Les destinataires
+      c) La durée de conservation
+      d) Les catégories de personnes
 
- 7. Quel principe de l'ISO/IEC 29100 n'est pas un principe général de la loi ?
-      a) La minimisation des données
-      b) Le consentement
-      c) La sécurité
-      d) L'exactitude
+ 7. Quel autre champ est seulement recommandé pour le registre ?
+      a) Le propriétaire et la date de revue
+      b) Les catégories de données
+      c) Le responsable
+      d) Les destinataires
 
- 8. Quand l'ISO/IEC 27701 a-t-elle d'abord été publiée comme extension de l'ISO/IEC 27001 ?
-      a) En 2005
-      b) En 2013
-      c) En 2024
-      d) En 2019
+ 8. Par quoi faut-il commencer le recensement ?
+      a) Par l'inventaire des applications
+      b) Par les factures
+      c) Par les serveurs
+      d) Par les processus et les personnes concernées
 
- 9. Qu'apporte l'ISO/IEC 27701 que la loi ne donne pas ?
-      a) L'autorisation préalable
-      b) Une méthode de management et des mesures détaillées
-      c) Le rapport annuel à l'Autorité
-      d) Les sanctions pénales
+ 9. Pourquoi l'inventaire des applications ne suffit-il pas ?
+      a) Les applications sont secrètes
+      b) Une application sert plusieurs traitements et certains n'ont pas d'application
+      c) Il est toujours exact
+      d) La loi l'interdit
 
-10. Quelle obligation camerounaise l'ISO/IEC 27701 n'apporte-t-elle pas ?
-      a) Le registre
-      b) L'évaluation d'impact
-      c) L'autorisation préalable
-      d) La sécurité
+10. Quel traitement peut ne reposer sur aucune application ?
+      a) La paie
+      b) La tenue des comptes
+      c) Un cahier de prospection
+      d) La messagerie
 
-11. Que vérifie l'auditeur sur un certificat présenté ?
-      a) L'édition et le périmètre
-      b) Le prix
-      c) La couleur du logo
-      d) Le nombre de pages
+11. Que fait-on après avoir renseigné les fiches ?
+      a) On les confronte à la découverte et aux flux
+      b) On publie le registre
+      c) On efface les données
+      d) On arrête l'audit
 
-12. Quel article prévoit le mécanisme de certification de l'Autorité ?
-      a) L'article 19
-      b) L'article 59
-      c) L'article 29
-      d) L'article 34
+12. Qui valide chaque fiche du registre ?
+      a) L'Autorité
+      b) Le client
+      c) L'auditeur seul
+      d) Son propriétaire
 
-13. Quel article punit le responsable qui opère sans la certification prévue ?
-      a) L'article 34
-      b) L'article 59
-      c) L'article 55
-      d) L'article 61
+13. Qu'est-ce que la découverte des données ?
+      a) La publication du registre
+      b) La recherche des données personnelles que le registre ignore
+      c) Le chiffrement des disques
+      d) La suppression des doublons
 
-14. Qui délivre la certification ISO/IEC 27701 ?
-      a) L'Autorité de protection
-      b) Le juge
-      c) Un organisme de certification accrédité
-      d) Le client
+14. Sur quel support recherche-t-on des motifs de numéros de téléphone ?
+      a) Le pare-feu
+      b) Le BIOS
+      c) Les partages de fichiers et les postes
+      d) Le routeur
 
-15. Sur quoi porte un certificat ISO/IEC 27701 ?
-      a) Un système de management sur un périmètre
-      b) Chaque traitement individuellement
-      c) La licéité juridique de tout le SI
-      d) Le casier judiciaire du DG
+15. Que cherche-t-on dans les schémas de bases de données ?
+      a) Des colonnes comme nom, tel, cni
+      b) Des virus
+      c) Des certificats
+      d) Des mots de passe administrateur
 
-16. Quelle portée juridique a une certification ISO au regard de la loi ?
-      a) Elle vaut autorisation
-      b) Elle vaut certification de l'article 34
-      c) Elle annule les sanctions
-      d) Aucune
+16. La découverte est-elle un traitement de données personnelles ?
+      a) Non, jamais
+      b) Seulement à l'étranger
+      c) Seulement pour les mineurs
+      d) Oui, elle s'encadre
 
-17. Comment cote-t-on la portée de l'article 59 tant que le mécanisme n'existe pas ?
-      a) OUI
-      b) NEK de critère
-      c) NON
-      d) On ne la cote pas
+17. Que relève-t-on en priorité lors de la découverte ?
+      a) Le contenu complet des fichiers
+      b) Des indicateurs, pas le contenu
+      c) Les mots de passe
+      d) Les photos
 
-18. Par rapport à quoi la certification de l'article 5 permet-elle de communiquer ?
-      a) Les normes ISO
-      b) Le RGPD
-      c) Les critères d'un référentiel approuvé par l'Autorité
-      d) Le Code pénal
+18. Pourquoi qualifie-t-on chaque fichier signalé ?
+      a) Pour le supprimer
+      b) Pour le publier
+      c) À cause des faux positifs
+      d) Pour le chiffrer
 
-19. À quoi sert une table de correspondance ?
-      a) Éviter de faire deux fois le même travail
-      b) Remplacer l'audit légal
-      c) Obtenir une autorisation
-      d) Supprimer le registre
+19. Que décrit une cartographie des flux ?
+      a) Le chemin des données entre traitements, systèmes, prestataires et pays
+      b) Le plan des bureaux
+      c) L'organigramme
+      d) Le budget
 
-20. Une correspondance « complète » prouve-t-elle la conformité ?
-      a) Oui
-      b) Oui, si la norme est récente
-      c) Oui, si l'auditeur la signe
-      d) Non, elle dit seulement que le dispositif peut porter l'exigence
+20. Quelle source révèle souvent un flux non déclaré ?
+      a) Le règlement intérieur
+      b) Le contrat de travail
+      c) La météo
+      d) Une facture de service en ligne
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Le cours reproduit des passages des normes ISO.
+21. Le sous-traitant doit aussi tenir un registre.
       Vrai / Faux
 
-22. L'ISO/IEC 27701 apporte l'autorisation préalable camerounaise.
+22. Le registre doit obligatoirement être numérique.
       Vrai / Faux
 
-23. Un certificat ISO/IEC 27701 prouve la conformité à la loi.
+23. On recense d'abord à partir des applications.
       Vrai / Faux
 
-24. La certification de l'article 34 est distincte d'une certification ISO.
+24. La découverte des données est elle-même un traitement.
       Vrai / Faux
 
-25. Une correspondance n'est pas une équivalence.
+25. La découverte relève de préférence le contenu complet des fichiers.
       Vrai / Faux
 
-26. L'auditeur masque les identités dans ses papiers de travail.
+26. L'interconnexion n'est licite que si une obligation légale l'impose.
       Vrai / Faux
 
-27. L'indépendance permet d'auditer son propre travail.
+27. Le registre déclaratif de NYANGA était complet.
       Vrai / Faux
 
-28. L'auditeur mène une enquête complète sur tout fait découvert.
+28. Le classeur des mauvais payeurs était connu de la direction.
       Vrai / Faux
 
-29. L'article 59 punit le traitement sans certification prévue.
+29. Une facture peut révéler un flux de données non déclaré.
       Vrai / Faux
 
-30. L'ISO/IEC 29100 énonce onze principes.
+30. Les finalités sont un champ obligatoire du registre.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. La norme de vocabulaire de la vie privée est l'ISO/IEC ______.
+31. Le registre des activités de traitement est imposé par l'article ______.
 
-32. La norme de système de management de la vie privée est l'ISO/IEC ______.
+32. L'interconnexion des fichiers est encadrée par l'article ______.
 
-33. La norme des sous-traitants en nuage est l'ISO/IEC ______.
+33. Le registre complet de NYANGA compte ______ traitements.
 
-34. Le mécanisme de certification de l'Autorité est prévu par l'article ______.
+34. Le registre déclaratif de NYANGA compte ______ traitements.
 
-35. L'opération sans certification prévue est punie par l'article ______.
+35. La recherche des données que le registre ignore s'appelle la ______ des données.
 
-36. L'ISO/IEC 29100 énonce ______ principes.
+36. On recense à partir des ______, pas des applications.
 
-37. L'ISO/IEC 27701 a d'abord été publiée en ______.
+37. Le chemin des données se décrit dans une cartographie des ______.
 
-38. L'auditeur ne peut pas auditer son propre travail sans menacer son ______.
+38. Le classeur des mauvais payeurs a été trouvé dans l'agence de ______.
 
-39. La notation automatique de NOUN PAY s'appelle NOUN ______.
+39. Le taux de couverture du registre déclaratif est de ______ %.
 
-40. Le directeur général de NOUN PAY s'appelle M. ______.
+40. L'interconnexion n'est licite que pour une obligation ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............

@@ -1,5 +1,5 @@
 NDAP SUKULU · APDC · fiche APDC-FICHE-C10
-Chapitre 10 : Sous-traitants et responsables conjoints
+Chapitre 10 : Évaluer le risque pour les personnes
 
 Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
 La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
@@ -10,183 +10,183 @@ Les corrections figurent dans le livret de correction du cours.
 Questions à choix multiple (une seule bonne réponse)
 ========================================================================
 
- 1. Quel article impose un contrat entre le responsable et le sous-traitant ?
-      a) L'article 31
-      b) L'article 30
-      c) L'article 20
-      d) L'article 26
+ 1. Quel article impose l'évaluation du risque pour tout traitement ?
+      a) L'article 33
+      b) L'article 25
+      c) L'article 22
+      d) L'article 13
 
- 2. Que doit au minimum définir le contrat selon l'article 30 ?
-      a) Le prix seulement
-      b) Le lieu du siège
-      c) Le type de données, les catégories de personnes et les obligations des parties
-      d) Le nom des agents
+ 2. Quel article impose une évaluation d'impact préalable pour les risques élevés ?
+      a) L'article 25
+      b) L'article 29
+      c) L'article 33
+      d) L'article 53
 
- 3. De quoi le responsable doit-il s'assurer selon l'article 30 ?
-      a) Des garanties suffisantes du sous-traitant
-      b) Du chiffre d'affaires du sous-traitant
-      c) De l'âge du gérant
-      d) De la nationalité des agents
+ 3. Qui fixe les critères et modalités de l'évaluation du risque ?
+      a) La voie réglementaire
+      b) Le DSI
+      c) Le client
+      d) La norme ISO 9001
 
- 4. Quel article oblige le responsable à veiller au respect des mesures par le sous-traitant ?
-      a) L'article 2
-      b) L'article 22
-      c) L'article 53
-      d) L'article 16
+ 4. Quand l'évaluation d'impact doit-elle être faite ?
+      a) Après un incident
+      b) À la clôture du traitement
+      c) Au rapport annuel
+      d) Avant le traitement
 
- 5. Quel article rend responsable et sous-traitant solidaires d'une publication sans consentement ?
-      a) L'article 30
-      b) L'article 23, alinéa 3
-      c) L'article 13
-      d) L'article 72
+ 5. Que analyse l'évaluation d'impact selon l'article 5 ?
+      a) Le coût du projet
+      b) La probabilité et la gravité des risques pour les droits et libertés
+      c) La rentabilité
+      d) La performance du réseau
 
- 6. Quel article répète l'obligation de garanties pour la sécurité ?
-      a) L'article 21
-      b) L'article 36
-      c) L'article 26
-      d) L'article 47
+ 6. De quel point de vue se fait l'évaluation d'impact ?
+      a) De celui de l'actionnaire
+      b) De celui du fournisseur
+      c) De celui des personnes
+      d) De celui de l'assureur
 
- 7. Le sous-traitant doit-il tenir son propre registre ?
-      a) Oui, selon l'article 29
-      b) Non, jamais
-      c) Seulement à l'étranger
-      d) Seulement s'il est certifié
+ 7. Quelle analyse ne suffit pas à satisfaire la loi ?
+      a) Une analyse des pannes et pertes de l'organisation
+      b) Une analyse des risques pour les patients
+      c) Une évaluation d'impact
+      d) Une description des flux
 
- 8. Combien de clauses compte la liste de vérification du cours ?
+ 8. La loi définit-elle le « risque élevé » ?
+      a) Oui, à l'article 5
+      b) Oui, à l'article 33
+      c) Oui, à l'article 73
+      d) Non
+
+ 9. Combien de critères faut-il réunir pour présumer un risque élevé selon le cours ?
+      a) Un seul
+      b) Au moins deux
+      c) Cinq
+      d) Huit
+
+10. Lequel est un critère de risque élevé du cours ?
+      a) Un fichier de fournisseurs de papeterie
+      b) Un traitement de moins de dix personnes
+      c) Des données sensibles
+      d) Un traitement temporaire de test
+
+11. Quel traitement relève d'un critère de risque élevé du cours ?
+      a) Une surveillance systématique
+      b) Une liste de diffusion interne
+      c) Un annuaire téléphonique
+      d) Un calendrier partagé
+
+12. Quelle situation fait partie des critères de risque élevé du cours ?
+      a) Un traitement sur papier
+      b) Un traitement daté
+      c) Un traitement interne au siège
+      d) Un transfert hors du Cameroun
+
+13. Combien de critères réunit la téléconsultation de MBOLO ?
+      a) Un
+      b) Cinq
+      c) Deux
+      d) Huit
+
+14. Que sont les critères de risque élevé du cours ?
+      a) Une obligation légale
+      b) Une norme ISO
+      c) Une convention déclarée en attendant le texte
+      d) Une décision de l'Autorité
+
+15. Quelle norme décrit le déroulement d'une évaluation d'impact ?
+      a) ISO/IEC 29134
+      b) ISO/IEC 27018
+      c) ISO 19011
+      d) ISO/IEC 27035
+
+16. Combien d'étapes compte l'évaluation d'impact dans le cours ?
       a) Trois
-      b) Cinq
-      c) Vingt
-      d) Douze
+      b) Sept
+      c) Dix
+      d) Cinq
 
- 9. Quelles clauses sont exigées par la lettre de la loi ?
-      a) Les clauses 11 et 12
-      b) Les clauses 1 et 2
-      c) Toutes les douze
-      d) Aucune
+17. Quelle est la première étape ?
+      a) Choisir les mesures
+      b) Décrire le traitement
+      c) Décider
+      d) Coter la gravité
 
-10. Quelle clause est la condition de toutes les autres ?
-      a) La rémunération
-      b) La durée
-      c) Le droit d'audit
-      d) Le lieu de signature
+18. Quelle étape vérifie fondement et données strictement utiles ?
+      a) La description
+      b) La décision
+      c) La nécessité et la proportionnalité
+      d) Le choix des mesures
 
-11. Quelle clause organise la fin du contrat ?
-      a) La restitution ou la destruction des données
-      b) Le droit d'audit
-      c) La confidentialité
-      d) La sous-traitance ultérieure
+19. Quelle étape suit l'appréciation des risques ?
+      a) Le choix des mesures
+      b) La description
+      c) La nécessité
+      d) La publication
 
-12. Quelle clause encadre le recours à un autre prestataire par le sous-traitant ?
-      a) Le droit d'audit
-      b) La finalité
-      c) La confidentialité
-      d) La sous-traitance ultérieure soumise à accord
-
-13. Quelle clause renvoie à l'article 22 ?
-      a) La durée du traitement
-      b) L'information sans délai en cas de violation
-      c) Le lieu du traitement
-      d) L'assistance pour les droits
-
-14. Quelle clause renvoie à l'article 32 ?
-      a) La confidentialité
-      b) La restitution
-      c) Le lieu du traitement et les transferts
-      d) Le droit d'audit
-
-15. Comment cote-t-on les exigences dépendant d'un prestataire qui refuse tout audit ?
-      a) NEK
-      b) OUI
-      c) NON
-      d) On ne les cote pas
-
-16. Combien de cercles de vérification le cours propose-t-il ?
-      a) Deux
-      b) Cinq
-      c) Un
-      d) Trois
-
-17. Quel est le premier cercle, le moins coûteux ?
-      a) L'audit sur place
-      b) Les documents du prestataire
-      c) Le questionnaire
-      d) L'enquête de police
-
-18. Quel est le cercle le plus probant ?
-      a) Le questionnaire
-      b) Les documents
-      c) L'audit sur place
-      d) L'entretien téléphonique
-
-19. Que vérifie-t-on sur un certificat ISO/IEC 27001 du prestataire ?
-      a) Qu'il inclut le service fourni
-      b) Sa couleur
-      c) Son prix
-      d) Sa langue
-
-20. Qu'est-ce qui guide le choix du cercle de vérification ?
-      a) Le prix du contrat
-      b) La distance
-      c) La taille du prestataire
-      d) Le risque
+20. Qui valide la décision finale ?
+      a) Le prestataire
+      b) Le patient
+      c) L'auditeur
+      d) Le responsable du traitement
 
 ========================================================================
 Vrai ou faux
 ========================================================================
 
-21. Le contrat de sous-traitance est obligatoire.
+21. Tout traitement doit faire l'objet d'une évaluation du risque.
       Vrai / Faux
 
-22. Un contrat signé prouve que le prestataire applique les mesures.
+22. Deux critères réunis suffisent à présumer un risque élevé.
       Vrai / Faux
 
-23. Le sous-traitant doit tenir son propre registre.
+23. La loi définit précisément le risque élevé.
       Vrai / Faux
 
-24. Les douze clauses du cours sont toutes exigées par la lettre de la loi.
+24. L'évaluation d'impact mesure d'abord le risque financier de l'organisation.
       Vrai / Faux
 
-25. Le droit d'audit conditionne la vérification des autres clauses.
+25. La norme ISO/IEC 29134 décrit l'évaluation d'impact.
       Vrai / Faux
 
-26. La convention des responsables conjoints peut rester secrète.
+26. La disparition des données correspond à la disponibilité.
       Vrai / Faux
 
-27. La personne peut exercer ses droits auprès de l'un ou l'autre responsable conjoint.
+27. Une vraisemblance inconnue se cote limitée par défaut.
       Vrai / Faux
 
-28. Le contrat de SOREC contient les douze clauses.
+28. La téléconsultation de MBOLO réunit cinq critères de risque élevé.
       Vrai / Faux
 
-29. L'avenant de MEDISOFT prévoit un droit d'audit.
+29. L'enregistrement des séances a été maintenu.
       Vrai / Faux
 
-30. L'audit sur place est le cercle le moins coûteux.
+30. Les mesures décidées sont toujours en place.
       Vrai / Faux
 
 ========================================================================
 Textes à trous
 ========================================================================
 
-31. Le contrat de sous-traitance est imposé par l'article ______.
+31. L'évaluation d'impact est exigée par l'article ______.
 
-32. Les responsables conjoints sont régis par l'article ______.
+32. L'évaluation du risque pour tout traitement est exigée par l'article ______.
 
-33. La liste de vérification du cours compte ______ clauses.
+33. La norme sur l'évaluation d'impact est l'ISO/IEC ______.
 
-34. La clause condition de toutes les autres est le droit d'______.
+34. L'accès illégitime touche la ______.
 
-35. La convention des responsables conjoints doit être rendue ______.
+35. L'échelle de gravité compte ______ niveaux.
 
-36. Le prestataire de recouvrement de NYANGA s'appelle ______.
+36. Un traitement qui réunit au moins ______ critères est présumé à risque élevé.
 
-37. L'assureur conjoint de NYANGA s'appelle SAWA ______.
+37. Le prestataire du dossier patient de MBOLO s'appelle ______.
 
-38. L'article ______ oblige le responsable à veiller au respect des mesures par le sous-traitant.
+38. La téléconsultation vise les villages de la ______.
 
-39. Le cours propose ______ cercles de vérification.
+39. La deuxième étape apprécie la nécessité et la ______.
 
-40. SOREC conserve ______ ans de classeurs.
+40. Une vraisemblance inconnue se cote ______.
 
 ========================================================================
 Grille de réponses   Nom : ............................  Matricule : ............
