@@ -22,7 +22,7 @@ La loi n° 2024/017 du 23 décembre 2024 relative à la protection des données 
 
 ## Organisation du cours (30 heures, 15 séances de 2 heures)
 
-Les 30 heures sont consacrées au cours magistral. Les travaux dirigés (fiches, exercices de fin de chapitre) et les travaux pratiques (dix laboratoires) se font à la maison, sur NDAP SUKULU.
+Les 30 heures sont consacrées au cours magistral. Les travaux dirigés (fiches, exercices de fin de chapitre) et les travaux pratiques (douze laboratoires) se font à la maison, sur NDAP SUKULU.
 
 | Partie | Chapitres | Fichiers |
 |---|---|---|
@@ -34,11 +34,11 @@ Les 30 heures sont consacrées au cours magistral. Les travaux dirigés (fiches,
 | **V. Pratique** | 13. Sous-traitants et responsables conjoints · 14. Les transferts internationaux · 15. Les violations de données · 16. Programme de conformité et rapport d'audit | [`partie5/`](partie5/) |
 | **VI. Défis avancés** | 17. Profilage, décisions automatisées et intelligence artificielle · 18. Les secteurs sensibles | [`partie6/`](partie6/) |
 | **VII. Recherche** | 19. Mesurer la conformité, articuler les normes | [`partie7/`](partie7/) |
-| **Annexes** | A. Glossaire · B. Outils · C. Modèles de documents · D. Textes et normes · E. Bibliographie commentée · F. Contacts | [`annexes/`](annexes/) |
+| **Annexes** | A. Glossaire · B. Outils · C. Modèles de documents · D. Textes et normes · E. Bibliographie commentée · F. Contacts · G. Les quarante-six exigences de la mission NYANGA | [`annexes/`](annexes/) |
 
 ## NDAP SUKULU, la salle de classe compagnon
 
-*Ndap sukulu* signifie « la salle de classe » en bassa, et *Malet Yon* « ton enseignant ». NDAP SUKULU est l'environnement d'évaluation du cours : une fiche de 20 questions tirées d'une banque de 100 par chapitre, et dix laboratoires pratiques, minutés et en nombre de tentatives limité. Le code de cours est **MSN-2S4-SEC02**. La présentation complète figure au début du livre.
+*Ndap sukulu* signifie « la salle de classe » en bassa, et *Malet Yon* « ton enseignant ». NDAP SUKULU est l'environnement d'évaluation du cours : une fiche de 20 questions tirées d'une banque de 100 par chapitre, et douze laboratoires pratiques, minutés et en nombre de tentatives limité. Le code de cours est **MSN-2S4-SEC02**. La présentation complète figure au début du livre.
 
 | Utilisation | Où |
 |---|---|
@@ -61,6 +61,8 @@ La connexion se fait avec le matricule et le mot de passe remis par l'enseignant
 | APDC-LAB-08 | Violation de données et notification | 15 |
 | APDC-LAB-09 | Durées de conservation | 16 |
 | APDC-LAB-10 | Audit intégrateur du profilage | 17, 19 |
+| APDC-LAB-11 | La loi de 2010 à NYANGA | 7 |
+| APDC-LAB-12 | Double cote et profil NIST à NOUN PAY | 4, 5 |
 
 ## Sources de recherche
 
