@@ -122,35 +122,51 @@ mesures, elle, peut être vérifiée.
 \label{sec:c07-controles}
 % ============================================================================
 
-\begin{tableaucours}{L{5.0cm}L{3.0cm}L{4.0cm}}{%
+\begin{tableaucours}{L{3.3cm}L{1.9cm}L{1.9cm}L{4.5cm}}{%
     \tableauHeader{Obligation (article~27)} &
-    \tableauHeader{Mesure ISO/IEC 27002} &
+    \tableauHeader{ISO/IEC 27002} &
+    \tableauHeader{NIST, \textit{Protect-P}} &
     \tableauHeader{Test d'audit}
 }
-Disponibilité et résilience & 5.30, 8.14 & Plan de reprise exercé, durée
-d'indisponibilité mesurée \\
-Accès limité à l'autorisation & 5.15, 5.18, 8.3 & Comparer droits et
-fonctions sur échantillon \\
-Identité des destinataires vérifiée & 5.14 & Procédure de transmission,
-échantillon d'envois \\
-Traçabilité a posteriori & 8.15 & Journal des consultations, test de
-reconstitution \\
-Accès physique aux installations & 7.1, 7.2 & Visite, registre des accès \\
-Supports protégés & 7.10 & Inventaire, chiffrement des supports amovibles \\
-Introduction et modification non autorisées & 8.2, 8.5 & Comptes
+Disponibilité et résilience & 5.30, 8.14 & PR.PT-P & Plan de reprise
+exercé, durée d'indisponibilité mesurée \\
+Accès limité à l'autorisation & 5.15, 5.18, 8.3 & PR.AC-P & Comparer droits
+et fonctions sur échantillon \\
+Identité des destinataires vérifiée & 5.14 & PR.AC-P & Procédure de
+transmission, échantillon d'envois \\
+Traçabilité a posteriori & 8.15 & PR.PT-P & Journal des consultations, test
+de reconstitution \\
+Accès physique aux installations & 7.1, 7.2 & PR.AC-P & Visite, registre
+des accès \\
+Supports protégés & 7.10 & PR.PT-P, PR.DS-P & Inventaire, chiffrement des
+supports amovibles \\
+Introduction et modification non autorisées & 8.2, 8.5 & PR.DS-P & Comptes
 privilégiés, validation des saisies \\
-Transmission protégée & 5.14, 8.24 & Chiffrement des flux, configuration \\
-Sauvegardes protégées & 8.13 & Test de restauration, sauvegarde hors
-ligne \\
-Autres mesures réglementaires & Non fixées & \NEK{} de critère \\
+Transmission protégée & 5.14, 8.24 & PR.DS-P & Chiffrement des flux,
+configuration \\
+Sauvegardes protégées & 8.13 & PR.PO-P & Test de restauration, sauvegarde
+hors ligne \\
+Autres mesures réglementaires & Non fixées & Sans objet & \NEK{} de
+critère \\
 \end{tableaucours}
 \vspace{-0.8em}
-\begin{center}{\small\itshape Tableau~12.1. L'article~27 et les mesures de l'ISO/IEC~27002:2022 (correspondances indicatives)}\end{center}
+\begin{center}{\small\itshape Tableau~12.1. L'article~27, les mesures de l'ISO/IEC~27002:2022 et les catégories \textit{Protect-P} du NIST (correspondances indicatives)}\end{center}
 
 Les numéros de mesures renvoient à l'ISO/IEC~27002:2022~\cite{iso27002_2022}
-et sont donnés à titre indicatif~; la correspondance n'est pas fixée par la
-loi. L'ISO/IEC~27701~\cite{iso27701} complète ces mesures par des exigences
-propres aux données personnelles (Chapitre~\ref{chap:normes}).
+et les catégories à la fonction \textit{Protect-P} du cadre du
+NIST~\cite{nist2020pf}. Les deux sont donnés à titre indicatif~; la
+correspondance n'est pas fixée par la loi. L'ISO/IEC~27701~\cite{iso27701}
+complète ces mesures par des exigences propres aux données personnelles
+(Chapitre~\ref{chap:normes}).
+
+\textbf{Un second texte obligatoire.} La loi n°~2010/012 s'ajoute à
+l'article~27. Son article~26 demande aux exploitants des systèmes
+d'information de protéger leurs systèmes, et ses articles~41 à~48
+protègent la vie privée dans les communications
+(Chapitre~\ref{chap:loi2010}). L'auditeur de la sécurité des données
+déclare donc les deux lois parmi ses critères. Une même constatation,
+par exemple un compte partagé, peut fonder un écart à l'article~27 de la
+loi de 2024 et à l'article~26 de la loi de 2010.
 
 \subsection{Les droits d'accès}
 
@@ -178,6 +194,21 @@ remonter plus loin. L'auditeur écrit ce que le journal établit (« le compte
 X a ouvert le dossier à telle heure ») et ce qu'il n'établit pas (« la
 personne derrière le compte »).
 \end{boxinfo}
+
+\textbf{Combien de temps garder un journal de consultation.} L'article~27
+exige que l'on puisse vérifier « a posteriori » qui a lu quoi. Il ne dit
+pas pendant combien de temps. L'article~29 de la loi n°~2010/012 parle de
+dix ans, mais pour les données de connexion et de trafic que conservent
+certains exploitants, et le Chapitre~\ref{chap:loi2010} a montré que son
+application à un journal applicatif interne reste à qualifier. Aucun texte
+ne fixe donc la durée de conservation du journal des consultations d'un
+dossier médical ou d'un compte client. L'auditeur procède comme pour le
+délai de réponse aux demandes~: il déclare un critère de substitution dans
+son plan. Le cours retient \textbf{un an au moins}, parce qu'une plainte
+ou une revue annuelle doit pouvoir remonter sur douze mois. Le rapport
+écrit « un an (critère de l'audit) » et non « un an (durée légale) ». Une
+organisation peut justifier une durée plus longue. Elle doit alors
+protéger le journal lui-même, qui est un fichier de données personnelles.
 
 % ============================================================================
 \section{Le Dossier de la Patiente}
@@ -266,6 +297,41 @@ changé~: les agents des agences voient les comptes de tous les clients du
 réseau, et non de leur seule agence~; les relevés de compte partent encore
 par messagerie personnelle quand un client le demande. La sécurité
 technique a progressé~; la limitation des accès à la finalité, non.
+
+\begin{boxlecture}{Le domaine D3, sécurité et confidentialité, à NYANGA}
+\begin{tableaucours}{L{7.8cm}cL{3.2cm}}{%
+    \tableauHeader{Exigence} &
+    \tableauHeader{Cote} &
+    \tableauHeader{Preuve}
+}
+L'équipement à l'origine de l'incident est remplacé et tenu à jour &
+\OUI{} & Bon de livraison, état des correctifs \\
+Un inventaire des équipements est tenu & \OUI{} & Inventaire de mars~2026 \\
+Les journaux sont centralisés et conservés & \OUI{} & Console, treize mois
+en ligne \\
+Les sauvegardes sont restaurables & \OUI{} & Test de restauration du
+3~septembre \\
+Chaque agent n'accède qu'aux clients de son agence & \NON{} & Test sur
+six comptes d'agence \\
+Les relevés sont transmis par un canal maîtrisé & \NON{} & Envois par
+messagerie personnelle \\
+Les habilitations sont revues & \NON{} & Aucune revue depuis 2023 \\
+Les mesures suivent le référentiel de l'Autorité (art.~24) & \NEK{} &
+Référentiel non publié \\
+\end{tableaucours}
+
+\medskip
+\textbf{Décompte.} Quatre \OUI{}, trois \NON{}, un \NEK{} sur huit.
+\hfill\lecture{0{,}50}{0{,}125}{1{,}41}
+
+\medskip
+\textbf{Lecture.} C'est le seul domaine clair de la mission
+($U = 0{,}125 < 0{,}20$) et le seul où $\mu$ atteint le seuil. Il n'est
+pas conforme pour autant~: les trois \NON{} portent sur la limitation des
+accès, que l'article~27 exige et que l'article~26 de la loi n°~2010/012
+recoupe. La règle demande l'absence d'écart grave. Le \NEK{} est de
+critère et ne se lèvera qu'avec le référentiel.
+\end{boxlecture}
 
 % ============================================================================
 \section{Ce que la Sécurité demande à chaque Métier}

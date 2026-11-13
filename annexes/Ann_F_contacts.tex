@@ -3,9 +3,13 @@
 % Version  : 1.0 -- novembre 2026
 % ============================================================================
 
+% Évite un titre de section isolé en bas de page.
+\providecommand{\gardetitre}{\par\vskip 0pt plus 9\baselineskip\penalty-300\vskip 0pt plus -9\baselineskip}
+
 \chapter{Contacts et Ressources}
 \label{ann:contacts}
 
+\gardetitre
 \section*{Au Cameroun}
 
 \begin{tableaucours}{L{4.6cm}L{7.6cm}}{%
@@ -18,11 +22,37 @@ décret \\
 Agence nationale des technologies de l'information et de la
 communication (ANTIC) & Sécurité des systèmes d'information~; agents
 habilités au titre de la loi n°~2010/012 \\
-Régulateurs sectoriels & Autorisations prévues par l'article~48(2) pour
-les transactions bancaires \\
+Agence de régulation des télécommunications (ART) & Obligations des
+opérateurs~; identification des abonnés (Chapitre~\ref{chap:secteurs}) \\
+Commission bancaire de l'Afrique centrale (COBAC) et Banque des États de
+l'Afrique centrale (BEAC) & Régulation des banques, des microfinances et des
+services de paiement~; autorisations de l'article~48(2) \\
+Autres régulateurs sectoriels & Textes particuliers annoncés par
+l'article~72 (santé, justice, état civil) \\
 Juridictions & Référé et réparation (art.~62)~; poursuites pénales \\
 \end{tableaucours}
 
+\gardetitre
+\section*{Autorités des pays où vont les données des trois missions}
+
+\begin{tableaucours}{L{4.6cm}L{7.6cm}}{%
+    \tableauHeader{Pays} &
+    \tableauHeader{Autorité de protection des données}
+}
+Côte d'Ivoire & Autorité de régulation des télécommunications (ARTCI) \\
+Maroc & Commission nationale de contrôle de la protection des données à
+caractère personnel (CNDP) \\
+France & Commission nationale de l'informatique et des libertés (CNIL) \\
+Belgique & Autorité de protection des données (APD) \\
+Union européenne & Comité européen de la protection des données, qui réunit
+les autorités nationales \\
+\end{tableaucours}
+
+L'auditeur consulte le site de l'autorité du pays de destination pour
+dresser la fiche pays du Chapitre~\ref{chap:international} et note la date
+de sa consultation.
+
+\gardetitre
 \section*{Ressources internationales}
 
 \begin{tableaucours}{L{4.6cm}L{7.6cm}}{%
@@ -35,6 +65,7 @@ Union africaine, traités & \url{https://au.int/} \\
 Base de traqueurs Exodus Privacy & \url{https://exodus-privacy.eu.org/} \\
 \end{tableaucours}
 
+\gardetitre
 \section*{Le cours}
 
 Dépôt du cours~: \url{https://github.com/MaletYon/cours-apdc}. NDAP SUKULU en

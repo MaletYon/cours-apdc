@@ -3,9 +3,13 @@
 % Version  : 1.0 -- novembre 2026
 % ============================================================================
 
+% Évite un titre de section isolé en bas de page.
+\providecommand{\gardetitre}{\par\vskip 0pt plus 9\baselineskip\penalty-300\vskip 0pt plus -9\baselineskip}
+
 \chapter{Textes et Normes}
 \label{ann:textes}
 
+\gardetitre
 \section*{Degré de vérification des textes cités}
 
 \begin{tableaucours}{L{4.6cm}L{3.6cm}L{3.8cm}}{%
@@ -30,6 +34,56 @@ reproduites \\
 Méthode PIA de la CNIL & Publication libre & Paraphrasée \\
 \end{tableaucours}
 
+\gardetitre
+\section*{Textes internationaux et étrangers cités}
+
+\begin{tableaucours}{L{4.4cm}L{2.2cm}L{5.4cm}}{%
+    \tableauHeader{Texte} &
+    \tableauHeader{Nature} &
+    \tableauHeader{Place dans le cours}
+}
+Lignes directrices de l'OCDE (1980, révisées en 2013)~\cite{ocde1980} &
+Recommandation & Origine des principes, Chapitre~\ref{chap:international} \\
+Principes directeurs des Nations Unies (1990)~\cite{onu1990} & Résolution &
+Chapitre~\ref{chap:international} \\
+Convention~108 (1981) et protocole de 2018~\cite{coe1981conv108,coe2018conv108plus} &
+Traité du Conseil de l'Europe & Chapitre~\ref{chap:international}~; fiches
+pays \\
+Convention de Malabo (2014)~\cite{ua2014malabo} & Traité de l'Union
+africaine & Chapitre~\ref{chap:international} \\
+Acte additionnel de la CEDEAO (2010)~\cite{cedeao2010acte} & Acte
+communautaire & Comparaison, Chapitre~\ref{chap:international} \\
+Directive n°~07/08-UEAC-133-CM-18 de la CEMAC (2008)~\cite{cemac2008} &
+Directive communautaire & Chapitres~\ref{chap:loi2010} et~\ref{chap:secteurs} \\
+Convention de Budapest (2001)~\cite{budapest2001} & Traité du Conseil de
+l'Europe & Chapitres~\ref{chap:international}, \ref{chap:transferts}
+et~\ref{chap:recherche} \\
+RGPD (UE) 2016/679~\cite{ue2016rgpd} & Règlement européen &
+Chapitre~\ref{chap:rgpd}~; double cote aux Chapitres~\ref{chap:transferts}
+et~\ref{chap:violations} \\
+Clauses contractuelles types de 2021~\cite{ue2021clauses} & Décision de la
+Commission & Chapitre~\ref{chap:transferts} \\
+Règlement (UE) 2024/1689 sur l'intelligence artificielle~\cite{ue2024ia} &
+Règlement européen & Chapitre~\ref{chap:profilage} \\
+Loi ivoirienne n°~2013-450~\cite{ci2013loi} & Loi étrangère & Fiche pays,
+Chapitre~\ref{chap:international} \\
+Loi marocaine n°~09-08~\cite{ma2009loi} & Loi étrangère & Fiche pays,
+Chapitre~\ref{chap:international} \\
+NIST Privacy Framework~1.0~\cite{nist2020pf} & Cadre volontaire &
+Chapitre~\ref{chap:normes} \\
+NIST AI RMF~1.0~\cite{nist2023airmf} & Cadre volontaire &
+Chapitre~\ref{chap:profilage} \\
+Stratégie continentale de l'Union africaine sur l'intelligence
+artificielle (2024)~\cite{ua2024ia} & Orientation politique &
+Chapitre~\ref{chap:profilage} \\
+\end{tableaucours}
+
+Aucun de ces textes n'est un critère obligatoire pour une organisation qui
+ne traite que des données de personnes situées au Cameroun, à l'exception
+des traités auxquels le Cameroun est Partie et des actes de la CEMAC. Le
+Chapitre~\ref{chap:loi2010} donne la méthode pour choisir ses critères.
+
+\gardetitre
 \section*{Textes d'application attendus}
 
 À la date du cours, l'auteur n'a pas trouvé de texte publié pour les
@@ -42,6 +96,7 @@ de l'évaluation d'impact (art.~25, 33)~; durées de conservation (art.~13,
 (art.~35)~; textes spécifiques des secteurs (art.~4, 72). Le lecteur
 vérifiera l'état de ces textes au moment où il lit.
 
+\gardetitre
 \section*{Correspondance des articles et des chapitres}
 
 \begin{tableaucours}{L{4.0cm}L{8.2cm}}{%

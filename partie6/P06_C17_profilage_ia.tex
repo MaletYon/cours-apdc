@@ -220,6 +220,93 @@ une solution de rechange non biométrique et le stockage du gabarit sur un
 support détenu par la personne plutôt que dans une base centrale.
 
 % ============================================================================
+\section{L'Intelligence Artificielle : Trois Textes à Connaître}
+\label{sec:c17-ia}
+% ============================================================================
+
+La loi n°~2024/017 ne contient pas le mot « intelligence artificielle ».
+Elle saisit ces systèmes par leurs données et par leurs décisions~: les
+articles~44 et~65 pour la décision automatisée, les principes pour les
+données d'entraînement. Trois textes extérieurs complètent ce regard.
+Aucun n'est un critère obligatoire au Cameroun. L'auditeur doit pourtant
+les connaître, parce que les organisations qu'il audite achètent des
+modèles conçus sous leur empire.
+
+\begin{tableaucours}{L{3.0cm}L{2.4cm}L{6.6cm}}{%
+    \tableauHeader{Texte} &
+    \tableauHeader{Nature} &
+    \tableauHeader{Ce que l'auditeur en retient}
+}
+NIST AI RMF~1.0 (2023)~\cite{nist2023airmf} & Cadre volontaire & Quatre
+fonctions~: gouverner, cartographier, mesurer, gérer. Une liste de
+qualités attendues d'un système, dont l'équité, l'explicabilité et le
+respect de la vie privée \\
+Règlement (UE) 2024/1689~\cite{ue2024ia} & Texte obligatoire dans l'Union &
+Une approche par niveau de risque~: pratiques interdites, systèmes à haut
+risque soumis à des obligations, obligations de transparence. La notation
+de solvabilité des personnes physiques figure parmi les usages à haut
+risque \\
+Stratégie continentale de l'Union africaine (2024)~\cite{ua2024ia} &
+Orientation politique & Un appel aux États à se doter de cadres nationaux
+et à protéger les données dans le développement de l'intelligence
+artificielle \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~17.2. Trois textes sur l'intelligence artificielle}\end{center}
+
+\subsection{Ce que ces textes changent pour l'audit}
+
+Le règlement européen s'applique à qui met un système sur le marché de
+l'Union ou l'y utilise. NOUN SCORE note des clients camerounais et n'en
+relève pas. La question se poserait si le modèle servait à NOUN
+DIASPORA~: l'équipe juridique devrait alors l'instruire, comme elle le
+fait pour le RGPD (Chapitre~\ref{chap:rgpd}).
+
+Le cadre du NIST fournit un vocabulaire et une liste de vérification. Il
+aide à ne rien oublier~: qui répond du modèle, sur quelles données il a
+appris, comment sa performance et ses écarts entre groupes sont mesurés,
+qui décide de le retirer. L'auditeur peut l'emprunter comme critère
+volontaire, à condition de le déclarer (Chapitre~\ref{chap:normes}).
+
+La stratégie africaine ne crée aucune obligation pour une entreprise.
+Elle annonce la direction que prendront les textes nationaux.
+
+\begin{boxalert}
+\textbf{Violation typique.} Écrire dans un rapport qu'un modèle « n'est
+pas conforme au règlement européen sur l'IA » alors que ce règlement ne
+s'applique pas à l'organisation.
+
+\smallskip
+\textbf{Règle~:} un texte étranger se cite pour ce qu'il est. S'il
+s'applique, c'est un critère obligatoire et le rapport dit pourquoi.
+S'il ne s'applique pas, c'est une référence empruntée, déclarée au plan,
+qui ne fonde aucune non-conformité légale.
+\end{boxalert}
+
+\subsection{Les questions propres aux systèmes qui apprennent}
+
+Un modèle qui apprend pose quatre questions que la notation classique ne
+posait pas.
+
+\begin{enumerate}
+    \item \textbf{Les données d'entraînement.} D'où viennent-elles, et les
+          personnes ont-elles été informées de cet usage (articles~9, 11
+          et~21)~?
+    \item \textbf{La dérive.} Le modèle est-il réentraîné, et qui vérifie
+          que ses résultats ne changent pas en silence~?
+    \item \textbf{L'explication.} L'organisation sait-elle dire à une
+          personne pourquoi elle a été refusée, dans des mots qu'elle
+          comprend (article~44)~?
+    \item \textbf{Le fournisseur.} Si le modèle vient d'un tiers, que dit
+          le contrat sur la réutilisation des données des clients pour
+          améliorer le produit (articles~30 et~32)~?
+\end{enumerate}
+
+Quand l'organisation ne peut pas répondre, la cote est \NEK{} de preuve.
+Elle se lève par des pièces~: la fiche du modèle, le journal des
+réentraînements, le contrat.
+
+% ============================================================================
 \section{L'Audit de NOUN SCORE}
 \label{sec:c14-nounpay}
 % ============================================================================
