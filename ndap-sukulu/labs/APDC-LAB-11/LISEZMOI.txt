@@ -1,0 +1,33 @@
+APDC-LAB-11, la loi n° 2010/012 à NYANGA
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  note_criteres.txt          critères déclarés par l'audit
+  echantillon_sms.csv        échantillon de 240 SMS envoyés aux clients
+  appels_enregistres.csv     600 appels enregistrés du service client
+  journal_kit_audience.csv   300 installations de l'application mobile
+  MANIFESTE_SHA256.txt       empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Lire la note des critères avant d'ouvrir les données.
+
+3. Dans les SMS, isoler la prospection puis chercher la mention d'arrêt.
+
+4. Dans les appels, comparer la date au 28/02/2026 et écarter les litiges ouverts.
+
+5. Dans le journal du kit, comparer l'heure de lecture de l'identifiant à l'heure de l'accord.
+
+6. Coter chaque exigence, puis calculer le taux de conformité du domaine.
+
+7. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.

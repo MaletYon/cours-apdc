@@ -1,0 +1,21 @@
+fonction;resultat_attendu;cote
+Identify-P;Les traitements et les flux sont inventoriés;non
+Identify-P;Les acteurs de l'écosystème de traitement sont connus;nek
+Identify-P;Le risque pour les personnes est évalué;non
+Identify-P;Les systèmes qui traitent des données sont inventoriés;oui
+Govern-P;Les obligations légales sont recensées;non
+Govern-P;Les rôles et les responsabilités sont attribués;non
+Govern-P;Une politique de protection des données est approuvée;non
+Govern-P;Le personnel est formé;non
+Control-P;Les données sont supprimées à l'échéance;nek
+Control-P;Les personnes peuvent accéder à leurs données;oui
+Control-P;Les données peuvent être corrigées;oui
+Control-P;Les traitements sont limités à leur finalité;non
+Communicate-P;Les personnes sont informées des traitements;non
+Communicate-P;Les transferts sont portés à leur connaissance;non
+Communicate-P;Les violations leur sont communiquées;non
+Communicate-P;Un point de contact répond aux questions;oui
+Protect-P;Les données sont chiffrées au repos et en transit;oui
+Protect-P;Les accès sont nominatifs et tracés;oui
+Protect-P;Les sauvegardes sont testées;oui
+Protect-P;Les prestataires appliquent les mesures convenues;nek

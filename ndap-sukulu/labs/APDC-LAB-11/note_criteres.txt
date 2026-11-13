@@ -1,0 +1,17 @@
+KORO AUDIT, mission NYANGA CRÉDIT, note sur les critères (août 2026)
+
+Le plan d'audit déclare deux lois parmi les critères obligatoires : la loi n° 2024/017 sur les
+données personnelles et la loi n° 2010/012 sur la cybersécurité et la cybercriminalité.
+
+Exigences tirées de la loi n° 2010/012 pour ce lab
+  E1  art. 47  Un traceur ne lit une information du terminal qu'après information et accord de l'abonné.
+  E2  art. 45  L'enregistrement d'une communication sert la preuve de la transaction, pas un autre usage.
+  E3  art. 48  Tout message de prospection donne un moyen de demander son arrêt.
+  E4  art. 29  Conservation dix ans des données de connexion et de trafic, pour les exploitants visés.
+
+Critères de substitution déclarés par l'audit (aucun texte ne les fixe)
+  Appels du service client : six mois au plus, sauf litige ouvert.
+  Date de référence du contrôle : 31/08/2026.
+
+Convention de cotation : oui, non, nek. Un nek dit quelle pièce ou quel critère manque.
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

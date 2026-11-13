@@ -1,0 +1,17 @@
+KORO AUDIT, mission NOUN PAY, note de méthode (septembre 2026)
+
+1. Double cote
+Le service NOUN DIASPORA vise des clients qui résident en France et en Belgique. Pour ces clients,
+le RGPD s'applique en plus de la loi n° 2024/017. Une violation qui touche au moins un de ces
+clients se cote deux fois.
+  Loi n° 2024/017, art. 22 : toute violation, information de l'Autorité et des personnes, sans délai.
+  RGPD, art. 33 : notification à l'autorité de contrôle 72 heures au plus après la connaissance.
+Les deux cotes ne se fondent pas.
+
+2. Profil NIST
+Le profil actuel reprend vingt résultats du NIST Privacy Framework, paraphrasés, répartis dans ses
+cinq fonctions. Le cadre est volontaire : il est emprunté comme référence et déclaré au plan.
+Chaque résultat est coté oui, non ou nek.
+  Taux de conformité : nombre de oui divisé par le nombre de résultats.
+  Taux d'incertitude : nombre de nek divisé par le nombre de résultats.
+(Document fictif établi pour le cours APDC (MSN-2S4-SEC02). Noms, dates, adresses et montants fictifs.)

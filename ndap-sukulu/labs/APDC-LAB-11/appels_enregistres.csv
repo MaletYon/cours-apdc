@@ -1,0 +1,601 @@
+appel;date_appel;motif;ecoute_pour_notation;litige_ouvert
+APL-00001;02/02/2025;reclamation;oui;non
+APL-00002;01/03/2025;information credit;non;non
+APL-00003;15/01/2026;reclamation;non;oui
+APL-00004;24/07/2026;information credit;non;non
+APL-00005;28/05/2026;ordre de virement;non;non
+APL-00006;18/05/2025;opposition carte;non;non
+APL-00007;29/06/2026;opposition carte;non;non
+APL-00008;09/10/2025;solde;non;non
+APL-00009;13/02/2025;information credit;non;non
+APL-00010;12/06/2025;ordre de virement;non;non
+APL-00011;09/03/2025;information credit;non;non
+APL-00012;19/07/2026;information credit;non;non
+APL-00013;05/02/2025;information credit;non;non
+APL-00014;21/09/2025;information credit;oui;non
+APL-00015;07/09/2024;information credit;non;non
+APL-00016;25/07/2026;reclamation;non;non
+APL-00017;29/10/2024;ordre de virement;non;non
+APL-00018;16/12/2025;solde;non;non
+APL-00019;05/12/2025;information credit;non;non
+APL-00020;23/04/2026;ordre de virement;non;non
+APL-00021;09/06/2026;information credit;oui;non
+APL-00022;01/03/2025;solde;oui;non
+APL-00023;03/11/2025;information credit;oui;non
+APL-00024;18/08/2025;opposition carte;non;non
+APL-00025;08/04/2025;ordre de virement;non;non
+APL-00026;25/02/2025;ordre de virement;non;non
+APL-00027;26/11/2024;ordre de virement;non;non
+APL-00028;11/02/2026;reclamation;oui;non
+APL-00029;25/04/2026;ordre de virement;non;non
+APL-00030;22/05/2025;solde;non;non
+APL-00031;13/01/2026;ordre de virement;non;non
+APL-00032;17/07/2025;opposition carte;non;non
+APL-00033;05/02/2026;solde;non;non
+APL-00034;08/11/2024;information credit;non;non
+APL-00035;04/03/2025;reclamation;non;oui
+APL-00036;09/02/2026;solde;oui;non
+APL-00037;31/05/2025;information credit;oui;non
+APL-00038;26/02/2026;solde;non;non
+APL-00039;11/08/2026;ordre de virement;oui;non
+APL-00040;10/10/2024;information credit;non;non
+APL-00041;05/11/2025;solde;non;non
+APL-00042;14/11/2025;solde;non;non
+APL-00043;19/12/2025;solde;non;non
+APL-00044;21/02/2025;opposition carte;non;non
+APL-00045;02/01/2025;information credit;non;non
+APL-00046;30/08/2025;reclamation;non;non
+APL-00047;30/07/2025;information credit;non;non
+APL-00048;14/10/2024;ordre de virement;non;non
+APL-00049;19/04/2025;information credit;non;non
+APL-00050;03/07/2025;ordre de virement;non;non
+APL-00051;16/08/2025;solde;non;non
+APL-00052;03/09/2024;reclamation;non;non
+APL-00053;27/09/2024;information credit;oui;non
+APL-00054;29/06/2025;ordre de virement;non;non
+APL-00055;17/12/2025;reclamation;non;non
+APL-00056;04/04/2025;information credit;non;non
+APL-00057;05/09/2024;solde;non;non
+APL-00058;28/03/2025;ordre de virement;non;non
+APL-00059;08/08/2025;information credit;non;non
+APL-00060;08/09/2024;ordre de virement;non;non
+APL-00061;12/08/2025;opposition carte;oui;non
+APL-00062;26/05/2025;solde;non;non
+APL-00063;27/10/2024;opposition carte;oui;non
+APL-00064;06/10/2025;information credit;non;non
+APL-00065;06/08/2025;opposition carte;non;non
+APL-00066;21/04/2025;solde;non;non
+APL-00067;27/04/2025;information credit;non;non
+APL-00068;01/01/2025;ordre de virement;non;non
+APL-00069;14/05/2026;opposition carte;non;non
+APL-00070;10/08/2026;solde;non;non
+APL-00071;17/12/2024;solde;non;non
+APL-00072;25/01/2026;solde;non;non
+APL-00073;31/03/2025;opposition carte;non;non
+APL-00074;08/07/2025;opposition carte;non;non
+APL-00075;11/06/2025;opposition carte;oui;non
+APL-00076;16/04/2026;opposition carte;non;non
+APL-00077;11/04/2026;solde;non;non
+APL-00078;22/10/2025;opposition carte;non;non
+APL-00079;24/01/2025;reclamation;non;non
+APL-00080;22/06/2025;information credit;non;non
+APL-00081;19/01/2026;information credit;non;non
+APL-00082;06/06/2025;solde;non;non
+APL-00083;22/09/2025;information credit;non;non
+APL-00084;08/05/2025;reclamation;non;non
+APL-00085;03/08/2026;reclamation;non;non
+APL-00086;15/06/2026;opposition carte;non;non
+APL-00087;26/04/2025;opposition carte;non;non
+APL-00088;16/07/2026;ordre de virement;oui;non
+APL-00089;02/05/2025;solde;oui;non
+APL-00090;09/08/2025;reclamation;non;non
+APL-00091;09/08/2025;reclamation;non;non
+APL-00092;03/12/2024;solde;non;non
+APL-00093;17/11/2025;ordre de virement;non;non
+APL-00094;06/07/2025;solde;non;non
+APL-00095;08/12/2024;solde;oui;non
+APL-00096;16/07/2026;information credit;non;non
+APL-00097;16/02/2025;opposition carte;oui;non
+APL-00098;01/08/2026;information credit;oui;non
+APL-00099;21/11/2024;solde;non;non
+APL-00100;16/02/2026;solde;non;non
+APL-00101;02/08/2025;information credit;non;non
+APL-00102;17/02/2026;information credit;non;non
+APL-00103;19/09/2025;opposition carte;non;non
+APL-00104;11/12/2025;opposition carte;non;non
+APL-00105;20/01/2025;opposition carte;oui;non
+APL-00106;08/05/2025;ordre de virement;oui;non
+APL-00107;06/12/2025;solde;non;non
+APL-00108;29/08/2026;opposition carte;non;non
+APL-00109;05/04/2025;ordre de virement;non;non
+APL-00110;10/07/2026;solde;non;non
+APL-00111;23/11/2025;solde;non;non
+APL-00112;26/09/2024;ordre de virement;oui;non
+APL-00113;19/07/2026;ordre de virement;non;non
+APL-00114;21/07/2025;reclamation;non;non
+APL-00115;14/02/2026;opposition carte;non;non
+APL-00116;09/05/2026;opposition carte;non;non
+APL-00117;17/12/2024;reclamation;non;non
+APL-00118;10/12/2025;opposition carte;non;non
+APL-00119;08/05/2026;information credit;non;non
+APL-00120;28/01/2026;ordre de virement;non;non
+APL-00121;03/03/2025;information credit;non;non
+APL-00122;21/12/2024;information credit;non;non
+APL-00123;30/10/2024;information credit;non;non
+APL-00124;28/10/2025;ordre de virement;non;non
+APL-00125;14/12/2024;ordre de virement;non;non
+APL-00126;01/06/2025;reclamation;non;non
+APL-00127;10/02/2026;solde;non;non
+APL-00128;27/06/2025;ordre de virement;non;non
+APL-00129;28/07/2026;ordre de virement;non;non
+APL-00130;23/08/2025;reclamation;oui;non
+APL-00131;04/03/2026;information credit;non;non
+APL-00132;09/07/2025;information credit;non;non
+APL-00133;02/12/2024;information credit;non;non
+APL-00134;16/02/2026;information credit;oui;non
+APL-00135;05/03/2025;opposition carte;oui;non
+APL-00136;03/08/2026;opposition carte;non;non
+APL-00137;11/07/2025;solde;non;non
+APL-00138;30/07/2026;reclamation;non;non
+APL-00139;13/11/2025;information credit;non;non
+APL-00140;22/06/2026;solde;non;non
+APL-00141;25/03/2025;information credit;non;non
+APL-00142;05/08/2026;reclamation;non;non
+APL-00143;13/06/2025;solde;non;non
+APL-00144;31/08/2026;reclamation;non;non
+APL-00145;14/10/2025;opposition carte;non;non
+APL-00146;16/03/2026;opposition carte;non;non
+APL-00147;16/05/2025;opposition carte;non;non
+APL-00148;14/01/2025;information credit;non;non
+APL-00149;20/09/2025;solde;non;non
+APL-00150;01/03/2025;ordre de virement;non;non
+APL-00151;17/10/2025;opposition carte;oui;non
+APL-00152;31/03/2025;opposition carte;non;non
+APL-00153;13/02/2026;opposition carte;non;non
+APL-00154;14/12/2025;opposition carte;non;non
+APL-00155;11/11/2024;reclamation;non;non
+APL-00156;22/04/2026;solde;non;non
+APL-00157;16/06/2026;opposition carte;non;non
+APL-00158;22/09/2024;ordre de virement;non;non
+APL-00159;07/08/2026;information credit;non;non
+APL-00160;03/07/2025;opposition carte;non;non
+APL-00161;22/10/2025;ordre de virement;non;non
+APL-00162;22/11/2024;ordre de virement;non;non
+APL-00163;12/06/2025;information credit;non;non
+APL-00164;25/11/2025;solde;non;non
+APL-00165;18/07/2025;solde;non;non
+APL-00166;12/01/2025;ordre de virement;non;non
+APL-00167;01/06/2025;ordre de virement;non;non
+APL-00168;20/07/2025;ordre de virement;non;non
+APL-00169;15/05/2026;reclamation;non;non
+APL-00170;06/11/2025;reclamation;non;non
+APL-00171;12/12/2024;reclamation;non;non
+APL-00172;21/01/2025;information credit;non;non
+APL-00173;28/10/2024;information credit;non;non
+APL-00174;04/11/2024;ordre de virement;non;non
+APL-00175;27/12/2025;opposition carte;non;non
+APL-00176;10/02/2026;ordre de virement;non;non
+APL-00177;19/12/2025;ordre de virement;non;non
+APL-00178;15/12/2025;information credit;non;non
+APL-00179;31/05/2026;opposition carte;non;non
+APL-00180;09/06/2025;opposition carte;non;non
+APL-00181;03/06/2026;solde;non;non
+APL-00182;23/01/2025;reclamation;non;oui
+APL-00183;21/05/2025;solde;non;non
+APL-00184;15/02/2025;reclamation;oui;non
+APL-00185;30/12/2025;solde;non;non
+APL-00186;14/11/2024;reclamation;non;non
+APL-00187;25/02/2025;reclamation;non;non
+APL-00188;10/12/2024;opposition carte;non;non
+APL-00189;12/02/2025;information credit;non;non
+APL-00190;23/12/2024;solde;non;non
+APL-00191;01/03/2025;reclamation;non;non
+APL-00192;10/10/2024;opposition carte;non;non
+APL-00193;13/08/2026;opposition carte;non;non
+APL-00194;09/04/2025;information credit;non;non
+APL-00195;22/03/2025;solde;non;non
+APL-00196;16/07/2026;information credit;non;non
+APL-00197;28/11/2024;opposition carte;oui;non
+APL-00198;17/01/2026;opposition carte;non;non
+APL-00199;25/08/2026;opposition carte;non;non
+APL-00200;29/09/2025;reclamation;non;non
+APL-00201;16/02/2025;opposition carte;non;non
+APL-00202;04/05/2026;reclamation;non;non
+APL-00203;10/09/2024;ordre de virement;non;non
+APL-00204;13/03/2026;ordre de virement;non;non
+APL-00205;06/03/2025;ordre de virement;non;non
+APL-00206;12/01/2026;solde;non;non
+APL-00207;11/05/2026;reclamation;non;non
+APL-00208;12/10/2025;ordre de virement;non;non
+APL-00209;05/11/2025;reclamation;non;non
+APL-00210;13/12/2024;reclamation;non;non
+APL-00211;10/05/2025;ordre de virement;non;non
+APL-00212;11/08/2025;solde;non;non
+APL-00213;26/09/2025;reclamation;non;non
+APL-00214;31/08/2026;reclamation;oui;non
+APL-00215;13/07/2026;opposition carte;non;non
+APL-00216;26/03/2025;reclamation;non;non
+APL-00217;20/06/2026;information credit;non;non
+APL-00218;26/03/2026;opposition carte;non;non
+APL-00219;21/09/2025;information credit;oui;non
+APL-00220;20/01/2026;information credit;non;non
+APL-00221;23/04/2025;reclamation;non;non
+APL-00222;04/10/2024;ordre de virement;non;non
+APL-00223;11/07/2025;solde;non;non
+APL-00224;18/09/2025;solde;non;non
+APL-00225;16/08/2025;ordre de virement;non;non
+APL-00226;17/10/2025;ordre de virement;non;non
+APL-00227;04/08/2026;reclamation;oui;oui
+APL-00228;08/10/2025;solde;non;non
+APL-00229;26/09/2024;opposition carte;non;non
+APL-00230;17/10/2024;ordre de virement;non;non
+APL-00231;03/03/2025;information credit;non;non
+APL-00232;04/09/2024;ordre de virement;non;non
+APL-00233;31/05/2026;information credit;non;non
+APL-00234;05/02/2025;opposition carte;oui;non
+APL-00235;25/11/2025;information credit;non;non
+APL-00236;18/05/2026;information credit;non;non
+APL-00237;22/03/2025;solde;non;non
+APL-00238;28/11/2025;solde;non;non
+APL-00239;26/11/2024;opposition carte;non;non
+APL-00240;31/01/2026;solde;non;non
+APL-00241;25/12/2024;solde;non;non
+APL-00242;17/10/2024;solde;non;non
+APL-00243;15/02/2026;solde;non;non
+APL-00244;20/06/2025;ordre de virement;non;non
+APL-00245;23/03/2025;ordre de virement;oui;non
+APL-00246;12/04/2026;opposition carte;non;non
+APL-00247;12/03/2025;solde;non;non
+APL-00248;19/02/2026;opposition carte;oui;non
+APL-00249;02/01/2025;reclamation;non;non
+APL-00250;09/08/2026;information credit;non;non
+APL-00251;14/04/2026;information credit;oui;non
+APL-00252;07/08/2025;solde;non;non
+APL-00253;09/05/2026;opposition carte;non;non
+APL-00254;15/04/2025;solde;oui;non
+APL-00255;01/03/2025;solde;non;non
+APL-00256;16/05/2026;solde;non;non
+APL-00257;07/05/2025;information credit;non;non
+APL-00258;03/10/2025;ordre de virement;non;non
+APL-00259;17/06/2026;solde;non;non
+APL-00260;07/09/2024;ordre de virement;non;non
+APL-00261;07/10/2025;opposition carte;non;non
+APL-00262;22/12/2025;ordre de virement;non;non
+APL-00263;28/03/2026;opposition carte;oui;non
+APL-00264;09/05/2025;ordre de virement;non;non
+APL-00265;25/05/2025;opposition carte;non;non
+APL-00266;06/04/2025;reclamation;non;non
+APL-00267;30/11/2024;opposition carte;non;non
+APL-00268;30/11/2024;ordre de virement;non;non
+APL-00269;30/04/2025;ordre de virement;non;non
+APL-00270;26/09/2024;reclamation;non;non
+APL-00271;03/12/2024;information credit;non;non
+APL-00272;22/03/2026;ordre de virement;non;non
+APL-00273;06/05/2025;ordre de virement;non;non
+APL-00274;17/07/2025;reclamation;non;non
+APL-00275;15/12/2025;reclamation;non;non
+APL-00276;09/08/2026;information credit;non;non
+APL-00277;16/09/2025;information credit;non;non
+APL-00278;25/09/2024;reclamation;oui;non
+APL-00279;10/06/2025;opposition carte;oui;non
+APL-00280;05/12/2024;reclamation;non;non
+APL-00281;18/11/2024;opposition carte;non;non
+APL-00282;20/04/2026;ordre de virement;non;non
+APL-00283;24/04/2026;opposition carte;non;non
+APL-00284;21/12/2024;reclamation;non;non
+APL-00285;02/03/2025;ordre de virement;non;non
+APL-00286;06/10/2024;ordre de virement;non;non
+APL-00287;12/11/2025;information credit;non;non
+APL-00288;11/11/2024;solde;non;non
+APL-00289;25/08/2025;ordre de virement;non;non
+APL-00290;20/08/2026;ordre de virement;non;non
+APL-00291;04/02/2026;opposition carte;non;non
+APL-00292;05/11/2025;reclamation;non;non
+APL-00293;25/08/2025;opposition carte;oui;non
+APL-00294;31/10/2025;information credit;non;non
+APL-00295;08/02/2025;ordre de virement;non;non
+APL-00296;27/01/2025;information credit;non;non
+APL-00297;30/03/2025;solde;non;non
+APL-00298;03/12/2024;information credit;non;non
+APL-00299;17/12/2025;information credit;non;non
+APL-00300;17/09/2025;opposition carte;non;non
+APL-00301;17/12/2024;solde;non;non
+APL-00302;08/08/2026;reclamation;non;non
+APL-00303;21/12/2025;opposition carte;non;non
+APL-00304;26/03/2025;solde;non;non
+APL-00305;14/11/2024;reclamation;non;non
+APL-00306;06/07/2026;ordre de virement;non;non
+APL-00307;02/10/2025;solde;non;non
+APL-00308;10/02/2026;information credit;non;non
+APL-00309;14/12/2025;solde;non;non
+APL-00310;08/10/2025;information credit;oui;non
+APL-00311;02/03/2025;ordre de virement;non;non
+APL-00312;14/09/2025;reclamation;non;non
+APL-00313;26/08/2025;reclamation;non;oui
+APL-00314;24/07/2025;information credit;non;non
+APL-00315;19/01/2025;ordre de virement;oui;non
+APL-00316;03/06/2025;reclamation;non;non
+APL-00317;29/12/2025;information credit;non;non
+APL-00318;12/01/2026;opposition carte;non;non
+APL-00319;05/07/2025;information credit;non;non
+APL-00320;15/09/2024;ordre de virement;non;non
+APL-00321;11/12/2024;solde;non;non
+APL-00322;09/08/2026;opposition carte;oui;non
+APL-00323;18/10/2024;information credit;non;non
+APL-00324;30/09/2025;ordre de virement;non;non
+APL-00325;16/06/2025;reclamation;non;non
+APL-00326;18/06/2026;solde;non;non
+APL-00327;05/11/2024;opposition carte;non;non
+APL-00328;23/04/2026;solde;oui;non
+APL-00329;17/07/2026;information credit;non;non
+APL-00330;31/05/2026;solde;non;non
+APL-00331;14/04/2026;opposition carte;oui;non
+APL-00332;02/02/2025;information credit;non;non
+APL-00333;21/08/2025;reclamation;non;non
+APL-00334;23/05/2025;reclamation;non;non
+APL-00335;30/08/2026;information credit;non;non
+APL-00336;03/07/2025;solde;non;non
+APL-00337;30/10/2025;information credit;non;non
+APL-00338;07/03/2025;reclamation;non;non
+APL-00339;14/11/2024;ordre de virement;non;non
+APL-00340;10/04/2026;ordre de virement;non;non
+APL-00341;24/02/2025;reclamation;oui;non
+APL-00342;06/10/2024;opposition carte;non;non
+APL-00343;20/03/2026;information credit;non;non
+APL-00344;23/03/2026;opposition carte;non;non
+APL-00345;20/02/2026;reclamation;oui;non
+APL-00346;08/07/2026;reclamation;non;non
+APL-00347;16/08/2025;opposition carte;non;non
+APL-00348;23/01/2025;solde;non;non
+APL-00349;20/02/2026;solde;non;non
+APL-00350;25/04/2025;reclamation;non;non
+APL-00351;30/07/2026;information credit;non;non
+APL-00352;11/10/2025;opposition carte;non;non
+APL-00353;22/11/2024;reclamation;non;non
+APL-00354;29/06/2026;solde;non;non
+APL-00355;25/03/2026;solde;oui;non
+APL-00356;29/04/2026;solde;non;non
+APL-00357;16/03/2026;information credit;non;non
+APL-00358;17/12/2025;reclamation;non;non
+APL-00359;16/06/2025;information credit;non;non
+APL-00360;15/07/2025;information credit;non;non
+APL-00361;12/05/2026;ordre de virement;non;non
+APL-00362;14/05/2025;opposition carte;non;non
+APL-00363;14/05/2026;reclamation;non;non
+APL-00364;24/04/2025;information credit;non;non
+APL-00365;10/12/2025;ordre de virement;non;non
+APL-00366;05/02/2025;reclamation;non;non
+APL-00367;08/04/2025;information credit;non;non
+APL-00368;04/07/2025;opposition carte;non;non
+APL-00369;27/12/2025;information credit;non;non
+APL-00370;04/09/2025;reclamation;non;non
+APL-00371;20/01/2026;ordre de virement;non;non
+APL-00372;24/04/2026;solde;non;non
+APL-00373;19/02/2025;opposition carte;non;non
+APL-00374;13/02/2026;reclamation;non;non
+APL-00375;31/07/2025;information credit;non;non
+APL-00376;26/11/2024;solde;oui;non
+APL-00377;26/01/2025;reclamation;non;non
+APL-00378;03/03/2026;opposition carte;non;non
+APL-00379;30/01/2025;ordre de virement;non;non
+APL-00380;04/07/2026;information credit;non;non
+APL-00381;01/12/2025;solde;non;non
+APL-00382;05/07/2026;information credit;non;non
+APL-00383;08/06/2026;opposition carte;oui;non
+APL-00384;01/06/2026;solde;non;non
+APL-00385;05/07/2026;information credit;non;non
+APL-00386;19/03/2025;opposition carte;non;non
+APL-00387;13/03/2026;solde;non;non
+APL-00388;20/08/2025;reclamation;non;oui
+APL-00389;04/08/2025;reclamation;non;non
+APL-00390;03/11/2024;reclamation;oui;non
+APL-00391;06/12/2024;reclamation;non;non
+APL-00392;10/03/2026;opposition carte;non;non
+APL-00393;04/11/2025;reclamation;non;non
+APL-00394;18/02/2025;reclamation;non;non
+APL-00395;20/02/2026;opposition carte;oui;non
+APL-00396;20/12/2024;ordre de virement;oui;non
+APL-00397;10/09/2025;solde;non;non
+APL-00398;08/02/2025;information credit;non;non
+APL-00399;26/09/2024;reclamation;non;non
+APL-00400;13/01/2025;ordre de virement;non;non
+APL-00401;30/08/2025;information credit;non;non
+APL-00402;08/07/2025;opposition carte;non;non
+APL-00403;21/03/2025;information credit;non;non
+APL-00404;04/04/2025;solde;non;non
+APL-00405;01/07/2025;reclamation;oui;non
+APL-00406;21/05/2025;reclamation;non;non
+APL-00407;27/06/2026;solde;non;non
+APL-00408;19/07/2026;ordre de virement;non;non
+APL-00409;07/04/2025;solde;non;non
+APL-00410;11/11/2025;reclamation;non;non
+APL-00411;07/03/2025;solde;oui;non
+APL-00412;06/06/2025;solde;non;non
+APL-00413;29/06/2026;reclamation;non;non
+APL-00414;30/09/2025;reclamation;non;non
+APL-00415;11/09/2025;solde;non;non
+APL-00416;25/07/2025;ordre de virement;non;non
+APL-00417;01/10/2024;reclamation;non;non
+APL-00418;29/09/2025;solde;non;non
+APL-00419;19/09/2024;reclamation;non;oui
+APL-00420;25/02/2025;reclamation;non;non
+APL-00421;08/07/2026;information credit;non;non
+APL-00422;01/09/2025;opposition carte;non;non
+APL-00423;25/03/2025;ordre de virement;non;non
+APL-00424;07/10/2025;solde;non;non
+APL-00425;27/08/2026;information credit;non;non
+APL-00426;09/07/2026;solde;non;non
+APL-00427;29/08/2026;opposition carte;non;non
+APL-00428;16/08/2025;reclamation;non;non
+APL-00429;11/02/2025;reclamation;non;non
+APL-00430;07/07/2026;solde;non;non
+APL-00431;20/01/2026;reclamation;non;non
+APL-00432;08/01/2026;reclamation;non;non
+APL-00433;19/07/2025;reclamation;non;non
+APL-00434;06/03/2026;reclamation;non;non
+APL-00435;12/06/2025;solde;non;non
+APL-00436;23/03/2025;opposition carte;non;non
+APL-00437;13/05/2026;solde;non;non
+APL-00438;14/04/2026;solde;oui;non
+APL-00439;22/09/2024;ordre de virement;non;non
+APL-00440;15/06/2025;ordre de virement;non;non
+APL-00441;21/03/2025;reclamation;non;oui
+APL-00442;31/05/2026;ordre de virement;non;non
+APL-00443;13/02/2026;ordre de virement;non;non
+APL-00444;03/08/2025;information credit;non;non
+APL-00445;07/11/2024;ordre de virement;non;non
+APL-00446;15/02/2025;solde;non;non
+APL-00447;05/09/2025;information credit;non;non
+APL-00448;25/03/2026;information credit;non;non
+APL-00449;01/05/2025;information credit;non;non
+APL-00450;31/12/2024;solde;oui;non
+APL-00451;07/06/2025;opposition carte;non;non
+APL-00452;30/07/2025;reclamation;non;non
+APL-00453;20/09/2025;ordre de virement;non;non
+APL-00454;17/03/2025;opposition carte;non;non
+APL-00455;06/03/2026;opposition carte;oui;non
+APL-00456;06/08/2025;reclamation;non;non
+APL-00457;09/06/2025;information credit;non;non
+APL-00458;19/03/2026;ordre de virement;non;non
+APL-00459;17/07/2025;information credit;non;non
+APL-00460;25/12/2024;opposition carte;oui;non
+APL-00461;19/05/2026;reclamation;non;non
+APL-00462;25/06/2025;solde;oui;non
+APL-00463;11/10/2025;information credit;non;non
+APL-00464;12/01/2026;solde;non;non
+APL-00465;01/03/2025;opposition carte;non;non
+APL-00466;30/08/2026;ordre de virement;non;non
+APL-00467;18/12/2024;information credit;non;non
+APL-00468;31/05/2026;solde;non;non
+APL-00469;29/07/2026;reclamation;non;non
+APL-00470;19/11/2025;information credit;non;non
+APL-00471;12/06/2025;information credit;non;non
+APL-00472;29/03/2025;opposition carte;non;non
+APL-00473;22/08/2025;solde;non;non
+APL-00474;19/05/2026;solde;non;non
+APL-00475;13/02/2025;reclamation;non;non
+APL-00476;26/06/2025;solde;non;non
+APL-00477;23/01/2026;opposition carte;non;non
+APL-00478;25/09/2024;information credit;non;non
+APL-00479;21/01/2026;information credit;non;non
+APL-00480;05/06/2026;reclamation;non;non
+APL-00481;17/02/2025;information credit;non;non
+APL-00482;10/11/2024;opposition carte;non;non
+APL-00483;08/10/2024;information credit;non;non
+APL-00484;16/10/2025;opposition carte;non;non
+APL-00485;21/01/2026;information credit;non;non
+APL-00486;16/05/2026;ordre de virement;non;non
+APL-00487;10/10/2025;solde;non;non
+APL-00488;05/08/2025;reclamation;non;non
+APL-00489;16/05/2025;opposition carte;oui;non
+APL-00490;25/07/2025;opposition carte;non;non
+APL-00491;18/05/2025;ordre de virement;oui;non
+APL-00492;18/03/2025;solde;non;non
+APL-00493;23/10/2024;ordre de virement;non;non
+APL-00494;28/01/2026;ordre de virement;non;non
+APL-00495;13/03/2025;reclamation;non;non
+APL-00496;03/01/2025;opposition carte;non;non
+APL-00497;23/10/2025;opposition carte;non;non
+APL-00498;17/07/2026;solde;non;non
+APL-00499;11/10/2024;solde;non;non
+APL-00500;27/12/2025;solde;non;non
+APL-00501;12/01/2025;opposition carte;non;non
+APL-00502;03/02/2025;reclamation;non;non
+APL-00503;11/11/2025;information credit;non;non
+APL-00504;04/04/2026;opposition carte;non;non
+APL-00505;24/10/2024;opposition carte;non;non
+APL-00506;13/07/2025;solde;non;non
+APL-00507;13/06/2025;reclamation;non;non
+APL-00508;13/06/2026;solde;non;non
+APL-00509;28/03/2026;solde;non;non
+APL-00510;12/08/2025;information credit;non;non
+APL-00511;05/10/2025;opposition carte;non;non
+APL-00512;30/03/2025;reclamation;non;non
+APL-00513;10/08/2026;opposition carte;non;non
+APL-00514;14/02/2026;information credit;non;non
+APL-00515;02/03/2026;opposition carte;non;non
+APL-00516;08/11/2024;information credit;non;non
+APL-00517;06/06/2025;information credit;non;non
+APL-00518;04/09/2025;ordre de virement;non;non
+APL-00519;06/04/2026;solde;non;non
+APL-00520;20/06/2026;opposition carte;non;non
+APL-00521;25/09/2024;information credit;non;non
+APL-00522;11/02/2025;reclamation;oui;non
+APL-00523;27/08/2026;information credit;non;non
+APL-00524;11/04/2026;solde;non;non
+APL-00525;08/05/2025;ordre de virement;oui;non
+APL-00526;27/09/2025;ordre de virement;non;non
+APL-00527;11/05/2026;opposition carte;non;non
+APL-00528;26/09/2025;reclamation;non;non
+APL-00529;12/10/2024;reclamation;non;non
+APL-00530;27/05/2025;information credit;non;non
+APL-00531;13/07/2026;solde;oui;non
+APL-00532;11/09/2025;opposition carte;non;non
+APL-00533;21/04/2026;solde;oui;non
+APL-00534;05/05/2026;opposition carte;non;non
+APL-00535;05/12/2024;reclamation;non;non
+APL-00536;02/03/2026;ordre de virement;oui;non
+APL-00537;11/01/2025;information credit;non;non
+APL-00538;23/02/2025;solde;non;non
+APL-00539;16/11/2025;reclamation;oui;non
+APL-00540;03/12/2025;solde;non;non
+APL-00541;26/03/2026;reclamation;oui;non
+APL-00542;31/05/2025;opposition carte;non;non
+APL-00543;01/12/2024;ordre de virement;non;non
+APL-00544;28/07/2026;solde;non;non
+APL-00545;06/07/2026;opposition carte;non;non
+APL-00546;12/11/2024;information credit;non;non
+APL-00547;02/12/2024;opposition carte;non;non
+APL-00548;07/08/2026;information credit;oui;non
+APL-00549;03/03/2026;reclamation;non;oui
+APL-00550;11/04/2025;information credit;non;non
+APL-00551;22/02/2025;opposition carte;non;non
+APL-00552;02/08/2025;opposition carte;non;non
+APL-00553;24/11/2025;ordre de virement;non;non
+APL-00554;13/07/2026;ordre de virement;non;non
+APL-00555;06/01/2026;information credit;non;non
+APL-00556;22/10/2025;opposition carte;non;non
+APL-00557;23/01/2026;solde;non;non
+APL-00558;07/12/2024;solde;non;non
+APL-00559;09/02/2025;ordre de virement;non;non
+APL-00560;18/04/2026;solde;non;non
+APL-00561;25/05/2026;ordre de virement;non;non
+APL-00562;09/12/2025;opposition carte;non;non
+APL-00563;25/01/2025;information credit;non;non
+APL-00564;15/11/2024;solde;non;non
+APL-00565;10/03/2025;information credit;non;non
+APL-00566;10/05/2025;opposition carte;non;non
+APL-00567;21/05/2026;opposition carte;non;non
+APL-00568;10/12/2024;ordre de virement;non;non
+APL-00569;10/05/2025;information credit;non;non
+APL-00570;10/07/2026;ordre de virement;non;non
+APL-00571;11/08/2025;reclamation;non;non
+APL-00572;31/12/2024;reclamation;non;non
+APL-00573;31/01/2025;solde;non;non
+APL-00574;28/03/2026;reclamation;oui;non
+APL-00575;17/11/2025;opposition carte;non;non
+APL-00576;24/09/2025;opposition carte;non;non
+APL-00577;01/01/2025;reclamation;non;non
+APL-00578;29/08/2026;solde;non;non
+APL-00579;05/02/2025;opposition carte;non;non
+APL-00580;06/03/2025;opposition carte;oui;non
+APL-00581;05/02/2026;information credit;non;non
+APL-00582;17/03/2025;solde;non;non
+APL-00583;21/05/2026;information credit;non;non
+APL-00584;29/11/2025;information credit;non;non
+APL-00585;30/10/2024;information credit;non;non
+APL-00586;03/11/2025;reclamation;non;non
+APL-00587;01/04/2026;opposition carte;non;non
+APL-00588;22/07/2026;information credit;non;non
+APL-00589;13/01/2026;reclamation;non;non
+APL-00590;10/04/2026;opposition carte;oui;non
+APL-00591;27/07/2025;reclamation;non;non
+APL-00592;30/01/2025;information credit;non;non
+APL-00593;13/06/2026;ordre de virement;oui;non
+APL-00594;16/03/2026;information credit;non;non
+APL-00595;09/01/2026;information credit;non;non
+APL-00596;31/10/2025;opposition carte;oui;non
+APL-00597;10/09/2025;reclamation;oui;non
+APL-00598;18/06/2026;solde;non;non
+APL-00599;31/12/2024;information credit;non;non
+APL-00600;25/08/2026;solde;non;non

@@ -1,0 +1,15 @@
+violation;connaissance;nature;personnes_touchees;clients_UE_touches;notification_autorite_UE;information_personnes
+VIO-01;01/04/2026 17:46;envoi d'un relevé au mauvais destinataire;12;non;;
+VIO-02;02/03/2026 10:11;indisponibilité prolongée;40;oui;05/03/2026 18:11;
+VIO-03;13/06/2026 12:08;accès interne non justifié;150;non;;
+VIO-04;24/08/2026 10:21;envoi d'un relevé au mauvais destinataire;3;oui;27/08/2026 18:21;
+VIO-05;15/07/2026 10:40;envoi d'un relevé au mauvais destinataire;40;oui;;
+VIO-06;10/08/2026 08:37;fuite chez un prestataire;3;non;;19/08/2026 21:37
+VIO-07;04/05/2026 08:01;accès interne non justifié;150;non;;
+VIO-08;28/06/2026 13:27;compte agent compromis;12;oui;03/07/2026 23:27;
+VIO-09;24/07/2026 11:18;envoi d'un relevé au mauvais destinataire;3;oui;;02/08/2026 00:18
+VIO-10;23/04/2026 12:43;compte agent compromis;150;non;;25/04/2026 16:43
+VIO-11;20/05/2026 15:22;indisponibilité prolongée;12;oui;22/05/2026 08:22;
+VIO-12;04/04/2026 17:41;export non chiffré perdu;150;non;;
+VIO-13;14/08/2026 15:48;indisponibilité prolongée;3;oui;16/08/2026 08:48;
+VIO-14;02/03/2026 18:26;envoi d'un relevé au mauvais destinataire;12;non;;10/03/2026 20:26

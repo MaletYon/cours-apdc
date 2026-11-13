@@ -1,0 +1,33 @@
+APDC-LAB-12, double cote et profil NIST à NOUN PAY
+
+Les pièces du lab se trouvent dans le dossier preuves, en lecture seule, et
+une copie de travail modifiable dans le dossier travail (ouvert au démarrage).
+  note_methode.txt          méthode déclarée par l'audit
+  extrait_clients.csv       extrait de 2 500 clients
+  registre_violations.csv   14 violations reconstituées par l'audit
+  profil_actuel.csv         profil actuel de vingt résultats cotés
+  MANIFESTE_SHA256.txt      empreintes de référence (preuves)
+
+Marche à suivre.
+
+1. Vérifier l'intégrité avant toute analyse. Ouvrez un terminal, puis tapez :
+       cd ~/preuves
+       sha256sum -c MANIFESTE_SHA256.txt
+   Chaque fichier doit afficher OK.
+
+2. Lire la note de méthode.
+
+3. Compter les clients qui résident en France ou en Belgique.
+
+4. Isoler les violations qui touchent des clients de l'Union, puis mesurer le délai de notification.
+
+5. Compter les violations pour lesquelles aucune personne n'a été informée.
+
+6. Calculer les deux taux du profil et repérer la fonction la moins atteinte.
+
+7. Répondre. Saisissez vos réponses dans le volet Points de contrôle de la
+   page du lab, puis enregistrez. Nombres avec un point ou une virgule
+   décimale ; codes et listes comme indiqué dans chaque question. Quand vous
+   avez terminé, cliquez sur Terminer et corriger pour obtenir votre note.
+
+Toute votre activité dans le terminal est journalisée.
