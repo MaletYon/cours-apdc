@@ -62,7 +62,7 @@ SPEC = [
         ("15 × 2 h", "séances en présentiel, jamais plus de deux heures"),
         ("30 h", "tout le cours, du prologue à la Partie VII"),
         ("17", "ateliers de questions-réponses, un par chapitre, sur NDAP SUKULU"),
-        ("10", "labs pratiques d'environ 60 minutes, corrigés automatiquement"),
+        ("12", "labs pratiques d'environ 60 minutes, corrigés automatiquement"),
     ], "bottom": "Ateliers et labs se font **à la maison**, hors des 30 heures. Code du cours sur la plateforme : **MSN-2S4-SEC02**."},
     {"k": "steps", "title": "Le déroulé type d'une séance de deux heures", "kicker": "Une trame commune aux quinze séances", "items": [
         ("Ouvrir", "**Rappel** de la séance précédente, **déroulé**, **objectifs**."),
@@ -93,16 +93,16 @@ SPEC = [
     {"k": "table", "title": "Le travail personnel, séance par séance", "kicker": "Ateliers de questions-réponses et labs · hors des 30 heures",
      "head": ["Après", "Ateliers (APDC-FICHE-…)", "Labs (APDC-LAB-…)"], "widths": [1.4, 5.2, 4.8], "rows": [
         ["J01 · J02", "P00, C01 · C02", "aucun · LAB-01"],
-        ["J03 · J04", "C03, C04 · C05", "aucun · aucun"],
-        ["J05 · J06", "C06, C07 · C08", "aucun · aucun"],
+        ["J03 · J04", "C03, C04 · C05", "aucun · LAB-12"],
+        ["J05 · J06", "C06, C07 · C08", "LAB-11 · aucun"],
         ["J07 · J08", "C09 · C10", "LAB-02 · LAB-03"],
         ["J09 · J10", "C11 · C12", "LAB-04 · LAB-05"],
         ["J11 · J12", "C13, C14 · C15", "LAB-06, LAB-07 · LAB-08"],
         ["J13 · J14", "C16 · C17", "LAB-09 · LAB-10"],
         ["J15", "C18, C19", "aucun"],
     ]},
-    {"k": "table", "title": "Les dix labs de NDAP SUKULU", "kicker": "Environ 60 minutes chacun, corrigés automatiquement",
-     "head": ["Lab", "Intitulé", "Chapitre"], "widths": [1.6, 7.8, 2], "rows": [
+    {"k": "table", "title": "Les douze labs de NDAP SUKULU", "kicker": "Environ 60 minutes chacun, corrigés automatiquement",
+     "head": ["Lab", "Intitulé", "Chapitre"], "widths": [1.6, 7.8, 2], "size": 11, "rows": [
         ["LAB-01", "Qualifier les données d'un export", "C01, C02"],
         ["LAB-02", "Registre déclaré, fichiers découverts", "C09"],
         ["LAB-03", "Évaluation d'impact de la téléconsultation", "C10"],
@@ -113,6 +113,8 @@ SPEC = [
         ["LAB-08", "Violation de données et notification", "C15"],
         ["LAB-09", "Durées de conservation", "C16"],
         ["LAB-10", "Audit intégrateur du profilage", "C17, C19"],
+        ["LAB-11", "La loi de 2010 à NYANGA", "C07"],
+        ["LAB-12", "Double cote et profil NIST à NOUN PAY", "C04, C05"],
     ]},
     {"k": "cards", "title": "Trois organisations fictives, un fil rouge", "kicker": "Des cas ancrés dans la réalité camerounaise", "cols": 3, "items": [
         {"head": "NYANGA CRÉDIT", "badge": "N", "text": "Microfinance de Bafoussam, 22 agences, 210 000 clients. Une fuite en mars 2025, une lettre de client le 24 juin 2026, un audit de juillet à septembre."},

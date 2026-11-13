@@ -67,6 +67,8 @@ LABS["APDC"] = {
     "LAB-08": "Violation de données et notification",
     "LAB-09": "Durées de conservation",
     "LAB-10": "Audit intégrateur du profilage",
+    "LAB-11": "La loi de 2010 à NYANGA",
+    "LAB-12": "Double cote et profil NIST à NOUN PAY",
 }
 
 HERE = os.path.dirname(os.path.abspath(__file__))

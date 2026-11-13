@@ -183,8 +183,8 @@ APDC = {
         1: ('Ouverture · Le 24 juin 2026 · Données, traitements, acteurs', 'Présentation + P00 + C01', ['P00', 'C01'], []),
         2: ('Les principes du traitement', 'C02', ['C02'], ['LAB-01']),
         3: ("Sources internationales et africaines · Le RGPD hors d'Europe", 'C03 + C04', ['C03', 'C04'], []),
-        4: ('Le NIST Privacy Framework et les normes ISO', 'C05', ['C05'], []),
-        5: ('La loi n° 2024/017 · La loi n° 2010/012 · Choisir ses critères', 'C06 + C07', ['C06', 'C07'], []),
+        4: ('Le NIST Privacy Framework et les normes ISO', 'C05', ['C05'], ['LAB-12']),
+        5: ('La loi n° 2024/017 · La loi n° 2010/012 · Choisir ses critères', 'C06 + C07', ['C06', 'C07'], ['LAB-11']),
         6: ('Conduire un audit de protection des données', 'C08', ['C08'], []),
         7: ('Cartographier les traitements', 'C09', ['C09'], ['LAB-02']),
         8: ('Évaluer le risque pour les personnes', 'C10', ['C10'], ['LAB-03']),
@@ -198,4 +198,7 @@ APDC = {
     },
 }
 
+# dossier calculé depuis ce fichier, pour que la sortie soit la même sous Windows et sous Linux
+import os as _os
+APDC["dossier"] = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 ALL["APDC"] = APDC
